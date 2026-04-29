@@ -1,7 +1,7 @@
 {
   "schema_version": "2.1",
   "methodology_version": "1.2",
-  "generated_at": "2026-04-29T08:19:06Z",
+  "generated_at": "2026-04-29T10:09:06Z",
   "categories": [
     {
       "id": "H01",
@@ -25,7 +25,7 @@
       "status": "archived",
       "veto_flag": false,
       "methodology_version": "1.2",
-      "calculated_at": "2026-04-29T08:19:06Z",
+      "calculated_at": "2026-04-29T10:09:06Z",
       "details": {
         "v1_1_rules": {
           "big_tech_risk_penalty": 0.75,
@@ -92,7 +92,8 @@
       "tags": [
         "Smart Home",
         "Automation",
-        "Niche"
+        "Niche",
+        "Monopoly Risk"
       ],
       "scores": {
         "L1": 18.3,
@@ -107,7 +108,7 @@
       "status": "archived",
       "veto_flag": false,
       "methodology_version": "1.2",
-      "calculated_at": "2026-04-29T08:19:06Z",
+      "calculated_at": "2026-04-29T10:09:06Z",
       "details": {
         "v1_1_rules": {
           "big_tech_risk_penalty": 9.0,
@@ -196,7 +197,7 @@
       "status": "archived",
       "veto_flag": false,
       "methodology_version": "1.2",
-      "calculated_at": "2026-04-29T08:19:06Z",
+      "calculated_at": "2026-04-29T10:09:06Z",
       "details": {
         "v1_1_rules": {
           "big_tech_risk_penalty": 1.5,
@@ -260,6 +261,1335 @@
             "needs_app": true,
             "saas_cost_per_mau_usd": 0.2
           }
+        }
+      }
+    },
+    {
+      "id": "A004",
+      "name": "【自动嗅探】Oneplus Watch 4 Titanium",
+      "name_en": "Oneplus Watch 4 Titanium",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A005",
+      "name": "【自动嗅探】Core Epyc Chips And",
+      "name_en": "Core Epyc Chips And",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A006",
+      "name": "【自动嗅探】Help Get This Book",
+      "name_en": "Help Get This Book",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A007",
+      "name": "【自动嗅探】Muslims In America Road",
+      "name_en": "Muslims In America Road",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A008",
+      "name": "【自动嗅探】Archer'S Book Lounge By",
+      "name_en": "Archer'S Book Lounge By",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A009",
+      "name": "【自动嗅探】Plaion'S Neogeo Aes+ Console",
+      "name_en": "Plaion'S Neogeo Aes+ Console",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A010",
+      "name": "【自动嗅探】Rumored Smart Glasses",
+      "name_en": "Rumored Smart Glasses",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A011",
+      "name": "【自动嗅探】Watch Sony’S Elite Ping",
+      "name_en": "Watch Sony’S Elite Ping",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A012",
+      "name": "【自动嗅探】Major Redesign Confirmed; Hints",
+      "name_en": "Major Redesign Confirmed; Hints",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A013",
+      "name": "【自动嗅探】Panic Says The Playdate",
+      "name_en": "Panic Says The Playdate",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A014",
+      "name": "【自动嗅探】Humanoid Robot",
+      "name_en": "Humanoid Robot",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A015",
+      "name": "【自动嗅探】Finally! The Holy Grail",
+      "name_en": "Finally! The Holy Grail",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A016",
+      "name": "【自动嗅探】Aisa Ai Skills Test",
+      "name_en": "Aisa Ai Skills Test",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A017",
+      "name": "【自动嗅探】Venture Factory Ai",
+      "name_en": "Venture Factory Ai",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A018",
+      "name": "【自动嗅探】Sony Inzone H6 Air Review",
+      "name_en": "Sony Inzone H6 Air Review",
+      "tags": [
+        "Auto-Discovered",
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A019",
+      "name": "【AI自动嗅探】Orcasheets Ai Reports",
+      "name_en": "Orcasheets Ai Reports",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A020",
+      "name": "【AI自动嗅探】Journey Through Chai Documentary",
+      "name_en": "Journey Through Chai Documentary",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed",
+        "Monopoly Risk"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A021",
+      "name": "【AI自动嗅探】Open Wearables",
+      "name_en": "Open Wearables",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A022",
+      "name": "【AI自动嗅探】Actian Vectorai Db",
+      "name_en": "Actian Vectorai Db",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
+        }
+      }
+    },
+    {
+      "id": "A023",
+      "name": "【AI自动嗅探】Steamy Shifter Omnibus By",
+      "name_en": "Steamy Shifter Omnibus By",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "scores": {
+        "L1": 0.0,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 0.0
+      },
+      "total": 0.0,
+      "now_score": 0.0,
+      "trend_score": 0.0,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T10:09:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 0,
+          "L1b": 0,
+          "L1c": 0,
+          "data_quality": {
+            "L1": "missing"
+          },
+          "raw": null
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 0,
+          "L4b": 0,
+          "L4c": 0,
+          "L4d": 0,
+          "data_quality": {
+            "L4": "missing"
+          },
+          "raw": null
         }
       }
     }
