@@ -42,23 +42,31 @@ def parse_feed(xml_data, source_name):
     return items
 
 def llm_keyword_extraction(raw_title):
-    api_key = os.getenv("OPENAI_API_KEY")
+    api_key = os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY")
     if not api_key: return None
         
-    url = "https://api.openai.com/v1/chat/completions"
-    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"}
-    prompt = f'You are an expert hardware analyst. Strip brand names and marketing buzzwords from this product title and return ONLY the generic 2-to-4 word English category name.\nExample: "Oura Ring Gen 3: The Ultimate Health Tracking Smart Ring" -> "Smart Ring Health Tracker"\nTitle: "{raw_title}"\nOutput:'
+    # 通用化配置：支持 DeepSeek, 硅基流动, 通义千问等任何兼容 OpenAI 格式的 API
+    base_url = os.getenv("LLM_BASE_URL", "https://api.openai.com/v1/chat/completions")
+    if not base_url.endswith("/chat/completions"):
+        base_url = base_url.rstrip("/") + "/chat/completions"
+        
+    model_name = os.getenv("LLM_MODEL", "gpt-4o-mini")
     
-    data = {"model": "gpt-4o-mini", "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 10}
+    headers = {"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"}
+    prompt = f'You are an expert hardware analyst. Strip brand names and marketing buzzwords from this product title and return ONLY the generic 2-to-4 word English category name.
+Example: "Oura Ring Gen 3: The Ultimate Health Tracking Smart Ring" -> "Smart Ring Health Tracker"
+Title: "{raw_title}"
+Output:'
+    
+    data = {"model": model_name, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 10}
     
     try:
-        req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers=headers)
-        with urllib.request.urlopen(req, timeout=8) as response:
+        req = urllib.request.Request(base_url, data=json.dumps(data).encode('utf-8'), headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as response:
             result = json.loads(response.read().decode('utf-8'))
-            # 剥除双引号、单引号、和句号
             return result['choices'][0]['message']['content'].strip(' "\'.')
     except Exception as e:
-        print(f"    [LLM API Error] {e}")
+        print(f"    [LLM API Error using {model_name} at {base_url}] {e}")
         return None
 
 def heuristic_keyword_extraction(raw_title):
@@ -89,8 +97,8 @@ def clean_title_hybrid(raw_title):
 
 def main():
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 🚜 Advanced LLM Excavator Activated...")
-    if os.getenv("OPENAI_API_KEY"): print("  -> 🧠 LLM Brain Connected (OpenAI API Key detected)")
-    else: print("  -> ⚠️ No OPENAI_API_KEY found. Running in NLP Heuristic Fallback mode.")
+    if os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY"): print(f"  -> 🧠 LLM Brain Connected ({os.getenv('LLM_MODEL', 'gpt-4o-mini')} API detected)")
+    else: print("  -> ⚠️ No LLM_API_KEY found. Running in NLP Heuristic Fallback mode.")
         
     raw_titles = []
     for feed in FEEDS:
