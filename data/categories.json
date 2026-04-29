@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "last_updated": "2026-04-24",
+  "methodology": "research/00-methodology-hardware.md",
+  "scoring_model": {
+    "layers": {
+      "L1": "科技众筹/众测热度（Kickstarter/Indiegogo），满分25",
+      "L2": "亚马逊场景搜索词容量，满分25",
+      "L3": "市场真空度与反垄断指数（CR3<50%为优），满分25",
+      "L4": "软硬结合供应链成熟度（PCBA/开模/App），满分25"
+    }
+  },
+  "categories": [
+    {
+      "id": "H01",
+      "name": "智能录音笔(带AI转写)",
+      "name_en": "AI Voice Recorder Transcription",
+      "scores": {
+        "L1": 20,
+        "L2": 15,
+        "L3": 18,
+        "L4": 15
+      },
+      "total": 68,
+      "now_score": 15.0,
+      "trend_score": 18.2,
+      "decision": "🟡 潜力黑马",
+      "status": "watching",
+      "tags": ["Productivity", "SaaS", "Micro-Innovation"]
+    },
+    {
+      "id": "H02",
+      "name": "智能戒指(健康监测)",
+      "name_en": "Smart Ring Health Tracker",
+      "scores": {
+        "L1": 25,
+        "L2": 22,
+        "L3": 10,
+        "L4": 8
+      },
+      "total": 65,
+      "now_score": 11.8,
+      "trend_score": 15.6,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "tags": ["Wearable", "High Barrier", "Oura Monopoly"]
+    },
+    {
+      "id": "H03",
+      "name": "开放式蓝牙耳机(OWS)",
+      "name_en": "Open Ear Headphones Conduction",
+      "scores": {
+        "L1": 18,
+        "L2": 25,
+        "L3": 22,
+        "L4": 22
+      },
+      "total": 87,
+      "now_score": 22.6,
+      "trend_score": 20.4,
+      "decision": "🟢 核心推荐",
+      "status": "active",
+      "tags": ["Audio", "Sports", "Mature Supply Chain"]
+    }
+  ]
+}
