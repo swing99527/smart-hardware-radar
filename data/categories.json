@@ -4,236 +4,384 @@
   "categories": [
     {
       "id": "H01",
-      "name": "智能宠物双向翻译器",
+      "name": "\u667a\u80fd\u5ba0\u7269\u53cc\u5411\u7ffb\u8bd1\u5668",
       "name_en": "Smart Pet Translator",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Pet Tech",
         "AI Voice",
         "Viral"
-      ]
+      ],
+      "js_search_volume": 3874,
+      "total_revenue": 294580,
+      "top_3_revenue": 18907,
+      "cr3": 6.4,
+      "now_score": 53,
+      "trend_score": 48
     },
     {
       "id": "H02",
-      "name": "极简智能家居中控键",
+      "name": "\u6781\u7b80\u667a\u80fd\u5bb6\u5c45\u4e2d\u63a7\u952e",
       "name_en": "Smart Home Hub Button",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Smart Home",
         "Automation",
-        "Niche"
-      ]
+        "Niche",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 26565,
+      "total_revenue": 424838,
+      "top_3_revenue": 346710,
+      "cr3": 81.6,
+      "now_score": 76,
+      "trend_score": 71
     },
     {
       "id": "H03",
-      "name": "无线人声实时混音器",
+      "name": "\u65e0\u7ebf\u4eba\u58f0\u5b9e\u65f6\u6df7\u97f3\u5668",
       "name_en": "Wireless Vocal Mixer",
-      "status": "scouted",
+      "status": "recommended",
       "tags": [
         "Creator Economy",
         "Audio",
         "Professional"
-      ]
+      ],
+      "js_search_volume": 49280,
+      "total_revenue": 455931,
+      "top_3_revenue": 17159,
+      "cr3": 3.8,
+      "now_score": 99,
+      "trend_score": 94
     },
     {
       "id": "A004",
-      "name": "【自动嗅探】Oneplus Watch 4 Titanium",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Oneplus Watch 4 Titanium",
       "name_en": "Oneplus Watch 4 Titanium",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Auto-Discovered",
         "Daily Scout"
-      ]
+      ],
+      "js_search_volume": 24659,
+      "total_revenue": 431742,
+      "top_3_revenue": 39925,
+      "cr3": 9.2,
+      "now_score": 74,
+      "trend_score": 69
     },
     {
       "id": "A005",
-      "name": "【自动嗅探】Core Epyc Chips And",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Core Epyc Chips And",
       "name_en": "Core Epyc Chips And",
-      "status": "scouted",
+      "status": "recommended",
       "tags": [
         "Auto-Discovered",
         "Daily Scout"
-      ]
+      ],
+      "js_search_volume": 36122,
+      "total_revenue": 182332,
+      "top_3_revenue": 39520,
+      "cr3": 21.7,
+      "now_score": 86,
+      "trend_score": 81
     },
     {
       "id": "A006",
-      "name": "【自动嗅探】Help Get This Book",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Help Get This Book",
       "name_en": "Help Get This Book",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Auto-Discovered",
         "Daily Scout"
-      ]
+      ],
+      "js_search_volume": 19715,
+      "total_revenue": 486839,
+      "top_3_revenue": 133396,
+      "cr3": 27.4,
+      "now_score": 69,
+      "trend_score": 64
     },
     {
       "id": "A007",
-      "name": "【自动嗅探】Muslims In America Road",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Muslims In America Road",
       "name_en": "Muslims In America Road",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Auto-Discovered",
         "Daily Scout"
-      ]
+      ],
+      "js_search_volume": 23000,
+      "total_revenue": 131244,
+      "top_3_revenue": 44749,
+      "cr3": 34.1,
+      "now_score": 73,
+      "trend_score": 68
     },
     {
       "id": "A008",
-      "name": "【自动嗅探】Archer'S Book Lounge By",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Archer'S Book Lounge By",
       "name_en": "Archer'S Book Lounge By",
-      "status": "scouted",
+      "status": "recommended",
       "tags": [
         "Auto-Discovered",
         "Daily Scout"
-      ]
+      ],
+      "js_search_volume": 45282,
+      "total_revenue": 354006,
+      "top_3_revenue": 110134,
+      "cr3": 31.1,
+      "now_score": 95,
+      "trend_score": 90
     },
     {
       "id": "A009",
-      "name": "【自动嗅探】Plaion'S Neogeo Aes+ Console",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Plaion'S Neogeo Aes+ Console",
       "name_en": "Plaion'S Neogeo Aes+ Console",
-      "status": "scouted",
+      "status": "recommended",
       "tags": [
         "Auto-Discovered",
         "Daily Scout"
-      ]
+      ],
+      "js_search_volume": 47781,
+      "total_revenue": 96197,
+      "top_3_revenue": 55151,
+      "cr3": 57.3,
+      "now_score": 97,
+      "trend_score": 92
     },
     {
       "id": "A010",
-      "name": "【自动嗅探】Rumored Smart Glasses",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Rumored Smart Glasses",
       "name_en": "Rumored Smart Glasses",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 5548,
+      "total_revenue": 236947,
+      "top_3_revenue": 188749,
+      "cr3": 79.7,
+      "now_score": 55,
+      "trend_score": 50
     },
     {
       "id": "A011",
-      "name": "【自动嗅探】Watch Sony’S Elite Ping",
-      "name_en": "Watch Sony’S Elite Ping",
-      "status": "scouted",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Watch Sony\u2019S Elite Ping",
+      "name_en": "Watch Sony\u2019S Elite Ping",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 31170,
+      "total_revenue": 416305,
+      "top_3_revenue": 291792,
+      "cr3": 70.1,
+      "now_score": 81,
+      "trend_score": 76
     },
     {
       "id": "A012",
-      "name": "【自动嗅探】Major Redesign Confirmed; Hints",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Major Redesign Confirmed; Hints",
       "name_en": "Major Redesign Confirmed; Hints",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 46323,
+      "total_revenue": 342793,
+      "top_3_revenue": 279587,
+      "cr3": 81.6,
+      "now_score": 96,
+      "trend_score": 91
     },
     {
       "id": "A013",
-      "name": "【自动嗅探】Panic Says The Playdate",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Panic Says The Playdate",
       "name_en": "Panic Says The Playdate",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Auto-Discovered",
         "Daily Scout"
-      ]
+      ],
+      "js_search_volume": 27034,
+      "total_revenue": 467724,
+      "top_3_revenue": 228771,
+      "cr3": 48.9,
+      "now_score": 77,
+      "trend_score": 72
     },
     {
       "id": "A014",
-      "name": "【自动嗅探】Humanoid Robot",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Humanoid Robot",
       "name_en": "Humanoid Robot",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 34975,
+      "total_revenue": 213395,
+      "top_3_revenue": 172443,
+      "cr3": 80.8,
+      "now_score": 84,
+      "trend_score": 79
     },
     {
       "id": "A015",
-      "name": "【自动嗅探】Finally! The Holy Grail",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Finally! The Holy Grail",
       "name_en": "Finally! The Holy Grail",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 10071,
+      "total_revenue": 187422,
+      "top_3_revenue": 141175,
+      "cr3": 75.3,
+      "now_score": 60,
+      "trend_score": 55
     },
     {
       "id": "A016",
-      "name": "【自动嗅探】Aisa Ai Skills Test",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Aisa Ai Skills Test",
       "name_en": "Aisa Ai Skills Test",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 15521,
+      "total_revenue": 254287,
+      "top_3_revenue": 219351,
+      "cr3": 86.3,
+      "now_score": 65,
+      "trend_score": 60
     },
     {
       "id": "A017",
-      "name": "【自动嗅探】Venture Factory Ai",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Venture Factory Ai",
       "name_en": "Venture Factory Ai",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 41476,
+      "total_revenue": 141354,
+      "top_3_revenue": 99809,
+      "cr3": 70.6,
+      "now_score": 91,
+      "trend_score": 86
     },
     {
       "id": "A018",
-      "name": "【自动嗅探】Sony Inzone H6 Air Review",
+      "name": "\u3010\u81ea\u52a8\u55c5\u63a2\u3011Sony Inzone H6 Air Review",
       "name_en": "Sony Inzone H6 Air Review",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "Daily Scout"
-      ]
+        "Daily Scout",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 14326,
+      "total_revenue": 240186,
+      "top_3_revenue": 138167,
+      "cr3": 57.5,
+      "now_score": 64,
+      "trend_score": 59
     },
     {
       "id": "A019",
-      "name": "【AI自动嗅探】Orcasheets Ai Reports",
+      "name": "\u3010AI\u81ea\u52a8\u55c5\u63a2\u3011Orcasheets Ai Reports",
       "name_en": "Orcasheets Ai Reports",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Auto-Discovered",
         "LLM-Processed"
-      ]
+      ],
+      "js_search_volume": 12791,
+      "total_revenue": 155355,
+      "top_3_revenue": 16486,
+      "cr3": 10.6,
+      "now_score": 62,
+      "trend_score": 57
     },
     {
       "id": "A020",
-      "name": "【AI自动嗅探】Journey Through Chai Documentary",
+      "name": "\u3010AI\u81ea\u52a8\u55c5\u63a2\u3011Journey Through Chai Documentary",
       "name_en": "Journey Through Chai Documentary",
-      "status": "scouted",
+      "status": "vetoed",
       "tags": [
         "Auto-Discovered",
-        "LLM-Processed"
-      ]
+        "LLM-Processed",
+        "Monopoly Risk"
+      ],
+      "js_search_volume": 13572,
+      "total_revenue": 278640,
+      "top_3_revenue": 141403,
+      "cr3": 50.7,
+      "now_score": 63,
+      "trend_score": 58
     },
     {
       "id": "A021",
-      "name": "【AI自动嗅探】Open Wearables",
+      "name": "\u3010AI\u81ea\u52a8\u55c5\u63a2\u3011Open Wearables",
       "name_en": "Open Wearables",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Auto-Discovered",
         "LLM-Processed"
-      ]
+      ],
+      "js_search_volume": 4835,
+      "total_revenue": 460692,
+      "top_3_revenue": 176359,
+      "cr3": 38.3,
+      "now_score": 54,
+      "trend_score": 49
     },
     {
       "id": "A022",
-      "name": "【AI自动嗅探】Actian Vectorai Db",
+      "name": "\u3010AI\u81ea\u52a8\u55c5\u63a2\u3011Actian Vectorai Db",
       "name_en": "Actian Vectorai Db",
-      "status": "scouted",
+      "status": "recommended",
       "tags": [
         "Auto-Discovered",
         "LLM-Processed"
-      ]
+      ],
+      "js_search_volume": 39542,
+      "total_revenue": 442169,
+      "top_3_revenue": 142675,
+      "cr3": 32.3,
+      "now_score": 89,
+      "trend_score": 84
     },
     {
       "id": "A023",
-      "name": "【AI自动嗅探】Steamy Shifter Omnibus By",
+      "name": "\u3010AI\u81ea\u52a8\u55c5\u63a2\u3011Steamy Shifter Omnibus By",
       "name_en": "Steamy Shifter Omnibus By",
-      "status": "scouted",
+      "status": "analyzed",
       "tags": [
         "Auto-Discovered",
         "LLM-Processed"
-      ]
+      ],
+      "js_search_volume": 18469,
+      "total_revenue": 175266,
+      "top_3_revenue": 73548,
+      "cr3": 42.0,
+      "now_score": 68,
+      "trend_score": 63
     }
   ]
 }
