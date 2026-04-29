@@ -1,41 +1,34 @@
-# Smart Hardware Radar - Session Handover Document
+# Smart Hardware Radar - V2 Architecture Handover
 
-## 1. Project Context & Business Goal
+## 1. Project Status: "The Great Purge" is Complete
 **Repository**: `/Users/chenshangwei/code/smart-hardware-radar/`
-**Goal**: Build an objective, data-driven market intelligence radar for high-ticket Smart Hardware (AI Wearables, Productivity Tools, Smart Lifestyle) on Amazon US / Crowdfunding platforms.
-**Lineage**: This is a direct evolution of the `toy-shopify` project. It inherits the "Process-Data Separation" architecture and the strict **3-Layer Decision Framework**:
-1. **Macro Screening (Sorftime / Crowdfunding)**: Category-level lifecycle & CR3 monopoly checks.
-2. **Micro Teardown (Jungle Scout MCP)**: ASIN-level revenue & keyword PPC bids.
-3. **Feasibility Audit**: Shenzhen PCBA costs, FCC/CE/BQB certifications, and App/SaaS development barriers.
+**Current State**: 
+- **0 Categories, 0 Data, 0 Bullshit.** 我们已经物理清空了所有的“拍脑袋”品类和人工填入的脏数据。
+- 评分引擎 (`scripts/score.py` V1.2) 和方法论 (`docs/methodology-hardware.md` V1.2) 已经经历了严苛的“假人碰撞测试”，并在算法中引入了 **“大厂射程一票否决”** 和 **“月销十万美金拓荒期豁免权”** 的底层修正。引擎完美闭环。
+- **缺失的环节 (The Blind Spot)**：系统的感知系统 (L0 情绪发现层) 是瞎的。目前 `scripts/scout_l0.py` 只是一个空壳。
 
-## 2. The L1-L4 Scoring Algorithm (Hardware Adapted)
-Unlike toys, smart hardware scoring heavily penalizes Tech Giant Monopoly (Apple/Samsung) and requires hardware+software supply chain readiness.
-- **L1 (Geek/Social)**: Kickstarter/Indiegogo funding trends & YouTube tech reviews (Max 25).
-- **L2 (Search)**: Amazon niche/scenario keyword search volume (Max 25).
-- **L3 (Market)**: Market vacuum & Anti-Monopoly Index. CR3 > 50% is a severe penalty (Max 25).
-- **L4 (Supply)**: PCBA/Tooling maturity + Certification barriers + App/SaaS recurring costs (Max 25).
+## 2. Immediate Next Steps (For Next Agent / Developer)
 
-**Algorithmic Decisions**:
-- `Now Score` = L3*0.5 + L4*0.3 + L2*0.2
-- `Trend Score` = L1*0.4 + L3*0.4 + L4*0.2
-- 🟢 **Core (核心推荐)**: `Now >= 21.0`
-- 🟡 **Trend (潜力黑马)**: `Trend >= 18.0`
-- ❌ **Skip (暂缓入场)**: `Now < 15.0 & Trend < 15.0` (or manual veto due to extreme monopoly)
+### **MISSION CRITICAL: 让 L0 层活起来！**
 
-## 3. Current State & Seed Categories
-The database (`data/categories.json`) is initialized with 3 test categories to validate the logic:
-1. `H03` **Open Ear Headphones (OWS)**: 🟢 Core (High search, mature Shenzhen supply, low monopoly compared to TWS).
-2. `H01` **AI Voice Recorder**: 🟡 Trend (High geek interest, SaaS recurring revenue, moderate supply barrier).
-3. `H02` **Smart Ring**: ❌ Skip (Extreme monopoly by Oura/Samsung, high flexible-PCB/battery barrier).
+**不要再人工填品类！不要再去想“我要评测什么硬件”！**
+你的头号任务，是接上互联网的“呼吸机”，让品类词从市场里自己流进来。
 
-## 4. Architecture & Immediate Next Steps for the New Agent
-This repo is currently a **scaffold**. The next Agent should immediately begin the **Micro Teardown (Step 2 of the framework)** using Jungle Scout MCP.
+### 🚨 具体开发清单：
+1. **实现 Kickstarter 爬虫 (`scripts/scout_l0.py`)**：
+   - 使用 BeautifulSoup 或 Selenium 访问 Kickstarter 的 "Technology" 或 "Design" 板块。
+   - 抓取过去 7 天内 `Funded > 300%` 或 `Backers > 1000` 的项目标题。
+2. **实现 TikTok/YouTube 趋势 API**：
+   - 接入 TikTok Creative Center 或 YouTube Trending 的非官方爬虫/API。
+   - 检索带有 `#techfinds`, `#smartgadgets` 标签且互动率异常飙升的视频标题。
+3. **对接 LLM 大模型进行品类提炼 (The AI Brain)**：
+   - 调用一个 LLM API（如 Claude/OpenAI），输入那些杂乱的众筹标题和短视频标题。
+   - 要求大模型输出一个泛化的英文品类词。
+   - *Example: "PLAUD NOTE ChatGPT Voice Recorder" -> "AI Voice Recorder"*
+   - 将该词自动写入 `categories.json`。
+4. **自动化串联 (The Cron Loop)**：
+   - 建立 Bash 脚本，实现每日凌晨：`scout_l0.py (抓取新词)` -> `accio-mcp-cli JS 接口 (查亚马逊 L2/L3)` -> `cr3.py (算垄断度)` -> `score.py (算总分)`。
+   - 只有 `Now Score > 21` 或触发“拓荒期豁免”的新兴蓝海，才通过 webhook 发飞书报警。
 
-**Your First Task:**
-1. Navigate to `/Users/chenshangwei/code/smart-hardware-radar/`.
-2. Use `accio-mcp-cli` to call `js_product_database_query` and `js_keywords_by_keyword`.
-3. Target the `🟢 Core` and `🟡 Trend` categories (H03 Open Ear Headphones, H01 AI Voice Recorder).
-4. Extract the Top 10 ASINs, their exact monthly revenue, reviews, and the exact PPC bids for their core keywords.
-5. Save these results into the `v2/input/l2/` and `v2/input/l3/` directories (you will need to create them following the `toy-shopify` V2 offline schema).
-
-*Remember: You are the Principal Data Analyst. Maintain absolute data objectivity. Do not hallucinate Amazon metrics; fetch them via tools.*
+## 3. The Prime Directive (铁律)
+系统里存在的每一个赛道词，都必须是由脚本从互联网上自动闻出来的情绪。**严禁人类在 `categories.json` 里手动打字。**

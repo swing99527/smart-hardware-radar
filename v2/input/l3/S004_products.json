@@ -1,0 +1,50 @@
+[
+  {
+    "asin": "B0DK35MLL2",
+    "brand": "Docgari",
+    "revenue": 12594.79,
+    "reviews": 193
+  },
+  {
+    "asin": "B0G8ZBP9J6",
+    "brand": "Docgari",
+    "revenue": 1703.29,
+    "reviews": 25
+  },
+  {
+    "asin": "B0B9H2G5LR",
+    "brand": "KRACESS",
+    "revenue": 9198.85,
+    "reviews": 144
+  },
+  {
+    "asin": "B09G9YSMKL",
+    "brand": "LIVALL riding",
+    "revenue": 5404.53,
+    "reviews": 313
+  },
+  {
+    "asin": "B0CNPQ3VNM",
+    "brand": "Lumos",
+    "revenue": 93589.65,
+    "reviews": 415
+  },
+  {
+    "asin": "B089N9H1S6",
+    "brand": "Sena",
+    "revenue": 76864.5,
+    "reviews": 979
+  },
+  {
+    "asin": "B09M7VZL3P",
+    "brand": "Sena",
+    "revenue": 29950.0,
+    "reviews": 209
+  },
+  {
+    "asin": "B0FZYF7Y8D",
+    "brand": "Sena",
+    "revenue": 1076.0,
+    "reviews": 26
+  }
+]

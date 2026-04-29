@@ -1,0 +1,32 @@
+[
+  {
+    "asin": "B082F553WG",
+    "brand": "Digi-Pas",
+    "revenue": 1584.0,
+    "reviews": 414
+  },
+  {
+    "asin": "B0CCXZHNFY",
+    "brand": "GAN",
+    "revenue": 1399.6,
+    "reviews": 134
+  },
+  {
+    "asin": "B07W7TGWDR",
+    "brand": "GoCube",
+    "revenue": 30154.85,
+    "reviews": 4650
+  },
+  {
+    "asin": "B0CHMR42HJ",
+    "brand": "LOFTEK",
+    "revenue": 14937.51,
+    "reviews": 2329
+  },
+  {
+    "asin": "B0BJD9Q3V3",
+    "brand": "eX-Mars",
+    "revenue": 1359.15,
+    "reviews": 53
+  }
+]

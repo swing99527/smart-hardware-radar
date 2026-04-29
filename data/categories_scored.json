@@ -1,0 +1,267 @@
+{
+  "schema_version": "2.1",
+  "methodology_version": "1.2",
+  "generated_at": "2026-04-29T08:19:06Z",
+  "categories": [
+    {
+      "id": "H01",
+      "name": "智能宠物双向翻译器",
+      "name_en": "Smart Pet Translator",
+      "tags": [
+        "Pet Tech",
+        "AI Voice",
+        "Viral"
+      ],
+      "scores": {
+        "L1": 18.3,
+        "L2": 0.0,
+        "L3": 0.0,
+        "L4": 16
+      },
+      "total": 34.3,
+      "now_score": 4.05,
+      "trend_score": 6.57,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T08:19:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 0.75,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 9.73,
+          "L1b": 1.91,
+          "L1c": 6.7,
+          "data_quality": {
+            "L1a": "ok",
+            "L1b": "ok",
+            "L1c": "ok"
+          },
+          "raw": {
+            "funding_usd_12m": 1200000.0,
+            "project_count_12m": 3,
+            "youtube_views_90d": 5000000.0
+          }
+        },
+        "L2": {
+          "L2a": 0,
+          "L2b": 0,
+          "L2c": 0,
+          "data_quality": {
+            "L2": "missing"
+          },
+          "raw": null
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 4,
+          "L4b": 4,
+          "L4c": 4,
+          "L4d": 4,
+          "data_quality": {
+            "L4a": "library",
+            "L4b": "library",
+            "L4c": "library",
+            "L4d": "library"
+          },
+          "raw": {
+            "pcba_bom_usd": 15.0,
+            "mold_cost_usd": 15000.0,
+            "cert_cost_usd": 8000.0,
+            "needs_app": true,
+            "saas_cost_per_mau_usd": 0.2
+          }
+        }
+      }
+    },
+    {
+      "id": "H02",
+      "name": "极简智能家居中控键",
+      "name_en": "Smart Home Hub Button",
+      "tags": [
+        "Smart Home",
+        "Automation",
+        "Niche"
+      ],
+      "scores": {
+        "L1": 18.3,
+        "L2": 9.7,
+        "L3": 0.0,
+        "L4": 18
+      },
+      "total": 46.0,
+      "now_score": 0.0,
+      "trend_score": 0.26,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T08:19:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 9.0,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 9.73,
+          "L1b": 1.91,
+          "L1c": 6.7,
+          "data_quality": {
+            "L1a": "ok",
+            "L1b": "ok",
+            "L1c": "ok"
+          },
+          "raw": {
+            "funding_usd_12m": 1200000.0,
+            "project_count_12m": 3,
+            "youtube_views_90d": 5000000.0
+          }
+        },
+        "L2": {
+          "L2a": 7.24,
+          "L2b": 0.0,
+          "L2c": 2.5,
+          "data_quality": {
+            "L2a": "ok",
+            "L2b": "ok",
+            "L2c": "missing_fallback"
+          },
+          "raw": {
+            "top3_search_volume": 1038,
+            "keyword_count_over_1k": 0,
+            "avg_ppc_top5": null,
+            "keyword_sample_size": 10
+          }
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 6,
+          "L4b": 4,
+          "L4c": 4,
+          "L4d": 4,
+          "data_quality": {
+            "L4a": "library",
+            "L4b": "library",
+            "L4c": "library",
+            "L4d": "library"
+          },
+          "raw": {
+            "pcba_bom_usd": 8.0,
+            "mold_cost_usd": 15000.0,
+            "cert_cost_usd": 8000.0,
+            "needs_app": true,
+            "saas_cost_per_mau_usd": 0.2
+          }
+        }
+      }
+    },
+    {
+      "id": "H03",
+      "name": "无线人声实时混音器",
+      "name_en": "Wireless Vocal Mixer",
+      "tags": [
+        "Creator Economy",
+        "Audio",
+        "Professional"
+      ],
+      "scores": {
+        "L1": 18.3,
+        "L2": 9.7,
+        "L3": 0.0,
+        "L4": 16
+      },
+      "total": 44.0,
+      "now_score": 5.24,
+      "trend_score": 7.76,
+      "decision": "❌ 暂缓入场",
+      "status": "archived",
+      "veto_flag": false,
+      "methodology_version": "1.2",
+      "calculated_at": "2026-04-29T08:19:06Z",
+      "details": {
+        "v1_1_rules": {
+          "big_tech_risk_penalty": 1.5,
+          "l1_l2_resonance_bonus": false
+        },
+        "L1": {
+          "L1a": 9.73,
+          "L1b": 1.91,
+          "L1c": 6.7,
+          "data_quality": {
+            "L1a": "ok",
+            "L1b": "ok",
+            "L1c": "ok"
+          },
+          "raw": {
+            "funding_usd_12m": 1200000.0,
+            "project_count_12m": 3,
+            "youtube_views_90d": 5000000.0
+          }
+        },
+        "L2": {
+          "L2a": 7.18,
+          "L2b": 0.0,
+          "L2c": 2.5,
+          "data_quality": {
+            "L2a": "ok",
+            "L2b": "ok",
+            "L2c": "missing_fallback"
+          },
+          "raw": {
+            "top3_search_volume": 985,
+            "keyword_count_over_1k": 0,
+            "avg_ppc_top5": null,
+            "keyword_sample_size": 10
+          }
+        },
+        "L3": {
+          "L3a": 0,
+          "L3b": 0,
+          "L3c": 0,
+          "data_quality": {
+            "L3": "missing"
+          },
+          "raw": null
+        },
+        "L4": {
+          "L4a": 4,
+          "L4b": 4,
+          "L4c": 4,
+          "L4d": 4,
+          "data_quality": {
+            "L4a": "library",
+            "L4b": "library",
+            "L4c": "library",
+            "L4d": "library"
+          },
+          "raw": {
+            "pcba_bom_usd": 25.0,
+            "mold_cost_usd": 15000.0,
+            "cert_cost_usd": 8000.0,
+            "needs_app": true,
+            "saas_cost_per_mau_usd": 0.2
+          }
+        }
+      }
+    }
+  ]
+}

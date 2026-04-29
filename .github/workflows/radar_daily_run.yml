@@ -1,0 +1,76 @@
+name: Daily Smart Hardware Radar Pipeline
+
+on:
+  schedule:
+    # 每天 UTC 19:00 (北京时间凌晨 3:00) 触发
+    - cron: '0 19 * * *'
+  workflow_dispatch: # 允许在 GitHub 网页上手动点击运行
+
+jobs:
+  run-radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # 允许推送回仓库
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # 如果后续接入了 OpenAI 或特殊爬虫库，需在这里安装，例如: pip install requests beautifulsoup4 openai
+          
+      - name: Install accio-mcp-cli (Mock or Real setup)
+        # 如果 accio-mcp-cli 是您本地特有的环境，在 GitHub 上您可能需要替换为真实的 JS API 请求代码
+        # 或者在这里安装对应的 npm / python 依赖包
+        run: |
+          echo "Setting up environment for API calls..."
+          # npm install -g accio-mcp-cli (如有真实的公开包)
+
+      - name: Phase 1 - 🚜 Run L0 Excavator (Catch Market Sentiment)
+        run: |
+          echo "Running scout_l0_advanced.py..."
+          python scripts/scout_l0_advanced.py
+
+      - name: Phase 2 - 📡 Deep Dive Amazon Data (L2/L3)
+        # 实际环境中，您需要将 run_batch_wave3.py 改为动态读取今日新抓到的词
+        run: |
+          echo "Running data fetchers..."
+          # python run_batch_dynamic.py
+          
+      - name: Phase 3 - ⚙️ Run Scoring Engine (V1.2)
+        run: |
+          echo "Calculating CR3..."
+          python scripts/cr3.py
+          echo "Scoring Categories..."
+          python scripts/score.py > daily_report.txt
+
+      - name: Phase 4 - 📢 Send Feishu / Lark Alert
+        # 如果发现有大于 20 分的核心推荐，触发飞书机器人报警
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK_URL }}
+        run: |
+          if grep -q "🟢 核心推荐" daily_report.txt; then
+            echo "New Blue Ocean Detected! Sending alert..."
+            # 这是一个飞书 webhook 调用的例子
+            # curl -X POST -H "Content-Type: application/json" \
+            # -d '{"msg_type":"text","content":{"text":"[Smart Hardware Radar] 发现新蓝海！请查看仓库最新提交！"}}' \
+            # $FEISHU_WEBHOOK
+          else
+            echo "No core recommendations today."
+          fi
+
+      - name: Phase 5 - 💾 Commit and Push Updated Data
+        # 将新发现的品类和打分数据写回您的 Git 仓库
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Radar Bot"
+          git add data/categories.json data/cr3_index.json data/categories_scored.json v2/input/
+          git commit -m "Auto-update: Daily Radar Run [$(date +'%Y-%m-%d')]" || echo "No changes to commit"
+          git push

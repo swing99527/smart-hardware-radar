@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Hardware Radar | Intelligence Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        command: '#07090d',
+                        radar: '#00d488',
+                        alert: '#ff4d4f'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #07090d; color: #e5e7eb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .status-badge { padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        .status-scouted { background: rgba(255, 255, 255, 0.1); color: #ccc; }
+        .status-recommended { background: rgba(0, 212, 136, 0.15); color: #00d488; border: 1px solid rgba(0, 212, 136, 0.3); }
+        .status-vetoed { background: rgba(255, 77, 79, 0.15); color: #ff4d4f; border: 1px solid rgba(255, 77, 79, 0.3); }
+        .status-analyzing { background: rgba(250, 173, 20, 0.15); color: #faad14; }
+    </style>
+</head>
+<body class="min-h-screen p-6 md:p-12">
+    <div id="app" class="max-w-7xl mx-auto space-y-8" v-cloak>
+        
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-white/10 pb-6">
+            <div>
+                <h1 class="text-3xl font-bold tracking-tight text-white flex items-center gap-3">
+                    <span class="text-radar">●</span> Smart Hardware Radar <span class="text-sm font-normal text-gray-500 bg-white/10 px-2 py-0.5 rounded ml-2">V1.2</span>
+                </h1>
+                <p class="text-gray-400 mt-1">Cross-Border E-Commerce Intelligence Center (L0-L4 Automated Pipeline)</p>
+            </div>
+            <div class="text-right">
+                <div class="text-sm text-gray-500">Last Engine Sync</div>
+                <div class="text-gray-300 font-mono text-sm mt-0.5">{{ lastUpdated }}</div>
+            </div>
+        </header>
+
+        <!-- KPI Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-gray-500">
+                <div class="text-sm text-gray-400 mb-1">Total Mutants Scouted</div>
+                <div class="text-3xl font-bold text-white">{{ stats.total }}</div>
+            </div>
+            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-radar">
+                <div class="text-sm text-gray-400 mb-1">Core Recommendations 🟢</div>
+                <div class="text-3xl font-bold text-radar">{{ stats.recommended }}</div>
+            </div>
+            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-alert">
+                <div class="text-sm text-gray-400 mb-1">Red Ocean Vetoes 🚫</div>
+                <div class="text-3xl font-bold text-alert">{{ stats.vetoed }}</div>
+            </div>
+            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-yellow-500">
+                <div class="text-sm text-gray-400 mb-1">Pending L2/L3 Analysis ⏳</div>
+                <div class="text-3xl font-bold text-yellow-500">{{ stats.pending }}</div>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="glass-panel rounded-xl overflow-hidden mt-8">
+            <div class="p-5 border-b border-white/5 flex justify-between items-center bg-white/5">
+                <h2 class="text-lg font-semibold text-white">Live Intelligence Feed</h2>
+                <div class="text-sm text-gray-400 flex gap-4">
+                    <span><span class="inline-block w-2 h-2 rounded-full bg-alert mr-1"></span> CR3 > 50% = Monopoly Risk</span>
+                </div>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="text-xs uppercase tracking-wider text-gray-400 bg-black/20 border-b border-white/5">
+                            <th class="p-4 font-medium">ID</th>
+                            <th class="p-4 font-medium">Category (Keyword)</th>
+                            <th class="p-4 font-medium">Now Score</th>
+                            <th class="p-4 font-medium">Trend Score</th>
+                            <th class="p-4 font-medium">CR3 (Monopoly)</th>
+                            <th class="p-4 font-medium">Tags / Flags</th>
+                            <th class="p-4 font-medium text-right">Pipeline Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm divide-y divide-white/5">
+                        <tr v-for="item in sortedCategories" :key="item.id" class="hover:bg-white/5 transition-colors">
+                            <td class="p-4 text-gray-500 font-mono">{{ item.id }}</td>
+                            <td class="p-4">
+                                <div class="font-medium text-gray-200">{{ item.name_en || 'N/A' }}</div>
+                                <div class="text-xs text-gray-500 mt-0.5">{{ item.name }}</div>
+                            </td>
+                            <td class="p-4 font-mono font-bold" :class="getScoreColor(item.now_score)">
+                                {{ item.now_score !== undefined ? item.now_score : '--' }}
+                            </td>
+                            <td class="p-4 font-mono font-bold" :class="getScoreColor(item.trend_score)">
+                                {{ item.trend_score !== undefined ? item.trend_score : '--' }}
+                            </td>
+                            <td class="p-4 font-mono">
+                                <span v-if="item.cr3 !== undefined" :class="item.cr3 > 50 ? 'text-alert font-bold' : 'text-gray-300'">
+                                    {{ item.cr3 }}%
+                                </span>
+                                <span v-else class="text-gray-600">--</span>
+                            </td>
+                            <td class="p-4">
+                                <div class="flex flex-wrap gap-1">
+                                    <span v-for="tag in item.tags" class="text-[10px] px-1.5 py-0.5 rounded bg-white/10 text-gray-400">
+                                        {{ tag }}
+                                    </span>
+                                </div>
+                            </td>
+                            <td class="p-4 text-right">
+                                <span class="status-badge" :class="getStatusClass(item.status, item.now_score, item.cr3)">
+                                    {{ getStatusText(item.status, item.now_score, item.cr3) }}
+                                </span>
+                            </td>
+                        </tr>
+                        <tr v-if="categories.length === 0">
+                            <td colspan="7" class="p-8 text-center text-gray-500">No data found. Engine is sleeping or waiting for next sync.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const { createApp, ref, computed, onMounted } = Vue
+
+        createApp({
+            setup() {
+                const categories = ref([])
+                const lastUpdated = ref('Loading...')
+
+                const loadData = async () => {
+                    try {
+                        const response = await fetch('./data.json?t=' + new Date().getTime())
+                        const data = await response.json()
+                        categories.value = data.categories || []
+                        lastUpdated.value = data.last_updated || 'Unknown'
+                    } catch (e) {
+                        console.error('Failed to load data.json', e)
+                        lastUpdated.value = 'Failed to sync data'
+                    }
+                }
+
+                const sortedCategories = computed(() => {
+                    return [...categories.value].sort((a, b) => {
+                        // Sort by now_score descending, missing scores go to bottom
+                        const scoreA = a.now_score || -1
+                        const scoreB = b.now_score || -1
+                        if (scoreA !== scoreB) return scoreB - scoreA
+                        // Then ID descending (newest first)
+                        return b.id.localeCompare(a.id)
+                    })
+                })
+
+                const stats = computed(() => {
+                    let recommended = 0, vetoed = 0, pending = 0
+                    categories.value.forEach(c => {
+                        if (c.status === 'scouted') pending++
+                        else if (c.status === 'recommended' || (c.now_score >= 80 && c.cr3 <= 50)) recommended++
+                        else if (c.status === 'vetoed' || c.cr3 > 50) vetoed++
+                    })
+                    return { total: categories.value.length, recommended, vetoed, pending }
+                })
+
+                const getStatusText = (status, score, cr3) => {
+                    if (status === 'scouted') return 'L0 Scouted ⏳'
+                    if (status === 'vetoed') return 'Vetoed 🚫'
+                    if (status === 'recommended') return 'Core Rec 🟢'
+                    
+                    // Fallback logic if status isn't explicitly set but scores exist
+                    if (cr3 > 50) return 'Monopoly 🚫'
+                    if (score >= 80) return 'Core Rec 🟢'
+                    if (score > 0) return 'Analyzed 🟡'
+                    return status || 'Unknown'
+                }
+
+                const getStatusClass = (status, score, cr3) => {
+                    if (status === 'scouted') return 'status-scouted'
+                    if (status === 'vetoed' || cr3 > 50) return 'status-vetoed'
+                    if (status === 'recommended' || score >= 80) return 'status-recommended'
+                    return 'status-analyzing'
+                }
+
+                const getScoreColor = (score) => {
+                    if (score === undefined) return 'text-gray-600'
+                    if (score >= 80) return 'text-radar'
+                    if (score >= 60) return 'text-yellow-500'
+                    return 'text-red-400'
+                }
+
+                onMounted(() => {
+                    loadData()
+                })
+
+                return { categories, sortedCategories, lastUpdated, stats, getStatusText, getStatusClass, getScoreColor }
+            }
+        }).mount('#app')
+    </script>
+    <style>
+        [v-cloak] { display: none; }
+    </style>
+</body>
+</html>

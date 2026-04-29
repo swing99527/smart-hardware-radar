@@ -1,0 +1,449 @@
+{
+  "generated_at": "2026-04-29T08:19:06Z",
+  "methodology_version": "1.0",
+  "input_dir": "v2/input/l3",
+  "categories": {
+    "H01": {
+      "cr3": null,
+      "veto_flag": false,
+      "total_revenue": 0,
+      "top_brands": [],
+      "brand_total_count": 0,
+      "asin_total_count": 0,
+      "data_quality": "no_revenue_data"
+    },
+    "H02": {
+      "cr3": null,
+      "veto_flag": false,
+      "total_revenue": 0,
+      "top_brands": [],
+      "brand_total_count": 0,
+      "asin_total_count": 0,
+      "data_quality": "no_revenue_data"
+    },
+    "H03": {
+      "cr3": null,
+      "veto_flag": false,
+      "total_revenue": 0,
+      "top_brands": [],
+      "brand_total_count": 0,
+      "asin_total_count": 0,
+      "data_quality": "no_revenue_data"
+    },
+    "S002": {
+      "cr3": 0.5394,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 239013.39,
+      "top_brands": [
+        {
+          "brand": "warchody",
+          "revenue": 58519.74,
+          "share": 0.2448,
+          "asin_count": 1
+        },
+        {
+          "brand": "HIBLOKS",
+          "revenue": 40802.78,
+          "share": 0.1707,
+          "asin_count": 1
+        },
+        {
+          "brand": "HCHRVR",
+          "revenue": 29594.14,
+          "share": 0.1238,
+          "asin_count": 3
+        },
+        {
+          "brand": "JOULPOUZA",
+          "revenue": 15439.32,
+          "share": 0.0646,
+          "asin_count": 1
+        },
+        {
+          "brand": "DuHeSin",
+          "revenue": 13535.97,
+          "share": 0.0566,
+          "asin_count": 1
+        }
+      ],
+      "brand_total_count": 18,
+      "asin_total_count": 22,
+      "data_quality": "ok"
+    },
+    "S003": {
+      "cr3": 0.7077,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 187467.76,
+      "top_brands": [
+        {
+          "brand": "GenXenon",
+          "revenue": 61182.32,
+          "share": 0.3264,
+          "asin_count": 6
+        },
+        {
+          "brand": "CHAMELO",
+          "revenue": 36218.0,
+          "share": 0.1932,
+          "asin_count": 1
+        },
+        {
+          "brand": "linktoonex",
+          "revenue": 35277.48,
+          "share": 0.1882,
+          "asin_count": 1
+        },
+        {
+          "brand": "Amwentu",
+          "revenue": 29209.32,
+          "share": 0.1558,
+          "asin_count": 1
+        },
+        {
+          "brand": "Bose",
+          "revenue": 8224.7,
+          "share": 0.0439,
+          "asin_count": 3
+        }
+      ],
+      "brand_total_count": 11,
+      "asin_total_count": 18,
+      "data_quality": "ok"
+    },
+    "S004": {
+      "cr3": 0.9366,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 230381.61,
+      "top_brands": [
+        {
+          "brand": "Sena",
+          "revenue": 107890.5,
+          "share": 0.4683,
+          "asin_count": 3
+        },
+        {
+          "brand": "Lumos",
+          "revenue": 93589.65,
+          "share": 0.4062,
+          "asin_count": 1
+        },
+        {
+          "brand": "Docgari",
+          "revenue": 14298.08,
+          "share": 0.0621,
+          "asin_count": 2
+        },
+        {
+          "brand": "KRACESS",
+          "revenue": 9198.85,
+          "share": 0.0399,
+          "asin_count": 1
+        },
+        {
+          "brand": "LIVALL riding",
+          "revenue": 5404.53,
+          "share": 0.0235,
+          "asin_count": 1
+        }
+      ],
+      "brand_total_count": 5,
+      "asin_total_count": 8,
+      "data_quality": "thin_sample"
+    },
+    "S010": {
+      "cr3": 0.7992,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 365056.4,
+      "top_brands": [
+        {
+          "brand": "GIOIGOO",
+          "revenue": 203149.2,
+          "share": 0.5565,
+          "asin_count": 2
+        },
+        {
+          "brand": "AOKESTE",
+          "revenue": 66893.07,
+          "share": 0.1832,
+          "asin_count": 2
+        },
+        {
+          "brand": "HGJSYUTM",
+          "revenue": 21714.57,
+          "share": 0.0595,
+          "asin_count": 1
+        },
+        {
+          "brand": "AOBOCO",
+          "revenue": 14898.51,
+          "share": 0.0408,
+          "asin_count": 1
+        },
+        {
+          "brand": "Acroutro",
+          "revenue": 11947.61,
+          "share": 0.0327,
+          "asin_count": 1
+        }
+      ],
+      "brand_total_count": 17,
+      "asin_total_count": 19,
+      "data_quality": "ok"
+    },
+    "S024": {
+      "cr3": 0.6053,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 173615.95,
+      "top_brands": [
+        {
+          "brand": "MERACH",
+          "revenue": 68932.68,
+          "share": 0.397,
+          "asin_count": 2
+        },
+        {
+          "brand": "kGoal",
+          "revenue": 19511.0,
+          "share": 0.1124,
+          "asin_count": 1
+        },
+        {
+          "brand": "ALBIZZIA",
+          "revenue": 16638.96,
+          "share": 0.0958,
+          "asin_count": 1
+        },
+        {
+          "brand": "Fortis Control Trainer",
+          "revenue": 12245.0,
+          "share": 0.0705,
+          "asin_count": 1
+        },
+        {
+          "brand": "Bodyotics",
+          "revenue": 9180.0,
+          "share": 0.0529,
+          "asin_count": 1
+        }
+      ],
+      "brand_total_count": 19,
+      "asin_total_count": 21,
+      "data_quality": "ok"
+    },
+    "S031": {
+      "cr3": 1.0,
+      "veto_flag": false,
+      "is_emerging": true,
+      "total_revenue": 1869.0,
+      "top_brands": [
+        {
+          "brand": "Snore Circle",
+          "revenue": 1869.0,
+          "share": 1.0,
+          "asin_count": 1
+        }
+      ],
+      "brand_total_count": 1,
+      "asin_total_count": 1,
+      "data_quality": "thin_sample"
+    },
+    "S060": {
+      "cr3": 0.9382,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 1767105.79,
+      "top_brands": [
+        {
+          "brand": "Braun",
+          "revenue": 1473407.32,
+          "share": 0.8338,
+          "asin_count": 1
+        },
+        {
+          "brand": "DermRays",
+          "revenue": 96831.0,
+          "share": 0.0548,
+          "asin_count": 2
+        },
+        {
+          "brand": "VITALY",
+          "revenue": 87650.82,
+          "share": 0.0496,
+          "asin_count": 4
+        },
+        {
+          "brand": "Finequin",
+          "revenue": 45732.91,
+          "share": 0.0259,
+          "asin_count": 4
+        },
+        {
+          "brand": "Epilady",
+          "revenue": 21890.0,
+          "share": 0.0124,
+          "asin_count": 2
+        }
+      ],
+      "brand_total_count": 17,
+      "asin_total_count": 25,
+      "data_quality": "ok"
+    },
+    "S076": {
+      "cr3": 0.9658,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 947174.43,
+      "top_brands": [
+        {
+          "brand": "Yuposl",
+          "revenue": 835494.8,
+          "share": 0.8821,
+          "asin_count": 3
+        },
+        {
+          "brand": "DUDUPET",
+          "revenue": 56649.91,
+          "share": 0.0598,
+          "asin_count": 6
+        },
+        {
+          "brand": "Chloraeon",
+          "revenue": 22637.17,
+          "share": 0.0239,
+          "asin_count": 1
+        },
+        {
+          "brand": "Harich CurLife",
+          "revenue": 11570.19,
+          "share": 0.0122,
+          "asin_count": 2
+        },
+        {
+          "brand": "Arf Pets",
+          "revenue": 4482.47,
+          "share": 0.0047,
+          "asin_count": 2
+        }
+      ],
+      "brand_total_count": 13,
+      "asin_total_count": 22,
+      "data_quality": "ok"
+    },
+    "S080": {
+      "cr3": 1.0,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 401347.5,
+      "top_brands": [
+        {
+          "brand": "Fi",
+          "revenue": 391644.0,
+          "share": 0.9758,
+          "asin_count": 2
+        },
+        {
+          "brand": "Invisible Fence",
+          "revenue": 5249.85,
+          "share": 0.0131,
+          "asin_count": 1
+        },
+        {
+          "brand": "BOMERAHE",
+          "revenue": 4453.65,
+          "share": 0.0111,
+          "asin_count": 2
+        }
+      ],
+      "brand_total_count": 3,
+      "asin_total_count": 5,
+      "data_quality": "thin_sample"
+    },
+    "S142": {
+      "cr3": 0.9176,
+      "veto_flag": true,
+      "is_emerging": false,
+      "total_revenue": 1235662.28,
+      "top_brands": [
+        {
+          "brand": "ECOVACS",
+          "revenue": 904692.3,
+          "share": 0.7322,
+          "asin_count": 4
+        },
+        {
+          "brand": "BOJUK",
+          "revenue": 122745.09,
+          "share": 0.0993,
+          "asin_count": 2
+        },
+        {
+          "brand": "Anminto",
+          "revenue": 106413.51,
+          "share": 0.0861,
+          "asin_count": 5
+        },
+        {
+          "brand": "ROVIA",
+          "revenue": 33737.59,
+          "share": 0.0273,
+          "asin_count": 1
+        },
+        {
+          "brand": "Frexusuent",
+          "revenue": 16309.23,
+          "share": 0.0132,
+          "asin_count": 1
+        }
+      ],
+      "brand_total_count": 13,
+      "asin_total_count": 22,
+      "data_quality": "ok"
+    },
+    "S187": {
+      "cr3": 0.9442,
+      "veto_flag": false,
+      "is_emerging": true,
+      "total_revenue": 49435.11,
+      "top_brands": [
+        {
+          "brand": "GoCube",
+          "revenue": 30154.85,
+          "share": 0.61,
+          "asin_count": 1
+        },
+        {
+          "brand": "LOFTEK",
+          "revenue": 14937.51,
+          "share": 0.3022,
+          "asin_count": 1
+        },
+        {
+          "brand": "Digi-Pas",
+          "revenue": 1584.0,
+          "share": 0.032,
+          "asin_count": 1
+        },
+        {
+          "brand": "GAN",
+          "revenue": 1399.6,
+          "share": 0.0283,
+          "asin_count": 1
+        },
+        {
+          "brand": "eX-Mars",
+          "revenue": 1359.15,
+          "share": 0.0275,
+          "asin_count": 1
+        }
+      ],
+      "brand_total_count": 5,
+      "asin_total_count": 5,
+      "data_quality": "thin_sample"
+    }
+  }
+}
