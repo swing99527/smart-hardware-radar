@@ -53,10 +53,10 @@ def llm_keyword_extraction(raw_title):
     model_name = os.getenv("LLM_MODEL", "gpt-4o-mini")
     
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"}
-    prompt = f'You are an expert hardware analyst. Strip brand names and marketing buzzwords from this product title and return ONLY the generic 2-to-4 word English category name.
+    prompt = f"""You are an expert hardware analyst. Strip brand names and marketing buzzwords from this product title and return ONLY the generic 2-to-4 word English category name.
 Example: "Oura Ring Gen 3: The Ultimate Health Tracking Smart Ring" -> "Smart Ring Health Tracker"
 Title: "{raw_title}"
-Output:'
+Output:"""
     
     data = {"model": model_name, "messages": [{"role": "user", "content": prompt}], "temperature": 0.1, "max_tokens": 10}
     
