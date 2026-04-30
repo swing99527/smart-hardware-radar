@@ -512,6 +512,16 @@
         "Auto-Discovered",
         "LLM-Processed"
       ]
+    },
+    {
+      "id": "A037",
+      "name": "【AI自动嗅探】Wearable Devices",
+      "name_en": "Wearable Devices",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
     }
   ]
 }
