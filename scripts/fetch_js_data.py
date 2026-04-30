@@ -45,7 +45,7 @@ def fetch_category_data(cat):
         return False
 
     # 1. Fetch L3 - Product Database (Sales/Revenue Data)
-    cmd3 = f"accio-mcp-cli call js_product_database_query --json '{{\"include_keywords\": [\"{kw}\"], \"marketplace\": \"us\", \"min_revenue\": 1000, \"page_size\": 30}}'"
+    cmd3 = f"/Users/chenshangwei/Library/Accio/external-tools/v67885616ab00/accio-mcp-cli call js_product_database_query --json '{{\"include_keywords\": [\"{kw}\"], \"marketplace\": \"us\", \"min_revenue\": 1000, \"page_size\": 30}}'"
     print("    -> Querying Top 30 ASINs Revenue...")
     items3 = run_mcp(cmd3)
     
@@ -80,7 +80,7 @@ def fetch_category_data(cat):
     time.sleep(3) # 防熔断冷却
 
     # 2. Fetch L2 - Keyword Search Volume
-    cmd2 = f"accio-mcp-cli call js_keywords_by_keyword --json '{{\"search_terms\": \"{kw}\", \"marketplace\": \"us\", \"page_size\": 5}}'"
+    cmd2 = f"/Users/chenshangwei/Library/Accio/external-tools/v67885616ab00/accio-mcp-cli call js_keywords_by_keyword --json '{{\"search_terms\": \"{kw}\", \"marketplace\": \"us\", \"page_size\": 5}}'"
     print("    -> Querying Search Volume...")
     items2 = run_mcp(cmd2)
     
