@@ -1,4 +1,85 @@
 {
   "schema_version": "2.1",
-  "categories": []
+  "categories": [
+    {
+      "id": "A001",
+      "name": "【AI自动嗅探】Smart Glasses",
+      "name_en": "Smart Glasses",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A002",
+      "name": "【AI自动嗅探】Open-Back Gaming Headset",
+      "name_en": "Open-Back Gaming Headset",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A003",
+      "name": "【AI自动嗅探】Robot Mop",
+      "name_en": "Robot Mop",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A004",
+      "name": "【AI自动嗅探】Ping-Pong Robot",
+      "name_en": "Ping-Pong Robot",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A005",
+      "name": "【AI自动嗅探】Smartphone",
+      "name_en": "Smartphone",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A006",
+      "name": "【AI自动嗅探】Humanoid Robot",
+      "name_en": "Humanoid Robot",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A007",
+      "name": "【AI自动嗅探】Compact Keyboard Smartphone",
+      "name_en": "Compact Keyboard Smartphone",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A008",
+      "name": "【AI自动嗅探】Smartwatch",
+      "name_en": "Smartwatch",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    }
+  ]
 }
