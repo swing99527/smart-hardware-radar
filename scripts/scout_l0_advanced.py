@@ -13,12 +13,19 @@ FEEDS = [
     {"name": "Product Hunt", "url": "https://www.producthunt.com/feed"},
     {"name": "Kickstarter Tech", "url": "https://www.kickstarter.com/projects/feed.atom?category_id=16"},
     {"name": "Kickstarter Design", "url": "https://www.kickstarter.com/projects/feed.atom?category_id=7"},
+    # Reddit RSS 总是 403 封杀爬虫，我们加上伪装的 Header
     {"name": "Reddit Gadgets", "url": "https://www.reddit.com/r/gadgets/hot.rss"}
 ]
 
 def fetch_rss(url):
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        # 增加更真实的 User-Agent 以绕过 Reddit 等平台的反爬机制
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5'
+        }
+        req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=30) as response:
             return response.read()
     except Exception as e:
@@ -35,6 +42,7 @@ def parse_feed(xml_data, source_name):
             title_node = entry.find("atom:title", ns)
             if title_node is not None:
                 title = title_node.text
+                # 加入更严苛的硬件词性过滤，减少 LLM 处理非硬件新闻的成本
                 if re.search(r'(device|wearable|hardware|smart|AI|gadget|robot|camera|sensor|audio|tracker|monitor)', title, re.IGNORECASE):
                     items.append(title)
     except Exception:
@@ -45,7 +53,6 @@ def llm_keyword_extraction(raw_title):
     api_key = os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY")
     if not api_key: return None
         
-    # 通用化配置：支持 DeepSeek, 硅基流动, 通义千问等任何兼容 OpenAI 格式的 API
     base_url = os.getenv("LLM_BASE_URL", "https://api.openai.com/v1/chat/completions")
     if not base_url.endswith("/chat/completions"):
         base_url = base_url.rstrip("/") + "/chat/completions"
@@ -53,8 +60,16 @@ def llm_keyword_extraction(raw_title):
     model_name = os.getenv("LLM_MODEL", "gpt-4o-mini")
     
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"}
-    prompt = f"""You are an expert hardware analyst. Strip brand names and marketing buzzwords from this product title and return ONLY the generic 2-to-4 word English category name.
-Example: "Oura Ring Gen 3: The Ultimate Health Tracking Smart Ring" -> "Smart Ring Health Tracker"
+    
+    # 增加更强烈的指令，让大模型直接过滤掉非硬件的垃圾项目（比如书、电影、保健品等）
+    prompt = f"""You are an expert hardware analyst. 
+Your task is to strip brand names and marketing buzzwords from this product title and return ONLY the generic 2-to-4 word English category name.
+CRITICAL RULE: If the product is clearly NOT a physical technology hardware device (e.g. it is a book, a movie documentary, a software service, food, or a supplement), you MUST return the exact word "IGNORE".
+Example 1: "Oura Ring Gen 3: The Ultimate Health Tracking Smart Ring" -> "Smart Ring Health Tracker"
+Example 2: "Muslims in America Road Trip by Mahtab" -> "IGNORE"
+Example 3: "Journey Through Chai Documentary" -> "IGNORE"
+Example 4: "Plurai..." -> "IGNORE" (if it sounds like software or supplement)
+
 Title: "{raw_title}"
 Output:"""
     
@@ -90,7 +105,10 @@ def heuristic_keyword_extraction(raw_title):
 
 def clean_title_hybrid(raw_title):
     kw = llm_keyword_extraction(raw_title)
-    if kw: return kw, "LLM"
+    if kw: 
+        if kw.upper() == "IGNORE":
+            return None, "FILTERED"
+        return kw, "LLM"
     kw = heuristic_keyword_extraction(raw_title)
     if kw: return kw, "NLP"
     return None, None
@@ -113,6 +131,10 @@ def main():
     print("⚙️ Running Hybrid Cleaning Engine...")
     for t in raw_titles[:20]:
         kw, engine = clean_title_hybrid(t)
+        if engine == "FILTERED":
+            print(f"  [🛡️ FILTERED] '{t[:40]}...' -> NOT HARDWARE")
+            continue
+            
         if kw and len(kw) > 3:
             print(f"  [{engine}] '{t[:40]}...' -> {kw}")
             seed_keywords.add(kw)
