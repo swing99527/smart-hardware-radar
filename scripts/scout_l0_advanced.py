@@ -13,6 +13,8 @@ FEEDS = [
     {"name": "Product Hunt", "url": "https://www.producthunt.com/feed"},
     {"name": "Kickstarter Tech", "url": "https://www.kickstarter.com/projects/feed.atom?category_id=16"},
     {"name": "Kickstarter Design", "url": "https://www.kickstarter.com/projects/feed.atom?category_id=7"},
+    {"name": "TechCrunch Hardware", "url": "https://techcrunch.com/category/hardware/feed/"},
+    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml"},
     # Reddit RSS 总是 403 封杀爬虫，我们加上伪装的 Header
     {"name": "Reddit Gadgets", "url": "https://www.reddit.com/r/gadgets/hot.rss"}
 ]
