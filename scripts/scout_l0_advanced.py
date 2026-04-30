@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/chenshangwei/code/smart-hardware-radar")
+ROOT = Path(__file__).resolve().parent.parent
 CAT_FILE = ROOT / "data" / "categories.json"
 
 FEEDS = [
@@ -19,7 +19,7 @@ FEEDS = [
 def fetch_rss(url):
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=30) as response:
             return response.read()
     except Exception as e:
         print(f"[!] Error fetching {url}: {e}")
@@ -62,7 +62,7 @@ Output:"""
     
     try:
         req = urllib.request.Request(base_url, data=json.dumps(data).encode('utf-8'), headers=headers)
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=30) as response:
             result = json.loads(response.read().decode('utf-8'))
             return result['choices'][0]['message']['content'].strip(' "\'.')
     except Exception as e:
