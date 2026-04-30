@@ -39,16 +39,34 @@ def parse_feed(xml_data, source_name):
     if not xml_data: return items
     try:
         root = ET.fromstring(xml_data)
-        ns = {"atom": "http://www.w3.org/2005/Atom"}
-        for entry in root.findall("atom:entry", ns):
-            title_node = entry.find("atom:title", ns)
-            if title_node is not None:
-                title = title_node.text
-                # 加入更严苛的硬件词性过滤，减少 LLM 处理非硬件新闻的成本
-                if re.search(r'(device|wearable|hardware|smart|AI|gadget|robot|camera|sensor|audio|tracker|monitor)', title, re.IGNORECASE):
-                    items.append(title)
-    except Exception:
-        pass
+        # 兼容 Atom 和 RSS 格式
+        ns_atom = {"atom": "http://www.w3.org/2005/Atom"}
+        
+        # 尝试 Atom 格式
+        entries = root.findall("atom:entry", ns_atom)
+        if entries:
+            for entry in entries:
+                title_node = entry.find("atom:title", ns_atom)
+                link_node = entry.find("atom:link", ns_atom)
+                link = link_node.attrib.get('href') if link_node is not None else ""
+                
+                if title_node is not None:
+                    title = title_node.text
+                    if re.search(r'(device|wearable|hardware|smart|AI|gadget|robot|camera|sensor|audio|tracker|monitor)', title, re.IGNORECASE):
+                        items.append({"title": title, "link": link})
+        else:
+            # 尝试 RSS 2.0 格式
+            for item in root.findall(".//item"):
+                title_node = item.find("title")
+                link_node = item.find("link")
+                title = title_node.text if title_node is not None else ""
+                link = link_node.text if link_node is not None else ""
+                
+                if title and re.search(r'(device|wearable|hardware|smart|AI|gadget|robot|camera|sensor|audio|tracker|monitor)', title, re.IGNORECASE):
+                    items.append({"title": title, "link": link})
+                    
+    except Exception as e:
+        print(f"    [!] Error parsing feed: {e}")
     return items
 
 def llm_keyword_extraction(raw_title):
@@ -120,18 +138,26 @@ def main():
     if os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY"): print(f"  -> 🧠 LLM Brain Connected ({os.getenv('LLM_MODEL', 'gpt-4o-mini')} API detected)")
     else: print("  -> ⚠️ No LLM_API_KEY found. Running in NLP Heuristic Fallback mode.")
         
-    raw_titles = []
+    raw_items = []
     for feed in FEEDS:
         xml = fetch_rss(feed['url'])
-        titles = parse_feed(xml, feed['name'])
-        raw_titles.extend(titles)
+        items = parse_feed(xml, feed['name'])
+        raw_items.extend(items)
         
-    raw_titles = list(set(raw_titles))
-    print(f"\n🎯 Total raw hardware-related mutants found today: {len(raw_titles)}")
+    # 根据标题去重
+    seen_titles = set()
+    unique_items = []
+    for item in raw_items:
+        if item['title'] not in seen_titles:
+            seen_titles.add(item['title'])
+            unique_items.append(item)
+
+    print(f"\n🎯 Total raw hardware-related mutants found today: {len(unique_items)}")
     
-    seed_keywords = set()
+    seed_data = {} # cleaned_kw -> {title, link}
     print("⚙️ Running Hybrid Cleaning Engine...")
-    for t in raw_titles[:20]:
+    for item in unique_items[:30]: # 增加到 30 个，因为有过滤逻辑
+        t = item['title']
         kw, engine = clean_title_hybrid(t)
         if engine == "FILTERED":
             print(f"  [🛡️ FILTERED] '{t[:40]}...' -> NOT HARDWARE")
@@ -139,7 +165,9 @@ def main():
             
         if kw and len(kw) > 3:
             print(f"  [{engine}] '{t[:40]}...' -> {kw}")
-            seed_keywords.add(kw)
+            # 如果同一个品类词多次出现，保留第一个发现的链接
+            if kw not in seed_data:
+                seed_data[kw] = {"source_title": t, "source_url": item['link']}
             
     if not CAT_FILE.exists():
         CAT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -152,15 +180,21 @@ def main():
     new_added = 0
     
     print("\n📦 Injecting into Radar Pipeline:")
-    for kw in seed_keywords:
+    for kw, meta in seed_data.items():
         if kw.lower() not in existing_kws:
             new_id = f"A{next_id:03d}"
             cats_doc["categories"].append({
-                "id": new_id, "name": f"【AI自动嗅探】{kw}", "name_en": kw,
-                "status": "scouted", "tags": ["Auto-Discovered", "LLM-Processed"]
+                "id": new_id, 
+                "name": f"【AI自动嗅探】{kw}", 
+                "name_en": kw,
+                "source_title": meta['source_title'],
+                "source_url": meta['source_url'],
+                "status": "scouted", 
+                "tags": ["Auto-Discovered", "LLM-Processed"]
             })
             next_id += 1
             new_added += 1
+
             
     if new_added > 0:
         CAT_FILE.write_text(json.dumps(cats_doc, indent=2, ensure_ascii=False))
