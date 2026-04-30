@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/chenshangwei/code/smart-hardware-radar")
+ROOT = Path(__file__).resolve().parent.parent
 CAT_FILE = ROOT / "data" / "categories.json"
 
 def main():
