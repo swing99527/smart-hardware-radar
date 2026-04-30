@@ -56,7 +56,25 @@ def fetch_category_data(cat):
     total_revenue = 0
     brand_revenues = {}
     
+    # 智能硬件类目白名单
+    HARDWARE_DEPARTMENTS = [
+        "Electronics", "Tools & Home Improvement", "Home & Kitchen", 
+        "Appliances", "Computers & Accessories", "Cell Phones & Accessories",
+        "Sports & Outdoors", "Musical Instruments", "Toys & Games"
+    ]
+    
     if items3:
+        # 统计类目分布
+        categories = [it.get("attributes", {}).get("category") for it in items3[:10]]
+        hw_match = sum(1 for c in categories if c in HARDWARE_DEPARTMENTS)
+        
+        if hw_match < 4: # 如果前10个产品里，硬件类目占比不到40%，基本判定为误报
+            print(f"    [🛡️ FILTERED] Detected non-hardware categories: {set(categories)}")
+            cat['status'] = 'vetoed'
+            if 'tags' not in cat: cat['tags'] = []
+            cat['tags'].append("Non-Hardware Category")
+            return False
+
         for it in items3:
             a = it.get("attributes", {})
             rev = float(a.get("approximate_30_day_revenue") or a.get("revenue") or 0)
