@@ -10,12 +10,24 @@ ROOT = Path(__file__).resolve().parent.parent
 CAT_FILE = ROOT / "data" / "categories.json"
 
 FEEDS = [
+    # --- 众筹阵地 ---
     {"name": "Product Hunt", "url": "https://www.producthunt.com/feed"},
     {"name": "Kickstarter Tech", "url": "https://www.kickstarter.com/projects/feed.atom?category_id=16"},
     {"name": "Kickstarter Design", "url": "https://www.kickstarter.com/projects/feed.atom?category_id=7"},
+    {"name": "Indiegogo Tech", "url": "https://www.indiegogo.com/projects/feed"},
+
+    # --- 极客与技术源头 ---
+    {"name": "Hacker News Show", "url": "https://news.ycombinator.com/showrss"},
+    {"name": "Yanko Design", "url": "https://www.yankodesign.com/feed/"},
+
+    # --- 头部科技媒体 ---
     {"name": "TechCrunch Hardware", "url": "https://techcrunch.com/category/hardware/feed/"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml"},
     {"name": "Engadget", "url": "https://www.engadget.com/rss.xml"},
-    # Reddit RSS 总是 403 封杀爬虫，我们加上伪装的 Header
+    {"name": "Gizmodo", "url": "https://gizmodo.com/rss"},
+    {"name": "SlashGear", "url": "https://www.slashgear.com/feed/"},
+
+    # --- 社区讨论 ---
     {"name": "Reddit Gadgets", "url": "https://www.reddit.com/r/gadgets/hot.rss"}
 ]
 
