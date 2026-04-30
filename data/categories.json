@@ -80,6 +80,30 @@
         "Auto-Discovered",
         "LLM-Processed"
       ]
+    },
+    {
+      "id": "A009",
+      "name": "【AI自动嗅探】Dictation Device",
+      "name_en": "Dictation Device",
+      "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
+      "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
+    },
+    {
+      "id": "A010",
+      "name": "【AI自动嗅探】Mini Desktop Computer",
+      "name_en": "Mini Desktop Computer",
+      "source_title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+      "source_url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ]
     }
   ]
 }
