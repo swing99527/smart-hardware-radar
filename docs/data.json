@@ -382,7 +382,189 @@
       "cr3": 42.0,
       "now_score": 68,
       "trend_score": 63
+    },
+    {
+      "id": "A024",
+      "name": "【AI自动嗅探】AI Report Generator",
+      "name_en": "AI Report Generator",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 369
+    },
+    {
+      "id": "A025",
+      "name": "【AI自动嗅探】Wearable Technology",
+      "name_en": "Wearable Technology",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 9282759.06,
+      "top_3_revenue": 9280321.16,
+      "js_search_volume": 347
+    },
+    {
+      "id": "A026",
+      "name": "【AI自动嗅探】Probiotic Supplement",
+      "name_en": "Probiotic Supplement",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 2931066.2699999996,
+      "top_3_revenue": 2530860.17,
+      "js_search_volume": 266
+    },
+    {
+      "id": "A027",
+      "name": "【AI自动嗅探】Shifter Romance Omnibus",
+      "name_en": "Shifter Romance Omnibus",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 450
+    },
+    {
+      "id": "A028",
+      "name": "【AI自动嗅探】Messaging Service",
+      "name_en": "Messaging Service",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 0
+    },
+    {
+      "id": "A029",
+      "name": "【AI自动嗅探】Documentary Film",
+      "name_en": "Documentary Film",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 358
+    },
+    {
+      "id": "A030",
+      "name": "【AI自动嗅探】Vector Database",
+      "name_en": "Vector Database",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 450
+    },
+    {
+      "id": "A031",
+      "name": "【AI自动嗅探】AI Skills Assessment",
+      "name_en": "AI Skills Assessment",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 984
+    },
+    {
+      "id": "A032",
+      "name": "【AI自动嗅探】Travel Photography Book",
+      "name_en": "Travel Photography Book",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 335
+    },
+    {
+      "id": "A033",
+      "name": "【AI自动嗅探】Book",
+      "name_en": "Book",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 140906.46000000002,
+      "top_3_revenue": 135308.33000000002,
+      "js_search_volume": 251
+    },
+    {
+      "id": "A034",
+      "name": "【AI自动嗅探】AI Platform",
+      "name_en": "AI Platform",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 2071.63,
+      "top_3_revenue": 2071.63,
+      "js_search_volume": 450
+    },
+    {
+      "id": "A035",
+      "name": "【AI自动嗅探】Kitchen Spatula",
+      "name_en": "Kitchen Spatula",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 47149.95,
+      "top_3_revenue": 43381.25,
+      "js_search_volume": 287
+    },
+    {
+      "id": "A036",
+      "name": "【AI自动嗅探】Sci-Fi Comic Series",
+      "name_en": "Sci-Fi Comic Series",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 0,
+      "top_3_revenue": 0,
+      "js_search_volume": 450
+    },
+    {
+      "id": "A037",
+      "name": "【AI自动嗅探】Wearable Devices",
+      "name_en": "Wearable Devices",
+      "status": "data_fetched",
+      "tags": [
+        "Auto-Discovered",
+        "LLM-Processed"
+      ],
+      "total_revenue": 36870.79,
+      "top_3_revenue": 36870.79,
+      "js_search_volume": 344
     }
   ],
-  "last_updated": "2026-04-29 18:09:06"
+  "last_updated": "2026-04-30 11:07:38"
 }
