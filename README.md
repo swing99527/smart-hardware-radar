@@ -46,13 +46,34 @@
 - Agentic edge hardware：扩展监控本地 AI 盒子、AI 摄像头、AI recorder、AI keyboard/command deck、机器人 agent kit、AI dev kit 等 agent + 物理 I/O 组合
 - 数据源凭据：GitHub / Reddit / LLM 的 token 和 API key 配置见 `docs/data_source_credentials.md`
 - `v2/input/`：微观产品拆解数据 (Jungle Scout MCP 产出的具体 ASIN 和 PPC 竞价)
-- `docs/`：纯静态 HTML 高密度指挥大屏与 GitHub Pages 数据文件
+- `web/`：Dashboard 源码，使用 Vite + Vue + Tailwind 本地构建
+- `docs/`：GitHub Pages 静态产物与数据文件；`docs/index.html` 不再依赖 Tailwind/Vue CDN
 
 ```text
 ├── .env                  # (需手动创建) 本地密钥与环境变量
 ├── README.md             # 项目简介
 ├── data/                 # (数据库) 宏观 JSON 事实源
-├── docs/                 # (文档 + 前端展现) GitHub Pages 大屏
+├── docs/                 # (构建产物 + 数据) GitHub Pages 大屏
+├── web/                  # Dashboard 前端源码
 ├── v2/input/             # (离线输入层) JS 等工具拆解的具体 ASIN 和关键词数据
 └── scripts/              # (核心引擎)
 ```
+
+## Dashboard 构建与 GitHub Pages
+
+Dashboard 源码在 `web/`，构建产物输出到 `docs/`，因此 GitHub Pages 仍可配置为从 `main` 分支的 `/docs` 目录发布。
+
+本地构建：
+
+```bash
+npm ci
+npm run build
+```
+
+本地开发：
+
+```bash
+npm run dev
+```
+
+每日自动采集 workflow 会在 `scripts/sync_data.py` 后执行 `npm ci && npm run build`，并把 `docs/index.html`、`docs/assets/`、`docs/data.json` 一起提交。也就是说 GitHub Pages 自身不需要理解 Vite；Actions 会先构建出静态文件，Pages 只负责发布 `docs/`。

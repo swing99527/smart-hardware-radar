@@ -22,6 +22,15 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: 🟢 Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: 📦 Install Frontend Dependencies
+        run: npm ci
+
       - name: ✅ Run Unit Tests
         run: python -m unittest discover -s tests
 
@@ -45,11 +54,14 @@ jobs:
       - name: 📊 Sync GitHub Pages Data
         run: python scripts/sync_data.py
 
+      - name: 🧱 Build GitHub Pages Dashboard
+        run: npm run build
+
       - name: 📤 Commit and Push New Mutants
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/categories.json data/categories_scored.json data/signals.json data/source_health.json data/watch_topics.json data/trend_clusters.json data/trend_runs.json docs/data.json
+          git add data/categories.json data/categories_scored.json data/signals.json data/source_health.json data/watch_topics.json data/trend_clusters.json data/trend_runs.json docs/index.html docs/assets docs/data.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
             git commit -m "🤖 Auto-Scout: 发现新的智能硬件变异品种"
             git push
