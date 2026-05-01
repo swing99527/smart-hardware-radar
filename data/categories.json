@@ -1,5 +1,56 @@
 {
   "schema_version": "2.1",
   "methodology_version": "1.0",
-  "categories": []
+  "categories": [
+    {
+      "id": "A001",
+      "name": "【证据聚类】Smart Home Security Device",
+      "name_en": "Smart Home Security Device",
+      "name_zh": "智能家居安防设备",
+      "cluster_key": "cluster:smart_home_security",
+      "cluster_members": [
+        "Outdoor Camera",
+        "Smart Deadbolt",
+        "Smart Lock",
+        "Smart Lock Doorbell Camera",
+        "Video Doorbell Local Recording"
+      ],
+      "source_title": "Outdoor camera for remote viewing without monthly fees?",
+      "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084"
+      ],
+      "confidence": 0.86,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 2.08,
+        "matched_watch_topics": [
+          "hardware_intersections"
+        ],
+        "candidate_keys": [
+          "outdoor camera",
+          "smart deadbolt",
+          "smart lock",
+          "smart lock doorbell camera",
+          "video doorbell local recording"
+        ],
+        "l0_confidence": 0.86
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
+    }
+  ]
 }

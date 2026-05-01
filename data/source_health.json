@@ -13,8 +13,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 4,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "auth_mode": "none"
     },
     {
@@ -27,9 +27,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 79,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 81,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "auth_mode": "none"
     },
     {
@@ -41,9 +41,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 5,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 7,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -53,18 +53,18 @@
       "source_language": "unknown",
       "url": "https://api.github.com/search/repositories?q=%22edge%20AI%22%20camera%20OR%20%22local%20AI%20camera%22%20OR%20%22RTSP%20AI%22%20OR%20%22ONVIF%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-17&sort=stars&order=desc&per_page=10",
       "query": "\"edge AI\" camera OR \"local AI camera\" OR \"RTSP AI\" OR \"ONVIF AI\" stars:>25 pushed:>2026-03-17",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "16",
+        "x-ratelimit-reset": "1777666186"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": null,
-      "auth_mode": "anonymous"
+      "item_count": 10,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub AI Recorder Device",
@@ -72,18 +72,18 @@
       "source_language": "unknown",
       "url": "https://api.github.com/search/repositories?q=%22AI%20recorder%22%20OR%20%22local%20transcription%22%20OR%20%22offline%20speech%22%20OR%20%22Whisper%20device%22%20stars%3A%3E25%20pushed%3A%3E2026-03-17&sort=stars&order=desc&per_page=10",
       "query": "\"AI recorder\" OR \"local transcription\" OR \"offline speech\" OR \"Whisper device\" stars:>25 pushed:>2026-03-17",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "15",
+        "x-ratelimit-reset": "1777666186"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": null,
-      "auth_mode": "anonymous"
+      "item_count": 5,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Agentic Edge Hardware",
@@ -92,17 +92,17 @@
       "url": "https://api.github.com/search/repositories?q=%22local%20AI%20agent%22%20OR%20%22edge%20AI%22%20OR%20%22on-device%20AI%22%20camera%20OR%20robot%20OR%20keyboard%20OR%20recorder%20OR%20sensor%20OR%20gateway%20OR%20Jetson%20OR%20Hailo%20stars%3A%3E25%20pushed%3A%3E2026-03-17&sort=stars&order=desc&per_page=10",
       "query": "\"local AI agent\" OR \"edge AI\" OR \"on-device AI\" camera OR robot OR keyboard OR recorder OR sensor OR gateway OR Jetson OR Hailo stars:>25 pushed:>2026-03-17",
       "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "http_status": 422,
+      "error": "HTTP Error 422: Unprocessable Entity",
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "18",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
       "last_success_at": null,
-      "auth_mode": "anonymous"
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Claude Code Ecosystem",
@@ -114,14 +114,14 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "3",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "23",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 10,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
-      "auth_mode": "anonymous"
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Codex Ecosystem",
@@ -133,14 +133,14 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "2",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "22",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 10,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
-      "auth_mode": "anonymous"
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Edge AI Camera",
@@ -151,15 +151,15 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "9",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "unknown",
-      "auth_mode": "anonymous"
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Gemini Code Ecosystem",
@@ -171,14 +171,14 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "1",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "21",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 10,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
-      "auth_mode": "anonymous"
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Local AI Box",
@@ -187,17 +187,17 @@
       "url": "https://api.github.com/search/repositories?q=%22local%20AI%22%20box%20OR%20gateway%20OR%20hub%20OR%20Jetson%20OR%20Hailo%20OR%20RK3588%20OR%20%22Ryzen%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-17&sort=stars&order=desc&per_page=10",
       "query": "\"local AI\" box OR gateway OR hub OR Jetson OR Hailo OR RK3588 OR \"Ryzen AI\" stars:>25 pushed:>2026-03-17",
       "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "http_status": 422,
+      "error": "HTTP Error 422: Unprocessable Entity",
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "17",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
       "last_success_at": null,
-      "auth_mode": "anonymous"
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub On Device AI",
@@ -208,15 +208,15 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "5",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "25",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 3,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "unknown",
-      "auth_mode": "anonymous"
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub OpenClaw Camera Node",
@@ -224,18 +224,18 @@
       "source_language": "unknown",
       "url": "https://api.github.com/search/repositories?q=openclaw%20camera%20stars%3A%3E10%20pushed%3A%3E2026-03-17&sort=stars&order=desc&per_page=10",
       "query": "openclaw camera stars:>10 pushed:>2026-03-17",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "19",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": null,
-      "auth_mode": "anonymous"
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub OpenClaw Ecosystem",
@@ -247,14 +247,14 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "4",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "24",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 10,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
-      "auth_mode": "anonymous"
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub OpenClaw Hardware Bridge",
@@ -266,14 +266,14 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "20",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 10,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
-      "auth_mode": "anonymous"
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Robot Agent Kit",
@@ -281,18 +281,18 @@
       "source_language": "unknown",
       "url": "https://api.github.com/search/repositories?q=%22robot%20agent%22%20OR%20%22embodied%20AI%22%20OR%20%22robot%20controller%22%20OR%20%22local%20robot%20agent%22%20stars%3A%3E25%20pushed%3A%3E2026-03-17&sort=stars&order=desc&per_page=10",
       "query": "\"robot agent\" OR \"embodied AI\" OR \"robot controller\" OR \"local robot agent\" stars:>25 pushed:>2026-03-17",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "14",
+        "x-ratelimit-reset": "1777666186"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": null,
-      "auth_mode": "anonymous"
+      "item_count": 10,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Robotics AI Hardware",
@@ -303,15 +303,15 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "8",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "28",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "unknown",
-      "auth_mode": "anonymous"
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Voice AI Device",
@@ -322,15 +322,15 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "6",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "26",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "unknown",
-      "auth_mode": "anonymous"
+      "auth_mode": "token"
     },
     {
       "source_name": "GitHub Wearable AI",
@@ -341,15 +341,15 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "7",
-        "x-ratelimit-reset": "1777642139"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "27",
+        "x-ratelimit-reset": "1777666186"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "unknown",
-      "auth_mode": "anonymous"
+      "auth_mode": "token"
     },
     {
       "source_name": "Gizmodo",
@@ -362,8 +362,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 27,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "auth_mode": "none"
     },
     {
@@ -375,9 +375,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 5,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 4,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -390,9 +390,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 3,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 5,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -407,8 +407,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 102,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "auth_mode": "none"
     },
     {
@@ -420,9 +420,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 9,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 11,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -435,9 +435,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 9,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 11,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -451,9 +451,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 46,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 52,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "auth_mode": "none"
     },
     {
@@ -465,9 +465,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 9,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 8,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -475,103 +475,109 @@
       "source_name": "Reddit Agentic Edge Hardware Search",
       "source_type": "community",
       "source_language": "en",
-      "url": "https://www.reddit.com/search.json?q=%28%22local+AI+agent%22+OR+%22edge+AI%22+OR+%22on-device+AI%22+OR+%22AI+agent%22+OR+MCP+OR+%22home+assistant%22%29+%28camera+OR+robot+OR+keyboard+OR+recorder+OR+microphone+OR+sensor+OR+%22edge+device%22+OR+%22AI+box%22+OR+gateway+OR+Jetson+OR+Hailo+OR+RK3588+OR+%22Ryzen+AI%22%29&sort=new&t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/search.json?q=%28%22local+AI+agent%22+OR+%22edge+AI%22+OR+%22on-device+AI%22+OR+%22AI+agent%22+OR+MCP+OR+%22home+assistant%22%29+%28camera+OR+robot+OR+keyboard+OR+recorder+OR+microphone+OR+sensor+OR+%22edge+device%22+OR+%22AI+box%22+OR+gateway+OR+Jetson+OR+Hailo+OR+RK3588+OR+%22Ryzen+AI%22%29&sort=new&t=month&limit=50",
       "query": null,
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: Blocked",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "retry-after": "0"
+        "x-ratelimit-remaining": "994.0",
+        "x-ratelimit-reset": "74"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": null,
-      "auth_mode": "public_json"
+      "item_count": 25,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z"
     },
     {
       "source_name": "Reddit OpenClaw Hardware Search",
       "source_type": "community",
       "source_language": "en",
-      "url": "https://www.reddit.com/search.json?q=%28openclaw+OR+%22open+claw%22%29+%28hardware+OR+camera+OR+robot+OR+%22edge+device%22+OR+keyboard+OR+recorder+OR+%22local+device%22+OR+%22terminal+box%22%29&sort=new&t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/search.json?q=%28openclaw+OR+%22open+claw%22%29+%28hardware+OR+camera+OR+robot+OR+%22edge+device%22+OR+keyboard+OR+recorder+OR+%22local+device%22+OR+%22terminal+box%22%29&sort=new&t=month&limit=50",
       "query": null,
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: Blocked",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "retry-after": "0"
+        "x-ratelimit-remaining": "995.0",
+        "x-ratelimit-reset": "75"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": null,
-      "auth_mode": "public_json"
+      "item_count": 16,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z"
     },
     {
       "source_name": "Reddit r/gadgets",
       "source_type": "community",
-      "url": "https://www.reddit.com/r/gadgets/top.json?t=week&limit=50",
-      "query": null,
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: Blocked",
-      "rate_limit": {
-        "retry-after": "0"
-      },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T17:43:15.186352Z",
       "source_language": "unknown",
-      "auth_mode": "public_json"
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/gadgets/top.json?t=week&limit=50",
+      "query": null,
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
+      "rate_limit": {
+        "x-ratelimit-remaining": "999.0",
+        "x-ratelimit-reset": "76"
+      },
+      "item_count": 5,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z"
     },
     {
       "source_name": "Reddit r/hardware",
       "source_type": "community",
-      "url": "https://www.reddit.com/r/hardware/top.json?t=week&limit=50",
-      "query": null,
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: Blocked",
-      "rate_limit": {
-        "retry-after": "0"
-      },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T17:43:15.186352Z",
       "source_language": "unknown",
-      "auth_mode": "public_json"
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/hardware/top.json?t=week&limit=50",
+      "query": null,
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
+      "rate_limit": {
+        "x-ratelimit-remaining": "998.0",
+        "x-ratelimit-reset": "76"
+      },
+      "item_count": 9,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z"
     },
     {
       "source_name": "Reddit r/smarthome",
       "source_type": "community",
-      "url": "https://www.reddit.com/r/smarthome/top.json?t=week&limit=50",
-      "query": null,
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: Blocked",
-      "rate_limit": {
-        "retry-after": "0"
-      },
-      "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T17:43:15.186352Z",
       "source_language": "unknown",
-      "auth_mode": "public_json"
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/smarthome/top.json?t=week&limit=50",
+      "query": null,
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
+      "rate_limit": {
+        "x-ratelimit-remaining": "997.0",
+        "x-ratelimit-reset": "76"
+      },
+      "item_count": 18,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z"
     },
     {
       "source_name": "Reddit r/wearabletech",
       "source_type": "community",
-      "url": "https://www.reddit.com/r/wearabletech/top.json?t=month&limit=50",
+      "source_language": "unknown",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/wearabletech/top.json?t=month&limit=50",
       "query": null,
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: Blocked",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "retry-after": "0"
+        "x-ratelimit-remaining": "996.0",
+        "x-ratelimit-reset": "75"
       },
       "item_count": 0,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T17:43:15.186352Z",
-      "source_language": "unknown",
-      "auth_mode": "public_json"
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z"
     },
     {
       "source_name": "SlashGear",
@@ -582,9 +588,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 8,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 7,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -598,8 +604,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 12,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -612,9 +618,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 6,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 3,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -623,13 +629,13 @@
       "source_type": "media",
       "url": "https://www.yankodesign.com/feed/",
       "query": null,
-      "status": "ok",
+      "status": "fetch_ok_zero_items",
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 1,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "item_count": 0,
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -644,8 +650,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 2,
-      "checked_at": "2026-05-01T21:27:33.850915Z",
-      "last_success_at": "2026-05-01T21:27:33.850915Z",
+      "checked_at": "2026-05-01T20:08:31.823442Z",
+      "last_success_at": "2026-05-01T20:08:31.823442Z",
       "auth_mode": "none"
     }
   ]

@@ -1,10 +1,227 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-02T00:04:19.041879Z",
+  "generated_at": "2026-05-01T20:08:31.823442Z",
   "theses": [
     {
       "id": "M001",
+      "thesis_key": "agentic_edge_io_nodes",
+      "name": "Agentic edge I/O nodes",
+      "name_zh": "智能体边缘 I/O 节点",
+      "job_to_be_done": "Builders need local devices that let software agents see, hear and act in the physical environment without shipping every event to the cloud.",
+      "hardware_form_factors": [
+        "edge AI box",
+        "AI camera node",
+        "sensor gateway",
+        "robot agent kit"
+      ],
+      "buyer_segments": [
+        "AI builders",
+        "smart-home power users",
+        "robotics teams",
+        "industrial pilots"
+      ],
+      "evidence_status": "Warming",
+      "evidence_score": 70,
+      "source_mix": {
+        "developer": 4,
+        "community": 2,
+        "media": 4
+      },
+      "source_names": [
+        "Agentic Edge Hardware News",
+        "GitHub AI Camera Node",
+        "GitHub On Device AI",
+        "GitHub Robot Agent Kit",
+        "Gizmodo",
+        "OpenClaw Hardware News",
+        "Reddit Agentic Edge Hardware Search",
+        "Reddit OpenClaw Hardware Search"
+      ],
+      "signal_count": 40,
+      "trend_key": "watch:openclaw_hardware_bridge",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S008",
+        "S009",
+        "S010",
+        "S044",
+        "S045",
+        "S046",
+        "S047",
+        "S048",
+        "S049",
+        "S050",
+        "S051",
+        "S052",
+        "S053",
+        "S054",
+        "S055",
+        "S056",
+        "S057",
+        "S058",
+        "S059",
+        "S061",
+        "S062",
+        "S063",
+        "S064",
+        "S066",
+        "S067",
+        "S068",
+        "S069",
+        "S070",
+        "S072",
+        "S073",
+        "S074",
+        "S075",
+        "S077",
+        "S078",
+        "S079",
+        "S080",
+        "S081",
+        "S083",
+        "S085",
+        "S086"
+      ],
+      "top_signals": [
+        {
+          "id": "S064",
+          "source_name": "GitHub AI Camera Node",
+          "source_type": "developer",
+          "source_title": "bytedance/UI-TARS-desktop - The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+          "source_url": "https://github.com/bytedance/UI-TARS-desktop",
+          "signal_strength": 3.45
+        },
+        {
+          "id": "S070",
+          "source_name": "GitHub AI Camera Node",
+          "source_type": "developer",
+          "source_title": "alibaba/MNN - MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
+          "source_url": "https://github.com/alibaba/MNN",
+          "signal_strength": 3.45
+        },
+        {
+          "id": "S075",
+          "source_name": "GitHub AI Camera Node",
+          "source_type": "developer",
+          "source_title": "yomorun/yomo - 🦖 Serverless AI Agent Framework with Geo-distributed Edge AI Infra.",
+          "source_url": "https://github.com/yomorun/yomo",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S008",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
+          "source_url": "https://github.com/pytorch/executorch",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S009",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
+          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
+          "signal_strength": 2.45
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "Medium-high from Raspberry Pi, Jetson kits, cameras with built-in AI, and cloud automation stacks.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
+    },
+    {
+      "id": "M002",
+      "thesis_key": "local_first_smart_home_security",
+      "name": "Local-first smart home security",
+      "name_zh": "本地优先智能家居安防",
+      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
+      "hardware_form_factors": [
+        "outdoor camera",
+        "video doorbell",
+        "smart lock",
+        "home security hub"
+      ],
+      "buyer_segments": [
+        "homeowners",
+        "apartment renters",
+        "smart-home installers"
+      ],
+      "evidence_status": "Warming",
+      "evidence_score": 68,
+      "source_mix": {
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Gizmodo",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 5,
+      "trend_key": "cluster:smart_home_security",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084"
+      ],
+      "top_signals": [
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
+    },
+    {
+      "id": "M003",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -122,99 +339,76 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
     },
     {
-      "id": "M002",
-      "thesis_key": "agentic_edge_io_nodes",
-      "name": "Agentic edge I/O nodes",
-      "name_zh": "智能体边缘 I/O 节点",
-      "job_to_be_done": "Builders need local devices that let software agents see, hear and act in the physical environment without shipping every event to the cloud.",
+      "id": "M004",
+      "thesis_key": "ai_voice_capture_workflow",
+      "name": "AI voice capture workflow devices",
+      "name_zh": "AI语音采集工作流设备",
+      "job_to_be_done": "Knowledge workers want frictionless capture of meetings, field notes and ideas with local or private transcription paths.",
       "hardware_form_factors": [
-        "edge AI box",
-        "AI camera node",
-        "sensor gateway",
-        "robot agent kit"
+        "AI recorder",
+        "clip-on microphone",
+        "desk dictation device",
+        "offline transcription dock"
       ],
       "buyer_segments": [
-        "AI builders",
-        "smart-home power users",
-        "robotics teams",
-        "industrial pilots"
+        "operators",
+        "journalists",
+        "students",
+        "field sales teams"
       ],
       "evidence_status": "Watch",
-      "evidence_score": 65,
+      "evidence_score": 64,
       "source_mix": {
-        "developer": 2,
-        "media": 2
+        "developer": 1,
+        "media": 1
       },
       "source_names": [
-        "Agentic Edge Hardware News",
-        "GitHub On Device AI",
-        "OpenClaw Hardware News"
+        "GitHub AI Recorder Device",
+        "TechCrunch Hardware"
       ],
-      "signal_count": 19,
-      "trend_key": "watch:github_ai_projects",
+      "signal_count": 5,
+      "trend_key": "watch:ai_recorder",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
-        "S008",
-        "S009",
-        "S010",
-        "S044",
-        "S045",
-        "S046",
-        "S047",
-        "S048",
-        "S049",
-        "S050",
-        "S051",
-        "S052",
-        "S053",
-        "S054",
-        "S055",
-        "S056",
-        "S057",
-        "S058",
-        "S059"
+        "S002",
+        "S065",
+        "S071",
+        "S076",
+        "S082"
       ],
       "top_signals": [
         {
-          "id": "S008",
-          "source_name": "GitHub On Device AI",
+          "id": "S065",
+          "source_name": "GitHub AI Recorder Device",
           "source_type": "developer",
-          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
-          "source_url": "https://github.com/pytorch/executorch",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S009",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
-          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S010",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "NativeMindBrowser/NativeMindExtension - NativeMind: Your fully private, open-source, on-device AI assistant",
-          "source_url": "https://github.com/NativeMindBrowser/NativeMindExtension",
+          "source_title": "mkiol/dsnote - Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation.",
+          "source_url": "https://github.com/mkiol/dsnote",
           "signal_strength": 2.6
         },
         {
-          "id": "S044",
-          "source_name": "OpenClaw Hardware News",
-          "source_type": "media",
-          "source_title": "Build a More Secure, Always-On Local AI Agent with OpenClaw and NVIDIA NemoClaw | NVIDIA Technical Blog - NVIDIA Developer",
-          "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFp6STIydVdiUGZmV3ZIdW5sdFZKTUdGWGRwS0tpb1lxdU5IZDB3Q1doaGhRZ2szRk15QUFKc0dQTnc2bG1Uem9SdWV4T2JGaGU4LUIwQzQyR1dnSGZsXzFwRDFySWhCOHIwS21kQ2xjU01tb180b0lKNE5aUl9aRi1UVFg3dEVmSC1ieVFrc1pkZ0N0SHYwaXFJT0lDN2k1ZUh2Y09VY3BPWU9t?oc=5",
-          "signal_strength": 0.7
+          "id": "S071",
+          "source_name": "GitHub AI Recorder Device",
+          "source_type": "developer",
+          "source_title": "vilassn/whisper_android - Offline Speech Recognition with OpenAI Whisper and TensorFlow Lite for Android",
+          "source_url": "https://github.com/vilassn/whisper_android",
+          "signal_strength": 2.05
         },
         {
-          "id": "S046",
-          "source_name": "OpenClaw Hardware News",
+          "id": "S076",
+          "source_name": "GitHub AI Recorder Device",
+          "source_type": "developer",
+          "source_title": "Xingxun7777/Aria - Windows 本地 AI 语音输入法 — 离线语音识别，屏幕感知上下文，热词纠错，语音指令操作选区。Local AI voice typing for Windows — offline speech-to-text with screen-aware context.",
+          "source_url": "https://github.com/Xingxun7777/Aria",
+          "signal_strength": 2.05
+        },
+        {
+          "id": "S002",
+          "source_name": "TechCrunch Hardware",
           "source_type": "media",
-          "source_title": "China is putting OpenClaw into robots while the US debates the dangers of rogue AI - Business Insider",
-          "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR2NZNnNIRTFSN1ZWWk8tclhoNFEzb3dGMDhsUmRwY21fX2xWQU1vQkVpdzJ0UEJRMXl1MVU2eU5QanB2a3RnQjF6c1FlSGp0WF8wcDVuLVdwTjcwOUhGZ1Q2V3NiZDhqSHJnTGwxbEtpdDdLWlhKbEt2RHFYQ3VBTm1GUzh3Zw?oc=5",
-          "signal_strength": 0.7
+          "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
+          "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+          "signal_strength": 0.75
         }
       ],
       "missing_evidence": [
@@ -223,7 +417,7 @@
         "supply_chain",
         "productization"
       ],
-      "substitution_risk": "Medium-high from Raspberry Pi, Jetson kits, cameras with built-in AI, and cloud automation stacks.",
+      "substitution_risk": "Medium from smartphone apps, meeting bots and bundled OS transcription.",
       "next_validation": [
         "reddit_pain_scan",
         "google_trends_keyword_scan",
@@ -234,84 +428,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
     },
     {
-      "id": "M003",
-      "thesis_key": "local_first_smart_home_security",
-      "name": "Local-first smart home security",
-      "name_zh": "本地优先智能家居安防",
-      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
-      "hardware_form_factors": [
-        "outdoor camera",
-        "video doorbell",
-        "smart lock",
-        "home security hub"
-      ],
-      "buyer_segments": [
-        "homeowners",
-        "apartment renters",
-        "smart-home installers"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 61,
-      "source_mix": {
-        "community": 1
-      },
-      "source_names": [
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 4,
-      "trend_key": "cluster:smart_home_security",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007"
-      ],
-      "top_signals": [
-        {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
-          "signal_strength": 2.2
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
-    },
-    {
-      "id": "M004",
+      "id": "M005",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -369,7 +486,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M005",
+      "id": "M006",
       "thesis_key": "smart_audio_devices",
       "name": "Smart audio devices",
       "name_zh": "智能音频设备",
@@ -427,7 +544,59 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M006",
+      "id": "M007",
+      "thesis_key": "emerging_ai_translation_glasses",
+      "name": "AI Translation Glasses",
+      "name_zh": "AI Translation Glasses",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Translation Glasses"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 40,
+      "source_mix": {
+        "crowdfunding": 1
+      },
+      "source_names": [
+        "Kickstarter Tech"
+      ],
+      "signal_count": 1,
+      "trend_key": "ai translation glasses",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S060"
+      ],
+      "top_signals": [
+        {
+          "id": "S060",
+          "source_name": "Kickstarter Tech",
+          "source_type": "crowdfunding",
+          "source_title": "INMO GO3: Powerful AI Translation Glasses for All Day Wear by INMO",
+          "source_url": "https://www.kickstarter.com/projects/inmo-go3-ai-glasses/everyday-wear-ai-glasses",
+          "signal_strength": 2.45
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "supply_chain",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M008",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",
@@ -475,66 +644,6 @@
         "source_diversity"
       ],
       "substitution_risk": "High from mature peripheral brands and heavy price competition.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot"
-      ],
-      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
-    },
-    {
-      "id": "M007",
-      "thesis_key": "ai_voice_capture_workflow",
-      "name": "AI voice capture workflow devices",
-      "name_zh": "AI语音采集工作流设备",
-      "job_to_be_done": "Knowledge workers want frictionless capture of meetings, field notes and ideas with local or private transcription paths.",
-      "hardware_form_factors": [
-        "AI recorder",
-        "clip-on microphone",
-        "desk dictation device",
-        "offline transcription dock"
-      ],
-      "buyer_segments": [
-        "operators",
-        "journalists",
-        "students",
-        "field sales teams"
-      ],
-      "evidence_status": "Noise",
-      "evidence_score": 15,
-      "source_mix": {
-        "media": 1
-      },
-      "source_names": [
-        "TechCrunch Hardware"
-      ],
-      "signal_count": 1,
-      "trend_key": "cluster:ai_voice_capture",
-      "trend_status": "Noise",
-      "trend_reason": "media_only_awareness",
-      "evidence_signal_ids": [
-        "S002"
-      ],
-      "top_signals": [
-        {
-          "id": "S002",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
-          "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
-          "signal_strength": 0.75
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "Medium from smartphone apps, meeting bots and bundled OS transcription.",
       "next_validation": [
         "reddit_pain_scan",
         "google_trends_keyword_scan",
