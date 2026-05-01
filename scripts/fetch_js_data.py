@@ -7,10 +7,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CAT_FILE = ROOT / "data" / "categories.json"
+ACCIO_CLI = os.getenv(
+    "ACCIO_MCP_CLI",
+    "/Users/chenshangwei/Library/Accio/external-tools/v67885616ab00/accio-mcp-cli",
+)
 
-def run_mcp(cmd):
+def run_mcp(tool_name, payload):
     try:
-        res = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=60)
+        cmd = [ACCIO_CLI, "call", tool_name, "--json", json.dumps(payload, ensure_ascii=False)]
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
         if res.returncode != 0:
             # accio-mcp-cli 报错（可能包含 rate_limited 等）
             print(f"    [MCP Error] {res.stderr.strip()}")
@@ -28,10 +33,13 @@ def run_mcp(cmd):
             if start_idx != -1 and end_idx != -1:
                 return json.loads(output[start_idx:end_idx+1]).get("data", [])
             return None
+    except FileNotFoundError:
+        print(f"    [MCP Error] Accio CLI not found: {ACCIO_CLI}")
+        return None
     except subprocess.TimeoutExpired:
         print("    [MCP Timeout] Query took too long.")
         return None
-    except Exception as e:
+    except (OSError, json.JSONDecodeError) as e:
         print(f"    [Exception] {e}")
         return None
 
@@ -45,9 +53,16 @@ def fetch_category_data(cat):
         return False
 
     # 1. Fetch L3 - Product Database (Sales/Revenue Data)
-    cmd3 = f"/Users/chenshangwei/Library/Accio/external-tools/v67885616ab00/accio-mcp-cli call js_product_database_query --json '{{\"include_keywords\": [\"{kw}\"], \"marketplace\": \"us\", \"min_revenue\": 1000, \"page_size\": 30}}'"
     print("    -> Querying Top 30 ASINs Revenue...")
-    items3 = run_mcp(cmd3)
+    items3 = run_mcp(
+        "js_product_database_query",
+        {
+            "include_keywords": [kw],
+            "marketplace": "us",
+            "min_revenue": 1000,
+            "page_size": 30,
+        },
+    )
     
     if items3 is None:
         print("    [!] Failed to retrieve JS Product data. (Rate limit or API error)")
@@ -98,9 +113,15 @@ def fetch_category_data(cat):
     time.sleep(3) # 防熔断冷却
 
     # 2. Fetch L2 - Keyword Search Volume
-    cmd2 = f"/Users/chenshangwei/Library/Accio/external-tools/v67885616ab00/accio-mcp-cli call js_keywords_by_keyword --json '{{\"search_terms\": \"{kw}\", \"marketplace\": \"us\", \"page_size\": 5}}'"
     print("    -> Querying Search Volume...")
-    items2 = run_mcp(cmd2)
+    items2 = run_mcp(
+        "js_keywords_by_keyword",
+        {
+            "search_terms": kw,
+            "marketplace": "us",
+            "page_size": 5,
+        },
+    )
     
     sv = 0
     if items2:
@@ -140,8 +161,8 @@ def main():
     for c in scouted_cats:
         if fetch_category_data(c):
             success_count += 1
-            # 每成功一条就立刻保存，防崩溃丢失
-            CAT_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+        # 每处理一条就立刻保存，防崩溃丢失；veto/fetch_failed 也不能静默丢掉
+        CAT_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False))
         time.sleep(5) # 整体查询冷却 5 秒，防止封号
             
     print(f"\n🎯 Fetch run complete! {success_count}/{len(scouted_cats)} updated to 'data_fetched'.")

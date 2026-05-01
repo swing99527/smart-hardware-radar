@@ -8,7 +8,7 @@
 
 ## 🎯 核心方法论：四维信号与智能硬件专有算法
 
-系统对智能硬件品类进行评分，100% 依靠数据公式推导。
+系统对智能硬件品类进行评分，100% 依靠数据公式推导。缺失维度记 0 分并写入 `data_quality`，不使用占位分数冒充真实信号。
 
 ### 四层信号数据源 (Adapted for Hardware)
 | 维度 | 含义 | 核心指标 | 数据源 |
@@ -31,16 +31,28 @@
 ## 📂 目录结构与数据流转
 
 本仓库基于 V1/V2 混合演进架构：
-- `data/`：宏观大盘的分类与决策中心 (Sorftime 或线下离线导入)
+- `data/signals.json`：L0 原始证据层，保存 source_url/source_title/source_type/raw_text/observed_at
+- `data/trend_clusters.json`：可信趋势层，按语义聚类输出 Hot / Warming / Watch / Noise
+- `data/trend_runs.json`：每次采集的趋势快照，用于观察趋势速度和重复出现
+- `data/source_health.json`：每个采集源的最近状态、HTTP code、命中数量和限流信息
+- `data/watch_topics.json`：长期关注关键词，覆盖热门 GitHub AI 项目、AI 模型周边、大厂周边和硬件交叉点
+- `data/categories.json`：证据聚类后的候选类目层；当前不作为新品推荐结论，只作为后续 L1-L4 验证入口
+- 中文支持：L0 normalization 会保留中文字符，watch topics 可混合中英文关键词，Dashboard 优先展示中文聚类名
+- 中文媒体：已接入少数派和 36氪 RSS，信号会标记 `source_language: zh`
+- 搜索热度：Google Trends Trending Now RSS 已作为 `search` 行为信号接入，默认 `US`，可用 `GOOGLE_TRENDS_GEOS=US,SG,HK` 扩展地区
+- 众筹与媒体源：Indiegogo 改用 public JSON API；Gizmodo 改用 Google News 站内 RSS 查询，避免官方 RSS 403 让 source health 常红
+- AI 编程工具周边：已加入 OpenClaw、Claude Code、OpenAI Codex、Gemini CLI / Gemini Code Assist 的 watch-only 监视，不直接生成硬件类目
+- OpenClaw 硬件交叉：单独监控 OpenClaw + 摄像头、机器人、终端盒子、AI keyboard、AI recorder、edge/local device、ClawBox、OpenClaw OS 等组合
+- Agentic edge hardware：扩展监控本地 AI 盒子、AI 摄像头、AI recorder、AI keyboard/command deck、机器人 agent kit、AI dev kit 等 agent + 物理 I/O 组合
+- 数据源凭据：GitHub / Reddit / LLM 的 token 和 API key 配置见 `docs/data_source_credentials.md`
 - `v2/input/`：微观产品拆解数据 (Jungle Scout MCP 产出的具体 ASIN 和 PPC 竞价)
-- `dashboard/`：纯静态 HTML 高密度指挥大屏
+- `docs/`：纯静态 HTML 高密度指挥大屏与 GitHub Pages 数据文件
 
 ```text
 ├── .env                  # (需手动创建) 本地密钥与环境变量
 ├── README.md             # 项目简介
-├── dashboard/            # (前端展现) 纯静态 HTML 大屏
 ├── data/                 # (数据库) 宏观 JSON 事实源
-├── docs/                 # (文档) 系统架构与运维指南
+├── docs/                 # (文档 + 前端展现) GitHub Pages 大屏
 ├── v2/input/             # (离线输入层) JS 等工具拆解的具体 ASIN 和关键词数据
 └── scripts/              # (核心引擎)
 ```

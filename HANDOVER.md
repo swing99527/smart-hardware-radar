@@ -1,34 +1,40 @@
 # Smart Hardware Radar - V2 Architecture Handover
 
-## 1. Project Status: "The Great Purge" is Complete
+## 1. Project Status: L0 Discovery Is Live, Decision Engine Is Being Hardened
 **Repository**: `/Users/chenshangwei/code/smart-hardware-radar/`
 **Current State**: 
-- **0 Categories, 0 Data, 0 Bullshit.** 我们已经物理清空了所有的“拍脑袋”品类和人工填入的脏数据。
-- 评分引擎 (`scripts/score.py` V1.2) 和方法论 (`docs/methodology-hardware.md` V1.2) 已经经历了严苛的“假人碰撞测试”，并在算法中引入了 **“大厂射程一票否决”** 和 **“月销十万美金拓荒期豁免权”** 的底层修正。引擎完美闭环。
-- **缺失的环节 (The Blind Spot)**：系统的感知系统 (L0 情绪发现层) 是瞎的。目前 `scripts/scout_l0.py` 只是一个空壳。
+- `data/categories.json` 当前没有可信类目。上一批 8 个泛泛的 L0 自动嗅探词已清空，因为缺少 source_url/source_title 证据和 L2/L3 校验数据。
+- L0 主入口是 `scripts/scout_l0_advanced.py`。它现在先把可追溯来源写入 `data/signals.json`，再用证据 gate 聚类成 `data/categories.json`。
+- 入库 gate：泛词会被拦截；同一候选类目必须有至少两个不同 `source_type`，且至少一个是行为型来源，才允许进入 `categories.json`。
+- Reddit 已升级为 JSON 行为信号源，保存 `reddit_score`、`reddit_comments`、`reddit_upvote_ratio` 等指标；低互动帖子不会进入 `signals.json`。
+- GitHub repo search 已作为 `developer` 行为信号源接入，用来跟踪热门 AI 项目、AI 模型周边、大厂周边和硬件交叉点。GitHub signals 默认 `category_eligible: false`，只做 watch-list intelligence，避免软件项目污染硬件类目库。
+- `data/watch_topics.json` 是长期关注关键词配置；signals 会写入 `matched_watch_topics` 和 `watch:*` 标签。
+- L0 已有传播学评分字段：每条 signal 写入 `l0_scores`，通过 gate 的类目会写入 `l0_evidence`，用于解释 source quality、behavior strength、diffusion stage 和 cross-source confidence。
+- `scripts/score.py` 已回到 `docs/methodology-hardware.md` 的 0-25 Now/Trend 分制；缺失的 L1/L4 不再用假分数填充，而是在 `data_quality` 中标注 missing。
+- `docs/index.html` 读取 `docs/data.json`；运行 `python scripts/sync_data.py` 可生成 GitHub Pages 数据文件。
+- **缺失的环节 (The Blind Spot)**：L1 社媒/众筹数据、L4 供应链数据仍未自动化接入。L2/L3 依赖本地 Accio/Jungle Scout CLI，不能假定 GitHub Actions 环境可直接调用。
 
 ## 2. Immediate Next Steps (For Next Agent / Developer)
 
-### **MISSION CRITICAL: 让 L0 层活起来！**
+### **MISSION CRITICAL: 让评分闭环可信起来！**
 
-**不要再人工填品类！不要再去想“我要评测什么硬件”！**
-你的头号任务，是接上互联网的“呼吸机”，让品类词从市场里自己流进来。
+**不要用占位分数制造推荐结论。**
+你的头号任务，是让每个推荐都能追溯到真实数据、缺失数据、否决原因和同步时间。
 
 ### 🚨 具体开发清单：
-1. **实现 Kickstarter 爬虫 (`scripts/scout_l0.py`)**：
-   - 使用 BeautifulSoup 或 Selenium 访问 Kickstarter 的 "Technology" 或 "Design" 板块。
-   - 抓取过去 7 天内 `Funded > 300%` 或 `Backers > 1000` 的项目标题。
-2. **实现 TikTok/YouTube 趋势 API**：
-   - 接入 TikTok Creative Center 或 YouTube Trending 的非官方爬虫/API。
-   - 检索带有 `#techfinds`, `#smartgadgets` 标签且互动率异常飙升的视频标题。
-3. **对接 LLM 大模型进行品类提炼 (The AI Brain)**：
-   - 调用一个 LLM API（如 Claude/OpenAI），输入那些杂乱的众筹标题和短视频标题。
-   - 要求大模型输出一个泛化的英文品类词。
-   - *Example: "PLAUD NOTE ChatGPT Voice Recorder" -> "AI Voice Recorder"*
-   - 将该词自动写入 `categories.json`。
+1. **接入真实 L1 数据**：
+   - Kickstarter / Indiegogo 项目金额与项目数。
+   - YouTube 技术测评播放量。
+   - 把这些原始事实先写入 `data/signals.json`，不要直接写 `categories.json`。
+2. **接入真实 L4 数据**：
+   - 使用 `docs/cost_library.md` 做基准库。
+   - 对 PCBA、模具、认证、App/SaaS 成本给出可追溯字段。
+3. **补强 L2/L3 数据质量**：
+   - `fetch_js_data.py` 已避免 shell 注入，但仍需保存 keyword breadth、PPC、review count。
+   - 每个缺失字段都必须出现在 `data_quality`。
 4. **自动化串联 (The Cron Loop)**：
-   - 建立 Bash 脚本，实现每日凌晨：`scout_l0.py (抓取新词)` -> `accio-mcp-cli JS 接口 (查亚马逊 L2/L3)` -> `cr3.py (算垄断度)` -> `score.py (算总分)`。
-   - 只有 `Now Score > 21` 或触发“拓荒期豁免”的新兴蓝海，才通过 webhook 发飞书报警。
+   - GitHub Actions 当前可运行 L0、score、sync 和单元测试。
+   - L2/L3 仍需要本地 Accio CLI 或可用的云端数据源，不能在 CI 中假装已自动化。
 
 ## 3. The Prime Directive (铁律)
-系统里存在的每一个赛道词，都必须是由脚本从互联网上自动闻出来的情绪。**严禁人类在 `categories.json` 里手动打字。**
+系统里存在的每一个赛道词，都必须能追溯到 `data/signals.json` 里的证据。**严禁人类在 `categories.json` 里手动打字。**

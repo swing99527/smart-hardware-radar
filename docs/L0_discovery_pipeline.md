@@ -1,62 +1,157 @@
-# L0 Discovery Pipeline v1.0 (自动化情绪发现漏斗)
+# L0 Discovery Pipeline v1.1
 
-> 智能硬件选品的核心不再是“人工拍脑袋”，而是让机器在全网自动嗅探“情绪指标”。
-> L0 层负责：**广撒网 -> 抓情绪 -> 提炼品类词 -> 喂给 L1~L4 打分引擎**。
+> L0 不直接生产“可投类目”。L0 先收集可追溯信号，再把多源证据聚类成候选类目。
 
-## 1. 数据源与情绪指标 (Sentiment Sources)
+## 1. Two-Layer Contract
 
-我们从三个维度捕获市场情绪，并将其量化为可追踪的数字。
+```text
+RSS / launch / community / marketplace sources
+  -> data/signals.json       # raw evidence, source-linked
+  -> data/watch_topics.json  # tracked themes and keywords
+  -> data/trend_runs.json    # per-run snapshots for velocity
+  -> data/trend_clusters.json # current Hot/Warming/Watch/Noise radar
+  -> evidence gate
+  -> data/categories.json    # later enrichment candidates only after gate
+```
 
-### 源 A：极客与尝鲜情绪 (Geek Sentiment)
-*   **目标平台**：Kickstarter / Indiegogo (Tech, Design 板块)
-*   **抓取逻辑**：每日通过爬虫获取 `State: Live` 且 `Funded % > 300%` 的硬件项目。
-*   **情绪指标**：
-    *   `Velocity`（资金增速）：每小时新增 Backers 数量。
-    *   若某项目上线 48 小时内突破 $1M，判定为**“一级情绪爆发”**。
+`data/signals.json` 是事实层。每条 signal 必须包含：
 
-### 源 B：大众社交病毒情绪 (Viral Sentiment)
-*   **目标平台**：TikTok Creative Center (Trend Discovery) / YouTube
-*   **抓取逻辑**：监控特定 Hashtags (`#techfinds`, `#smartgadgets`, `#amazonfinds`) 下，过去 7 天内播放量飙升的视频。
-*   **情绪指标**：
-    *   `Engagement Rate`（互动率 = 点赞数 / 播放量）。
-    *   硬件类视频互动率若超过 8%（通常为 3-5%），说明具备极强的“视觉奇观”或击中了痛点（如 AI 宠物翻译器）。
+- `source_type`
+- `source_name`
+- `source_url`
+- `source_title`
+- `raw_text`
+- `observed_at`
+- `candidate_category`
+- `extraction_engine`
+- `metrics`
+- `matched_watch_topics`
+- `l0_scores`
 
-### 源 C：电商真金白银情绪 (Buyer Sentiment)
-*   **目标平台**：Amazon Movers & Shakers / New Releases (Electronics, Cell Phones, Health)
-*   **抓取逻辑**：调用 Jungle Scout 或通过爬虫获取上架时间 `< 90 天` 且 `BSR 排名飙升`的 ASIN。
-*   **情绪指标**：
-    *   `BSR Momentum`（排名跃升斜率）。
+`data/trend_clusters.json` 是当前产品的主视图。它不输出“上新品推荐”，只解释哪些智能硬件方向正在变热、证据来自哪里、可信度为什么足够或不足。
 
----
+`data/categories.json` 是后续选品验证入口。类目只有在通过 gate 后才能写入，但当前阶段不把它当作最终推荐。
 
-## 2. 自动化工作流 (The Automated Cron Pipeline)
+## 2. Evidence Gate
 
-必须通过 `cron` 或 GitHub Actions 实现每日无人值守运行。
+候选类目写入 `categories.json` 前必须满足：
 
-### Phase 1: 嗅探与提炼 (Scout & Extract)
-1. 运行 `scripts/scout_l0.py`。
-2. 爬虫并发访问三大数据源，拿到数百个高情绪的**原始标题/视频标签/ASIN**。
-3. **LLM 清洗**：调用 LLM（如 Claude API），过滤掉非硬件（如软件软件、普通水杯），将剩余的硬件项目归一化为通用的**英文品类词**（Seed Keywords）。
-   * *例：输入 "PLAUD NOTE - ChatGPT Voice Recorder", LLM 输出 -> "AI Voice Recorder"*。
+1. 不是泛词。`Smartphone`、`Smartwatch`、`Smart Glasses`、`Robot`、`Wearable Device` 等直接拦截。
+2. 至少 2 个不同 `source_type` 命中同一候选类目。
+3. 至少 1 个命中来自行为型来源：`crowdfunding`、`product_launch`、`community`、`marketplace`、`search`。
+4. 每个证据都必须有 `source_url` 和 `source_title`。
+5. LLM 只能提炼候选词，不能单独作为证据。
 
-### Phase 2: 剪刀差初筛 (Signal Check)
-1. 对提炼出的品类词，调用 JS 获取亚马逊搜量 (L2)，调用 YouTube API 获取视频播放量 (L1)。
-2. **过滤规则**：
-   * 如果 L1 极高，L2 极高 -> 放入 `data/categories.json`。
-   * 如果 L1 极高，L2 极低 -> 放入 `data/categories.json`（潜在蓝海）。
-   * 否则，抛弃该词。
+重复运行策略：
 
-### Phase 3: 深度扫描与打分 (Deep Dive & Score)
-1. 运行已有的 `scripts/cr3.py` 和 `scripts/score.py`，获取 CR3 反垄断指数和 L4 供应链估算。
-2. 计算最终的 `Now Score` 和 `Trend Score`。
+- 同一个 `source_url` / `dedupe_key` 不新增第二条 signal。
+- 重复命中会刷新 `last_seen_at`、`metrics`、`l0_scores`，并累加 `seen_count`。
+- 历史 signal 会自动补齐 `first_seen_at`、`last_seen_at`、`seen_count` 和 gate 状态。
+- 每次运行都会写入 `trend_runs.json`，记录当前 run 的 cluster 数量、source mix 和平均强度，供趋势速度判断使用。
 
-### Phase 4: 飞书报警 (Alerting)
-如果计算出 `Total Score > 20` 或判定为 `🟢 核心推荐`，系统自动通过 Webhook 向飞书群发送带链接的研报。
+## 3. Current Source Types
 
----
+| Source type | Examples | Role |
+|---|---|---|
+| `crowdfunding` | Kickstarter, Indiegogo | Early willingness to pay |
+| `product_launch` | Product Hunt | Launch velocity proxy |
+| `community` | Reddit, Hacker News | Pain/discussion proxy |
+| `developer` | GitHub repository search | Hot AI project / developer adoption proxy |
+| `media` | The Verge, Engadget, TechCrunch | Weak awareness signal |
+| `marketplace` | Amazon / Jungle Scout | Commercial validation |
+| `search` | Google Trends / keyword tools | Demand validation |
 
-## 3. 接棒指南 (Handover to Next Agent)
-下一个 Agent 必须实现以下代码：
-1. 编写针对 Kickstarter 的爬虫（无需登录）。
-2. 编写针对 Amazon Movers & Shakers 的爬虫。
-3. 对接一个基础的 LLM API 进行标题清洗，自动生成品类词库，喂入我们已建好的引擎中。
+Reddit is collected through JSON listing endpoints, not RSS, so signals preserve `reddit_score`, `reddit_comments`, `reddit_upvote_ratio`, `subreddit`, and `created_utc`. Low-engagement Reddit posts are dropped before they reach `signals.json`.
+
+GitHub repository search is collected through the public Search API. It preserves `github_stars`, `github_forks`, `github_open_issues`, `github_language`, `github_pushed_at`, and `github_topics`. GitHub signals are useful for AI project/model/big-tech periphery tracking, but they still need cross-source confirmation before a category is created.
+
+GitHub signals are currently `category_eligible: false` by default. They are watch-list intelligence, not category evidence, because most hot AI repos are software projects. Promote a GitHub source to category-eligible only when the query and parser are proven hardware-specific.
+
+AI coding-agent ecosystem monitoring is also watch-only. It tracks OpenClaw, Claude Code, OpenAI Codex / Codex CLI, and Gemini CLI / Gemini Code Assist using a lower `GITHUB_TOOLCHAIN_MIN_STARS` threshold so emerging peripheral tools can show up in the Signal Inbox before they become large repositories.
+
+Agentic edge hardware monitoring is the broader version of that watch-list. It tracks AI agents combined with physical I/O or local inference hardware: local AI boxes, AI cameras, AI recorders, AI keyboards/command decks, robot agent kits, and AI dev kit peripherals. These signals stay watch-only until independent behavior sources prove real demand.
+
+Media-only signals are useful, but they do not create categories by themselves.
+
+## 4. Daily Flow
+
+```text
+scripts/scout_l0_advanced.py
+  1. fetch RSS feeds, JSON sources, Reddit listings, and GitHub repository searches
+  2. keep source-linked hardware-looking items with per-source quotas, avoiding fixed source-order bias
+  3. tag matched watch topics from data/watch_topics.json
+  4. extract specific category candidate
+  5. write new evidence to data/signals.json
+  6. cluster existing signals into data/trend_clusters.json
+  7. write categories only when the evidence gate passes, for later L1-L4 validation
+```
+
+Google Trends RSS is included as a `search` source. It is not treated as an absolute demand number; the normalized traffic field is a behavior-strength proxy and still requires cross-source confirmation before promotion.
+
+Indiegogo is collected through its public active crowdfunding projects JSON endpoint because the legacy project RSS endpoint returns 403. Gizmodo is collected through a Google News RSS site query because direct Gizmodo RSS endpoints currently block automated fetches.
+
+Clustering is intentionally two-stage:
+
+1. Deterministic alias/rule clusters merge obvious demand families, such as lock/deadbolt/doorbell/outdoor camera into smart-home security.
+2. LLM extraction may suggest a normalized category, but LLM output is structured JSON and must still pass schema validation plus evidence gate. LLM is not allowed to directly promote a category.
+
+中文支持：
+
+- `normalize_text` 保留中文字符，避免中文标题、关键词、类目在去重和聚类时被清空。
+- 硬件词、泛词、限定词支持中文，例如 `智能门锁`、`户外摄像头`、`AI会议记录仪`。
+- `watch_topics.json` 可以混合配置英文和中文关键词。
+- 已验证中文 RSS 源会写入 `source_language: zh`，当前启用少数派和 36氪。
+- Dashboard 优先展示 `name_zh` / `cluster_name_zh`，没有中文名时回退到英文名。
+
+Downstream:
+
+```text
+data/categories.json
+  -> scripts/fetch_js_data.py   # L2/L3 marketplace data
+  -> scripts/score.py           # methodology v1.0 scores
+  -> scripts/sync_data.py       # docs/data.json for dashboard
+```
+
+## 5. L0 Scoring
+
+L0 scores are not commercial scores. They translate communication theory into machine-readable sorting fields.
+
+Each signal gets:
+
+| Field | Meaning |
+|---|---|
+| `source_quality` | Source role strength. Media is weak awareness; search/marketplace is strongest behavior. |
+| `behavior_strength` | Observable action intensity, such as Reddit comments or GitHub stars. |
+| `specificity` | Whether the candidate names a concrete hardware use case rather than a broad category. |
+| `watch_relevance` | How many configured watch topics matched. |
+| `diffusion_stage` | Communication stage: `innovator`, `early_adopter`, `opinion_leader`, `early_majority`, etc. |
+| `signal_strength` | Weighted L0 sort score for triage. |
+
+Categories that pass the evidence gate get `l0_evidence`:
+
+```json
+{
+  "source_types": ["community", "media"],
+  "cross_source_count": 2,
+  "has_behavior_source": true,
+  "diffusion_stage": "two_step_confirmed",
+  "avg_signal_strength": 2.4,
+  "matched_watch_topics": ["hardware_intersections"],
+  "l0_confidence": 0.62
+}
+```
+
+This maps communication theory to rules:
+
+- Innovation diffusion: developer/product launch signals are `innovator`; community/crowdfunding are early adopter signals; search/marketplace are early majority signals.
+- Two-step flow: media + community becomes `two_step_confirmed`.
+- Agenda setting: media-only remains awareness and does not create categories.
+- Social proof: comments, stars, backers, search, and marketplace metrics increase behavior strength.
+
+## 6. Prime Directive
+
+Do not manually add categories. Add better signal collectors and better trend evidence.
+
+If a category cannot answer “which signals created this and where are their URLs?”, it does not belong in `categories.json`.
+
+If a trend cannot answer “which run snapshots prove this is recurring or warming?”, it should stay `Watch`, not `Hot`.

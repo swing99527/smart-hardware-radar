@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="zh-CN" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Hardware Radar | Intelligence Dashboard</title>
+    <title>Smart Hardware Radar | 智能硬件雷达</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b0d10'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%2321c58b'/%3E%3C/svg%3E">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script>
@@ -12,132 +13,355 @@
             theme: {
                 extend: {
                     colors: {
-                        command: '#07090d',
-                        radar: '#00d488',
-                        alert: '#ff4d4f'
+                        base: '#0b0d10',
+                        panel: '#11151b',
+                        panel2: '#151a21',
+                        line: '#27303a',
+                        text: '#e8edf2',
+                        muted: '#8c98a5',
+                        green: '#21c58b',
+                        amber: '#e7a338',
+                        blue: '#56a7f2',
+                        red: '#ef5f5f'
                     }
                 }
             }
         }
     </script>
     <style>
-        body { background-color: #07090d; color: #e5e7eb; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-        .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
-        .status-badge { padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
-        .status-scouted { background: rgba(255, 255, 255, 0.1); color: #ccc; }
-        .status-recommended { background: rgba(0, 212, 136, 0.15); color: #00d488; border: 1px solid rgba(0, 212, 136, 0.3); }
-        .status-vetoed { background: rgba(255, 77, 79, 0.15); color: #ff4d4f; border: 1px solid rgba(255, 77, 79, 0.3); }
-        .status-analyzing { background: rgba(250, 173, 20, 0.15); color: #faad14; }
+        :root {
+            --bg: #0b0d10;
+            --panel: #11151b;
+            --panel-2: #151a21;
+            --line: #27303a;
+            --text: #e8edf2;
+            --muted: #8c98a5;
+            --green: #21c58b;
+            --amber: #e7a338;
+            --blue: #56a7f2;
+            --red: #ef5f5f;
+        }
+        * { box-sizing: border-box; }
+        body {
+            min-width: 320px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            letter-spacing: 0;
+        }
+        [v-cloak] { display: none; }
+        .shell { width: min(1680px, calc(100vw - 32px)); margin: 0 auto; }
+        .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+        .panel-soft { background: var(--panel-2); border: 1px solid rgba(39, 48, 58, .8); border-radius: 8px; }
+        .metric { min-height: 92px; }
+        .table-scroll { overflow-x: auto; scrollbar-color: #34404d transparent; }
+        .table-scroll table { min-width: 920px; }
+        .status-badge,
+        .chip,
+        .seg-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 26px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 650;
+            white-space: nowrap;
+        }
+        .status-badge { padding: 3px 8px; border: 1px solid transparent; }
+        .chip { padding: 2px 7px; border: 1px solid rgba(140, 152, 165, .24); color: var(--muted); background: rgba(255,255,255,.03); }
+        .seg-button { padding: 5px 9px; color: var(--muted); border: 1px solid transparent; }
+        .seg-button.active { color: var(--text); background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.1); }
+        .status-hot, .status-ok, .status-promoted { color: var(--green); background: rgba(33,197,139,.12); border-color: rgba(33,197,139,.28); }
+        .status-warming, .status-held, .status-zero { color: var(--amber); background: rgba(231,163,56,.13); border-color: rgba(231,163,56,.28); }
+        .status-watch, .status-watch-only { color: var(--blue); background: rgba(86,167,242,.12); border-color: rgba(86,167,242,.26); }
+        .status-noise, .status-error, .status-rejected { color: var(--red); background: rgba(239,95,95,.12); border-color: rgba(239,95,95,.28); }
+        .row-hover:hover { background: rgba(255,255,255,.035); }
+        .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+        .truncate-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .source-dot { width: 8px; height: 8px; border-radius: 999px; display: inline-block; }
+        .dot-media { background: #8c98a5; }
+        .dot-community { background: var(--blue); }
+        .dot-developer { background: #ad8cff; }
+        .dot-crowdfunding, .dot-product_launch { background: var(--amber); }
+        .dot-search, .dot-marketplace { background: var(--green); }
+        .dot-unknown { background: #647080; }
+        @media (max-width: 768px) {
+            .shell { width: min(100vw - 20px, 1680px); }
+            .metric { min-height: 76px; }
+        }
     </style>
 </head>
-<body class="min-h-screen p-6 md:p-12">
-    <div id="app" class="max-w-7xl mx-auto space-y-8" v-cloak>
-        
-        <!-- Header -->
-        <header class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-white/10 pb-6">
-            <div>
-                <h1 class="text-3xl font-bold tracking-tight text-white flex items-center gap-3">
-                    <span class="text-radar">●</span> Smart Hardware Radar <span class="text-sm font-normal text-gray-500 bg-white/10 px-2 py-0.5 rounded ml-2">V1.2</span>
-                </h1>
-                <p class="text-gray-400 mt-1">Cross-Border E-Commerce Intelligence Center (L0-L4 Automated Pipeline)</p>
-            </div>
-            <div class="text-right">
-                <div class="text-sm text-gray-500">Last Engine Sync</div>
-                <div class="text-gray-300 font-mono text-sm mt-0.5">{{ lastUpdated }}</div>
+<body>
+    <div id="app" class="shell py-4 md:py-6 space-y-4" v-cloak>
+        <header class="panel px-4 py-3 md:px-5 md:py-4">
+            <div class="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+                <div class="min-w-0">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="h-2.5 w-2.5 rounded-full" :class="stats.sourceErrors ? 'bg-red' : 'bg-green'"></span>
+                        <h1 class="text-xl md:text-2xl font-semibold text-white">Smart Hardware Radar</h1>
+                        <span class="chip mono">V1.2</span>
+                        <span class="status-badge" :class="stats.sourceErrors ? 'status-error' : 'status-ok'">
+                            {{ stats.sourceErrors ? 'SOURCE DEGRADED' : 'SOURCES OK' }}
+                        </span>
+                    </div>
+                    <div class="mt-1 text-sm text-muted">智能硬件趋势监控 · 证据分层 · 源健康审计</div>
+                </div>
+                <div class="grid grid-cols-2 gap-2 text-right sm:flex sm:items-center sm:gap-2">
+                    <div class="panel-soft px-3 py-2">
+                        <div class="text-[11px] text-muted">最近同步</div>
+                        <div class="mono text-xs text-gray-200">{{ lastUpdated }}</div>
+                    </div>
+                    <div class="panel-soft px-3 py-2">
+                        <div class="text-[11px] text-muted">行为源异常</div>
+                        <div class="mono text-xs" :class="criticalHealthRows.length ? 'text-red' : 'text-green'">{{ criticalHealthRows.length }}</div>
+                    </div>
+                </div>
             </div>
         </header>
 
-        <!-- KPI Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-gray-500">
-                <div class="text-sm text-gray-400 mb-1">Total Mutants Scouted</div>
-                <div class="text-3xl font-bold text-white">{{ stats.total }}</div>
+        <section class="grid grid-cols-2 gap-3 lg:grid-cols-6">
+            <div class="panel metric p-3">
+                <div class="text-xs text-muted">Hot</div>
+                <div class="mt-2 text-3xl font-semibold text-green">{{ stats.hot }}</div>
+                <div class="mt-1 text-xs text-muted">多源强信号</div>
             </div>
-            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-radar">
-                <div class="text-sm text-gray-400 mb-1">Core Recommendations 🟢</div>
-                <div class="text-3xl font-bold text-radar">{{ stats.recommended }}</div>
+            <div class="panel metric p-3">
+                <div class="text-xs text-muted">Warming</div>
+                <div class="mt-2 text-3xl font-semibold text-amber">{{ stats.warming }}</div>
+                <div class="mt-1 text-xs text-muted">行为信号升温</div>
             </div>
-            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-alert">
-                <div class="text-sm text-gray-400 mb-1">Red Ocean Vetoes 🚫</div>
-                <div class="text-3xl font-bold text-alert">{{ stats.vetoed }}</div>
+            <div class="panel metric p-3">
+                <div class="text-xs text-muted">Watch</div>
+                <div class="mt-2 text-3xl font-semibold text-blue">{{ stats.watch }}</div>
+                <div class="mt-1 text-xs text-muted">单源观察</div>
             </div>
-            <div class="glass-panel p-5 rounded-xl border-l-4 border-l-yellow-500">
-                <div class="text-sm text-gray-400 mb-1">Pending L2/L3 Analysis ⏳</div>
-                <div class="text-3xl font-bold text-yellow-500">{{ stats.pending }}</div>
+            <div class="panel metric p-3">
+                <div class="text-xs text-muted">Noise</div>
+                <div class="mt-2 text-3xl font-semibold text-red">{{ stats.noise }}</div>
+                <div class="mt-1 text-xs text-muted">媒体或弱证据</div>
             </div>
-        </div>
+            <div class="panel metric p-3">
+                <div class="text-xs text-muted">Signals</div>
+                <div class="mt-2 text-3xl font-semibold text-white">{{ stats.signalTotal }}</div>
+                <div class="mt-1 text-xs text-muted">{{ stats.watchOnly }} watch-only</div>
+            </div>
+            <div class="panel metric p-3">
+                <div class="text-xs text-muted">Sources</div>
+                <div class="mt-2 text-3xl font-semibold" :class="stats.sourceErrors ? 'text-red' : 'text-green'">{{ sourceHealth.length }}</div>
+                <div class="mt-1 text-xs text-muted">{{ stats.sourceErrors }} 异常</div>
+            </div>
+        </section>
 
-        <!-- Data Table -->
-        <div class="glass-panel rounded-xl overflow-hidden mt-8">
-            <div class="p-5 border-b border-white/5 flex justify-between items-center bg-white/5">
-                <h2 class="text-lg font-semibold text-white">Live Intelligence Feed</h2>
-                <div class="text-sm text-gray-400 flex gap-4">
-                    <span><span class="inline-block w-2 h-2 rounded-full bg-alert mr-1"></span> CR3 > 50% = Monopoly Risk</span>
+        <main class="grid grid-cols-1 gap-4 xl:grid-cols-[minmax(0,1.55fr)_minmax(360px,.65fr)]">
+            <section class="panel overflow-hidden">
+                <div class="flex flex-col gap-3 border-b border-line px-4 py-3 md:flex-row md:items-center md:justify-between">
+                    <div>
+                        <h2 class="text-base font-semibold text-white">趋势雷达</h2>
+                        <div class="text-xs text-muted">{{ filteredTrendClusters.length }} / {{ trendClusters.length }} clusters</div>
+                    </div>
+                    <div class="panel-soft inline-flex w-fit flex-wrap gap-1 p-1">
+                        <button v-for="option in trendFilterOptions" :key="option.value" class="seg-button" :class="{ active: trendFilter === option.value }" @click="trendFilter = option.value">
+                            {{ option.label }}
+                        </button>
+                    </div>
+                </div>
+                <div class="table-scroll">
+                    <table class="w-full border-collapse text-left text-sm">
+                        <thead>
+                            <tr class="border-b border-line bg-black/20 text-[11px] uppercase text-muted">
+                                <th class="px-4 py-3 font-semibold">趋势</th>
+                                <th class="px-4 py-3 font-semibold">证据</th>
+                                <th class="px-4 py-3 font-semibold">来源</th>
+                                <th class="px-4 py-3 text-right font-semibold">强度</th>
+                                <th class="px-4 py-3 text-right font-semibold">速度</th>
+                                <th class="px-4 py-3 text-right font-semibold">状态</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-line/80">
+                            <tr v-for="trend in filteredTrendClusters" :key="trend.trend_key" class="row-hover align-top">
+                                <td class="px-4 py-3 min-w-[260px]">
+                                    <div class="font-medium text-gray-100">{{ trend.name_zh || trend.name }}</div>
+                                    <div class="mono mt-1 text-[11px] text-muted">{{ trend.trend_key }}</div>
+                                    <div class="mt-2 flex flex-wrap gap-1">
+                                        <span v-for="topic in trend.matched_watch_topics.slice(0, 3)" :key="topic" class="chip mono">{{ topic }}</span>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-3 min-w-[320px]">
+                                    <div class="mono text-xs text-gray-300">{{ trend.signal_count }} signals · {{ trend.seen_count_total }} seen</div>
+                                    <a v-if="topSignalUrl(trend)" :href="topSignalUrl(trend)" target="_blank" class="mt-1 block max-w-[430px] text-xs text-muted hover:text-blue" :title="topSignalTitle(trend)">
+                                        <span class="truncate-2">{{ topSignalTitle(trend) }}</span>
+                                    </a>
+                                    <div v-else class="mt-1 max-w-[430px] text-xs text-muted truncate-2">{{ topSignalTitle(trend) }}</div>
+                                </td>
+                                <td class="px-4 py-3 min-w-[150px]">
+                                    <div class="flex flex-wrap gap-1.5">
+                                        <span v-for="type in trend.source_types" :key="type" class="chip gap-1.5">
+                                            <span class="source-dot" :class="sourceDotClass(type)"></span>{{ sourceTypeText(type) }}
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-3 text-right mono font-semibold" :class="getSignalColor(trend.avg_signal_strength)">{{ trend.avg_signal_strength }}</td>
+                                <td class="px-4 py-3 text-right mono text-gray-300">{{ trend.velocity_7run_delta > 0 ? '+' : '' }}{{ trend.velocity_7run_delta || 0 }}</td>
+                                <td class="px-4 py-3 text-right">
+                                    <span class="status-badge" :class="getTrendClass(trend.trend_status)">{{ trendStatusText(trend.trend_status) }}</span>
+                                    <div class="mt-1 text-xs text-muted">{{ trendReasonText(trend.trend_reason) }}</div>
+                                </td>
+                            </tr>
+                            <tr v-if="filteredTrendClusters.length === 0">
+                                <td colspan="6" class="px-4 py-10 text-center text-muted">没有匹配的趋势。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <aside class="space-y-4">
+                <section class="panel overflow-hidden">
+                    <div class="border-b border-line px-4 py-3">
+                        <h2 class="text-base font-semibold text-white">源健康异常</h2>
+                        <div class="text-xs text-muted">GitHub / Reddit / API 认证与限流</div>
+                    </div>
+                    <div class="divide-y divide-line/80">
+                        <div v-for="source in criticalHealthRows.slice(0, 8)" :key="source.source_name + source.url" class="px-4 py-3">
+                            <div class="flex items-start justify-between gap-3">
+                                <div class="min-w-0">
+                                    <div class="truncate text-sm font-medium text-gray-100" :title="source.source_name">{{ source.source_name }}</div>
+                                    <div class="mt-1 flex flex-wrap gap-1">
+                                        <span class="chip">{{ authModeText(source.auth_mode) }}</span>
+                                        <span class="chip mono">{{ rateLimitText(source.rate_limit) }}</span>
+                                    </div>
+                                </div>
+                                <span class="status-badge" :class="getSourceHealthClass(source.status)">{{ sourceHealthText(source.status) }}</span>
+                            </div>
+                            <div v-if="source.error" class="mt-2 truncate text-xs text-muted" :title="source.error">{{ source.error }}</div>
+                        </div>
+                        <div v-if="criticalHealthRows.length === 0" class="px-4 py-8 text-center text-sm text-muted">暂无关键源异常。</div>
+                    </div>
+                </section>
+
+                <section class="panel overflow-hidden">
+                    <div class="border-b border-line px-4 py-3">
+                        <h2 class="text-base font-semibold text-white">证据队列</h2>
+                        <div class="text-xs text-muted">待补证据、观察源、已晋级</div>
+                    </div>
+                    <div class="grid grid-cols-3 divide-x divide-line/80 text-center">
+                        <div class="p-3">
+                            <div class="text-2xl font-semibold text-amber">{{ stats.held }}</div>
+                            <div class="text-xs text-muted">待补</div>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-2xl font-semibold text-blue">{{ stats.watchOnly }}</div>
+                            <div class="text-xs text-muted">观察</div>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-2xl font-semibold text-green">{{ stats.promoted }}</div>
+                            <div class="text-xs text-muted">晋级</div>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </main>
+
+        <section class="panel overflow-hidden">
+            <div class="flex flex-col gap-3 border-b border-line px-4 py-3 md:flex-row md:items-center md:justify-between">
+                <div>
+                    <h2 class="text-base font-semibold text-white">信号收件箱</h2>
+                    <div class="text-xs text-muted">Top {{ filteredSignals.length }} visible signals</div>
+                </div>
+                <div class="panel-soft inline-flex w-fit flex-wrap gap-1 p-1">
+                    <button v-for="option in signalFilterOptions" :key="option.value" class="seg-button" :class="{ active: signalFilter === option.value }" @click="signalFilter = option.value">
+                        {{ option.label }}
+                    </button>
                 </div>
             </div>
-            <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
+            <div class="table-scroll">
+                <table class="w-full border-collapse text-left text-sm">
                     <thead>
-                        <tr class="text-xs uppercase tracking-wider text-gray-400 bg-black/20 border-b border-white/5">
-                            <th class="p-4 font-medium">ID</th>
-                            <th class="p-4 font-medium">Category (Keyword)</th>
-                            <th class="p-4 font-medium">Now Score</th>
-                            <th class="p-4 font-medium">Trend Score</th>
-                            <th class="p-4 font-medium">CR3 (Monopoly)</th>
-                            <th class="p-4 font-medium">Tags / Flags</th>
-                            <th class="p-4 font-medium text-right">Pipeline Status</th>
+                        <tr class="border-b border-line bg-black/20 text-[11px] uppercase text-muted">
+                            <th class="px-4 py-3 font-semibold">信号</th>
+                            <th class="px-4 py-3 font-semibold">候选 / 聚类</th>
+                            <th class="px-4 py-3 font-semibold">来源</th>
+                            <th class="px-4 py-3 text-right font-semibold">强度</th>
+                            <th class="px-4 py-3 text-right font-semibold">命中</th>
+                            <th class="px-4 py-3 text-right font-semibold">证据门</th>
                         </tr>
                     </thead>
-                    <tbody class="text-sm divide-y divide-white/5">
-                        <tr v-for="item in sortedCategories" :key="item.id" class="hover:bg-white/5 transition-colors">
-                            <td class="p-4 text-gray-500 font-mono">{{ item.id }}</td>
-                            <td class="p-4">
+                    <tbody class="divide-y divide-line/80">
+                        <tr v-for="signal in filteredSignals" :key="signal.id" class="row-hover align-top">
+                            <td class="px-4 py-3 min-w-[320px]">
                                 <div class="flex items-center gap-2">
-                                    <div class="font-medium text-gray-200">{{ item.name_en || 'N/A' }}</div>
-                                    <a v-if="item.source_url" :href="item.source_url" target="_blank" class="text-gray-500 hover:text-radar transition-colors" title="View Source">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                                        </svg>
-                                    </a>
+                                    <span class="mono text-xs text-muted">{{ signal.id }}</span>
+                                    <a v-if="signal.source_url" :href="signal.source_url" target="_blank" class="text-xs text-blue hover:text-white">source</a>
                                 </div>
-                                <div class="text-xs text-gray-500 mt-0.5">{{ item.name }}</div>
-                                <div v-if="item.source_title" class="text-[10px] text-gray-600 truncate max-w-[200px]" :title="item.source_title">
-                                    Source: {{ item.source_title }}
-                                </div>
+                                <div class="mt-1 max-w-[460px] truncate-2 text-gray-200" :title="signal.source_title">{{ signal.source_title }}</div>
                             </td>
-                            <td class="p-4 font-mono font-bold" :class="getScoreColor(item.now_score)">
-                                {{ item.now_score !== undefined ? item.now_score : '--' }}
+                            <td class="px-4 py-3 min-w-[220px]">
+                                <div class="font-medium text-gray-100">{{ signal.candidate_category }}</div>
+                                <div class="mono mt-1 text-[11px] text-muted">{{ signal.cluster_name_zh || signal.cluster_name || signal.candidate_key }}</div>
                             </td>
-                            <td class="p-4 font-mono font-bold" :class="getScoreColor(item.trend_score)">
-                                {{ item.trend_score !== undefined ? item.trend_score : '--' }}
-                            </td>
-                            <td class="p-4 font-mono">
-                                <span v-if="item.cr3 !== undefined" :class="item.cr3 > 50 ? 'text-alert font-bold' : 'text-gray-300'">
-                                    {{ item.cr3 }}%
-                                </span>
-                                <span v-else class="text-gray-600">--</span>
-                            </td>
-                            <td class="p-4">
-                                <div class="flex flex-wrap gap-1">
-                                    <span v-for="tag in item.tags" class="text-[10px] px-1.5 py-0.5 rounded bg-white/10 text-gray-400">
-                                        {{ tag }}
-                                    </span>
+                            <td class="px-4 py-3 min-w-[180px]">
+                                <div class="text-gray-200">{{ signal.source_name }}</div>
+                                <div class="mt-1 flex gap-1">
+                                    <span class="chip gap-1.5"><span class="source-dot" :class="sourceDotClass(signal.source_type)"></span>{{ sourceTypeText(signal.source_type) }}</span>
+                                    <span class="chip">{{ languageText(signal.source_language) }}</span>
                                 </div>
                             </td>
-                            <td class="p-4 text-right">
-                                <span class="status-badge" :class="getStatusClass(item.status, item.now_score, item.cr3)">
-                                    {{ getStatusText(item.status, item.now_score, item.cr3) }}
-                                </span>
+                            <td class="px-4 py-3 text-right mono font-semibold" :class="getSignalColor(signal.l0_scores && signal.l0_scores.signal_strength)">{{ signal.l0_scores ? signal.l0_scores.signal_strength : '--' }}</td>
+                            <td class="px-4 py-3 text-right mono text-gray-300">{{ signal.seen_count || 1 }}x</td>
+                            <td class="px-4 py-3 text-right">
+                                <span class="status-badge" :class="getGateClass(signal.gate_status)">{{ gateStatusText(signal.gate_status) }}</span>
+                                <div class="mt-1 text-xs text-muted">{{ gateReasonText(signal.gate_reason) }}</div>
                             </td>
                         </tr>
-                        <tr v-if="categories.length === 0">
-                            <td colspan="7" class="p-8 text-center text-gray-500">No data found. Engine is sleeping or waiting for next sync.</td>
+                        <tr v-if="filteredSignals.length === 0">
+                            <td colspan="6" class="px-4 py-10 text-center text-muted">没有匹配的信号。</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        </div>
+        </section>
 
+        <section class="panel overflow-hidden">
+            <div class="flex flex-col gap-2 border-b border-line px-4 py-3 md:flex-row md:items-center md:justify-between">
+                <div>
+                    <h2 class="text-base font-semibold text-white">采集源健康度</h2>
+                    <div class="text-xs text-muted">{{ sourceHealth.length }} sources · {{ stats.sourceErrors }} degraded</div>
+                </div>
+            </div>
+            <div class="table-scroll">
+                <table class="w-full border-collapse text-left text-sm">
+                    <thead>
+                        <tr class="border-b border-line bg-black/20 text-[11px] uppercase text-muted">
+                            <th class="px-4 py-3 font-semibold">采集源</th>
+                            <th class="px-4 py-3 font-semibold">类型</th>
+                            <th class="px-4 py-3 font-semibold">认证</th>
+                            <th class="px-4 py-3 text-right font-semibold">命中</th>
+                            <th class="px-4 py-3 font-semibold">限流</th>
+                            <th class="px-4 py-3 font-semibold">最近成功</th>
+                            <th class="px-4 py-3 text-right font-semibold">状态</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-line/80">
+                        <tr v-for="source in healthRows" :key="source.source_name + source.url" class="row-hover align-top">
+                            <td class="px-4 py-3 min-w-[260px]">
+                                <div class="font-medium text-gray-100">{{ source.source_name }}</div>
+                                <div v-if="source.error" class="mt-1 max-w-[420px] truncate text-xs text-muted" :title="source.error">{{ source.error }}</div>
+                            </td>
+                            <td class="px-4 py-3 text-muted">{{ sourceTypeText(source.source_type) }} · {{ languageText(source.source_language) }}</td>
+                            <td class="px-4 py-3"><span class="chip">{{ authModeText(source.auth_mode) }}</span></td>
+                            <td class="px-4 py-3 text-right mono text-gray-300">{{ source.item_count || 0 }}</td>
+                            <td class="px-4 py-3 mono text-muted">{{ rateLimitText(source.rate_limit) }}</td>
+                            <td class="px-4 py-3 mono text-muted">{{ source.last_success_at || '--' }}</td>
+                            <td class="px-4 py-3 text-right"><span class="status-badge" :class="getSourceHealthClass(source.status)">{{ sourceHealthText(source.status) }}</span></td>
+                        </tr>
+                        <tr v-if="sourceHealth.length === 0">
+                            <td colspan="7" class="px-4 py-10 text-center text-muted">还没有采集源状态。</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </div>
 
     <script>
@@ -146,77 +370,270 @@
         createApp({
             setup() {
                 const categories = ref([])
-                const lastUpdated = ref('Loading...')
+                const signals = ref([])
+                const sourceHealth = ref([])
+                const trendClusters = ref([])
+                const lastUpdated = ref('加载中...')
+                const trendFilter = ref('all')
+                const signalFilter = ref('all')
+
+                const trendFilterOptions = [
+                    { value: 'all', label: '全部' },
+                    { value: 'Hot', label: 'Hot' },
+                    { value: 'Warming', label: 'Warming' },
+                    { value: 'Watch', label: 'Watch' },
+                    { value: 'Noise', label: 'Noise' }
+                ]
+                const signalFilterOptions = [
+                    { value: 'all', label: '全部' },
+                    { value: 'held', label: '待补' },
+                    { value: 'watch_only', label: '观察' },
+                    { value: 'promoted', label: '晋级' }
+                ]
 
                 const loadData = async () => {
                     try {
                         const response = await fetch('./data.json?t=' + new Date().getTime())
+                        if (!response.ok) throw new Error('HTTP ' + response.status)
                         const data = await response.json()
                         categories.value = data.categories || []
-                        lastUpdated.value = data.last_updated || 'Unknown'
+                        signals.value = data.signals || []
+                        sourceHealth.value = data.source_health || []
+                        trendClusters.value = data.trend_clusters || []
+                        lastUpdated.value = data.last_updated || '未知'
                     } catch (e) {
                         console.error('Failed to load data.json', e)
-                        lastUpdated.value = 'Failed to sync data'
+                        lastUpdated.value = '数据同步失败'
                     }
                 }
 
-                const sortedCategories = computed(() => {
-                    return [...categories.value].sort((a, b) => {
-                        // Sort by now_score descending, missing scores go to bottom
-                        const scoreA = a.now_score || -1
-                        const scoreB = b.now_score || -1
+                const sortedTrendClusters = computed(() => {
+                    const rank = { Hot: 4, Warming: 3, Watch: 2, Noise: 1 }
+                    return [...trendClusters.value].sort((a, b) => {
+                        const statusA = rank[a.trend_status] || 0
+                        const statusB = rank[b.trend_status] || 0
+                        if (statusA !== statusB) return statusB - statusA
+                        const strengthA = a.avg_signal_strength || 0
+                        const strengthB = b.avg_signal_strength || 0
+                        if (strengthA !== strengthB) return strengthB - strengthA
+                        return (b.signal_count || 0) - (a.signal_count || 0)
+                    })
+                })
+
+                const filteredTrendClusters = computed(() => {
+                    if (trendFilter.value === 'all') return sortedTrendClusters.value
+                    return sortedTrendClusters.value.filter(t => t.trend_status === trendFilter.value)
+                })
+
+                const sortedSignals = computed(() => {
+                    return [...signals.value].sort((a, b) => {
+                        const scoreA = a.l0_scores ? a.l0_scores.signal_strength || 0 : 0
+                        const scoreB = b.l0_scores ? b.l0_scores.signal_strength || 0 : 0
                         if (scoreA !== scoreB) return scoreB - scoreA
-                        // Then ID descending (newest first)
-                        return b.id.localeCompare(a.id)
+                        return (b.last_seen_at || b.observed_at || '').localeCompare(a.last_seen_at || a.observed_at || '')
+                    })
+                })
+
+                const filteredSignals = computed(() => {
+                    const rows = signalFilter.value === 'all'
+                        ? sortedSignals.value
+                        : sortedSignals.value.filter(s => (s.gate_status || 'held') === signalFilter.value)
+                    return rows.slice(0, 60)
+                })
+
+                const healthRows = computed(() => {
+                    const rank = { error: 0, fetch_ok_parse_failed: 1, fetch_ok_zero_items: 2, ok: 3 }
+                    return [...sourceHealth.value].sort((a, b) => {
+                        if (a.status !== b.status) return (rank[a.status] ?? 1) - (rank[b.status] ?? 1)
+                        return (a.source_name || '').localeCompare(b.source_name || '')
+                    })
+                })
+
+                const criticalHealthRows = computed(() => {
+                    return healthRows.value.filter(source => {
+                        const name = source.source_name || ''
+                        const critical = name.startsWith('GitHub') || name.startsWith('Reddit')
+                        return critical && !['ok', 'fetch_ok_zero_items'].includes(source.status)
                     })
                 })
 
                 const stats = computed(() => {
-                    let recommended = 0, vetoed = 0, pending = 0
-                    categories.value.forEach(c => {
-                        if (c.status === 'scouted') pending++
-                        else if (c.status === 'recommended' || (c.now_score >= 80 && c.cr3 <= 50)) recommended++
-                        else if (c.status === 'vetoed' || c.cr3 > 50) vetoed++
-                    })
-                    return { total: categories.value.length, recommended, vetoed, pending }
+                    const hot = trendClusters.value.filter(t => t.trend_status === 'Hot').length
+                    const warming = trendClusters.value.filter(t => t.trend_status === 'Warming').length
+                    const watch = trendClusters.value.filter(t => t.trend_status === 'Watch').length
+                    const noise = trendClusters.value.filter(t => t.trend_status === 'Noise').length
+                    const held = signals.value.filter(s => s.gate_status === 'held').length
+                    const watchOnly = signals.value.filter(s => s.gate_status === 'watch_only').length
+                    const promoted = signals.value.filter(s => s.gate_status === 'promoted').length
+                    const sourceErrors = sourceHealth.value.filter(s => !['ok', 'fetch_ok_zero_items'].includes(s.status)).length
+                    return { trendTotal: trendClusters.value.length, categoryTotal: categories.value.length, hot, warming, watch, noise, signalTotal: signals.value.length, held, watchOnly, promoted, sourceErrors }
                 })
 
-                const getStatusText = (status, score, cr3) => {
-                    if (status === 'scouted') return 'L0 Scouted ⏳'
-                    if (status === 'vetoed') return 'Vetoed 🚫'
-                    if (status === 'recommended') return 'Core Rec 🟢'
-                    
-                    // Fallback logic if status isn't explicitly set but scores exist
-                    if (cr3 > 50) return 'Monopoly 🚫'
-                    if (score >= 80) return 'Core Rec 🟢'
-                    if (score > 0) return 'Analyzed 🟡'
-                    return status || 'Unknown'
+                const getTrendClass = (status) => {
+                    if (status === 'Hot') return 'status-hot'
+                    if (status === 'Warming') return 'status-warming'
+                    if (status === 'Noise') return 'status-noise'
+                    return 'status-watch'
                 }
 
-                const getStatusClass = (status, score, cr3) => {
-                    if (status === 'scouted') return 'status-scouted'
-                    if (status === 'vetoed' || cr3 > 50) return 'status-vetoed'
-                    if (status === 'recommended' || score >= 80) return 'status-recommended'
-                    return 'status-analyzing'
+                const trendStatusText = (status) => {
+                    const labels = { Hot: '热门', Warming: '升温', Watch: '观察', Noise: '噪声' }
+                    return labels[status] || status || '未知'
                 }
 
-                const getScoreColor = (score) => {
-                    if (score === undefined) return 'text-gray-600'
-                    if (score >= 80) return 'text-radar'
-                    if (score >= 60) return 'text-yellow-500'
-                    return 'text-red-400'
+                const trendReasonText = (reason) => {
+                    const labels = {
+                        multi_source_behavior_with_strength: '多源强行为',
+                        behavior_signal_needs_more_confirmation: '行为待确认',
+                        single_network_or_low_velocity: '低速观察',
+                        media_only_awareness: '媒体认知'
+                    }
+                    return labels[reason] || reason || '待解释'
                 }
 
-                onMounted(() => {
-                    loadData()
-                })
+                const topSignal = (trend) => trend.top_signals && trend.top_signals[0]
+                const topSignalTitle = (trend) => {
+                    const top = topSignal(trend)
+                    return top ? `${top.source_name}: ${top.source_title}` : '--'
+                }
+                const topSignalUrl = (trend) => {
+                    const top = topSignal(trend)
+                    return top && top.source_url
+                }
 
-                return { categories, sortedCategories, lastUpdated, stats, getStatusText, getStatusClass, getScoreColor }
+                const getSignalColor = (score) => {
+                    if (score === undefined || score === null) return 'text-muted'
+                    if (score >= 3) return 'text-green'
+                    if (score >= 2) return 'text-amber'
+                    return 'text-muted'
+                }
+
+                const getGateClass = (status) => {
+                    if (status === 'promoted') return 'status-promoted'
+                    if (status === 'watch_only') return 'status-watch-only'
+                    if (status === 'rejected') return 'status-rejected'
+                    return 'status-held'
+                }
+
+                const sourceTypeText = (type) => {
+                    const labels = {
+                        media: '媒体',
+                        community: '社区',
+                        developer: '开发者',
+                        product_launch: '发布',
+                        crowdfunding: '众筹',
+                        marketplace: '电商',
+                        search: '搜索',
+                        unknown: '未知'
+                    }
+                    return labels[type] || type || '未知'
+                }
+
+                const sourceDotClass = (type) => `dot-${type || 'unknown'}`
+
+                const gateStatusText = (status) => {
+                    const labels = {
+                        promoted: '已晋级',
+                        held: '待补证据',
+                        watch_only: '观察源',
+                        rejected: '已拒绝'
+                    }
+                    return labels[status || 'held'] || status || '待补证据'
+                }
+
+                const gateReasonText = (reason) => {
+                    const labels = {
+                        needs_two_independent_source_types: '需要双源',
+                        needs_behavior_source: '需要行为源',
+                        watch_only_source: '观察不晋级',
+                        generic_category: '泛词拦截',
+                        existing_category: '已有类目',
+                        passed: '已通过',
+                        not_evaluated: '未评估'
+                    }
+                    return labels[reason || 'not_evaluated'] || reason || '未评估'
+                }
+
+                const languageText = (language) => {
+                    const labels = { zh: '中文', en: '英文', unknown: '未知' }
+                    return labels[language || 'unknown'] || language || '未知'
+                }
+
+                const authModeText = (mode) => {
+                    const labels = {
+                        token: 'Token',
+                        anonymous: '匿名',
+                        reddit_oauth: 'OAuth',
+                        public_json: '公共 JSON',
+                        none: '无'
+                    }
+                    return labels[mode || 'none'] || mode || '无'
+                }
+
+                const rateLimitText = (rateLimit) => {
+                    if (!rateLimit) return '--'
+                    const remaining = rateLimit['x-ratelimit-remaining']
+                    const limit = rateLimit['x-ratelimit-limit']
+                    const retryAfter = rateLimit['retry-after']
+                    if (remaining !== undefined && limit !== undefined) return `${remaining}/${limit}`
+                    if (retryAfter !== undefined) return `retry ${retryAfter}s`
+                    return '--'
+                }
+
+                const getSourceHealthClass = (status) => {
+                    if (status === 'ok') return 'status-ok'
+                    if (status === 'fetch_ok_zero_items') return 'status-zero'
+                    return 'status-error'
+                }
+
+                const sourceHealthText = (status) => {
+                    const labels = {
+                        ok: '正常',
+                        fetch_ok_zero_items: '无命中',
+                        fetch_ok_parse_failed: '解析失败',
+                        error: '抓取失败'
+                    }
+                    return labels[status] || status || '未知'
+                }
+
+                onMounted(loadData)
+
+                return {
+                    categories,
+                    signals,
+                    sourceHealth,
+                    trendClusters,
+                    lastUpdated,
+                    trendFilter,
+                    signalFilter,
+                    trendFilterOptions,
+                    signalFilterOptions,
+                    sortedTrendClusters,
+                    filteredTrendClusters,
+                    sortedSignals,
+                    filteredSignals,
+                    healthRows,
+                    criticalHealthRows,
+                    stats,
+                    getTrendClass,
+                    trendStatusText,
+                    trendReasonText,
+                    topSignalTitle,
+                    topSignalUrl,
+                    getSignalColor,
+                    getGateClass,
+                    sourceTypeText,
+                    sourceDotClass,
+                    gateStatusText,
+                    gateReasonText,
+                    languageText,
+                    authModeText,
+                    rateLimitText,
+                    getSourceHealthClass,
+                    sourceHealthText
+                }
             }
         }).mount('#app')
     </script>
-    <style>
-        [v-cloak] { display: none; }
-    </style>
 </body>
 </html>

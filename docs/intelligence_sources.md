@@ -1,41 +1,172 @@
-## 🛰️ 智能硬件全网首发情报源矩阵 (Intelligence Sources V2.0)
+# Intelligence Sources
 
-本系统已实现 **全频谱、零死角** 监控，确保不遗漏任何一个变异品种。
+L0 now separates weak awareness sources from stronger behavior sources. A source can create `signals`, but only multi-source evidence can create a `category`.
 
-### 📡 当前已接入的 L0 实时嗅探源 (12条物理链路)
+The current product goal is a reliable trend radar, not an automatic SKU recommendation engine. `trend_clusters.json` is the primary output: it groups signals into Hot, Warming, Watch, or Noise based on source mix, behavior evidence, signal strength, and run history.
 
-| 平台 | 监控深度 | 战略意图 |
-| :--- | :--- | :--- |
-| **Product Hunt** | 每日全量扫描 | 发现硅谷最新的软硬件结合方案 |
-| **Kickstarter (Tech/Design)** | 全量 Atom 订阅 | 锁定最早期的众筹原型，领先亚马逊半年 |
-| **Indiegogo** | 科技频道全覆盖 | 捕捉大量中国出海精品硬件的首发数据 |
-| **Hacker News (Show HN)** | 实时 RSS | 监控硬核极客亲手打造的实验性设备 |
-| **Yanko Design** | 全量订阅 | **[关键]** 监控尚未量产的工业设计趋势，寻找审美溢价机会 |
-| **TechCrunch Hardware** | 行业深度流 | 监控获得风投支持的明星创业团队 |
-| **The Verge / Engadget** | 全量 RSS | 锁定已经被主流媒体关注的爆发性单品 |
-| **Gizmodo / SlashGear** | 科技潮流流 | 寻找具有猎奇属性、容易在 TikTok 传播的 Gadget |
-| **Reddit (r/gadgets)** | 高热度 RSS | 聆听全球最挑剔消费者的真实痛点反馈 |
+## Current Sources
 
+| Source | Collection | Source type | Strength |
+|---|---|---|---|
+| Product Hunt | RSS | `product_launch` | Launch interest |
+| Kickstarter Tech / Design | Atom | `crowdfunding` | Early willingness to pay |
+| Indiegogo Tech | Public JSON API | `crowdfunding` | Early willingness to pay with backer/funding metrics |
+| Hacker News Show | RSS | `community` | Builder interest |
+| Reddit r/gadgets | JSON top posts | `community` | Consumer discussion with score/comments |
+| Reddit r/hardware | JSON top posts | `community` | Technical buyer discussion |
+| Reddit r/smarthome | JSON top posts | `community` | Home automation demand |
+| Reddit r/wearabletech | JSON top posts | `community` | Wearable-specific demand |
+| Google Trends Daily | RSS | `search` | Search demand spike, filtered through hardware gate |
+| GitHub repository search | Search API | `developer` | AI project/model/big-tech peripheral adoption |
+| OpenClaw Hardware News | Google News RSS site query | `media` | OpenClaw + hardware/edge/camera/robot intersection |
+| Reddit OpenClaw Hardware Search | JSON search | `community` | Niche community mentions around OpenClaw hardware usage |
+| Agentic Edge Hardware News | Google News RSS query | `media` | AI agent + local hardware/I/O intersection |
+| Reddit Agentic Edge Hardware Search | JSON search | `community` | Niche community mentions around local AI hardware usage |
+| 少数派 | RSS | `media` | Chinese consumer-tech and productivity signal |
+| 36氪 | RSS | `media` | Chinese startup, AI, and hardware business signal |
+| Yanko Design | RSS | `media` | Industrial design awareness |
+| TechCrunch Hardware | RSS | `media` | Startup/funding awareness |
+| The Verge / Engadget | RSS | `media` | Mainstream product awareness |
+| Gizmodo | Google News RSS site query | `media` | Novel gadget awareness; direct Gizmodo RSS currently blocks automation |
+| SlashGear | RSS | `media` | Novel gadget awareness |
 
-## 3. 主流科技媒体 (Tech Media)
-当产品开始发公关稿（PR）或参加展会时，会在这里集中曝光。被他们报道，意味着即将面临大面积的流量曝光。
-*   **TechCrunch (Hardware 专栏)**：硅谷风向标，重点报道拿了融资的硬件初创公司。
-*   **The Verge / Engadget / Wired**：欧美主流数码消费品测评媒体。
-*   **Gizmodo**：偏向猎奇、新奇特、甚至有点怪异的科技硬件。
+## Reddit Contract
 
-## 4. 展会与供应链 (Exhibitions & Supply Chain)
-从源头看趋势，B2B 端的风口往往比 B2C 早半年。
-*   **CES (Las Vegas, 1月)**：全球最大消费电子展，一季度的风向标。
-*   **IFA (Berlin, 9月)** / **MWC (Barcelona)**：欧洲和通讯类的顶级硬件展。
-*   **Alibaba (新奇特馆/趋势榜)**：中国深圳/东莞/澄海供应链的源头，很多亚马逊爆款其实是工厂在这里先出的公模。
+Reddit is treated as a stronger community signal only when the post has enough engagement:
 
-## 5. 社交媒体与评测端 (Social & Reviewers)
-流量放大的引爆点。
-*   **YouTube (Unbox Therapy, MKBHD 等大V)**：头部科技博主的开箱视频，能瞬间拉爆一个硬件在亚马逊的搜索量。
-*   **TikTok (#TikTokMadeMeBuyIt, #TechGadgets)**：新奇特、低客单价（$50以下）、视觉冲击力强的硬件（如氛围灯、桌面玩具）的核心引爆点。
+- `reddit_score >= 50`, or
+- `reddit_comments >= 10`
 
----
+Each Reddit signal stores:
 
-## 🛠️ 雷达扩展建议 (Next Steps)
-目前 L0 引擎已接入 Kickstarter、Product Hunt 和 Reddit。
-未来若需扩容，可通过获取 Indiegogo、TechCrunch 和 Engadget 的 RSS 订阅源，直接注入 `scout_l0_advanced.py` 的 `FEEDS` 列表中，无需更改任何清洗逻辑，大模型会自动处理。
+- `reddit_score`
+- `reddit_comments`
+- `reddit_upvote_ratio`
+- `subreddit`
+- `created_utc`
+
+Reddit still does not create a category by itself. It must cross-match with another `source_type`, such as media, crowdfunding, search, or marketplace.
+
+For reliable daily runs, configure Reddit OAuth credentials as described in `docs/data_source_credentials.md`. Without `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET`, the scanner falls back to public JSON URLs, which can return HTTP 403.
+
+## Watch Topics
+
+`data/watch_topics.json` tracks themes we want to follow even before they become categories:
+
+- Hot GitHub AI projects: agent, MCP, RAG, Ollama, vLLM, ONNX, TFLite, edge AI.
+- AI model peripherals: Llama, Qwen, Gemma, DeepSeek, Whisper, CLIP, SAM, NPU.
+- Big tech peripherals: OpenAI, Anthropic, Google, Meta, Apple, NVIDIA, Samsung, Amazon, Microsoft, Tesla.
+- AI coding agent ecosystem: OpenClaw, Claude Code, OpenAI Codex, Gemini CLI / Gemini Code Assist, and related terminal/coding-agent tools.
+- OpenClaw hardware bridge: OpenClaw with camera, robot, edge device, terminal box, keyboard, recorder, local device, gateway, node, ClawBox, or OpenClaw OS.
+- Agentic edge hardware: AI agents moving into local hardware, physical I/O, local inference, or edge hubs.
+- Local AI box / edge hub: local LLM boxes, AI gateways, NPU boxes, Jetson/Hailo/RK3588/Ryzen AI hubs.
+- AI camera / vision node: local AI cameras, RTSP/ONVIF AI, no-cloud cameras, local recognition and recording.
+- AI recorder / memory device: AI recorders, meeting recorders, offline transcription, voice memory devices.
+- AI keyboard / command deck: AI keyboards, prompt keyboards, macro pads, MCP keyboards, agent command decks.
+- Robot / embodied agent kit: robot agents, robot controllers, embodied AI kits, local robot vision/control.
+- AI dev kit peripheral: NPU/dev boards, camera modules, sensor kits, MCP/agent dev kits.
+- Hardware intersections: smart glasses, camera, robot, wearable, sensor, recorder, doorbell, lock, speaker.
+
+Signals store matched topics in `matched_watch_topics` and `watch:*` tags.
+
+Keywords can be English or Chinese. The matcher preserves Chinese characters during normalization, so topics such as `端侧AI`, `智能门锁`, `摄像头`, and `大模型` can match Chinese source titles without a separate tokenizer.
+
+## Google Trends Contract
+
+Google Trends is collected from the Trending Now RSS export:
+
+- default geo is `US`.
+- override with `GOOGLE_TRENDS_GEOS=US,SG,HK`.
+- each trend stores `search_query`, `search_geo`, `google_trends_approx_traffic`, and normalized `google_trends_traffic_value`.
+- broad non-hardware trends are filtered before signal creation.
+
+Search signals are behavior signals, but they still need cross-source confirmation before a category is promoted.
+
+## Crowdfunding Contract
+
+Kickstarter is collected through Atom feeds. Indiegogo's legacy project RSS currently returns 403, so Indiegogo is collected through the public active crowdfunding projects JSON endpoint instead.
+
+Each Indiegogo signal stores:
+
+- `backers`
+- `pledged_usd`
+- `funding_goal`
+- `currency`
+- `comments`
+- `updates`
+- `rewards`
+- campaign start/end dates
+
+Only hardware-looking projects are allowed into `signals.json`.
+
+## Chinese Source Contract
+
+Chinese sources are intentionally a small whitelist:
+
+- `少数派`: stable RSS, Chinese consumer-tech signal.
+- `36氪`: stable RSS, Chinese startup/business signal.
+
+Each item stores `source_language: zh`. These are media signals, so they cannot promote a category by themselves; they must combine with community, search, marketplace, crowdfunding, or another independent behavior source.
+
+Unstable candidates such as 机器之心 `/rss` and 量子位 `/feed` were not enabled because they did not return a clean RSS response during verification.
+
+## L0 Scores
+
+Every signal includes `l0_scores`:
+
+- `source_quality`
+- `behavior_strength`
+- `specificity`
+- `watch_relevance`
+- `diffusion_stage`
+- `signal_strength`
+
+These scores are for triage and explanation only. They do not replace L1-L4 scoring.
+
+## Deduplication And Source Health
+
+L0 is safe to run repeatedly. Signals are deduped by stable source URL hash:
+
+- first sighting creates a new signal id.
+- repeat sightings refresh `last_seen_at`, `metrics`, `l0_scores`, and `seen_count`.
+- source collector status is stored in `data/source_health.json`, including status, HTTP code, item count, checked time, and rate-limit headers when available.
+- source health distinguishes `ok`, `fetch_ok_zero_items`, `fetch_ok_parse_failed`, and `error`.
+- extraction uses per-source quotas before applying the global scan limit, so noisy early feeds do not starve Google Trends, Reddit, or GitHub.
+
+This separates "no demand found" from "collector failed".
+
+## GitHub Contract
+
+GitHub repository search is treated as a `developer` behavior signal when repos are popular and recently active.
+
+For reliable daily runs, configure `GITHUB_TOKEN` or `GH_TOKEN`. Authenticated requests materially reduce rate-limit failures, but GitHub Search still has a separate search-rate bucket and can return 403 or 429 when exhausted.
+
+AI coding-agent ecosystem searches are explicitly watch-only:
+
+- OpenClaw ecosystem
+- Claude Code ecosystem
+- OpenAI Codex / Codex CLI ecosystem
+- Gemini CLI / Gemini Code Assist ecosystem
+
+These searches use a lower configurable star threshold, `GITHUB_TOOLCHAIN_MIN_STARS` (default `50`), because toolchain peripherals often emerge before they cross the main `GITHUB_MIN_STARS` threshold. They still do not create categories by themselves.
+
+Each GitHub signal stores:
+
+- `github_stars`
+- `github_forks`
+- `github_open_issues`
+- `github_language`
+- `github_pushed_at`
+- `github_topics`
+
+GitHub signals still do not create categories by themselves. A hot repo can indicate developer pull around an AI model or hardware-adjacent pattern, but it needs cross-source evidence before it becomes a candidate category.
+
+Implementation note: GitHub signals are stored as `category_eligible: false` by default. They enrich the watch list and downstream analysis, but they do not count toward `categories.json` until explicitly promoted.
+
+## Next Strong Sources
+
+The next best additions are:
+
+1. Kickstarter project metrics: pledged amount, backer count, funding ratio.
+2. Product Hunt votes/comments if API access is available.
+3. Jungle Scout / Amazon marketplace validation.

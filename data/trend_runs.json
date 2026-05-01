@@ -1,0 +1,473 @@
+{
+  "schema_version": "1.0",
+  "methodology_version": "1.0",
+  "runs": [
+    {
+      "run_at": "2026-05-01T17:43:15.186352Z",
+      "signal_count": 39,
+      "cluster_count": 7,
+      "clusters": [
+        {
+          "trend_key": "cluster:ai_voice_capture",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "cluster:smart_home_security",
+          "signal_count": 4,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.31,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "gaming keyboard",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "gaming monitor",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.9,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "outdoor smart device",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.65,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:github_ai_projects",
+          "signal_count": 30,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.57,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "wireless bluetooth speaker",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.45,
+          "has_behavior_source": true
+        }
+      ]
+    },
+    {
+      "run_at": "2026-05-01T21:11:30.936324Z",
+      "signal_count": 43,
+      "cluster_count": 9,
+      "clusters": [
+        {
+          "trend_key": "cluster:ai_voice_capture",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "cluster:smart_home_security",
+          "signal_count": 4,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.31,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "gaming keyboard",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "gaming monitor",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.9,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "outdoor smart device",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.65,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_coding_agent_ecosystem",
+          "signal_count": 31,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.55,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_model_peripherals",
+          "signal_count": 1,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.6,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:github_ai_projects",
+          "signal_count": 2,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.62,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "wireless bluetooth speaker",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.45,
+          "has_behavior_source": true
+        }
+      ]
+    },
+    {
+      "run_at": "2026-05-01T21:13:19.090086Z",
+      "signal_count": 51,
+      "cluster_count": 10,
+      "clusters": [
+        {
+          "trend_key": "cluster:ai_voice_capture",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "cluster:smart_home_security",
+          "signal_count": 4,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.31,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "gaming keyboard",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "gaming monitor",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.9,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "outdoor smart device",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.65,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_coding_agent_ecosystem",
+          "signal_count": 31,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.55,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_model_peripherals",
+          "signal_count": 1,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.6,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:github_ai_projects",
+          "signal_count": 2,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.62,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:openclaw_hardware_bridge",
+          "signal_count": 8,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.68,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "wireless bluetooth speaker",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.45,
+          "has_behavior_source": true
+        }
+      ]
+    },
+    {
+      "run_at": "2026-05-01T21:22:40.264810Z",
+      "signal_count": 59,
+      "cluster_count": 11,
+      "clusters": [
+        {
+          "trend_key": "cluster:ai_voice_capture",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "cluster:smart_home_security",
+          "signal_count": 4,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.31,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "gaming keyboard",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "gaming monitor",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.9,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "outdoor smart device",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.65,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:agentic_edge_hardware",
+          "signal_count": 8,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.62,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "watch:ai_coding_agent_ecosystem",
+          "signal_count": 31,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.56,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_model_peripherals",
+          "signal_count": 1,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.6,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:github_ai_projects",
+          "signal_count": 2,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.62,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:openclaw_hardware_bridge",
+          "signal_count": 8,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.68,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "wireless bluetooth speaker",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.45,
+          "has_behavior_source": true
+        }
+      ]
+    },
+    {
+      "run_at": "2026-05-01T21:27:33.850915Z",
+      "signal_count": 59,
+      "cluster_count": 11,
+      "clusters": [
+        {
+          "trend_key": "cluster:ai_voice_capture",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "cluster:smart_home_security",
+          "signal_count": 4,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.31,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "gaming keyboard",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "gaming monitor",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.9,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "outdoor smart device",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.65,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:agentic_edge_hardware",
+          "signal_count": 8,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.62,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "watch:ai_coding_agent_ecosystem",
+          "signal_count": 31,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.56,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_model_peripherals",
+          "signal_count": 1,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.6,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:github_ai_projects",
+          "signal_count": 2,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.62,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:openclaw_hardware_bridge",
+          "signal_count": 8,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.68,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "wireless bluetooth speaker",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.45,
+          "has_behavior_source": true
+        }
+      ]
+    }
+  ]
+}
