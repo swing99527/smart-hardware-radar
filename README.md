@@ -33,6 +33,7 @@
 本仓库基于 V1/V2 混合演进架构：
 - `data/signals.json`：L0 原始证据层，保存 source_url/source_title/source_type/raw_text/observed_at
 - `data/trend_clusters.json`：可信趋势层，按语义聚类输出 Hot / Warming / Watch / Noise
+- `data/market_theses.json`：市场假设层，把趋势转成可验证的细分市场定义、证据状态、缺口与下一步验证动作
 - `data/trend_runs.json`：每次采集的趋势快照，用于观察趋势速度和重复出现
 - `data/source_health.json`：每个采集源的最近状态、HTTP code、命中数量和限流信息
 - `data/watch_topics.json`：长期关注关键词，覆盖热门 GitHub AI 项目、AI 模型周边、大厂周边和硬件交叉点
@@ -40,6 +41,7 @@
 - 中文支持：L0 normalization 会保留中文字符，watch topics 可混合中英文关键词，Dashboard 优先展示中文聚类名
 - 中文媒体：已接入少数派和 36氪 RSS，信号会标记 `source_language: zh`
 - 搜索热度：Google Trends Trending Now RSS 已作为 `search` 行为信号接入，默认 `US`，可用 `GOOGLE_TRENDS_GEOS=US,SG,HK` 扩展地区
+- 市场假设：当前用 deterministic rules 从 trend cluster 生成，不会把媒体热度直接升级为选品结论；只有同时具备需求、市场和供应链证据时才会进入 `Ready for Selection`
 - 众筹与媒体源：Indiegogo 改用 public JSON API；Gizmodo 改用 Google News 站内 RSS 查询，避免官方 RSS 403 让 source health 常红
 - AI 编程工具周边：已加入 OpenClaw、Claude Code、OpenAI Codex、Gemini CLI / Gemini Code Assist 的 watch-only 监视，不直接生成硬件类目
 - OpenClaw 硬件交叉：单独监控 OpenClaw + 摄像头、机器人、终端盒子、AI keyboard、AI recorder、edge/local device、ClawBox、OpenClaw OS 等组合

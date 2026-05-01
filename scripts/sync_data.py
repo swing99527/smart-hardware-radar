@@ -8,6 +8,7 @@ SIGNAL_FILE = os.path.join(ROOT_DIR, 'data', 'signals.json')
 SOURCE_HEALTH_FILE = os.path.join(ROOT_DIR, 'data', 'source_health.json')
 TREND_CLUSTER_FILE = os.path.join(ROOT_DIR, 'data', 'trend_clusters.json')
 TREND_RUN_FILE = os.path.join(ROOT_DIR, 'data', 'trend_runs.json')
+MARKET_THESIS_FILE = os.path.join(ROOT_DIR, 'data', 'market_theses.json')
 DOCS_DIR = os.path.join(ROOT_DIR, 'docs')
 DOCS_DATA_FILE = os.path.join(DOCS_DIR, 'data.json')
 
@@ -32,10 +33,12 @@ def main():
         source_health = load_json(SOURCE_HEALTH_FILE, {"sources": []})
         trend_clusters = load_json(TREND_CLUSTER_FILE, {"clusters": []})
         trend_runs = load_json(TREND_RUN_FILE, {"runs": []})
+        market_theses = load_json(MARKET_THESIS_FILE, {"theses": []})
         data['signals'] = signals.get('signals', [])
         data['source_health'] = source_health.get('sources', [])
         data['trend_clusters'] = trend_clusters.get('clusters', [])
         data['trend_runs'] = trend_runs.get('runs', [])
+        data['market_theses'] = market_theses.get('theses', [])
             
         existing = None
         if os.path.exists(DOCS_DATA_FILE):

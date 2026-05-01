@@ -10,6 +10,7 @@ RSS / launch / community / marketplace sources
   -> data/watch_topics.json  # tracked themes and keywords
   -> data/trend_runs.json    # per-run snapshots for velocity
   -> data/trend_clusters.json # current Hot/Warming/Watch/Noise radar
+  -> data/market_theses.json # market thesis, evidence gaps, next validation
   -> evidence gate
   -> data/categories.json    # later enrichment candidates only after gate
 ```
@@ -29,6 +30,8 @@ RSS / launch / community / marketplace sources
 - `l0_scores`
 
 `data/trend_clusters.json` 是当前产品的主视图。它不输出“上新品推荐”，只解释哪些智能硬件方向正在变热、证据来自哪里、可信度为什么足够或不足。
+
+`data/market_theses.json` 是战略层。它把 trend cluster 翻译成“智能硬件细分市场假设”：用户任务、硬件形态、买家段、证据状态、缺失证据和下一步验证动作。当前版本是 deterministic rules，不用 LLM 作结论；媒体-only 或 supply 缺失的方向不能进入 `Ready for Selection`。
 
 `data/categories.json` 是后续选品验证入口。类目只有在通过 gate 后才能写入，但当前阶段不把它当作最终推荐。
 
@@ -83,7 +86,8 @@ scripts/scout_l0_advanced.py
   4. extract specific category candidate
   5. write new evidence to data/signals.json
   6. cluster existing signals into data/trend_clusters.json
-  7. write categories only when the evidence gate passes, for later L1-L4 validation
+  7. generate data/market_theses.json with evidence gaps and next validation actions
+  8. write categories only when the evidence gate passes, for later L1-L4 validation
 ```
 
 Google Trends RSS is included as a `search` source. It is not treated as an absolute demand number; the normalized traffic field is a behavior-strength proxy and still requires cross-source confirmation before promotion.

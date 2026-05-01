@@ -50,12 +50,78 @@
       <div class="panel metric p-3">
         <div class="text-xs text-muted">Signals</div>
         <div class="mt-2 text-3xl font-semibold text-white">{{ stats.signalTotal }}</div>
-        <div class="mt-1 text-xs text-muted">{{ stats.watchOnly }} watch-only</div>
+        <div class="mt-1 text-xs text-muted">{{ stats.marketThesisTotal }} market theses</div>
       </div>
       <div class="panel metric p-3">
         <div class="text-xs text-muted">Sources</div>
         <div class="mt-2 text-3xl font-semibold" :class="stats.sourceErrors ? 'text-red' : 'text-green'">{{ sourceHealth.length }}</div>
         <div class="mt-1 text-xs text-muted">{{ stats.sourceErrors }} 异常</div>
+      </div>
+    </section>
+
+    <section class="panel overflow-hidden">
+      <div class="flex flex-col gap-2 border-b border-line px-4 py-3 md:flex-row md:items-center md:justify-between">
+        <div>
+          <h2 class="text-base font-semibold text-white">细分市场假设</h2>
+          <div class="text-xs text-muted">{{ sortedMarketTheses.length }} theses · {{ stats.validatedTheses }} validated</div>
+        </div>
+      </div>
+      <div class="table-scroll">
+        <table class="w-full border-collapse text-left text-sm market-table">
+          <thead>
+            <tr class="border-b border-line bg-black/20 text-[11px] uppercase text-muted">
+              <th class="px-4 py-3 font-semibold">市场假设</th>
+              <th class="px-4 py-3 text-right font-semibold">证据</th>
+              <th class="px-4 py-3 font-semibold">Job / 形态</th>
+              <th class="px-4 py-3 font-semibold">来源组合</th>
+              <th class="px-4 py-3 font-semibold">缺口</th>
+              <th class="px-4 py-3 font-semibold">下一步验证</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-line/80">
+            <tr v-for="thesis in sortedMarketTheses" :key="thesis.id" class="row-hover align-top">
+              <td class="px-4 py-3 min-w-[250px]">
+                <div class="flex items-center gap-2">
+                  <span class="mono text-xs text-muted">{{ thesis.id }}</span>
+                  <span class="font-medium text-gray-100">{{ thesis.name_zh || thesis.name }}</span>
+                </div>
+                <div class="mono mt-1 text-[11px] text-muted">{{ thesis.thesis_key }}</div>
+                <div class="mt-2 text-xs text-muted truncate-2">{{ thesis.substitution_risk }}</div>
+              </td>
+              <td class="px-4 py-3 min-w-[140px] text-right">
+                <span class="status-badge" :class="marketStatusClass(thesis.evidence_status)">{{ marketStatusText(thesis.evidence_status) }}</span>
+                <div class="mono mt-2 text-lg font-semibold" :class="getSignalColor(thesis.evidence_score / 25)">{{ thesis.evidence_score }}</div>
+                <div class="text-xs text-muted">{{ thesis.signal_count }} signals</div>
+              </td>
+              <td class="px-4 py-3 min-w-[320px]">
+                <div class="truncate-2 text-gray-200">{{ thesis.job_to_be_done }}</div>
+                <div class="mt-2 flex flex-wrap gap-1">
+                  <span v-for="form in (thesis.hardware_form_factors || []).slice(0, 4)" :key="form" class="chip">{{ form }}</span>
+                </div>
+              </td>
+              <td class="px-4 py-3 min-w-[170px]">
+                <div class="flex flex-wrap gap-1.5">
+                  <span v-for="type in sourceMixTypes(thesis)" :key="type" class="chip gap-1.5">
+                    <span class="source-dot" :class="sourceDotClass(type)"></span>{{ sourceTypeText(type) }}
+                  </span>
+                </div>
+              </td>
+              <td class="px-4 py-3 min-w-[210px]">
+                <div class="flex flex-wrap gap-1">
+                  <span v-for="item in (thesis.missing_evidence || []).slice(0, 4)" :key="item" class="chip">{{ missingEvidenceText(item) }}</span>
+                </div>
+              </td>
+              <td class="px-4 py-3 min-w-[250px]">
+                <div class="flex flex-wrap gap-1">
+                  <span v-for="action in (thesis.next_validation || []).slice(0, 4)" :key="action" class="chip mono">{{ validationText(action) }}</span>
+                </div>
+              </td>
+            </tr>
+            <tr v-if="sortedMarketTheses.length === 0">
+              <td colspan="6" class="px-4 py-10 text-center text-muted">还没有市场假设。</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
@@ -296,6 +362,7 @@ const categories = ref([])
 const signals = ref([])
 const sourceHealth = ref([])
 const trendClusters = ref([])
+const marketTheses = ref([])
 const lastUpdated = ref('加载中...')
 const trendFilter = ref('all')
 const signalFilter = ref('all')
@@ -324,6 +391,7 @@ const loadData = async () => {
     signals.value = data.signals || []
     sourceHealth.value = data.source_health || []
     trendClusters.value = data.trend_clusters || []
+    marketTheses.value = data.market_theses || []
     lastUpdated.value = data.last_updated || '未知'
   } catch (error) {
     console.error('Failed to load data.json', error)
@@ -347,6 +415,19 @@ const sortedTrendClusters = computed(() => {
 const filteredTrendClusters = computed(() => {
   if (trendFilter.value === 'all') return sortedTrendClusters.value
   return sortedTrendClusters.value.filter((trend) => trend.trend_status === trendFilter.value)
+})
+
+const sortedMarketTheses = computed(() => {
+  const rank = { 'Ready for Selection': 5, Validated: 4, Warming: 3, Watch: 2, Noise: 1 }
+  return [...marketTheses.value].sort((a, b) => {
+    const statusA = rank[a.evidence_status] || 0
+    const statusB = rank[b.evidence_status] || 0
+    if (statusA !== statusB) return statusB - statusA
+    const scoreA = a.evidence_score || 0
+    const scoreB = b.evidence_score || 0
+    if (scoreA !== scoreB) return scoreB - scoreA
+    return (b.signal_count || 0) - (a.signal_count || 0)
+  })
 })
 
 const sortedSignals = computed(() => {
@@ -390,7 +471,9 @@ const stats = computed(() => {
   const watchOnly = signals.value.filter((signal) => signal.gate_status === 'watch_only').length
   const promoted = signals.value.filter((signal) => signal.gate_status === 'promoted').length
   const sourceErrors = sourceHealth.value.filter((source) => !['ok', 'fetch_ok_zero_items'].includes(source.status)).length
-  return { trendTotal: trendClusters.value.length, categoryTotal: categories.value.length, hot, warming, watch, noise, signalTotal: signals.value.length, held, watchOnly, promoted, sourceErrors }
+  const marketThesisTotal = marketTheses.value.length
+  const validatedTheses = marketTheses.value.filter((thesis) => ['Validated', 'Ready for Selection'].includes(thesis.evidence_status)).length
+  return { trendTotal: trendClusters.value.length, categoryTotal: categories.value.length, hot, warming, watch, noise, signalTotal: signals.value.length, held, watchOnly, promoted, sourceErrors, marketThesisTotal, validatedTheses }
 })
 
 const getTrendClass = (status) => {
@@ -413,6 +496,55 @@ const trendReasonText = (reason) => {
     media_only_awareness: '媒体认知'
   }
   return labels[reason] || reason || '待解释'
+}
+
+const marketStatusClass = (status) => {
+  if (status === 'Ready for Selection' || status === 'Validated') return 'status-hot'
+  if (status === 'Warming') return 'status-warming'
+  if (status === 'Noise') return 'status-noise'
+  return 'status-watch'
+}
+
+const marketStatusText = (status) => {
+  const labels = {
+    'Ready for Selection': '可选品',
+    Validated: '已验证',
+    Warming: '升温',
+    Watch: '观察',
+    Noise: '噪声'
+  }
+  return labels[status] || status || '未知'
+}
+
+const sourceMixTypes = (thesis) => Object.keys(thesis.source_mix || {}).sort()
+
+const missingEvidenceText = (item) => {
+  const labels = {
+    demand_behavior: '需求行为',
+    market_validation: '市场验证',
+    supply_chain: '供应链',
+    productization: '产品化',
+    source_diversity: '多源'
+  }
+  return labels[item] || item || '未知'
+}
+
+const validationText = (action) => {
+  const labels = {
+    reddit_pain_scan: 'Reddit pain',
+    google_trends_keyword_scan: 'Trends',
+    youtube_review_query: 'YouTube',
+    amazon_keyword_scan: 'Amazon keyword',
+    amazon_competition_snapshot: 'Amazon CR',
+    kickstarter_indiegogo_deep_scan: 'Crowdfunding',
+    '1688_alibaba_supplier_scan': '1688/Alibaba',
+    fcc_bluetooth_bom_check: 'FCC/BOM',
+    reference_design_scan: 'Reference design',
+    product_launch_scan: 'Launch',
+    crowdfunding_live_project_scan: 'Live funding',
+    add_independent_behavior_source: 'Add source'
+  }
+  return labels[action] || action || 'next'
 }
 
 const topSignal = (trend) => trend.top_signals && trend.top_signals[0]

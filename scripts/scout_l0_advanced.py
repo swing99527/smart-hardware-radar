@@ -17,6 +17,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 import l0_trend_engine
+import market_thesis_engine
 
 ROOT = SCRIPT_DIR.parent
 CAT_FILE = ROOT / "data" / "categories.json"
@@ -25,6 +26,7 @@ WATCH_TOPICS_FILE = ROOT / "data" / "watch_topics.json"
 SOURCE_HEALTH_FILE = ROOT / "data" / "source_health.json"
 TREND_RUN_FILE = ROOT / "data" / "trend_runs.json"
 TREND_CLUSTER_FILE = ROOT / "data" / "trend_clusters.json"
+MARKET_THESIS_FILE = ROOT / "data" / "market_theses.json"
 METHODOLOGY_VERSION = "1.0"
 REDDIT_TOKEN_CACHE = {"access_token": None, "expires_at": datetime.min}
 
@@ -1777,10 +1779,17 @@ def main():
         {"schema_version": "1.0", "methodology_version": METHODOLOGY_VERSION, "runs": []},
     )
     trend_clusters_doc, trend_runs_doc = build_trend_clusters(signals_doc, trend_runs_doc, observed_at)
+    market_theses_doc = market_thesis_engine.build_market_theses(
+        trend_clusters_doc,
+        signals_doc,
+        observed_at,
+        METHODOLOGY_VERSION,
+    )
     write_json(SIGNAL_FILE, signals_doc)
     write_json(CAT_FILE, cats_doc)
     write_json(TREND_CLUSTER_FILE, trend_clusters_doc)
     write_json(TREND_RUN_FILE, trend_runs_doc)
+    write_json(MARKET_THESIS_FILE, market_theses_doc)
 
     health_doc = read_json(
         SOURCE_HEALTH_FILE,
@@ -1794,6 +1803,7 @@ def main():
     print(f"Categories added: {added_categories}")
     print(f"Candidates held back by gate: {rejected_categories}")
     print(f"Trend clusters updated: {len(trend_clusters_doc.get('clusters', []))}")
+    print(f"Market theses updated: {len(market_theses_doc.get('theses', []))}")
 
 
 if __name__ == "__main__":

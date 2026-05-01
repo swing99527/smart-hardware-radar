@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "methodology_version": "1.0",
+  "generated_at": "2026-05-02T00:04:19.041879Z",
+  "theses": [
+    {
+      "id": "M001",
+      "thesis_key": "ai_command_input_peripherals",
+      "name": "AI command input peripherals",
+      "name_zh": "AI 指令输入外设",
+      "job_to_be_done": "Power users want physical controls that shorten repeated AI, coding and creative workflows.",
+      "hardware_form_factors": [
+        "AI keyboard",
+        "command deck",
+        "macro pad",
+        "programmable desktop controller"
+      ],
+      "buyer_segments": [
+        "developers",
+        "creators",
+        "AI-heavy operators"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 65,
+      "source_mix": {
+        "developer": 1,
+        "media": 1
+      },
+      "source_names": [
+        "GitHub Claude Code Ecosystem",
+        "GitHub Codex Ecosystem",
+        "GitHub Gemini Code Ecosystem",
+        "GitHub OpenClaw Ecosystem",
+        "Yanko Design"
+      ],
+      "signal_count": 32,
+      "trend_key": "watch:ai_coding_agent_ecosystem",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S001",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030",
+        "S031",
+        "S032",
+        "S033",
+        "S034",
+        "S035",
+        "S036",
+        "S037",
+        "S038",
+        "S039",
+        "S040",
+        "S041",
+        "S042",
+        "S043"
+      ],
+      "top_signals": [
+        {
+          "id": "S014",
+          "source_name": "GitHub Claude Code Ecosystem",
+          "source_type": "developer",
+          "source_title": "affaan-m/everything-claude-code - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "source_url": "https://github.com/affaan-m/everything-claude-code",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S016",
+          "source_name": "GitHub Gemini Code Ecosystem",
+          "source_type": "developer",
+          "source_title": "google-gemini/gemini-cli - An open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "source_url": "https://github.com/google-gemini/gemini-cli",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S017",
+          "source_name": "GitHub OpenClaw Ecosystem",
+          "source_type": "developer",
+          "source_title": "NousResearch/hermes-agent - The agent that grows with you",
+          "source_url": "https://github.com/NousResearch/hermes-agent",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S001",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "Logitech G512 X gaming keyboard is highly customizable with analog and mechanical switches",
+          "source_url": "https://www.yankodesign.com/2026/04/29/logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches/?utm_source=rss&utm_medium=rss&utm_campaign=logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches",
+          "signal_strength": 0.75
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "High from software launchers, Stream Deck, programmable keyboards and OS shortcuts.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
+    },
+    {
+      "id": "M002",
+      "thesis_key": "agentic_edge_io_nodes",
+      "name": "Agentic edge I/O nodes",
+      "name_zh": "智能体边缘 I/O 节点",
+      "job_to_be_done": "Builders need local devices that let software agents see, hear and act in the physical environment without shipping every event to the cloud.",
+      "hardware_form_factors": [
+        "edge AI box",
+        "AI camera node",
+        "sensor gateway",
+        "robot agent kit"
+      ],
+      "buyer_segments": [
+        "AI builders",
+        "smart-home power users",
+        "robotics teams",
+        "industrial pilots"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 65,
+      "source_mix": {
+        "developer": 2,
+        "media": 2
+      },
+      "source_names": [
+        "Agentic Edge Hardware News",
+        "GitHub On Device AI",
+        "OpenClaw Hardware News"
+      ],
+      "signal_count": 19,
+      "trend_key": "watch:github_ai_projects",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S008",
+        "S009",
+        "S010",
+        "S044",
+        "S045",
+        "S046",
+        "S047",
+        "S048",
+        "S049",
+        "S050",
+        "S051",
+        "S052",
+        "S053",
+        "S054",
+        "S055",
+        "S056",
+        "S057",
+        "S058",
+        "S059"
+      ],
+      "top_signals": [
+        {
+          "id": "S008",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
+          "source_url": "https://github.com/pytorch/executorch",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S009",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
+          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S010",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "NativeMindBrowser/NativeMindExtension - NativeMind: Your fully private, open-source, on-device AI assistant",
+          "source_url": "https://github.com/NativeMindBrowser/NativeMindExtension",
+          "signal_strength": 2.6
+        },
+        {
+          "id": "S044",
+          "source_name": "OpenClaw Hardware News",
+          "source_type": "media",
+          "source_title": "Build a More Secure, Always-On Local AI Agent with OpenClaw and NVIDIA NemoClaw | NVIDIA Technical Blog - NVIDIA Developer",
+          "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFp6STIydVdiUGZmV3ZIdW5sdFZKTUdGWGRwS0tpb1lxdU5IZDB3Q1doaGhRZ2szRk15QUFKc0dQTnc2bG1Uem9SdWV4T2JGaGU4LUIwQzQyR1dnSGZsXzFwRDFySWhCOHIwS21kQ2xjU01tb180b0lKNE5aUl9aRi1UVFg3dEVmSC1ieVFrc1pkZ0N0SHYwaXFJT0lDN2k1ZUh2Y09VY3BPWU9t?oc=5",
+          "signal_strength": 0.7
+        },
+        {
+          "id": "S046",
+          "source_name": "OpenClaw Hardware News",
+          "source_type": "media",
+          "source_title": "China is putting OpenClaw into robots while the US debates the dangers of rogue AI - Business Insider",
+          "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR2NZNnNIRTFSN1ZWWk8tclhoNFEzb3dGMDhsUmRwY21fX2xWQU1vQkVpdzJ0UEJRMXl1MVU2eU5QanB2a3RnQjF6c1FlSGp0WF8wcDVuLVdwTjcwOUhGZ1Q2V3NiZDhqSHJnTGwxbEtpdDdLWlhKbEt2RHFYQ3VBTm1GUzh3Zw?oc=5",
+          "signal_strength": 0.7
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "Medium-high from Raspberry Pi, Jetson kits, cameras with built-in AI, and cloud automation stacks.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
+    },
+    {
+      "id": "M003",
+      "thesis_key": "local_first_smart_home_security",
+      "name": "Local-first smart home security",
+      "name_zh": "本地优先智能家居安防",
+      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
+      "hardware_form_factors": [
+        "outdoor camera",
+        "video doorbell",
+        "smart lock",
+        "home security hub"
+      ],
+      "buyer_segments": [
+        "homeowners",
+        "apartment renters",
+        "smart-home installers"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 61,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 4,
+      "trend_key": "cluster:smart_home_security",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007"
+      ],
+      "top_signals": [
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M004",
+      "thesis_key": "outdoor_smart_devices",
+      "name": "Outdoor smart devices",
+      "name_zh": "户外智能设备",
+      "job_to_be_done": "Outdoor users want connected devices that survive weather, motion and intermittent connectivity.",
+      "hardware_form_factors": [
+        "outdoor sensor",
+        "bike device",
+        "tracker",
+        "rugged smart accessory"
+      ],
+      "buyer_segments": [
+        "outdoor enthusiasts",
+        "cyclists",
+        "fleet operators"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 46,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 1,
+      "trend_key": "outdoor smart device",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S012"
+      ],
+      "top_signals": [
+        {
+          "id": "S012",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
+          "signal_strength": 2.65
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Medium from phones, sports watches and action cameras.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M005",
+      "thesis_key": "smart_audio_devices",
+      "name": "Smart audio devices",
+      "name_zh": "智能音频设备",
+      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
+      "hardware_form_factors": [
+        "wireless speaker",
+        "smart microphone",
+        "earbuds",
+        "desktop audio device"
+      ],
+      "buyer_segments": [
+        "home users",
+        "remote workers",
+        "audio enthusiasts"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 45,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 1,
+      "trend_key": "wireless bluetooth speaker",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S006"
+      ],
+      "top_signals": [
+        {
+          "id": "S006",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
+          "signal_strength": 2.45
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M006",
+      "thesis_key": "gaming_productivity_peripherals",
+      "name": "Gaming productivity peripherals",
+      "name_zh": "游戏与效率外设",
+      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
+      "hardware_form_factors": [
+        "gaming monitor",
+        "gaming keyboard",
+        "desktop controller"
+      ],
+      "buyer_segments": [
+        "gamers",
+        "developers",
+        "desk setup buyers"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "Engadget"
+      ],
+      "signal_count": 1,
+      "trend_key": "gaming monitor",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S011"
+      ],
+      "top_signals": [
+        {
+          "id": "S011",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M007",
+      "thesis_key": "ai_voice_capture_workflow",
+      "name": "AI voice capture workflow devices",
+      "name_zh": "AI语音采集工作流设备",
+      "job_to_be_done": "Knowledge workers want frictionless capture of meetings, field notes and ideas with local or private transcription paths.",
+      "hardware_form_factors": [
+        "AI recorder",
+        "clip-on microphone",
+        "desk dictation device",
+        "offline transcription dock"
+      ],
+      "buyer_segments": [
+        "operators",
+        "journalists",
+        "students",
+        "field sales teams"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 15,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "TechCrunch Hardware"
+      ],
+      "signal_count": 1,
+      "trend_key": "cluster:ai_voice_capture",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S002"
+      ],
+      "top_signals": [
+        {
+          "id": "S002",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
+          "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+          "signal_strength": 0.75
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Medium from smartphone apps, meeting bots and bundled OS transcription.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    }
+  ]
+}
