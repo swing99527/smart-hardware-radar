@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-02T19:56:04.340370Z",
+  "generated_at": "2026-05-03T19:55:47.533844Z",
   "theses": [
     {
       "id": "M001",
@@ -38,7 +38,7 @@
         "Reddit Agentic Edge Hardware Search",
         "Reddit OpenClaw Hardware Search"
       ],
-      "signal_count": 52,
+      "signal_count": 60,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -94,7 +94,15 @@
         "S096",
         "S097",
         "S099",
-        "S100"
+        "S100",
+        "S101",
+        "S102",
+        "S103",
+        "S104",
+        "S105",
+        "S106",
+        "S107",
+        "S108"
       ],
       "top_signals": [
         {
@@ -122,20 +130,20 @@
           "signal_strength": 2.75
         },
         {
-          "id": "S097",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "TypeWhisper/typewhisper-mac - Local speech-to-text for macOS  on-device AI, fully private, optional cloud",
-          "source_url": "https://github.com/TypeWhisper/typewhisper-mac",
-          "signal_strength": 2.75
-        },
-        {
           "id": "S008",
           "source_name": "GitHub On Device AI",
           "source_type": "developer",
           "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
           "source_url": "https://github.com/pytorch/executorch",
           "signal_strength": 2.8
+        },
+        {
+          "id": "S009",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
+          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
+          "signal_strength": 2.45
         }
       ],
       "missing_evidence": [
@@ -442,59 +450,6 @@
     },
     {
       "id": "M005",
-      "thesis_key": "emerging_smart_window_shades",
-      "name": "Smart Window Shades",
-      "name_zh": "Smart Window Shades",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "Smart Window Shades"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 46,
-      "source_mix": {
-        "community": 1
-      },
-      "source_names": [
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 1,
-      "trend_key": "smart window shades",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S090"
-      ],
-      "top_signals": [
-        {
-          "id": "S090",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Automating shades to close when nobody is home during the summer. Does it actually help?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1swp4ir/automating_shades_to_close_when_nobody_is_home/",
-          "signal_strength": 2.65
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
-    },
-    {
-      "id": "M006",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -542,6 +497,59 @@
         "source_diversity"
       ],
       "substitution_risk": "Medium from phones, sports watches and action cameras.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M006",
+      "thesis_key": "emerging_smart_window_shades",
+      "name": "Smart Window Shades",
+      "name_zh": "Smart Window Shades",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Window Shades"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 46,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 1,
+      "trend_key": "smart window shades",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S090"
+      ],
+      "top_signals": [
+        {
+          "id": "S090",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Automating shades to close when nobody is home during the summer. Does it actually help?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1swp4ir/automating_shades_to_close_when_nobody_is_home/",
+          "signal_strength": 2.65
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
       "next_validation": [
         "amazon_keyword_scan",
         "amazon_competition_snapshot",
