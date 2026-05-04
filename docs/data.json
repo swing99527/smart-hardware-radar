@@ -116,9 +116,16 @@
         "signal_strength": 0.75
       },
       "dedupe_key": "646739e4e3cae23c",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 19,
-      "extraction": null,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 20,
+      "extraction": {
+        "decision": "accept",
+        "category": "Dictation Device",
+        "hardware_noun": "dictation device",
+        "use_case": "voice recording and transcription",
+        "confidence": 0.9,
+        "reject_reason": null
+      },
       "gate_status": "held",
       "gate_reason": "needs_two_independent_source_types",
       "cluster_key": "cluster:ai_voice_capture",
@@ -136,14 +143,14 @@
       "source_title": "Outdoor camera for remote viewing without monthly fees?",
       "raw_text": "Outdoor camera for remote viewing without monthly fees?",
       "observed_at": "2026-04-30T22:23:43.680455Z",
-      "candidate_category": "Outdoor Camera",
-      "candidate_key": "outdoor camera",
+      "candidate_category": "Outdoor Security Camera",
+      "candidate_key": "outdoor security camera",
       "category_eligible": true,
       "extraction_engine": "NLP",
       "metrics": {
-        "reddit_score": 15,
+        "reddit_score": 17,
         "reddit_comments": 46,
-        "reddit_upvote_ratio": 0.81,
+        "reddit_upvote_ratio": 0.84,
         "subreddit": "smarthome",
         "created_utc": 1777388250.0
       },
@@ -158,10 +165,10 @@
       "l0_scores": {
         "source_quality": 2,
         "behavior_strength": 4,
-        "specificity": 2,
+        "specificity": 3,
         "watch_relevance": 1,
         "diffusion_stage": "early_adopter",
-        "signal_strength": 2.55
+        "signal_strength": 2.8
       },
       "dedupe_key": "adc7e041adad9d9d",
       "gate_status": "promoted",
@@ -169,9 +176,16 @@
       "cluster_key": "cluster:smart_home_security",
       "cluster_name": "Smart Home Security Device",
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 12,
-      "extraction": null,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 13,
+      "extraction": {
+        "decision": "accept",
+        "category": "Outdoor Security Camera",
+        "hardware_noun": "outdoor camera",
+        "use_case": "remote viewing without monthly fees",
+        "confidence": 0.95,
+        "reject_reason": null
+      },
       "cluster_name_zh": "智能家居安防设备",
       "source_language": "unknown",
       "trend_key": "cluster:smart_home_security"
@@ -377,11 +391,11 @@
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "metrics": {
-        "github_stars": 4570,
-        "github_forks": 972,
-        "github_open_issues": 1650,
+        "github_stars": 4572,
+        "github_forks": 974,
+        "github_open_issues": 1631,
         "github_language": "Python",
-        "github_pushed_at": "2026-05-04T12:08:01Z",
+        "github_pushed_at": "2026-05-04T19:46:35Z",
         "github_topics": [
           "deep-learning",
           "embedded",
@@ -409,8 +423,8 @@
         "signal_strength": 2.8
       },
       "dedupe_key": "59b6ea3c3b05174c",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 18,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 19,
       "extraction": null,
       "gate_status": "watch_only",
       "gate_reason": "watch_only_source",
@@ -433,11 +447,11 @@
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "metrics": {
-        "github_stars": 1191,
+        "github_stars": 1196,
         "github_forks": 35,
         "github_open_issues": 12,
         "github_language": "Kotlin",
-        "github_pushed_at": "2026-05-04T12:32:45Z",
+        "github_pushed_at": "2026-05-04T15:59:41Z",
         "github_topics": [
           "agent",
           "ai",
@@ -446,6 +460,7 @@
           "automation",
           "bot",
           "claw",
+          "codex",
           "gui",
           "linux",
           "on-device",
@@ -455,22 +470,24 @@
       "tags": [
         "github_repo",
         "hardware_keyword_match",
+        "watch:ai_coding_agent_ecosystem",
         "watch:github_ai_projects"
       ],
       "matched_watch_topics": [
-        "github_ai_projects"
+        "github_ai_projects",
+        "ai_coding_agent_ecosystem"
       ],
       "l0_scores": {
         "source_quality": 2,
         "behavior_strength": 3,
         "specificity": 3,
-        "watch_relevance": 1,
+        "watch_relevance": 2,
         "diffusion_stage": "innovator",
-        "signal_strength": 2.45
+        "signal_strength": 2.6
       },
       "dedupe_key": "701fc4dd41048764",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 18,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 19,
       "extraction": null,
       "gate_status": "watch_only",
       "gate_reason": "watch_only_source",
@@ -478,7 +495,7 @@
       "cluster_name": null,
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
       "source_language": "unknown",
-      "trend_key": "watch:github_ai_projects"
+      "trend_key": "watch:ai_coding_agent_ecosystem"
     },
     {
       "id": "S010",
@@ -493,7 +510,7 @@
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "metrics": {
-        "github_stars": 1064,
+        "github_stars": 1065,
         "github_forks": 96,
         "github_open_issues": 17,
         "github_language": "TypeScript",
@@ -529,8 +546,8 @@
         "signal_strength": 2.6
       },
       "dedupe_key": "12a6d3b969a8e054",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 18,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 19,
       "extraction": null,
       "gate_status": "watch_only",
       "gate_reason": "watch_only_source",
@@ -634,19 +651,19 @@
       "raw_text": "openclaw/openclaw - Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 368122,
-        "github_forks": 75798,
-        "github_open_issues": 6787,
+        "github_stars": 368250,
+        "github_forks": 75827,
+        "github_open_issues": 6871,
         "github_language": "TypeScript",
-        "github_pushed_at": "2026-05-04T12:31:34Z",
+        "github_pushed_at": "2026-05-04T20:13:48Z",
         "github_topics": [
           "ai",
           "assistant",
@@ -692,16 +709,16 @@
       "raw_text": "affaan-m/everything-claude-code - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 173030,
-        "github_forks": 26813,
+        "github_stars": 173226,
+        "github_forks": 26845,
         "github_open_issues": 153,
         "github_language": "JavaScript",
         "github_pushed_at": "2026-05-03T04:53:48Z",
@@ -753,19 +770,19 @@
       "raw_text": "sickn33/antigravity-awesome-skills - Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 36271,
-        "github_forks": 5943,
-        "github_open_issues": 3,
+        "github_stars": 36310,
+        "github_forks": 5950,
+        "github_open_issues": 0,
         "github_language": "Python",
-        "github_pushed_at": "2026-05-04T07:59:20Z",
+        "github_pushed_at": "2026-05-04T16:40:55Z",
         "github_topics": [
           "agent-skills",
           "agentic-skills",
@@ -824,19 +841,19 @@
       "raw_text": "google-gemini/gemini-cli - An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 103095,
-        "github_forks": 13474,
-        "github_open_issues": 2754,
+        "github_stars": 103125,
+        "github_forks": 13478,
+        "github_open_issues": 2627,
         "github_language": "TypeScript",
-        "github_pushed_at": "2026-05-04T04:00:41Z",
+        "github_pushed_at": "2026-05-04T20:18:59Z",
         "github_topics": [
           "ai",
           "ai-agents",
@@ -884,19 +901,19 @@
       "raw_text": "NousResearch/hermes-agent - The agent that grows with you",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 132033,
-        "github_forks": 20037,
-        "github_open_issues": 8102,
+        "github_stars": 132532,
+        "github_forks": 20140,
+        "github_open_issues": 8150,
         "github_language": "Python",
-        "github_pushed_at": "2026-05-04T12:53:18Z",
+        "github_pushed_at": "2026-05-04T20:15:56Z",
         "github_topics": [
           "ai",
           "ai-agent",
@@ -953,16 +970,16 @@
       "raw_text": "x1xhlol/system-prompts-and-models-of-ai-tools - FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 136660,
-        "github_forks": 34125,
+        "github_stars": 136675,
+        "github_forks": 34128,
         "github_open_issues": 136,
         "github_language": null,
         "github_pushed_at": "2026-04-29T14:57:40Z",
@@ -1026,17 +1043,17 @@
       "raw_text": "ryoppippi/ccusage - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 13728,
-        "github_forks": 531,
-        "github_open_issues": 187,
+        "github_stars": 13746,
+        "github_forks": 533,
+        "github_open_issues": 186,
         "github_language": "TypeScript",
         "github_pushed_at": "2026-05-04T11:15:08Z",
         "github_topics": []
@@ -1076,16 +1093,16 @@
       "raw_text": "asgeirtj/system_prompts_leaks - Extracted system prompts from ChatGPT (GPT-5.5 Thinking), Claude (Opus 4.7, Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, Gemini CLI), Grok (4.3 beta), Perplexity, and more. Updated regularly.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 39442,
-        "github_forks": 6512,
+        "github_stars": 39457,
+        "github_forks": 6513,
         "github_open_issues": 19,
         "github_language": null,
         "github_pushed_at": "2026-05-04T06:45:19Z",
@@ -1147,17 +1164,17 @@
       "raw_text": "farion1231/cc-switch - A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 58828,
-        "github_forks": 3825,
-        "github_open_issues": 721,
+        "github_stars": 59015,
+        "github_forks": 3841,
+        "github_open_issues": 725,
         "github_language": "Rust",
         "github_pushed_at": "2026-05-02T13:36:08Z",
         "github_topics": [
@@ -1218,17 +1235,17 @@
       "raw_text": "anthropics/claude-code - Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 120258,
-        "github_forks": 19932,
-        "github_open_issues": 10634,
+        "github_stars": 120352,
+        "github_forks": 19947,
+        "github_open_issues": 10733,
         "github_language": "Shell",
         "github_pushed_at": "2026-05-01T03:11:33Z",
         "github_topics": []
@@ -1270,19 +1287,19 @@
       "raw_text": "steipete/CodexBar - Show usage stats for OpenAI Codex and Claude Code, without having to login.",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 11588,
-        "github_forks": 889,
-        "github_open_issues": 163,
+        "github_stars": 11611,
+        "github_forks": 891,
+        "github_open_issues": 164,
         "github_language": "Swift",
-        "github_pushed_at": "2026-05-04T12:44:41Z",
+        "github_pushed_at": "2026-05-04T20:20:35Z",
         "github_topics": [
           "ai",
           "claude-code",
@@ -1327,19 +1344,19 @@
       "raw_text": "router-for-me/CLIProxyAPI - Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Claude model through API",
       "observed_at": "2026-05-01T17:43:15.186352Z",
       "first_seen_at": "2026-05-01T17:43:15.186352Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 9,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 10,
       "candidate_category": "AI Coding Agent Ecosystem",
       "candidate_key": "ai coding agent ecosystem",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 30531,
-        "github_forks": 5081,
-        "github_open_issues": 266,
+        "github_stars": 30564,
+        "github_forks": 5092,
+        "github_open_issues": 252,
         "github_language": "Go",
-        "github_pushed_at": "2026-05-04T09:54:20Z",
+        "github_pushed_at": "2026-05-04T19:07:59Z",
         "github_topics": [
           "antigravity",
           "claude-code",
@@ -2634,8 +2651,8 @@
       "raw_text": "Build a More Secure, Always-On Local AI Agent with OpenClaw and NVIDIA NemoClaw | NVIDIA Technical Blog - NVIDIA Developer",
       "observed_at": "2026-05-01T21:13:19.090086Z",
       "first_seen_at": "2026-05-01T21:13:19.090086Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 7,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 8,
       "candidate_category": "OpenClaw Hardware Bridge",
       "candidate_key": "openclaw hardware bridge",
       "category_eligible": false,
@@ -2680,8 +2697,8 @@
       "raw_text": "Best hardware options for deploying OpenClaw - TechRadar",
       "observed_at": "2026-05-01T21:13:19.090086Z",
       "first_seen_at": "2026-05-01T21:13:19.090086Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 7,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 8,
       "candidate_category": "OpenClaw Hardware Bridge",
       "candidate_key": "openclaw hardware bridge",
       "category_eligible": false,
@@ -2722,8 +2739,8 @@
       "raw_text": "China is putting OpenClaw into robots while the US debates the dangers of rogue AI - Business Insider",
       "observed_at": "2026-05-01T21:13:19.090086Z",
       "first_seen_at": "2026-05-01T21:13:19.090086Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 7,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 8,
       "candidate_category": "OpenClaw Hardware Bridge",
       "candidate_key": "openclaw hardware bridge",
       "category_eligible": false,
@@ -2766,8 +2783,8 @@
       "raw_text": "Run OpenClaw Locally On AMD Ryzen™ AI Max+ Processors and Radeon™ GPUs - AMD",
       "observed_at": "2026-05-01T21:13:19.090086Z",
       "first_seen_at": "2026-05-01T21:13:19.090086Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 7,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 8,
       "candidate_category": "OpenClaw Hardware Bridge",
       "candidate_key": "openclaw hardware bridge",
       "category_eligible": false,
@@ -3074,8 +3091,8 @@
       "raw_text": "Your #1 Job For January? Deploy An AI Agent — Yourself. Hands On Keyboard - SaaStr",
       "observed_at": "2026-05-01T21:22:40.264810Z",
       "first_seen_at": "2026-05-01T21:22:40.264810Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 6,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 7,
       "candidate_category": "Agentic Edge Hardware",
       "candidate_key": "agentic edge hardware",
       "category_eligible": false,
@@ -3116,8 +3133,8 @@
       "raw_text": "Lattice and TI Join Forces to Advance Real-time Edge AI Sensor Fusion - EE Times Asia",
       "observed_at": "2026-05-01T21:22:40.264810Z",
       "first_seen_at": "2026-05-01T21:22:40.264810Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 6,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 7,
       "candidate_category": "Agentic Edge Hardware",
       "candidate_key": "agentic edge hardware",
       "category_eligible": false,
@@ -3160,8 +3177,8 @@
       "raw_text": "How ADR and Intel went underground with edge AI - The Robot Report",
       "observed_at": "2026-05-01T21:22:40.264810Z",
       "first_seen_at": "2026-05-01T21:22:40.264810Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 6,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 7,
       "candidate_category": "Agentic Edge Hardware",
       "candidate_key": "agentic edge hardware",
       "category_eligible": false,
@@ -3367,15 +3384,15 @@
       "raw_text": "Dreame’s Smart Fridge Has a Robot Arm That Can Put Your Groceries Away for You - Gizmodo",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
-      "candidate_category": "Smart Fridge",
-      "candidate_key": "smart fridge",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
+      "candidate_category": "Smart Fridge Robot",
+      "candidate_key": "smart fridge robot",
       "category_eligible": true,
       "extraction_engine": "LLM",
       "extraction": {
         "decision": "accept",
-        "category": "Robotic Arm Smart Fridge",
+        "category": "Smart Fridge With Robot Arm",
         "hardware_noun": "smart fridge",
         "use_case": "Automated grocery storage",
         "confidence": 0.95,
@@ -3394,17 +3411,17 @@
       "l0_scores": {
         "source_quality": 1,
         "behavior_strength": 0,
-        "specificity": 2,
+        "specificity": 3,
         "watch_relevance": 2,
         "diffusion_stage": "opinion_leader",
-        "signal_strength": 1.05
+        "signal_strength": 1.3
       },
       "dedupe_key": "6bab3b4108f713ba",
       "gate_status": "held",
       "gate_reason": "needs_two_independent_source_types",
-      "cluster_key": "smart fridge",
-      "cluster_name": "Smart Fridge",
-      "trend_key": "smart fridge"
+      "cluster_key": "smart fridge robot",
+      "cluster_name": "Smart Fridge Robot",
+      "trend_key": "smart fridge robot"
     },
     {
       "id": "S062",
@@ -3518,17 +3535,17 @@
       "raw_text": "bytedance/UI-TARS-desktop - The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "AI Camera Node",
       "candidate_key": "ai camera node",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 29596,
-        "github_forks": 2908,
-        "github_open_issues": 377,
+        "github_stars": 29605,
+        "github_forks": 2910,
+        "github_open_issues": 379,
         "github_language": "TypeScript",
         "github_pushed_at": "2026-04-29T07:27:48Z",
         "github_topics": [
@@ -3585,15 +3602,15 @@
       "raw_text": "mkiol/dsnote - Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation.",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "AI Recorder Device",
       "candidate_key": "ai recorder device",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 1454,
+        "github_stars": 1455,
         "github_forks": 62,
         "github_open_issues": 132,
         "github_language": "C++",
@@ -3847,17 +3864,17 @@
       "raw_text": "alibaba/MNN - MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "AI Camera Node",
       "candidate_key": "ai camera node",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 15086,
-        "github_forks": 2299,
-        "github_open_issues": 53,
+        "github_stars": 15092,
+        "github_forks": 2300,
+        "github_open_issues": 54,
         "github_language": "C++",
         "github_pushed_at": "2026-04-28T03:16:12Z",
         "github_topics": [
@@ -3986,8 +4003,8 @@
       "raw_text": "jonyzhang2023/awesome-embodied-vla-va-vln - A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches.",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "Robot Agent Kit",
       "candidate_key": "robot agent kit",
       "category_eligible": false,
@@ -4212,15 +4229,15 @@
       "raw_text": "Xingxun7777/Aria - Windows 本地 AI 语音输入法 — 离线语音识别，屏幕感知上下文，热词纠错，语音指令操作选区。Local AI voice typing for Windows — offline speech-to-text with screen-aware context.",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "AI Recorder Device",
       "candidate_key": "ai recorder device",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 63,
+        "github_stars": 64,
         "github_forks": 12,
         "github_open_issues": 0,
         "github_language": "Python",
@@ -4277,8 +4294,8 @@
       "raw_text": "HCPLab-SYSU/Embodied_AI_Paper_List - [Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "Robot Agent Kit",
       "candidate_key": "robot agent kit",
       "category_eligible": false,
@@ -4487,16 +4504,16 @@
       "raw_text": "kaixxx/noScribe - Cutting edge AI technology for automated audio transcription. A nice GUI for OpenAIs Whisper and pyannote (speaker identification)",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "AI Camera Node",
       "candidate_key": "ai camera node",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "github_stars": 1929,
-        "github_forks": 325,
+        "github_stars": 1950,
+        "github_forks": 332,
         "github_open_issues": 39,
         "github_language": "Python",
         "github_pushed_at": "2026-04-17T17:08:56Z",
@@ -4550,8 +4567,8 @@
       "raw_text": "xuegao-tzx/whisper_flutter_new - A flutter library for offline speech-to-text conversion which use whisper.cpp models implementation for Android、iOS、macOS.",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "AI Recorder Device",
       "candidate_key": "ai recorder device",
       "category_eligible": false,
@@ -4559,7 +4576,7 @@
       "extraction": null,
       "metrics": {
         "github_stars": 51,
-        "github_forks": 40,
+        "github_forks": 41,
         "github_open_issues": 25,
         "github_language": "C++",
         "github_pushed_at": "2026-04-30T02:58:12Z",
@@ -4670,17 +4687,17 @@
       "raw_text": "Dreame’s Next Smart Lock Packs a 3K Doorbell Camera and Aliro Support - Gizmodo",
       "observed_at": "2026-05-01T20:08:31.823442Z",
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
-      "seen_count": 3,
-      "candidate_category": "Smart Lock",
-      "candidate_key": "smart lock",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
+      "candidate_category": "Smart Lock Doorbell Camera",
+      "candidate_key": "smart lock doorbell camera",
       "category_eligible": true,
       "extraction_engine": "LLM",
       "extraction": {
         "decision": "accept",
-        "category": "Smart Lock",
+        "category": "Smart Lock With Doorbell Camera",
         "hardware_noun": "smart lock",
-        "use_case": "Home Security with Doorbell Camera",
+        "use_case": "Home security and video doorbell",
         "confidence": 0.95,
         "reject_reason": null
       },
@@ -4695,10 +4712,10 @@
       "l0_scores": {
         "source_quality": 1,
         "behavior_strength": 0,
-        "specificity": 2,
+        "specificity": 3,
         "watch_relevance": 1,
         "diffusion_stage": "opinion_leader",
-        "signal_strength": 0.9
+        "signal_strength": 1.15
       },
       "dedupe_key": "fb077dc1b25cffae",
       "gate_status": "promoted",
@@ -4820,8 +4837,8 @@
       "raw_text": "Palo Alto Networks Targets AI Agent Gateway With Portkey Buy - Bank Info Security",
       "observed_at": "2026-05-02T19:56:04.340370Z",
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 3,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 4,
       "candidate_category": "Agentic Edge Hardware",
       "candidate_key": "agentic edge hardware",
       "category_eligible": false,
@@ -5524,17 +5541,17 @@
       "raw_text": "wait... did openclaw just ship a stable update?",
       "observed_at": "2026-05-03T19:55:47.533844Z",
       "first_seen_at": "2026-05-03T19:55:47.533844Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 2,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 3,
       "candidate_category": "OpenClaw Hardware Bridge",
       "candidate_key": "openclaw hardware bridge",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "reddit_score": 18,
-        "reddit_comments": 12,
-        "reddit_upvote_ratio": 0.88,
+        "reddit_score": 23,
+        "reddit_comments": 13,
+        "reddit_upvote_ratio": 0.93,
         "subreddit": "better_claw",
         "created_utc": 1777830280.0
       },
@@ -5920,8 +5937,8 @@
       "raw_text": "Elgato Stream Deck programmable workflow controller with plugin marketplace",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -5931,8 +5948,8 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
         "watch:geek_ai_productivity_hardware"
       ],
       "matched_watch_topics": [
@@ -5963,8 +5980,8 @@
       "raw_text": "ZSA Moonlander high-end split ergonomic programmable keyboard",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -5974,11 +5991,11 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
+        "watch:ai_model_peripherals",
         "watch:geek_ai_productivity_hardware",
-        "watch:programmable_keyboard_ecosystem",
-        "watch:ai_model_peripherals"
+        "watch:programmable_keyboard_ecosystem"
       ],
       "matched_watch_topics": [
         "geek_ai_productivity_hardware",
@@ -6010,8 +6027,8 @@
       "raw_text": "Keychron global DTC mechanical keyboard brand with QMK and VIA programmable keyboards",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6021,8 +6038,8 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
         "watch:geek_ai_productivity_hardware",
         "watch:programmable_keyboard_ecosystem"
       ],
@@ -6055,8 +6072,8 @@
       "raw_text": "Wooting high-end analog magnetic switch gaming keyboard",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6066,8 +6083,8 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
         "watch:geek_ai_productivity_hardware"
       ],
       "matched_watch_topics": [
@@ -6098,8 +6115,8 @@
       "raw_text": "Loupedeck creative control console for creator workflows",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6109,8 +6126,8 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
         "watch:geek_ai_productivity_hardware"
       ],
       "matched_watch_topics": [
@@ -6141,8 +6158,8 @@
       "raw_text": "Work Louder creator keyboard and workflow controller hardware",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6152,8 +6169,8 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
         "watch:geek_ai_productivity_hardware"
       ],
       "matched_watch_topics": [
@@ -6184,8 +6201,8 @@
       "raw_text": "CharaChorder high-speed text input keyboard device",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6195,10 +6212,10 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
-        "watch:geek_ai_productivity_hardware",
-        "watch:ai_model_peripherals"
+        "hardware_keyword_match",
+        "watch:ai_model_peripherals",
+        "watch:geek_ai_productivity_hardware"
       ],
       "matched_watch_topics": [
         "geek_ai_productivity_hardware",
@@ -6229,8 +6246,8 @@
       "raw_text": "Naya modular ergonomic keyboard and productivity controller",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6240,8 +6257,8 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
         "watch:geek_ai_productivity_hardware",
         "watch:programmable_keyboard_ecosystem"
       ],
@@ -6274,8 +6291,8 @@
       "raw_text": "Glove80 wireless split ergonomic keyboard",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6285,8 +6302,8 @@
         "reference_kind": "first_party_product_site"
       },
       "tags": [
-        "hardware_keyword_match",
         "first_party_product_reference",
+        "hardware_keyword_match",
         "watch:geek_ai_productivity_hardware",
         "watch:programmable_keyboard_ecosystem"
       ],
@@ -6319,8 +6336,8 @@
       "raw_text": "Keychron B11 Pro review: A good ultra-slim foldable keyboard - Tom's Guide",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6359,8 +6376,8 @@
       "raw_text": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6401,16 +6418,16 @@
       "raw_text": "[HIRING] Need someone who specializes in reverse engineering",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "OpenClaw Hardware Bridge",
       "candidate_key": "openclaw hardware bridge",
       "category_eligible": false,
       "extraction_engine": "QUERY",
       "extraction": null,
       "metrics": {
-        "reddit_score": 8,
-        "reddit_comments": 3,
+        "reddit_score": 14,
+        "reddit_comments": 8,
         "reddit_upvote_ratio": 1.0,
         "subreddit": "freelance_forhire",
         "created_utc": 1777873647.0
@@ -6418,8 +6435,8 @@
       "tags": [
         "hardware_keyword_match",
         "reddit_engagement",
-        "watch:openclaw_hardware_bridge",
-        "watch:ai_coding_agent_ecosystem"
+        "watch:ai_coding_agent_ecosystem",
+        "watch:openclaw_hardware_bridge"
       ],
       "matched_watch_topics": [
         "openclaw_hardware_bridge",
@@ -6450,8 +6467,8 @@
       "raw_text": "Instant Macropad: Just Add QMK - Hackaday",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6492,8 +6509,8 @@
       "raw_text": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6534,15 +6551,22 @@
       "raw_text": "Wireless MIDI keyboard using hall effect switches",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Wireless Midi Keyboard",
       "candidate_key": "wireless midi keyboard",
       "category_eligible": true,
       "extraction_engine": "NLP",
-      "extraction": null,
+      "extraction": {
+        "decision": "accept",
+        "category": "Wireless Midi Keyboard",
+        "hardware_noun": "midi keyboard",
+        "use_case": "music production",
+        "confidence": 0.95,
+        "reject_reason": null
+      },
       "metrics": {
-        "reddit_score": 382,
+        "reddit_score": 378,
         "reddit_comments": 46,
         "reddit_upvote_ratio": 0.98,
         "subreddit": "MechanicalKeyboards",
@@ -6578,8 +6602,8 @@
       "raw_text": "I stopped budgeting and built an AI CFO to manage my money instead",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "OpenClaw Hardware Bridge",
       "candidate_key": "openclaw hardware bridge",
       "category_eligible": false,
@@ -6587,16 +6611,16 @@
       "extraction": null,
       "metrics": {
         "reddit_score": 0,
-        "reddit_comments": 3,
-        "reddit_upvote_ratio": 0.2,
+        "reddit_comments": 4,
+        "reddit_upvote_ratio": 0.14,
         "subreddit": "n8nbusinessautomation",
         "created_utc": 1777858267.0
       },
       "tags": [
         "hardware_keyword_match",
         "reddit_engagement",
-        "watch:openclaw_hardware_bridge",
-        "watch:ai_coding_agent_ecosystem"
+        "watch:ai_coding_agent_ecosystem",
+        "watch:openclaw_hardware_bridge"
       ],
       "matched_watch_topics": [
         "openclaw_hardware_bridge",
@@ -6627,8 +6651,8 @@
       "raw_text": "Ergonomic Keyboards That Aren’t a Pain in Your You-Know-What (Wrists) - VICE",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6669,8 +6693,8 @@
       "raw_text": "duckyPad: Do-It-All Mechanical Macropad by dekuNukem - Kickstarter",
       "observed_at": "2026-05-04T20:52:45.244104Z",
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "seen_count": 1,
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 2,
       "candidate_category": "Geek AI Productivity Hardware",
       "candidate_key": "geek ai productivity hardware",
       "category_eligible": false,
@@ -6784,6 +6808,612 @@
       "cluster_key": null,
       "cluster_name": null,
       "trend_key": "watch:geek_ai_productivity_hardware"
+    },
+    {
+      "id": "S129",
+      "source_type": "community",
+      "source_language": "en",
+      "source_name": "Reddit Agentic Edge Hardware Search",
+      "source_url": "https://www.reddit.com/r/homeassistant/comments/1t3sq6d/update_on_my_ha_desktop_app_prism_15_brings_multi/",
+      "source_title": "Update on my HA desktop app — prism 1.5 brings multi page dashboards and more",
+      "raw_text": "Update on my HA desktop app — prism 1.5 brings multi page dashboards and more",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Agentic Edge Hardware",
+      "candidate_key": "agentic edge hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "reddit_score": 6,
+        "reddit_comments": 2,
+        "reddit_upvote_ratio": 1.0,
+        "subreddit": "homeassistant",
+        "created_utc": 1777924518.0
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "reddit_engagement",
+        "watch:agentic_edge_hardware",
+        "watch:github_ai_projects"
+      ],
+      "matched_watch_topics": [
+        "agentic_edge_hardware",
+        "github_ai_projects"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 1,
+        "specificity": 0,
+        "watch_relevance": 2,
+        "diffusion_stage": "early_adopter",
+        "signal_strength": 1.15
+      },
+      "dedupe_key": "f96b202ffe1ee466",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:agentic_edge_hardware"
+    },
+    {
+      "id": "S130",
+      "source_type": "developer",
+      "source_language": "en",
+      "source_name": "GitHub Robot Agent Kit",
+      "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
+      "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+      "raw_text": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Robot Agent Kit",
+      "candidate_key": "robot agent kit",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "github_stars": 28610,
+        "github_forks": 2678,
+        "github_open_issues": 126,
+        "github_language": "Python",
+        "github_pushed_at": "2026-05-03T22:11:53Z",
+        "github_topics": []
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "github_repo",
+        "watch:robot_agent_kit",
+        "watch:github_ai_projects",
+        "watch:hardware_intersections"
+      ],
+      "matched_watch_topics": [
+        "robot_agent_kit",
+        "github_ai_projects",
+        "hardware_intersections"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 5,
+        "specificity": 0,
+        "watch_relevance": 3,
+        "diffusion_stage": "innovator",
+        "signal_strength": 2.7
+      },
+      "dedupe_key": "f40d0f81576d1640",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:robot_agent_kit"
+    },
+    {
+      "id": "S131",
+      "source_type": "developer",
+      "source_language": "en",
+      "source_name": "GitHub Programmable Keyboard Firmware",
+      "source_url": "https://github.com/qmk/qmk_firmware",
+      "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+      "raw_text": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Geek AI Productivity Hardware",
+      "candidate_key": "geek ai productivity hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "github_stars": 20329,
+        "github_forks": 43832,
+        "github_open_issues": 546,
+        "github_language": "C",
+        "github_pushed_at": "2026-05-03T17:03:23Z",
+        "github_topics": [
+          "atmel-avr",
+          "c",
+          "c-plus-plus",
+          "clueboard",
+          "ergodox-ez",
+          "keyboard-firmware",
+          "keyboard-support",
+          "olkb",
+          "qmk"
+        ]
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "github_repo",
+        "watch:geek_ai_productivity_hardware",
+        "watch:programmable_keyboard_ecosystem"
+      ],
+      "matched_watch_topics": [
+        "geek_ai_productivity_hardware",
+        "programmable_keyboard_ecosystem"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 5,
+        "specificity": 0,
+        "watch_relevance": 2,
+        "diffusion_stage": "innovator",
+        "signal_strength": 2.55
+      },
+      "dedupe_key": "7e2d06c5c144af14",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:geek_ai_productivity_hardware"
+    },
+    {
+      "id": "S132",
+      "source_type": "developer",
+      "source_language": "en",
+      "source_name": "GitHub Stream Deck Plugin Ecosystem",
+      "source_url": "https://github.com/bitfocus/companion",
+      "source_title": "bitfocus/companion - Bitfocus Companion enables the Elgato Stream Deck and other controllers to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",
+      "raw_text": "bitfocus/companion - Bitfocus Companion enables the Elgato Stream Deck and other controllers to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Geek AI Productivity Hardware",
+      "candidate_key": "geek ai productivity hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "github_stars": 2161,
+        "github_forks": 570,
+        "github_open_issues": 303,
+        "github_language": "TypeScript",
+        "github_pushed_at": "2026-05-04T18:50:32Z",
+        "github_topics": [
+          "artnet",
+          "atem",
+          "companion",
+          "dmx",
+          "elgato",
+          "eventmaster",
+          "hacktoberfest",
+          "obs",
+          "osc",
+          "qlab",
+          "ross",
+          "streamdeck",
+          "vmix"
+        ]
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "github_repo",
+        "watch:geek_ai_productivity_hardware"
+      ],
+      "matched_watch_topics": [
+        "geek_ai_productivity_hardware"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 3,
+        "specificity": 0,
+        "watch_relevance": 1,
+        "diffusion_stage": "innovator",
+        "signal_strength": 1.7
+      },
+      "dedupe_key": "5e38625d6ed05c1a",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:geek_ai_productivity_hardware"
+    },
+    {
+      "id": "S133",
+      "source_type": "crowdfunding",
+      "source_language": "en",
+      "source_name": "Indiegogo Tech",
+      "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
+      "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+      "raw_text": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Home Security Patrol Robot",
+      "candidate_key": "home security patrol robot",
+      "category_eligible": true,
+      "extraction_engine": "LLM",
+      "extraction": {
+        "decision": "accept",
+        "category": "Home Security Patrol Robot",
+        "hardware_noun": "autonomous patrol robot",
+        "use_case": "Home security monitoring and patrolling",
+        "confidence": 0.95,
+        "reject_reason": null
+      },
+      "metrics": {
+        "backers": 0,
+        "pledged_usd": 0.0,
+        "funding_goal": 100000.0,
+        "currency": "EUR",
+        "comments": 1,
+        "updates": 1,
+        "rewards": 1,
+        "campaign_start": "2026-05-04T17:10:00Z",
+        "campaign_end": "2026-05-15T17:30:00Z"
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "indiegogo_project",
+        "watch:hardware_intersections"
+      ],
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "l0_scores": {
+        "source_quality": 4,
+        "behavior_strength": 2,
+        "specificity": 3,
+        "watch_relevance": 1,
+        "diffusion_stage": "early_adopter_paid",
+        "signal_strength": 2.6
+      },
+      "dedupe_key": "97bd6a925d104424",
+      "gate_status": "held",
+      "gate_reason": "needs_two_independent_source_types",
+      "cluster_key": "home security patrol robot",
+      "cluster_name": "Home Security Patrol Robot",
+      "trend_key": "home security patrol robot"
+    },
+    {
+      "id": "S134",
+      "source_type": "community",
+      "source_language": "en",
+      "source_name": "Reddit Agentic Edge Hardware Search",
+      "source_url": "https://www.reddit.com/r/reolinkcam/comments/1t3s6nl/new_project_bairelay_rtspmqtt_for_reolink/",
+      "source_title": "New project: bairelay -- RTSP/MQTT for Reolink Baichuan-only battery cameras",
+      "raw_text": "New project: bairelay -- RTSP/MQTT for Reolink Baichuan-only battery cameras",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Agentic Edge Hardware",
+      "candidate_key": "agentic edge hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "reddit_score": 4,
+        "reddit_comments": 1,
+        "reddit_upvote_ratio": 1.0,
+        "subreddit": "reolinkcam",
+        "created_utc": 1777923359.0
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "reddit_engagement",
+        "watch:agentic_edge_hardware",
+        "watch:github_ai_projects",
+        "watch:hardware_intersections"
+      ],
+      "matched_watch_topics": [
+        "agentic_edge_hardware",
+        "github_ai_projects",
+        "hardware_intersections"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 1,
+        "specificity": 0,
+        "watch_relevance": 3,
+        "diffusion_stage": "early_adopter",
+        "signal_strength": 1.3
+      },
+      "dedupe_key": "b64a2e8e16ed72e4",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:agentic_edge_hardware"
+    },
+    {
+      "id": "S135",
+      "source_type": "developer",
+      "source_language": "en",
+      "source_name": "GitHub Programmable Keyboard Firmware",
+      "source_url": "https://github.com/zmkfirmware/zmk",
+      "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+      "raw_text": "zmkfirmware/zmk - ZMK Firmware Repository",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Geek AI Productivity Hardware",
+      "candidate_key": "geek ai productivity hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "github_stars": 4036,
+        "github_forks": 3926,
+        "github_open_issues": 407,
+        "github_language": "C",
+        "github_pushed_at": "2026-05-04T17:24:51Z",
+        "github_topics": [
+          "bluetooth",
+          "hacktoberfest",
+          "keyboard",
+          "keyboard-firmware",
+          "mechanical-keyboard",
+          "wireless",
+          "zephyr",
+          "zmk"
+        ]
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "github_repo",
+        "watch:geek_ai_productivity_hardware",
+        "watch:programmable_keyboard_ecosystem"
+      ],
+      "matched_watch_topics": [
+        "geek_ai_productivity_hardware",
+        "programmable_keyboard_ecosystem"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 4,
+        "specificity": 0,
+        "watch_relevance": 2,
+        "diffusion_stage": "innovator",
+        "signal_strength": 2.2
+      },
+      "dedupe_key": "594b9d69c8f64413",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:geek_ai_productivity_hardware"
+    },
+    {
+      "id": "S136",
+      "source_type": "developer",
+      "source_language": "en",
+      "source_name": "GitHub Stream Deck Plugin Ecosystem",
+      "source_url": "https://github.com/nekename/OpenDeck",
+      "source_title": "nekename/OpenDeck - Linux software for the Stream Deck with support for original Elgato Stream Deck plugins",
+      "raw_text": "nekename/OpenDeck - Linux software for the Stream Deck with support for original Elgato Stream Deck plugins",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Geek AI Productivity Hardware",
+      "candidate_key": "geek ai productivity hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "github_stars": 1615,
+        "github_forks": 100,
+        "github_open_issues": 17,
+        "github_language": "Rust",
+        "github_pushed_at": "2026-05-03T09:11:22Z",
+        "github_topics": [
+          "cross-platform",
+          "elgato",
+          "linux",
+          "openaction",
+          "streamdeck"
+        ]
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "github_repo",
+        "watch:geek_ai_productivity_hardware",
+        "watch:workflow_plugin_hardware"
+      ],
+      "matched_watch_topics": [
+        "geek_ai_productivity_hardware",
+        "workflow_plugin_hardware"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 3,
+        "specificity": 0,
+        "watch_relevance": 2,
+        "diffusion_stage": "innovator",
+        "signal_strength": 1.85
+      },
+      "dedupe_key": "20513fa602f41a92",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:geek_ai_productivity_hardware"
+    },
+    {
+      "id": "S137",
+      "source_type": "community",
+      "source_language": "en",
+      "source_name": "Reddit Agentic Edge Hardware Search",
+      "source_url": "https://www.reddit.com/r/aeo/comments/1t3rrfl/built_a_tool_to_track_ai_agent_traffic_looking/",
+      "source_title": "Built a tool to track AI agent traffic (looking for feedback)",
+      "raw_text": "Built a tool to track AI agent traffic (looking for feedback)",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Agentic Edge Hardware",
+      "candidate_key": "agentic edge hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "reddit_score": 1,
+        "reddit_comments": 0,
+        "reddit_upvote_ratio": 1.0,
+        "subreddit": "aeo",
+        "created_utc": 1777922484.0
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "reddit_engagement",
+        "watch:agentic_edge_hardware",
+        "watch:github_ai_projects"
+      ],
+      "matched_watch_topics": [
+        "agentic_edge_hardware",
+        "github_ai_projects"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 1,
+        "specificity": 0,
+        "watch_relevance": 2,
+        "diffusion_stage": "early_adopter",
+        "signal_strength": 1.15
+      },
+      "dedupe_key": "9b83053d9505e33e",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:agentic_edge_hardware"
+    },
+    {
+      "id": "S138",
+      "source_type": "developer",
+      "source_language": "en",
+      "source_name": "GitHub Programmable Keyboard Firmware",
+      "source_url": "https://github.com/qmk/qmk_toolbox",
+      "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+      "raw_text": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Geek AI Productivity Hardware",
+      "candidate_key": "geek ai productivity hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "github_stars": 3033,
+        "github_forks": 560,
+        "github_open_issues": 28,
+        "github_language": "C#",
+        "github_pushed_at": "2026-05-01T00:17:45Z",
+        "github_topics": [
+          "atmel",
+          "avr",
+          "caterina",
+          "dfu",
+          "macos",
+          "qmk",
+          "qmk-firmware",
+          "stm32"
+        ]
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "github_repo",
+        "watch:geek_ai_productivity_hardware",
+        "watch:programmable_keyboard_ecosystem"
+      ],
+      "matched_watch_topics": [
+        "geek_ai_productivity_hardware",
+        "programmable_keyboard_ecosystem"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 4,
+        "specificity": 0,
+        "watch_relevance": 2,
+        "diffusion_stage": "innovator",
+        "signal_strength": 2.2
+      },
+      "dedupe_key": "534d999edf22a026",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:geek_ai_productivity_hardware"
+    },
+    {
+      "id": "S139",
+      "source_type": "developer",
+      "source_language": "en",
+      "source_name": "GitHub Stream Deck Plugin Ecosystem",
+      "source_url": "https://github.com/abcminiuser/python-elgato-streamdeck",
+      "source_title": "abcminiuser/python-elgato-streamdeck - Python library to control the Elgato Stream Deck.",
+      "raw_text": "abcminiuser/python-elgato-streamdeck - Python library to control the Elgato Stream Deck.",
+      "observed_at": "2026-05-04T20:20:47.994844Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "seen_count": 1,
+      "candidate_category": "Geek AI Productivity Hardware",
+      "candidate_key": "geek ai productivity hardware",
+      "category_eligible": false,
+      "extraction_engine": "QUERY",
+      "extraction": null,
+      "metrics": {
+        "github_stars": 1106,
+        "github_forks": 174,
+        "github_open_issues": 28,
+        "github_language": "Python",
+        "github_pushed_at": "2026-05-03T11:32:01Z",
+        "github_topics": [
+          "python-library",
+          "streamdeck"
+        ]
+      },
+      "tags": [
+        "hardware_keyword_match",
+        "github_repo",
+        "watch:geek_ai_productivity_hardware"
+      ],
+      "matched_watch_topics": [
+        "geek_ai_productivity_hardware"
+      ],
+      "l0_scores": {
+        "source_quality": 2,
+        "behavior_strength": 3,
+        "specificity": 0,
+        "watch_relevance": 1,
+        "diffusion_stage": "innovator",
+        "signal_strength": 1.7
+      },
+      "dedupe_key": "79c30f005925d768",
+      "gate_status": "watch_only",
+      "gate_reason": "watch_only_source",
+      "cluster_key": null,
+      "cluster_name": null,
+      "trend_key": "watch:geek_ai_productivity_hardware"
     }
   ],
   "source_health": [
@@ -6798,8 +7428,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 3,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "auth_mode": "none"
     },
     {
@@ -6812,9 +7442,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 75,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 82,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "auth_mode": "none"
     },
     {
@@ -6829,8 +7459,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Elgato Stream Deck",
@@ -6844,8 +7474,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Engadget",
@@ -6856,9 +7486,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 10,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 7,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -6873,370 +7503,370 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 70,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "item_count": 68,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub AI Camera Node",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22edge%20AI%22%20camera%20OR%20%22local%20AI%20camera%22%20OR%20%22RTSP%20AI%22%20OR%20%22ONVIF%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"edge AI\" camera OR \"local AI camera\" OR \"RTSP AI\" OR \"ONVIF AI\" stars:>25 pushed:>2026-03-20",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "16",
+        "x-ratelimit-reset": "1777926130"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": null
+      "item_count": 10,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub AI Recorder Device",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22AI%20recorder%22%20OR%20%22local%20transcription%22%20OR%20%22offline%20speech%22%20OR%20%22Whisper%20device%22%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"AI recorder\" OR \"local transcription\" OR \"offline speech\" OR \"Whisper device\" stars:>25 pushed:>2026-03-20",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "15",
+        "x-ratelimit-reset": "1777926130"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": null
+      "item_count": 4,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub AI Workflow Controller",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22claude%20code%22%20OR%20%22cursor%22%20OR%20%22codex%22%20OR%20%22copilot%22%20%22stream%20deck%22%20OR%20macropad%20OR%20%22macro%20pad%22%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"claude code\" OR \"cursor\" OR \"codex\" OR \"copilot\" \"stream deck\" OR macropad OR \"macro pad\" stars:>25 pushed:>2026-03-20",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "11",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": null
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Agentic Edge Hardware",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22local%20AI%20agent%22%20OR%20%22edge%20AI%22%20OR%20%22on-device%20AI%22%20camera%20OR%20robot%20OR%20keyboard%20OR%20recorder%20OR%20sensor%20OR%20gateway%20OR%20Jetson%20OR%20Hailo%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"local AI agent\" OR \"edge AI\" OR \"on-device AI\" camera OR robot OR keyboard OR recorder OR sensor OR gateway OR Jetson OR Hailo stars:>25 pushed:>2026-03-20",
       "status": "error",
       "http_status": 422,
       "error": "HTTP Error 422: Unprocessable Entity",
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "18",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
       "last_success_at": null
     },
     {
       "source_name": "GitHub Claude Code Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22claude%20code%22%20OR%20claude-code%20stars%3A%3E50%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"claude code\" OR claude-code stars:>50 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "5",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "23",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 10,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Codex Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22openai%20codex%22%20OR%20%22codex%20cli%22%20stars%3A%3E50%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"openai codex\" OR \"codex cli\" stars:>50 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "4",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "22",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 10,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Edge AI Camera",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22edge%20ai%22%20camera%20stars%3A%3E1000%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"edge ai\" camera stars:>1000 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "9",
-        "x-ratelimit-reset": "1777899313"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "29",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Gemini Code Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22gemini%20cli%22%20OR%20%22gemini%20code%22%20OR%20%22gemini%20code%20assist%22%20stars%3A%3E50%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"gemini cli\" OR \"gemini code\" OR \"gemini code assist\" stars:>50 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "3",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "21",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 10,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Local AI Box",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22local%20AI%22%20box%20OR%20gateway%20OR%20hub%20OR%20Jetson%20OR%20Hailo%20OR%20RK3588%20OR%20%22Ryzen%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"local AI\" box OR gateway OR hub OR Jetson OR Hailo OR RK3588 OR \"Ryzen AI\" stars:>25 pushed:>2026-03-20",
       "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "http_status": 422,
+      "error": "HTTP Error 422: Unprocessable Entity",
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "17",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
       "last_success_at": null
     },
     {
       "source_name": "GitHub On Device AI",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22on-device%20ai%22%20camera%20OR%20sensor%20stars%3A%3E1000%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"on-device ai\" camera OR sensor stars:>1000 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "7",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "25",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 4,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub OpenClaw Camera Node",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=openclaw%20camera%20stars%3A%3E10%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "openclaw camera stars:>10 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "1",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "19",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub OpenClaw Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=openclaw%20OR%20%22open%20claw%22%20stars%3A%3E50%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "openclaw OR \"open claw\" stars:>50 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "6",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "24",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 10,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub OpenClaw Hardware Bridge",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=openclaw%20camera%20OR%20robot%20OR%20hardware%20OR%20%22edge%20device%22%20OR%20keyboard%20OR%20recorder%20stars%3A%3E10%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "openclaw camera OR robot OR hardware OR \"edge device\" OR keyboard OR recorder stars:>10 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "2",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "20",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 10,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Programmable Keyboard Firmware",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22qmk%20firmware%22%20OR%20%22zmk%20firmware%22%20OR%20%22via%20keyboard%22%20OR%20%22keyboard%20firmware%22%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"qmk firmware\" OR \"zmk firmware\" OR \"via keyboard\" OR \"keyboard firmware\" stars:>25 pushed:>2026-03-20",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "13",
+        "x-ratelimit-reset": "1777926130"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": null
+      "item_count": 7,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Robot Agent Kit",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22robot%20agent%22%20OR%20%22embodied%20AI%22%20OR%20%22robot%20controller%22%20OR%20%22local%20robot%20agent%22%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"robot agent\" OR \"embodied AI\" OR \"robot controller\" OR \"local robot agent\" stars:>25 pushed:>2026-03-20",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "14",
+        "x-ratelimit-reset": "1777926130"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": null
+      "item_count": 10,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Robotics AI Hardware",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=robotics%20ai%20hardware%20stars%3A%3E1000%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "robotics ai hardware stars:>1000 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "8",
-        "x-ratelimit-reset": "1777899313"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "28",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Stream Deck Plugin Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22stream%20deck%22%20plugin%20OR%20streamdeck%20plugin%20OR%20%22stream%20deck%20sdk%22%20stars%3A%3E25%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"stream deck\" plugin OR streamdeck plugin OR \"stream deck sdk\" stars:>25 pushed:>2026-03-20",
-      "status": "error",
-      "http_status": 403,
-      "error": "HTTP Error 403: rate limit exceeded",
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "0",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "12",
+        "x-ratelimit-reset": "1777926130"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": null
+      "item_count": 10,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Voice AI Device",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22voice%20assistant%22%20device%20ai%20stars%3A%3E1000%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"voice assistant\" device ai stars:>1000 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "8",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "26",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "GitHub Wearable AI",
       "source_type": "developer",
       "source_language": "unknown",
-      "auth_mode": "anonymous",
+      "auth_mode": "token",
       "url": "https://api.github.com/search/repositories?q=%22wearable%20ai%22%20stars%3A%3E1000%20pushed%3A%3E2026-03-20&sort=stars&order=desc&per_page=10",
       "query": "\"wearable ai\" stars:>1000 pushed:>2026-03-20",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-limit": "10",
-        "x-ratelimit-remaining": "9",
-        "x-ratelimit-reset": "1777899315"
+        "x-ratelimit-limit": "30",
+        "x-ratelimit-remaining": "27",
+        "x-ratelimit-reset": "1777926130"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Gizmodo",
@@ -7248,9 +7878,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 39,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 36,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "auth_mode": "none"
     },
     {
@@ -7265,8 +7895,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Google Trends US Daily",
@@ -7277,9 +7907,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 4,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 2,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7292,9 +7922,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 7,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 9,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7310,8 +7940,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Indiegogo Tech",
@@ -7323,9 +7953,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 102,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 101,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "auth_mode": "none"
     },
     {
@@ -7340,8 +7970,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Kickstarter Design",
@@ -7352,9 +7982,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 9,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 8,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7369,9 +7999,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 21,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "item_count": 22,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Kickstarter Tech",
@@ -7382,9 +8012,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 9,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 8,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7400,8 +8030,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Naya",
@@ -7415,8 +8045,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "OpenClaw Hardware News",
@@ -7429,8 +8059,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 52,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "auth_mode": "none"
     },
     {
@@ -7443,8 +8073,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7452,214 +8082,217 @@
       "source_name": "Reddit Agentic Edge Hardware Search",
       "source_type": "community",
       "source_language": "en",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/search.json?q=%28%22local+AI+agent%22+OR+%22edge+AI%22+OR+%22on-device+AI%22+OR+%22AI+agent%22+OR+MCP+OR+%22home+assistant%22%29+%28camera+OR+robot+OR+keyboard+OR+recorder+OR+microphone+OR+sensor+OR+%22edge+device%22+OR+%22AI+box%22+OR+gateway+OR+Jetson+OR+Hailo+OR+RK3588+OR+%22Ryzen+AI%22%29&sort=new&t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/search.json?q=%28%22local+AI+agent%22+OR+%22edge+AI%22+OR+%22on-device+AI%22+OR+%22AI+agent%22+OR+MCP+OR+%22home+assistant%22%29+%28camera+OR+robot+OR+keyboard+OR+recorder+OR+microphone+OR+sensor+OR+%22edge+device%22+OR+%22AI+box%22+OR+gateway+OR+Jetson+OR+Hailo+OR+RK3588+OR+%22Ryzen+AI%22%29&sort=new&t=month&limit=50",
       "query": null,
-      "status": "error",
-      "http_status": null,
-      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
-      "rate_limit": {},
-      "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": null
+      "status": "ok",
+      "http_status": 200,
+      "error": null,
+      "rate_limit": {
+        "x-ratelimit-remaining": "989.0",
+        "x-ratelimit-reset": "531"
+      },
+      "item_count": 27,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit Geek Productivity Hardware Search",
       "source_type": "community",
       "source_language": "en",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/search.json?q=%28%22stream+deck%22+OR+%22macro+pad%22+OR+macropad+OR+%22split+keyboard%22+OR+%22qmk%22+OR+%22zmk%22+OR+%22via%22+OR+%22loupedeck%22+OR+%22work+louder%22+OR+%22moonlander%22+OR+%22wooting%22+OR+%22glove80%22%29+%28workflow+OR+developer+OR+productivity+OR+coding+OR+AI+OR+setup%29&sort=new&t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/search.json?q=%28%22stream+deck%22+OR+%22macro+pad%22+OR+macropad+OR+%22split+keyboard%22+OR+%22qmk%22+OR+%22zmk%22+OR+%22via%22+OR+%22loupedeck%22+OR+%22work+louder%22+OR+%22moonlander%22+OR+%22wooting%22+OR+%22glove80%22%29+%28workflow+OR+developer+OR+productivity+OR+coding+OR+AI+OR+setup%29&sort=new&t=month&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "89.0",
-        "x-ratelimit-reset": "351"
+        "x-ratelimit-remaining": "988.0",
+        "x-ratelimit-reset": "530"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit OpenClaw Hardware Search",
       "source_type": "community",
       "source_language": "en",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/search.json?q=%28openclaw+OR+%22open+claw%22%29+%28hardware+OR+camera+OR+robot+OR+%22edge+device%22+OR+keyboard+OR+recorder+OR+%22local+device%22+OR+%22terminal+box%22%29&sort=new&t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/search.json?q=%28openclaw+OR+%22open+claw%22%29+%28hardware+OR+camera+OR+robot+OR+%22edge+device%22+OR+keyboard+OR+recorder+OR+%22local+device%22+OR+%22terminal+box%22%29&sort=new&t=month&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "90.0",
-        "x-ratelimit-reset": "361"
+        "x-ratelimit-remaining": "990.0",
+        "x-ratelimit-reset": "532"
       },
       "item_count": 12,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/ErgoMechKeyboards",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/ErgoMechKeyboards/top.json?t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/ErgoMechKeyboards/top.json?t=month&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "94.0",
-        "x-ratelimit-reset": "375"
+        "x-ratelimit-remaining": "994.0",
+        "x-ratelimit-reset": "538"
       },
       "item_count": 18,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/MechanicalKeyboards",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/MechanicalKeyboards/top.json?t=week&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/MechanicalKeyboards/top.json?t=week&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "95.0",
-        "x-ratelimit-reset": "378"
+        "x-ratelimit-remaining": "995.0",
+        "x-ratelimit-reset": "539"
       },
-      "item_count": 9,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "item_count": 10,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/Workspaces",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/Workspaces/top.json?t=week&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/Workspaces/top.json?t=week&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "92.0",
-        "x-ratelimit-reset": "368"
+        "x-ratelimit-remaining": "992.0",
+        "x-ratelimit-reset": "535"
       },
-      "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "item_count": 2,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/gadgets",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/gadgets/top.json?t=week&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/gadgets/top.json?t=week&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "99.0",
-        "x-ratelimit-reset": "389"
+        "x-ratelimit-remaining": "999.0",
+        "x-ratelimit-reset": "542"
       },
       "item_count": 8,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/hardware",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/hardware/top.json?t=week&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/hardware/top.json?t=week&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "98.0",
-        "x-ratelimit-reset": "386"
+        "x-ratelimit-remaining": "998.0",
+        "x-ratelimit-reset": "542"
       },
-      "item_count": 11,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "item_count": 13,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/olkb",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/olkb/top.json?t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/olkb/top.json?t=month&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "93.0",
-        "x-ratelimit-reset": "371"
+        "x-ratelimit-remaining": "993.0",
+        "x-ratelimit-reset": "536"
       },
       "item_count": 6,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/smarthome",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/smarthome/top.json?t=week&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/smarthome/top.json?t=week&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "97.0",
-        "x-ratelimit-reset": "382"
+        "x-ratelimit-remaining": "997.0",
+        "x-ratelimit-reset": "540"
       },
-      "item_count": 13,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "item_count": 11,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/unixporn",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/unixporn/top.json?t=week&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/unixporn/top.json?t=week&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "91.0",
-        "x-ratelimit-reset": "366"
+        "x-ratelimit-remaining": "991.0",
+        "x-ratelimit-reset": "534"
       },
       "item_count": 4,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Reddit r/wearabletech",
       "source_type": "community",
       "source_language": "unknown",
-      "auth_mode": "public_json",
-      "url": "https://www.reddit.com/r/wearabletech/top.json?t=month&limit=50",
+      "auth_mode": "reddit_oauth",
+      "url": "https://oauth.reddit.com/r/wearabletech/top.json?t=month&limit=50",
       "query": null,
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
-        "x-ratelimit-remaining": "96.0",
-        "x-ratelimit-reset": "379"
+        "x-ratelimit-remaining": "996.0",
+        "x-ratelimit-reset": "539"
       },
       "item_count": 0,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "SlashGear",
@@ -7670,9 +8303,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 2,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7686,8 +8319,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 11,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7700,9 +8333,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 4,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "item_count": 3,
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7718,8 +8351,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Work Louder",
@@ -7733,8 +8366,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "Yanko Design",
@@ -7746,8 +8379,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 2,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -7763,8 +8396,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z"
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z"
     },
     {
       "source_name": "少数派",
@@ -7777,8 +8410,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 2,
-      "checked_at": "2026-05-04T20:52:45.244104Z",
-      "last_success_at": "2026-05-04T20:52:45.244104Z",
+      "checked_at": "2026-05-04T20:20:47.994844Z",
+      "last_success_at": "2026-05-04T20:20:47.994844Z",
       "auth_mode": "none"
     }
   ],
@@ -7797,7 +8430,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 12,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -7807,7 +8440,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -7853,34 +8486,36 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "wireless midi keyboard",
-      "name": "Wireless Midi Keyboard",
+      "trend_key": "home security patrol robot",
+      "name": "Home Security Patrol Robot",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
-        "community"
+        "crowdfunding"
       ],
       "source_names": [
-        "Reddit r/MechanicalKeyboards"
+        "Indiegogo Tech"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 3.0,
-      "max_signal_strength": 3.0,
+      "avg_signal_strength": 2.6,
+      "max_signal_strength": 2.6,
       "seen_count_total": 1,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
-        "S123"
+        "S133"
       ],
       "top_signals": [
         {
-          "id": "S123",
-          "source_name": "Reddit r/MechanicalKeyboards",
-          "source_type": "community",
-          "source_title": "Wireless MIDI keyboard using hall effect switches",
-          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
-          "signal_strength": 3.0
+          "id": "S133",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
+          "signal_strength": 2.6
         }
       ],
       "velocity_7run_delta": 1,
@@ -7888,56 +8523,10 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "watch:github_ai_projects",
-      "name": "Hot GitHub AI Projects",
-      "name_zh": null,
-      "signal_count": 2,
-      "source_types": [
-        "developer"
-      ],
-      "source_names": [
-        "GitHub On Device AI"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.62,
-      "max_signal_strength": 2.8,
-      "seen_count_total": 36,
-      "matched_watch_topics": [
-        "github_ai_projects"
-      ],
-      "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "evidence_signal_ids": [
-        "S008",
-        "S009"
-      ],
-      "top_signals": [
-        {
-          "id": "S008",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
-          "source_url": "https://github.com/pytorch/executorch",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S009",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
-          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
-          "signal_strength": 2.45
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "name": "AI Coding Agent Ecosystem",
       "name_zh": null,
-      "signal_count": 31,
+      "signal_count": 32,
       "source_types": [
         "developer"
       ],
@@ -7945,21 +8534,23 @@
         "GitHub Claude Code Ecosystem",
         "GitHub Codex Ecosystem",
         "GitHub Gemini Code Ecosystem",
+        "GitHub On Device AI",
         "GitHub OpenClaw Ecosystem"
       ],
       "has_behavior_source": true,
       "avg_signal_strength": 2.56,
       "max_signal_strength": 2.7,
-      "seen_count_total": 215,
+      "seen_count_total": 246,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
-      "first_seen_at": "2026-05-01T17:43:15.186352Z",
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
       "last_seen_at": "2026-05-04T20:52:45.244104Z",
       "evidence_signal_ids": [
+        "S009",
         "S013",
         "S014",
         "S015",
@@ -8034,7 +8625,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -8042,7 +8633,7 @@
       "trend_key": "watch:robot_agent_kit",
       "name": "Robot Agent Kit",
       "name_zh": null,
-      "signal_count": 4,
+      "signal_count": 5,
       "source_types": [
         "developer"
       ],
@@ -8050,9 +8641,9 @@
         "GitHub Robot Agent Kit"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.26,
+      "avg_signal_strength": 2.35,
       "max_signal_strength": 2.7,
-      "seen_count_total": 12,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -8060,12 +8651,13 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
         "S077",
-        "S083"
+        "S083",
+        "S130"
       ],
       "top_signals": [
         {
@@ -8074,6 +8666,14 @@
           "source_type": "developer",
           "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
           "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S130",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
           "signal_strength": 2.7
         },
         {
@@ -8101,7 +8701,82 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "cluster:smart_home_security",
+      "name": "Smart Home Security Device",
+      "name_zh": "智能家居安防设备",
+      "signal_count": 5,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Gizmodo",
+        "Reddit r/smarthome"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.13,
+      "max_signal_strength": 2.8,
+      "seen_count_total": 42,
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084"
+      ],
+      "top_signals": [
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S005",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Deadbolt",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sxc766/smart_deadbolt/",
+          "signal_strength": 2.05
+        },
+        {
+          "id": "S084",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Dreame’s Next Smart Lock Packs a 3K Doorbell Camera and Aliro Support - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZG9wNU43b1pjTkpDTjlDUnJIdlNubi05UXZlcWpSNVJxQllVSmhPNW51TnBsbHlNdVFURnlaNXZsRXlCclBtX3JicF9LS2twVWFTeXhTM1BlZEswaFN2ZW1JZzdMVTNUc25NN1NtRzBNNE53RXdHRWFWM0VmN2xRM2p3NjVSOE5qZzV2NUVZYVBlc3lTemowQzFXbkk5RDhC?oc=5",
+          "signal_strength": 1.15
+        }
+      ],
+      "velocity_7run_delta": 0.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -8119,7 +8794,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.13,
       "max_signal_strength": 2.6,
-      "seen_count_total": 12,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -8128,7 +8803,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -8178,82 +8853,7 @@
           "signal_strength": 1.9
         }
       ],
-      "velocity_7run_delta": 0.33,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "cluster:smart_home_security",
-      "name": "Smart Home Security Device",
-      "name_zh": "智能家居安防设备",
-      "signal_count": 5,
-      "source_types": [
-        "community",
-        "media"
-      ],
-      "source_names": [
-        "Gizmodo",
-        "Reddit r/smarthome"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.03,
-      "max_signal_strength": 2.55,
-      "seen_count_total": 40,
-      "matched_watch_topics": [
-        "hardware_intersections"
-      ],
-      "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007",
-        "S084"
-      ],
-      "top_signals": [
-        {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S005",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Deadbolt",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sxc766/smart_deadbolt/",
-          "signal_strength": 2.05
-        },
-        {
-          "id": "S084",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Dreame’s Next Smart Lock Packs a 3K Doorbell Camera and Aliro Support - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZG9wNU43b1pjTkpDTjlDUnJIdlNubi05UXZlcWpSNVJxQllVSmhPNW51TnBsbHlNdVFURnlaNXZsRXlCclBtX3JicF9LS2twVWFTeXhTM1BlZEswaFN2ZW1JZzdMVTNUc25NN1NtRzBNNE53RXdHRWFWM0VmN2xRM2p3NjVSOE5qZzV2NUVZYVBlc3lTemowQzFXbkk5RDhC?oc=5",
-          "signal_strength": 0.9
-        }
-      ],
-      "velocity_7run_delta": 0.57,
+      "velocity_7run_delta": 0.25,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -8261,9 +8861,10 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 17,
+      "signal_count": 23,
       "source_types": [
         "crowdfunding",
+        "developer",
         "media",
         "product_reference"
       ],
@@ -8271,6 +8872,8 @@
         "CharaChorder",
         "Elgato Stream Deck",
         "Geek AI Productivity Hardware News",
+        "GitHub Programmable Keyboard Firmware",
+        "GitHub Stream Deck Plugin Ecosystem",
         "Glove80",
         "Keychron",
         "Kickstarter Geek Productivity Hardware",
@@ -8281,15 +8884,16 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.36,
-      "max_signal_strength": 2.0,
-      "seen_count_total": 17,
+      "avg_signal_strength": 1.53,
+      "max_signal_strength": 2.55,
+      "seen_count_total": 38,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "geek_ai_productivity_hardware",
-        "programmable_keyboard_ecosystem"
+        "programmable_keyboard_ecosystem",
+        "workflow_plugin_hardware"
       ],
-      "first_seen_at": "2026-05-04T20:52:45.244104Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
       "last_seen_at": "2026-05-04T20:52:45.244104Z",
       "evidence_signal_ids": [
         "S109",
@@ -8308,9 +8912,39 @@
         "S125",
         "S126",
         "S127",
-        "S128"
+        "S128",
+        "S131",
+        "S132",
+        "S135",
+        "S136",
+        "S138",
+        "S139"
       ],
       "top_signals": [
+        {
+          "id": "S131",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+          "source_url": "https://github.com/qmk/qmk_firmware",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S135",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+          "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
+          "signal_strength": 2.2
+        },
         {
           "id": "S119",
           "source_name": "Kickstarter Geek Productivity Hardware",
@@ -8326,33 +8960,9 @@
           "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
           "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
           "signal_strength": 2.0
-        },
-        {
-          "id": "S126",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "duckyPad: Do-It-All Mechanical Macropad by dekuNukem - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQnllQ2VuR2F6MVplQkxLQXoyNE92MUp3OXE0RVFnQ2RmejdxMlB3SmhsdFJCbkN4MGw1cWY0d1pQU1ZKVjh5eDZQLVpGek1fXzN5dklrdzdMQS10bVNwdGoxemZxS2x1akQxZDZGclFJYXZQbzdpdWZlUlp3aktxUnF0aWx3OHBlbkhhWU9R?oc=5",
-          "signal_strength": 2.0
-        },
-        {
-          "id": "S128",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZkpBajlFaWF5Q1hET2YxTmhLQURhOUR5QWotVGJjUkMybVdENkJhVm9scHJHSmY0TDJCVVdYenVGcjEtdkJBM21PbFhOMHZQUGc3S0NvRWljMF9Dc29LaEktUVp4NkFSQVo4YXV1blltbnZiR2E4YVNjN1NPbDR2ZFpnWGQ3QTVSUC1QU3Y2c1lrajRXX0g5cXIwLS1FYnRXNDVyYnYxaVNnOF9DVHBJWXo5aw?oc=5",
-          "signal_strength": 2.0
-        },
-        {
-          "id": "S110",
-          "source_name": "ZSA Moonlander",
-          "source_type": "product_reference",
-          "source_title": "ZSA Moonlander high-end split ergonomic programmable keyboard",
-          "source_url": "https://www.zsa.io/moonlander",
-          "signal_strength": 1.65
         }
       ],
-      "velocity_7run_delta": 17,
+      "velocity_7run_delta": 6.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -8372,7 +8982,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.21,
       "max_signal_strength": 2.7,
-      "seen_count_total": 62,
+      "seen_count_total": 69,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -8450,7 +9060,7 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 10.0,
+      "velocity_7run_delta": 8.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -8458,7 +9068,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 24,
+      "signal_count": 27,
       "source_types": [
         "community",
         "media"
@@ -8468,9 +9078,9 @@
         "Reddit Agentic Edge Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.02,
+      "avg_signal_strength": 1.04,
       "max_signal_strength": 1.85,
-      "seen_count_total": 50,
+      "seen_count_total": 57,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_model_peripherals",
@@ -8479,7 +9089,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -8504,7 +9114,10 @@
         "S104",
         "S105",
         "S107",
-        "S108"
+        "S108",
+        "S129",
+        "S134",
+        "S137"
       ],
       "top_signals": [
         {
@@ -8548,9 +9161,81 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 9.6,
+      "velocity_7run_delta": 11.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "wireless midi keyboard",
+      "name": "Wireless Midi Keyboard",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/MechanicalKeyboards"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 3.0,
+      "max_signal_strength": 3.0,
+      "seen_count_total": 2,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "evidence_signal_ids": [
+        "S123"
+      ],
+      "top_signals": [
+        {
+          "id": "S123",
+          "source_name": "Reddit r/MechanicalKeyboards",
+          "source_type": "community",
+          "source_title": "Wireless MIDI keyboard using hall effect switches",
+          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
+          "signal_strength": 3.0
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
+      "trend_key": "watch:github_ai_projects",
+      "name": "Hot GitHub AI Projects",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "developer"
+      ],
+      "source_names": [
+        "GitHub On Device AI"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.8,
+      "max_signal_strength": 2.8,
+      "seen_count_total": 19,
+      "matched_watch_topics": [
+        "github_ai_projects"
+      ],
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "evidence_signal_ids": [
+        "S008"
+      ],
+      "top_signals": [
+        {
+          "id": "S008",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
+          "source_url": "https://github.com/pytorch/executorch",
+          "signal_strength": 2.8
+        }
+      ],
+      "velocity_7run_delta": -1.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
     },
     {
       "trend_key": "watch:big_tech_peripherals",
@@ -8675,13 +9360,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.6,
       "max_signal_strength": 2.6,
-      "seen_count_total": 18,
+      "seen_count_total": 19,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S010"
       ],
@@ -8772,8 +9457,8 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
-      "trend_key": "smart fridge",
-      "name": "Smart Fridge",
+      "trend_key": "smart fridge robot",
+      "name": "Smart Fridge Robot",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
@@ -8783,15 +9468,15 @@
         "Gizmodo"
       ],
       "has_behavior_source": false,
-      "avg_signal_strength": 1.05,
-      "max_signal_strength": 1.05,
-      "seen_count_total": 3,
+      "avg_signal_strength": 1.3,
+      "max_signal_strength": 1.3,
+      "seen_count_total": 4,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S061"
       ],
@@ -8802,7 +9487,7 @@
           "source_type": "media",
           "source_title": "Dreame’s Smart Fridge Has a Robot Arm That Can Put Your Groceries Away for You - Gizmodo",
           "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3gzX1BteUt1djlKaUQ3WFk1YTViNVJsU0NlTGtXdThqeHhoV1RWZm5ubDR3dE44dHVwM1JzQzhaQzA3Q2tUZHcwaE8zb3lfOXZ0SllWdjNXZUZhN2dzUjJjSFdUclZoQ1VDT3hBeHl5Vm5GdkRGT2kxM2VVNEllT0poVUQ4bFY1Qk1mcGhqaTc1RFZ2R1ZDYnJiUkF0S0YyaGY0cHd3TmEwdnFP?oc=5",
-          "signal_strength": 1.05
+          "signal_strength": 1.3
         }
       ],
       "velocity_7run_delta": 0.0,
@@ -8851,7 +9536,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.67,
+      "velocity_7run_delta": 0.5,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -8906,10 +9591,10 @@
       "has_behavior_source": false,
       "avg_signal_strength": 0.75,
       "max_signal_strength": 0.75,
-      "seen_count_total": 19,
+      "seen_count_total": 20,
       "matched_watch_topics": [],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S002"
       ],
@@ -10156,11 +10841,308 @@
           "has_behavior_source": true
         }
       ]
+    },
+    {
+      "run_at": "2026-05-04T20:20:47.994844Z",
+      "signal_count": 139,
+      "cluster_count": 22,
+      "clusters": [
+        {
+          "trend_key": "ai translation glasses",
+          "signal_count": 1,
+          "source_types": [
+            "crowdfunding"
+          ],
+          "avg_signal_strength": 2.45,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "cluster:ai_voice_capture",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "cluster:smart_home_security",
+          "signal_count": 5,
+          "source_types": [
+            "community",
+            "media"
+          ],
+          "avg_signal_strength": 2.13,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "gaming keyboard",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.75,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "gaming monitor",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.9,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "home security patrol robot",
+          "signal_count": 1,
+          "source_types": [
+            "crowdfunding"
+          ],
+          "avg_signal_strength": 2.6,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "outdoor smart device",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.65,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "robot vacuum",
+          "signal_count": 2,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 0.9,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "smart fridge robot",
+          "signal_count": 1,
+          "source_types": [
+            "media"
+          ],
+          "avg_signal_strength": 1.3,
+          "has_behavior_source": false
+        },
+        {
+          "trend_key": "smart window shades",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.65,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:agentic_edge_hardware",
+          "signal_count": 27,
+          "source_types": [
+            "community",
+            "media"
+          ],
+          "avg_signal_strength": 1.04,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_camera_node",
+          "signal_count": 4,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 3.1,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_coding_agent_ecosystem",
+          "signal_count": 32,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.56,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_model_peripherals",
+          "signal_count": 1,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.6,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:ai_recorder",
+          "signal_count": 5,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.13,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:big_tech_peripherals",
+          "signal_count": 1,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.75,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:geek_ai_productivity_hardware",
+          "signal_count": 23,
+          "source_types": [
+            "crowdfunding",
+            "developer",
+            "media",
+            "product_reference"
+          ],
+          "avg_signal_strength": 1.53,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:github_ai_projects",
+          "signal_count": 1,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.8,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:openclaw_hardware_bridge",
+          "signal_count": 23,
+          "source_types": [
+            "community",
+            "media"
+          ],
+          "avg_signal_strength": 1.21,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "watch:robot_agent_kit",
+          "signal_count": 5,
+          "source_types": [
+            "developer"
+          ],
+          "avg_signal_strength": 2.35,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "wireless bluetooth speaker",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 2.45,
+          "has_behavior_source": true
+        },
+        {
+          "trend_key": "wireless midi keyboard",
+          "signal_count": 1,
+          "source_types": [
+            "community"
+          ],
+          "avg_signal_strength": 3.0,
+          "has_behavior_source": true
+        }
+      ]
     }
   ],
   "market_theses": [
     {
       "id": "M001",
+      "thesis_key": "local_first_smart_home_security",
+      "name": "Local-first smart home security",
+      "name_zh": "本地优先智能家居安防",
+      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
+      "hardware_form_factors": [
+        "outdoor camera",
+        "video doorbell",
+        "smart lock",
+        "home security hub"
+      ],
+      "buyer_segments": [
+        "homeowners",
+        "apartment renters",
+        "smart-home installers"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "crowdfunding": 1,
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Gizmodo",
+        "Indiegogo Tech",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 6,
+      "trend_key": "cluster:smart_home_security",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084",
+        "S133"
+      ],
+      "top_signals": [
+        {
+          "id": "S133",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
+          "signal_strength": 2.6
+        },
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
+    },
+    {
+      "id": "M002",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
       "name_zh": "智能体边缘 I/O 节点",
@@ -10194,13 +11176,12 @@
         "Reddit Agentic Edge Hardware Search",
         "Reddit OpenClaw Hardware Search"
       ],
-      "signal_count": 62,
+      "signal_count": 65,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S008",
-        "S009",
         "S010",
         "S044",
         "S045",
@@ -10260,7 +11241,11 @@
         "S107",
         "S108",
         "S120",
-        "S124"
+        "S124",
+        "S129",
+        "S130",
+        "S134",
+        "S137"
       ],
       "top_signals": [
         {
@@ -10288,20 +11273,20 @@
           "signal_strength": 2.75
         },
         {
-          "id": "S008",
-          "source_name": "GitHub On Device AI",
+          "id": "S066",
+          "source_name": "GitHub Robot Agent Kit",
           "source_type": "developer",
-          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
-          "source_url": "https://github.com/pytorch/executorch",
-          "signal_strength": 2.8
+          "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
+          "signal_strength": 2.7
         },
         {
-          "id": "S009",
-          "source_name": "GitHub On Device AI",
+          "id": "S130",
+          "source_name": "GitHub Robot Agent Kit",
           "source_type": "developer",
-          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
-          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
-          "signal_strength": 2.45
+          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
+          "signal_strength": 2.7
         }
       ],
       "missing_evidence": [
@@ -10320,7 +11305,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M002",
+      "id": "M003",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -10339,24 +11324,26 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
-        "community": 1,
         "developer": 1,
+        "community": 1,
         "media": 1
       },
       "source_names": [
         "GitHub Claude Code Ecosystem",
         "GitHub Codex Ecosystem",
         "GitHub Gemini Code Ecosystem",
+        "GitHub On Device AI",
         "GitHub OpenClaw Ecosystem",
         "Reddit r/MechanicalKeyboards",
         "Yanko Design"
       ],
-      "signal_count": 33,
+      "signal_count": 34,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S001",
+        "S009",
         "S013",
         "S014",
         "S015",
@@ -10392,14 +11379,6 @@
       ],
       "top_signals": [
         {
-          "id": "S123",
-          "source_name": "Reddit r/MechanicalKeyboards",
-          "source_type": "community",
-          "source_title": "Wireless MIDI keyboard using hall effect switches",
-          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
-          "signal_strength": 3.0
-        },
-        {
           "id": "S014",
           "source_name": "GitHub Claude Code Ecosystem",
           "source_type": "developer",
@@ -10424,6 +11403,14 @@
           "signal_strength": 2.7
         },
         {
+          "id": "S123",
+          "source_name": "Reddit r/MechanicalKeyboards",
+          "source_type": "community",
+          "source_title": "Wireless MIDI keyboard using hall effect switches",
+          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
+          "signal_strength": 3.0
+        },
+        {
           "id": "S001",
           "source_name": "Yanko Design",
           "source_type": "media",
@@ -10438,85 +11425,6 @@
         "productization"
       ],
       "substitution_risk": "High from software launchers, Stream Deck, programmable keyboards and OS shortcuts.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
-    },
-    {
-      "id": "M003",
-      "thesis_key": "local_first_smart_home_security",
-      "name": "Local-first smart home security",
-      "name_zh": "本地优先智能家居安防",
-      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
-      "hardware_form_factors": [
-        "outdoor camera",
-        "video doorbell",
-        "smart lock",
-        "home security hub"
-      ],
-      "buyer_segments": [
-        "homeowners",
-        "apartment renters",
-        "smart-home installers"
-      ],
-      "evidence_status": "Warming",
-      "evidence_score": 68,
-      "source_mix": {
-        "community": 1,
-        "media": 1
-      },
-      "source_names": [
-        "Gizmodo",
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 5,
-      "trend_key": "cluster:smart_home_security",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007",
-        "S084"
-      ],
-      "top_signals": [
-        {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
-          "signal_strength": 2.2
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization"
-      ],
-      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
       "next_validation": [
         "amazon_keyword_scan",
         "amazon_competition_snapshot",
@@ -10548,6 +11456,7 @@
       "evidence_score": 65,
       "source_mix": {
         "crowdfunding": 1,
+        "developer": 1,
         "media": 1,
         "product_reference": 1
       },
@@ -10555,6 +11464,8 @@
         "CharaChorder",
         "Elgato Stream Deck",
         "Geek AI Productivity Hardware News",
+        "GitHub Programmable Keyboard Firmware",
+        "GitHub Stream Deck Plugin Ecosystem",
         "Glove80",
         "Keychron",
         "Kickstarter Geek Productivity Hardware",
@@ -10564,7 +11475,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 17,
+      "signal_count": 23,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -10585,32 +11496,38 @@
         "S125",
         "S126",
         "S127",
-        "S128"
+        "S128",
+        "S131",
+        "S132",
+        "S135",
+        "S136",
+        "S138",
+        "S139"
       ],
       "top_signals": [
         {
-          "id": "S119",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlTc0NoZG1hLUJNeUMxbDd4VW8tTkhjNW5Jd1dfSXFrQW1OUjMwYTZ1YjFXX2lQekRmMzA2WmJuSUpDU1VYZGc0YnFYSk1uYjZJWk1FaXEzTno5NlRwWDAyYmh6ejNVeVdDaEhlZU1KWFhLcXB6Vk5FQUZxWGRhX1hrXzd5eEpuYWIyTm9PUkFDNXluMElZaGxCSlJQTkVrd0ZrY24teGlQOEh2aS1pS2F4OUo?oc=5",
-          "signal_strength": 2.0
+          "id": "S131",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+          "source_url": "https://github.com/qmk/qmk_firmware",
+          "signal_strength": 2.55
         },
         {
-          "id": "S122",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
-          "signal_strength": 2.0
+          "id": "S135",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+          "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
         },
         {
-          "id": "S126",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "duckyPad: Do-It-All Mechanical Macropad by dekuNukem - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQnllQ2VuR2F6MVplQkxLQXoyNE92MUp3OXE0RVFnQ2RmejdxMlB3SmhsdFJCbkN4MGw1cWY0d1pQU1ZKVjh5eDZQLVpGek1fXzN5dklrdzdMQS10bVNwdGoxemZxS2x1akQxZDZGclFJYXZQbzdpdWZlUlp3aktxUnF0aWx3OHBlbkhhWU9R?oc=5",
-          "signal_strength": 2.0
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
+          "signal_strength": 2.2
         }
       ],
       "missing_evidence": [
@@ -10997,5 +11914,5 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     }
   ],
-  "last_updated": "2026-05-04 20:55:13"
+  "last_updated": "2026-05-04 20:35:11"
 }

@@ -1,10 +1,96 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-04T20:52:45.244104Z",
+  "generated_at": "2026-05-04T20:20:47.994844Z",
   "theses": [
     {
       "id": "M001",
+      "thesis_key": "local_first_smart_home_security",
+      "name": "Local-first smart home security",
+      "name_zh": "本地优先智能家居安防",
+      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
+      "hardware_form_factors": [
+        "outdoor camera",
+        "video doorbell",
+        "smart lock",
+        "home security hub"
+      ],
+      "buyer_segments": [
+        "homeowners",
+        "apartment renters",
+        "smart-home installers"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "crowdfunding": 1,
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Gizmodo",
+        "Indiegogo Tech",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 6,
+      "trend_key": "cluster:smart_home_security",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084",
+        "S133"
+      ],
+      "top_signals": [
+        {
+          "id": "S133",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
+          "signal_strength": 2.6
+        },
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
+    },
+    {
+      "id": "M002",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
       "name_zh": "智能体边缘 I/O 节点",
@@ -38,13 +124,12 @@
         "Reddit Agentic Edge Hardware Search",
         "Reddit OpenClaw Hardware Search"
       ],
-      "signal_count": 62,
+      "signal_count": 65,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S008",
-        "S009",
         "S010",
         "S044",
         "S045",
@@ -104,7 +189,11 @@
         "S107",
         "S108",
         "S120",
-        "S124"
+        "S124",
+        "S129",
+        "S130",
+        "S134",
+        "S137"
       ],
       "top_signals": [
         {
@@ -132,20 +221,20 @@
           "signal_strength": 2.75
         },
         {
-          "id": "S008",
-          "source_name": "GitHub On Device AI",
+          "id": "S066",
+          "source_name": "GitHub Robot Agent Kit",
           "source_type": "developer",
-          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
-          "source_url": "https://github.com/pytorch/executorch",
-          "signal_strength": 2.8
+          "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
+          "signal_strength": 2.7
         },
         {
-          "id": "S009",
-          "source_name": "GitHub On Device AI",
+          "id": "S130",
+          "source_name": "GitHub Robot Agent Kit",
           "source_type": "developer",
-          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
-          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
-          "signal_strength": 2.45
+          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
+          "signal_strength": 2.7
         }
       ],
       "missing_evidence": [
@@ -164,7 +253,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M002",
+      "id": "M003",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -183,24 +272,26 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
-        "community": 1,
         "developer": 1,
+        "community": 1,
         "media": 1
       },
       "source_names": [
         "GitHub Claude Code Ecosystem",
         "GitHub Codex Ecosystem",
         "GitHub Gemini Code Ecosystem",
+        "GitHub On Device AI",
         "GitHub OpenClaw Ecosystem",
         "Reddit r/MechanicalKeyboards",
         "Yanko Design"
       ],
-      "signal_count": 33,
+      "signal_count": 34,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S001",
+        "S009",
         "S013",
         "S014",
         "S015",
@@ -236,14 +327,6 @@
       ],
       "top_signals": [
         {
-          "id": "S123",
-          "source_name": "Reddit r/MechanicalKeyboards",
-          "source_type": "community",
-          "source_title": "Wireless MIDI keyboard using hall effect switches",
-          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
-          "signal_strength": 3.0
-        },
-        {
           "id": "S014",
           "source_name": "GitHub Claude Code Ecosystem",
           "source_type": "developer",
@@ -268,6 +351,14 @@
           "signal_strength": 2.7
         },
         {
+          "id": "S123",
+          "source_name": "Reddit r/MechanicalKeyboards",
+          "source_type": "community",
+          "source_title": "Wireless MIDI keyboard using hall effect switches",
+          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
+          "signal_strength": 3.0
+        },
+        {
           "id": "S001",
           "source_name": "Yanko Design",
           "source_type": "media",
@@ -282,85 +373,6 @@
         "productization"
       ],
       "substitution_risk": "High from software launchers, Stream Deck, programmable keyboards and OS shortcuts.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
-    },
-    {
-      "id": "M003",
-      "thesis_key": "local_first_smart_home_security",
-      "name": "Local-first smart home security",
-      "name_zh": "本地优先智能家居安防",
-      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
-      "hardware_form_factors": [
-        "outdoor camera",
-        "video doorbell",
-        "smart lock",
-        "home security hub"
-      ],
-      "buyer_segments": [
-        "homeowners",
-        "apartment renters",
-        "smart-home installers"
-      ],
-      "evidence_status": "Warming",
-      "evidence_score": 68,
-      "source_mix": {
-        "community": 1,
-        "media": 1
-      },
-      "source_names": [
-        "Gizmodo",
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 5,
-      "trend_key": "cluster:smart_home_security",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007",
-        "S084"
-      ],
-      "top_signals": [
-        {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
-          "signal_strength": 2.2
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization"
-      ],
-      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
       "next_validation": [
         "amazon_keyword_scan",
         "amazon_competition_snapshot",
@@ -392,6 +404,7 @@
       "evidence_score": 65,
       "source_mix": {
         "crowdfunding": 1,
+        "developer": 1,
         "media": 1,
         "product_reference": 1
       },
@@ -399,6 +412,8 @@
         "CharaChorder",
         "Elgato Stream Deck",
         "Geek AI Productivity Hardware News",
+        "GitHub Programmable Keyboard Firmware",
+        "GitHub Stream Deck Plugin Ecosystem",
         "Glove80",
         "Keychron",
         "Kickstarter Geek Productivity Hardware",
@@ -408,7 +423,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 17,
+      "signal_count": 23,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -429,32 +444,38 @@
         "S125",
         "S126",
         "S127",
-        "S128"
+        "S128",
+        "S131",
+        "S132",
+        "S135",
+        "S136",
+        "S138",
+        "S139"
       ],
       "top_signals": [
         {
-          "id": "S119",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlTc0NoZG1hLUJNeUMxbDd4VW8tTkhjNW5Jd1dfSXFrQW1OUjMwYTZ1YjFXX2lQekRmMzA2WmJuSUpDU1VYZGc0YnFYSk1uYjZJWk1FaXEzTno5NlRwWDAyYmh6ejNVeVdDaEhlZU1KWFhLcXB6Vk5FQUZxWGRhX1hrXzd5eEpuYWIyTm9PUkFDNXluMElZaGxCSlJQTkVrd0ZrY24teGlQOEh2aS1pS2F4OUo?oc=5",
-          "signal_strength": 2.0
+          "id": "S131",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+          "source_url": "https://github.com/qmk/qmk_firmware",
+          "signal_strength": 2.55
         },
         {
-          "id": "S122",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
-          "signal_strength": 2.0
+          "id": "S135",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+          "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
         },
         {
-          "id": "S126",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "duckyPad: Do-It-All Mechanical Macropad by dekuNukem - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQnllQ2VuR2F6MVplQkxLQXoyNE92MUp3OXE0RVFnQ2RmejdxMlB3SmhsdFJCbkN4MGw1cWY0d1pQU1ZKVjh5eDZQLVpGek1fXzN5dklrdzdMQS10bVNwdGoxemZxS2x1akQxZDZGclFJYXZQbzdpdWZlUlp3aktxUnF0aWx3OHBlbkhhWU9R?oc=5",
-          "signal_strength": 2.0
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
+          "signal_strength": 2.2
         }
       ],
       "missing_evidence": [

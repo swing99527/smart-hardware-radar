@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-04T20:52:45.244104Z",
+  "generated_at": "2026-05-04T20:20:47.994844Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 12,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -73,34 +73,36 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "wireless midi keyboard",
-      "name": "Wireless Midi Keyboard",
+      "trend_key": "home security patrol robot",
+      "name": "Home Security Patrol Robot",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
-        "community"
+        "crowdfunding"
       ],
       "source_names": [
-        "Reddit r/MechanicalKeyboards"
+        "Indiegogo Tech"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 3.0,
-      "max_signal_strength": 3.0,
+      "avg_signal_strength": 2.6,
+      "max_signal_strength": 2.6,
       "seen_count_total": 1,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
-        "S123"
+        "S133"
       ],
       "top_signals": [
         {
-          "id": "S123",
-          "source_name": "Reddit r/MechanicalKeyboards",
-          "source_type": "community",
-          "source_title": "Wireless MIDI keyboard using hall effect switches",
-          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
-          "signal_strength": 3.0
+          "id": "S133",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
+          "signal_strength": 2.6
         }
       ],
       "velocity_7run_delta": 1,
@@ -108,56 +110,10 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "watch:github_ai_projects",
-      "name": "Hot GitHub AI Projects",
-      "name_zh": null,
-      "signal_count": 2,
-      "source_types": [
-        "developer"
-      ],
-      "source_names": [
-        "GitHub On Device AI"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.62,
-      "max_signal_strength": 2.8,
-      "seen_count_total": 36,
-      "matched_watch_topics": [
-        "github_ai_projects"
-      ],
-      "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "evidence_signal_ids": [
-        "S008",
-        "S009"
-      ],
-      "top_signals": [
-        {
-          "id": "S008",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
-          "source_url": "https://github.com/pytorch/executorch",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S009",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "omnimind-ai/OpenOmniBot - 你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
-          "source_url": "https://github.com/omnimind-ai/OpenOmniBot",
-          "signal_strength": 2.45
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "name": "AI Coding Agent Ecosystem",
       "name_zh": null,
-      "signal_count": 31,
+      "signal_count": 32,
       "source_types": [
         "developer"
       ],
@@ -165,21 +121,23 @@
         "GitHub Claude Code Ecosystem",
         "GitHub Codex Ecosystem",
         "GitHub Gemini Code Ecosystem",
+        "GitHub On Device AI",
         "GitHub OpenClaw Ecosystem"
       ],
       "has_behavior_source": true,
       "avg_signal_strength": 2.56,
       "max_signal_strength": 2.7,
-      "seen_count_total": 215,
+      "seen_count_total": 246,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
-      "first_seen_at": "2026-05-01T17:43:15.186352Z",
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
       "last_seen_at": "2026-05-04T20:52:45.244104Z",
       "evidence_signal_ids": [
+        "S009",
         "S013",
         "S014",
         "S015",
@@ -254,7 +212,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -262,7 +220,7 @@
       "trend_key": "watch:robot_agent_kit",
       "name": "Robot Agent Kit",
       "name_zh": null,
-      "signal_count": 4,
+      "signal_count": 5,
       "source_types": [
         "developer"
       ],
@@ -270,9 +228,9 @@
         "GitHub Robot Agent Kit"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.26,
+      "avg_signal_strength": 2.35,
       "max_signal_strength": 2.7,
-      "seen_count_total": 12,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -280,12 +238,13 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
         "S077",
-        "S083"
+        "S083",
+        "S130"
       ],
       "top_signals": [
         {
@@ -294,6 +253,14 @@
           "source_type": "developer",
           "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
           "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S130",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
           "signal_strength": 2.7
         },
         {
@@ -321,7 +288,82 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "cluster:smart_home_security",
+      "name": "Smart Home Security Device",
+      "name_zh": "智能家居安防设备",
+      "signal_count": 5,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Gizmodo",
+        "Reddit r/smarthome"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.13,
+      "max_signal_strength": 2.8,
+      "seen_count_total": 42,
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084"
+      ],
+      "top_signals": [
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S005",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Deadbolt",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sxc766/smart_deadbolt/",
+          "signal_strength": 2.05
+        },
+        {
+          "id": "S084",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Dreame’s Next Smart Lock Packs a 3K Doorbell Camera and Aliro Support - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZG9wNU43b1pjTkpDTjlDUnJIdlNubi05UXZlcWpSNVJxQllVSmhPNW51TnBsbHlNdVFURnlaNXZsRXlCclBtX3JicF9LS2twVWFTeXhTM1BlZEswaFN2ZW1JZzdMVTNUc25NN1NtRzBNNE53RXdHRWFWM0VmN2xRM2p3NjVSOE5qZzV2NUVZYVBlc3lTemowQzFXbkk5RDhC?oc=5",
+          "signal_strength": 1.15
+        }
+      ],
+      "velocity_7run_delta": 0.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -339,7 +381,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.13,
       "max_signal_strength": 2.6,
-      "seen_count_total": 12,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -348,7 +390,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -398,82 +440,7 @@
           "signal_strength": 1.9
         }
       ],
-      "velocity_7run_delta": 0.33,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "cluster:smart_home_security",
-      "name": "Smart Home Security Device",
-      "name_zh": "智能家居安防设备",
-      "signal_count": 5,
-      "source_types": [
-        "community",
-        "media"
-      ],
-      "source_names": [
-        "Gizmodo",
-        "Reddit r/smarthome"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.03,
-      "max_signal_strength": 2.55,
-      "seen_count_total": 40,
-      "matched_watch_topics": [
-        "hardware_intersections"
-      ],
-      "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
-      "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007",
-        "S084"
-      ],
-      "top_signals": [
-        {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S005",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Deadbolt",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sxc766/smart_deadbolt/",
-          "signal_strength": 2.05
-        },
-        {
-          "id": "S084",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Dreame’s Next Smart Lock Packs a 3K Doorbell Camera and Aliro Support - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZG9wNU43b1pjTkpDTjlDUnJIdlNubi05UXZlcWpSNVJxQllVSmhPNW51TnBsbHlNdVFURnlaNXZsRXlCclBtX3JicF9LS2twVWFTeXhTM1BlZEswaFN2ZW1JZzdMVTNUc25NN1NtRzBNNE53RXdHRWFWM0VmN2xRM2p3NjVSOE5qZzV2NUVZYVBlc3lTemowQzFXbkk5RDhC?oc=5",
-          "signal_strength": 0.9
-        }
-      ],
-      "velocity_7run_delta": 0.57,
+      "velocity_7run_delta": 0.25,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -481,9 +448,10 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 17,
+      "signal_count": 23,
       "source_types": [
         "crowdfunding",
+        "developer",
         "media",
         "product_reference"
       ],
@@ -491,6 +459,8 @@
         "CharaChorder",
         "Elgato Stream Deck",
         "Geek AI Productivity Hardware News",
+        "GitHub Programmable Keyboard Firmware",
+        "GitHub Stream Deck Plugin Ecosystem",
         "Glove80",
         "Keychron",
         "Kickstarter Geek Productivity Hardware",
@@ -501,15 +471,16 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.36,
-      "max_signal_strength": 2.0,
-      "seen_count_total": 17,
+      "avg_signal_strength": 1.53,
+      "max_signal_strength": 2.55,
+      "seen_count_total": 38,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "geek_ai_productivity_hardware",
-        "programmable_keyboard_ecosystem"
+        "programmable_keyboard_ecosystem",
+        "workflow_plugin_hardware"
       ],
-      "first_seen_at": "2026-05-04T20:52:45.244104Z",
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
       "last_seen_at": "2026-05-04T20:52:45.244104Z",
       "evidence_signal_ids": [
         "S109",
@@ -528,9 +499,39 @@
         "S125",
         "S126",
         "S127",
-        "S128"
+        "S128",
+        "S131",
+        "S132",
+        "S135",
+        "S136",
+        "S138",
+        "S139"
       ],
       "top_signals": [
+        {
+          "id": "S131",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+          "source_url": "https://github.com/qmk/qmk_firmware",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S135",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+          "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
+          "signal_strength": 2.2
+        },
         {
           "id": "S119",
           "source_name": "Kickstarter Geek Productivity Hardware",
@@ -546,33 +547,9 @@
           "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
           "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
           "signal_strength": 2.0
-        },
-        {
-          "id": "S126",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "duckyPad: Do-It-All Mechanical Macropad by dekuNukem - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQnllQ2VuR2F6MVplQkxLQXoyNE92MUp3OXE0RVFnQ2RmejdxMlB3SmhsdFJCbkN4MGw1cWY0d1pQU1ZKVjh5eDZQLVpGek1fXzN5dklrdzdMQS10bVNwdGoxemZxS2x1akQxZDZGclFJYXZQbzdpdWZlUlp3aktxUnF0aWx3OHBlbkhhWU9R?oc=5",
-          "signal_strength": 2.0
-        },
-        {
-          "id": "S128",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZkpBajlFaWF5Q1hET2YxTmhLQURhOUR5QWotVGJjUkMybVdENkJhVm9scHJHSmY0TDJCVVdYenVGcjEtdkJBM21PbFhOMHZQUGc3S0NvRWljMF9Dc29LaEktUVp4NkFSQVo4YXV1blltbnZiR2E4YVNjN1NPbDR2ZFpnWGQ3QTVSUC1QU3Y2c1lrajRXX0g5cXIwLS1FYnRXNDVyYnYxaVNnOF9DVHBJWXo5aw?oc=5",
-          "signal_strength": 2.0
-        },
-        {
-          "id": "S110",
-          "source_name": "ZSA Moonlander",
-          "source_type": "product_reference",
-          "source_title": "ZSA Moonlander high-end split ergonomic programmable keyboard",
-          "source_url": "https://www.zsa.io/moonlander",
-          "signal_strength": 1.65
         }
       ],
-      "velocity_7run_delta": 17,
+      "velocity_7run_delta": 6.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -592,7 +569,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.21,
       "max_signal_strength": 2.7,
-      "seen_count_total": 62,
+      "seen_count_total": 69,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -670,7 +647,7 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 10.0,
+      "velocity_7run_delta": 8.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -678,7 +655,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 24,
+      "signal_count": 27,
       "source_types": [
         "community",
         "media"
@@ -688,9 +665,9 @@
         "Reddit Agentic Edge Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.02,
+      "avg_signal_strength": 1.04,
       "max_signal_strength": 1.85,
-      "seen_count_total": 50,
+      "seen_count_total": 57,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_model_peripherals",
@@ -699,7 +676,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -724,7 +701,10 @@
         "S104",
         "S105",
         "S107",
-        "S108"
+        "S108",
+        "S129",
+        "S134",
+        "S137"
       ],
       "top_signals": [
         {
@@ -768,9 +748,81 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 9.6,
+      "velocity_7run_delta": 11.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "wireless midi keyboard",
+      "name": "Wireless Midi Keyboard",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/MechanicalKeyboards"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 3.0,
+      "max_signal_strength": 3.0,
+      "seen_count_total": 2,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "evidence_signal_ids": [
+        "S123"
+      ],
+      "top_signals": [
+        {
+          "id": "S123",
+          "source_name": "Reddit r/MechanicalKeyboards",
+          "source_type": "community",
+          "source_title": "Wireless MIDI keyboard using hall effect switches",
+          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
+          "signal_strength": 3.0
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
+      "trend_key": "watch:github_ai_projects",
+      "name": "Hot GitHub AI Projects",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "developer"
+      ],
+      "source_names": [
+        "GitHub On Device AI"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.8,
+      "max_signal_strength": 2.8,
+      "seen_count_total": 19,
+      "matched_watch_topics": [
+        "github_ai_projects"
+      ],
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "evidence_signal_ids": [
+        "S008"
+      ],
+      "top_signals": [
+        {
+          "id": "S008",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
+          "source_url": "https://github.com/pytorch/executorch",
+          "signal_strength": 2.8
+        }
+      ],
+      "velocity_7run_delta": -1.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
     },
     {
       "trend_key": "watch:big_tech_peripherals",
@@ -895,13 +947,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.6,
       "max_signal_strength": 2.6,
-      "seen_count_total": 18,
+      "seen_count_total": 19,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S010"
       ],
@@ -992,8 +1044,8 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
-      "trend_key": "smart fridge",
-      "name": "Smart Fridge",
+      "trend_key": "smart fridge robot",
+      "name": "Smart Fridge Robot",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
@@ -1003,15 +1055,15 @@
         "Gizmodo"
       ],
       "has_behavior_source": false,
-      "avg_signal_strength": 1.05,
-      "max_signal_strength": 1.05,
-      "seen_count_total": 3,
+      "avg_signal_strength": 1.3,
+      "max_signal_strength": 1.3,
+      "seen_count_total": 4,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-03T19:55:47.533844Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S061"
       ],
@@ -1022,7 +1074,7 @@
           "source_type": "media",
           "source_title": "Dreame’s Smart Fridge Has a Robot Arm That Can Put Your Groceries Away for You - Gizmodo",
           "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3gzX1BteUt1djlKaUQ3WFk1YTViNVJsU0NlTGtXdThqeHhoV1RWZm5ubDR3dE44dHVwM1JzQzhaQzA3Q2tUZHcwaE8zb3lfOXZ0SllWdjNXZUZhN2dzUjJjSFdUclZoQ1VDT3hBeHl5Vm5GdkRGT2kxM2VVNEllT0poVUQ4bFY1Qk1mcGhqaTc1RFZ2R1ZDYnJiUkF0S0YyaGY0cHd3TmEwdnFP?oc=5",
-          "signal_strength": 1.05
+          "signal_strength": 1.3
         }
       ],
       "velocity_7run_delta": 0.0,
@@ -1071,7 +1123,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.67,
+      "velocity_7run_delta": 0.5,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -1126,10 +1178,10 @@
       "has_behavior_source": false,
       "avg_signal_strength": 0.75,
       "max_signal_strength": 0.75,
-      "seen_count_total": 19,
+      "seen_count_total": 20,
       "matched_watch_topics": [],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-04T20:52:45.244104Z",
+      "last_seen_at": "2026-05-04T20:20:47.994844Z",
       "evidence_signal_ids": [
         "S002"
       ],
