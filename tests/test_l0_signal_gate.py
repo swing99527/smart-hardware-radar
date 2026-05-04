@@ -696,6 +696,48 @@ class L0SignalGateTest(unittest.TestCase):
 
         self.assertEqual(category, "On Device AI Project")
 
+    def test_product_reference_sources_are_watch_only_geek_hardware(self):
+        items, health_entries = scout.product_reference_items("2026-05-04T00:00:00Z")
+        watch_topics = [
+            {
+                "id": "geek_ai_productivity_hardware",
+                "keywords": ["stream deck", "programmable workflow controller"],
+            }
+        ]
+
+        self.assertGreaterEqual(len(items), 8)
+        self.assertEqual(len(items), len(health_entries))
+        stream_deck = next(item for item in items if item["source_name"] == "Elgato Stream Deck")
+        signal = scout.signal_from_item(
+            stream_deck,
+            stream_deck["candidate_category"],
+            stream_deck["extraction_engine"],
+            "2026-05-04T00:00:00Z",
+            watch_topics,
+        )
+
+        self.assertEqual(signal["source_type"], "product_reference")
+        self.assertFalse(signal["category_eligible"])
+        self.assertIn("geek_ai_productivity_hardware", signal["matched_watch_topics"])
+        self.assertEqual(signal["l0_scores"]["diffusion_stage"], "innovator")
+
+    def test_geek_productivity_required_keywords_filter_false_ai_matches(self):
+        items = []
+        scout.append_hardware_item(
+            items,
+            "Built an AI SEO Content Gap Analyzer in n8n via email",
+            "https://example.com/chain",
+            {
+                "name": "Geek AI Productivity Hardware News",
+                "source_type": "media",
+                "candidate_category": "Geek AI Productivity Hardware",
+                "category_eligible": False,
+                "required_keywords": scout.GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+            },
+        )
+
+        self.assertEqual(items, [])
+
     def test_single_source_type_waits_for_more_evidence(self):
         passed, reason = scout.category_gate(
             [

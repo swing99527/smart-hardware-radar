@@ -61,7 +61,7 @@ body {
 .dot-media { background: #8c98a5; }
 .dot-community { background: var(--blue); }
 .dot-developer { background: #ad8cff; }
-.dot-crowdfunding, .dot-product_launch { background: var(--amber); }
+.dot-crowdfunding, .dot-product_launch, .dot-product_reference { background: var(--amber); }
 .dot-search, .dot-marketplace { background: var(--green); }
 .dot-unknown { background: #647080; }
 

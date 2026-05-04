@@ -60,6 +60,7 @@ RSS / launch / community / marketplace sources
 | `product_launch` | Product Hunt | Launch velocity proxy |
 | `community` | Reddit, Hacker News | Pain/discussion proxy |
 | `developer` | GitHub repository search | Hot AI project / developer adoption proxy |
+| `product_reference` | Stream Deck, ZSA, Keychron, Wooting, Loupedeck, Work Louder, CharaChorder, Naya, Glove80 | First-party incumbent/productization context |
 | `media` | The Verge, Engadget, TechCrunch | Weak awareness signal |
 | `marketplace` | Amazon / Jungle Scout | Commercial validation |
 | `search` | Google Trends / keyword tools | Demand validation |
@@ -73,6 +74,8 @@ GitHub signals are currently `category_eligible: false` by default. They are wat
 AI coding-agent ecosystem monitoring is also watch-only. It tracks OpenClaw, Claude Code, OpenAI Codex / Codex CLI, and Gemini CLI / Gemini Code Assist using a lower `GITHUB_TOOLCHAIN_MIN_STARS` threshold so emerging peripheral tools can show up in the Signal Inbox before they become large repositories.
 
 Agentic edge hardware monitoring is the broader version of that watch-list. It tracks AI agents combined with physical I/O or local inference hardware: local AI boxes, AI cameras, AI recorders, AI keyboards/command decks, robot agent kits, and AI dev kit peripherals. These signals stay watch-only until independent behavior sources prove real demand.
+
+Geek AI productivity hardware monitoring tracks the smaller high-ticket segment around programmable keyboards, macro pads, creative consoles, workflow controllers and AI coding workflow entry points. Its source mix intentionally uses first-party DTC product sites, QMK/ZMK/VIA firmware ecosystems, Kickstarter/Indiegogo projects, Reddit keyboard/workspace communities, and developer workflow/plugin ecosystems instead of IDC-style category reports.
 
 Media-only signals are useful, but they do not create categories by themselves.
 

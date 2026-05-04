@@ -30,6 +30,32 @@ MARKET_THESIS_FILE = ROOT / "data" / "market_theses.json"
 METHODOLOGY_VERSION = "1.0"
 REDDIT_TOKEN_CACHE = {"access_token": None, "expires_at": datetime.min}
 
+GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS = [
+    "stream deck",
+    "zsa",
+    "moonlander",
+    "keychron",
+    "wooting",
+    "loupedeck",
+    "work louder",
+    "charachorder",
+    "naya",
+    "glove80",
+    "qmk",
+    "zmk",
+    "split keyboard",
+    "ergonomic keyboard",
+    "mechanical keyboard",
+    "programmable keyboard",
+    "macro pad",
+    "macropad",
+    "modular keyboard",
+    "creative console",
+    "control console",
+    "hall effect keyboard",
+    "magnetic switch keyboard",
+]
+
 FEEDS = [
     {"name": "Product Hunt", "url": "https://www.producthunt.com/feed", "source_type": "product_launch", "source_language": "en"},
     {"name": "Kickstarter Tech", "url": "https://www.kickstarter.com/projects/feed.atom?category_id=16", "source_type": "crowdfunding", "source_language": "en"},
@@ -63,7 +89,85 @@ FEEDS = [
         "category_eligible": False,
         "extraction_engine": "QUERY",
     },
+    {
+        "name": "Geek AI Productivity Hardware News",
+        "url": "https://news.google.com/rss/search?q=%28%22Stream+Deck%22+OR+%22ZSA+Moonlander%22+OR+Keychron+OR+Wooting+OR+Loupedeck+OR+%22Work+Louder%22+OR+CharaChorder+OR+Glove80+OR+%22Naya+keyboard%22+OR+QMK+OR+ZMK+OR+VIA%29+%28keyboard+OR+macropad+OR+%22macro+pad%22+OR+%22creative+console%22+OR+%22control+console%22+OR+%22programmable+keyboard%22+OR+%22AI+workflow%22%29&hl=en-US&gl=US&ceid=US%3Aen",
+        "source_type": "media",
+        "source_language": "en",
+        "candidate_category": "Geek AI Productivity Hardware",
+        "category_eligible": False,
+        "extraction_engine": "QUERY",
+        "required_keywords": GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+    },
+    {
+        "name": "Kickstarter Geek Productivity Hardware",
+        "url": "https://news.google.com/rss/search?q=site%3Akickstarter.com%2Fprojects+%28%22split+keyboard%22+OR+%22macro+pad%22+OR+macropad+OR+%22modular+keyboard%22+OR+%22creative+console%22+OR+%22programmable+keyboard%22%29&hl=en-US&gl=US&ceid=US%3Aen",
+        "source_type": "crowdfunding",
+        "source_language": "en",
+        "candidate_category": "Geek AI Productivity Hardware",
+        "category_eligible": False,
+        "extraction_engine": "QUERY",
+        "required_keywords": GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+    },
+    {
+        "name": "Indiegogo Geek Productivity Hardware",
+        "url": "https://news.google.com/rss/search?q=site%3Aindiegogo.com%2Fprojects+%28%22split+keyboard%22+OR+%22macro+pad%22+OR+macropad+OR+%22modular+keyboard%22+OR+%22creative+console%22+OR+%22programmable+keyboard%22+OR+%22AI+gadget%22%29&hl=en-US&gl=US&ceid=US%3Aen",
+        "source_type": "crowdfunding",
+        "source_language": "en",
+        "candidate_category": "Geek AI Productivity Hardware",
+        "category_eligible": False,
+        "extraction_engine": "QUERY",
+        "required_keywords": GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+    },
     {"name": "SlashGear", "url": "https://www.slashgear.com/feed/", "source_type": "media", "source_language": "en"},
+]
+
+PRODUCT_REFERENCE_SOURCES = [
+    {
+        "name": "Elgato Stream Deck",
+        "url": "https://www.elgato.com/us/en/s/welcome-to-stream-deck",
+        "title": "Elgato Stream Deck programmable workflow controller with plugin marketplace",
+    },
+    {
+        "name": "ZSA Moonlander",
+        "url": "https://www.zsa.io/moonlander",
+        "title": "ZSA Moonlander high-end split ergonomic programmable keyboard",
+    },
+    {
+        "name": "Keychron",
+        "url": "https://www.keychron.com",
+        "title": "Keychron global DTC mechanical keyboard brand with QMK and VIA programmable keyboards",
+    },
+    {
+        "name": "Wooting",
+        "url": "https://wooting.io",
+        "title": "Wooting high-end analog magnetic switch gaming keyboard",
+    },
+    {
+        "name": "Loupedeck",
+        "url": "https://loupedeck.com",
+        "title": "Loupedeck creative control console for creator workflows",
+    },
+    {
+        "name": "Work Louder",
+        "url": "https://worklouder.cc",
+        "title": "Work Louder creator keyboard and workflow controller hardware",
+    },
+    {
+        "name": "CharaChorder",
+        "url": "https://www.charachorder.com",
+        "title": "CharaChorder high-speed text input keyboard device",
+    },
+    {
+        "name": "Naya",
+        "url": "https://naya.tech",
+        "title": "Naya modular ergonomic keyboard and productivity controller",
+    },
+    {
+        "name": "Glove80",
+        "url": "https://www.moergo.com",
+        "title": "Glove80 wireless split ergonomic keyboard",
+    },
 ]
 
 JSON_SOURCES = [
@@ -85,6 +189,11 @@ REDDIT_SOURCES = [
     {"name": "Reddit r/hardware", "url": "https://www.reddit.com/r/hardware/top.json?t=week&limit=50"},
     {"name": "Reddit r/smarthome", "url": "https://www.reddit.com/r/smarthome/top.json?t=week&limit=50"},
     {"name": "Reddit r/wearabletech", "url": "https://www.reddit.com/r/wearabletech/top.json?t=month&limit=50"},
+    {"name": "Reddit r/MechanicalKeyboards", "url": "https://www.reddit.com/r/MechanicalKeyboards/top.json?t=week&limit=50"},
+    {"name": "Reddit r/ErgoMechKeyboards", "url": "https://www.reddit.com/r/ErgoMechKeyboards/top.json?t=month&limit=50"},
+    {"name": "Reddit r/olkb", "url": "https://www.reddit.com/r/olkb/top.json?t=month&limit=50"},
+    {"name": "Reddit r/Workspaces", "url": "https://www.reddit.com/r/Workspaces/top.json?t=week&limit=50"},
+    {"name": "Reddit r/unixporn", "url": "https://www.reddit.com/r/unixporn/top.json?t=week&limit=50"},
 ]
 
 REDDIT_SEARCH_SOURCES = [
@@ -108,6 +217,17 @@ REDDIT_SEARCH_SOURCES = [
         "category_eligible": False,
         "extraction_engine": "QUERY",
     },
+    {
+        "name": "Reddit Geek Productivity Hardware Search",
+        "url": "https://www.reddit.com/search.json?q=%28%22stream+deck%22+OR+%22macro+pad%22+OR+macropad+OR+%22split+keyboard%22+OR+%22qmk%22+OR+%22zmk%22+OR+%22via%22+OR+%22loupedeck%22+OR+%22work+louder%22+OR+%22moonlander%22+OR+%22wooting%22+OR+%22glove80%22%29+%28workflow+OR+developer+OR+productivity+OR+coding+OR+AI+OR+setup%29&sort=new&t=month&limit=50",
+        "source_language": "en",
+        "min_score": 1,
+        "min_comments": 1,
+        "candidate_category": "Geek AI Productivity Hardware",
+        "category_eligible": False,
+        "extraction_engine": "QUERY",
+        "required_keywords": GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+    },
 ]
 
 GOOGLE_TRENDS_GEOS = [geo.strip().upper() for geo in os.getenv("GOOGLE_TRENDS_GEOS", "US").split(",") if geo.strip()]
@@ -128,6 +248,9 @@ TREND_TOPIC_PRIORITY = [
     "local_ai_box",
     "ai_camera_node",
     "ai_recorder",
+    "geek_ai_productivity_hardware",
+    "programmable_keyboard_ecosystem",
+    "workflow_plugin_hardware",
     "ai_keyboard",
     "robot_agent_kit",
     "ai_devkit_peripheral",
@@ -140,9 +263,9 @@ TREND_TOPIC_PRIORITY = [
 
 HARDWARE_PATTERN = re.compile(
     r"(device|wearable|hardware|smart|ai|gadget|robot|camera|sensor|audio|tracker|monitor|"
-    r"headphone|earbud|ring|glasses|keyboard|recorder|drone|speaker|charger|"
+    r"headphone|earbud|ring|glasses|keyboard|recorder|drone|speaker|charger|console|controller|macropad|"
     r"设备|硬件|智能|可穿戴|机器人|摄像头|相机|传感器|音频|耳机|戒指|眼镜|键盘|录音|"
-    r"无人机|音箱|充电|门铃|门锁|显示器|监控|灯|净化器|冰箱|手表)",
+    r"无人机|音箱|充电|门铃|门锁|显示器|监控|控制台|控制器|灯|净化器|冰箱|手表)",
     re.IGNORECASE,
 )
 
@@ -199,7 +322,10 @@ GENERIC_CATEGORIES = {
 
 GENERIC_HEAD_NOUNS = {
     "camera",
+    "console",
+    "controller",
     "deadbolt",
+    "deck",
     "device",
     "doorbell",
     "drone",
@@ -214,6 +340,8 @@ GENERIC_HEAD_NOUNS = {
     "lighting",
     "lock",
     "monitor",
+    "pad",
+    "macropad",
     "recorder",
     "ring",
     "robot",
@@ -230,7 +358,9 @@ QUALIFIER_WORDS = {
     "baby",
     "bike",
     "cycling",
+    "creative",
     "desk",
+    "developer",
     "dictation",
     "dog",
     "elder",
@@ -241,10 +371,13 @@ QUALIFIER_WORDS = {
     "home",
     "kids",
     "local",
+    "macro",
     "meeting",
+    "modular",
     "outdoor",
     "pet",
     "posture",
+    "programmable",
     "recording",
     "remote",
     "sleep",
@@ -254,6 +387,7 @@ QUALIFIER_WORDS = {
     "video",
     "wireless",
     "workout",
+    "workflow",
 }
 
 CHINESE_HEAD_NOUNS = {
@@ -270,6 +404,8 @@ CHINESE_HEAD_NOUNS = {
     "耳机",
     "音箱",
     "键盘",
+    "控制台",
+    "控制器",
     "显示器",
     "机器人",
     "手表",
@@ -301,6 +437,11 @@ CHINESE_QUALIFIER_WORDS = {
     "翻译",
     "游戏",
     "无线",
+    "可编程",
+    "分体",
+    "人体工学",
+    "开发者",
+    "创作者",
     "家用",
     "家居",
     "安防",
@@ -314,11 +455,12 @@ CHINESE_QUALIFIER_WORDS = {
     "视觉",
 }
 
-BEHAVIOR_SOURCE_TYPES = {"crowdfunding", "product_launch", "community", "developer", "marketplace", "search"}
+BEHAVIOR_SOURCE_TYPES = {"crowdfunding", "product_launch", "product_reference", "community", "developer", "marketplace", "search"}
 SOURCE_QUALITY = {
     "media": 1,
     "community": 2,
     "developer": 2,
+    "product_reference": 2,
     "product_launch": 3,
     "crowdfunding": 4,
     "marketplace": 5,
@@ -480,6 +622,30 @@ def github_sources():
             "category_eligible": False,
             "min_stars": GITHUB_AGENTIC_EDGE_MIN_STARS,
         },
+        {
+            "name": "GitHub Programmable Keyboard Firmware",
+            "query": f'"qmk firmware" OR "zmk firmware" OR "via keyboard" OR "keyboard firmware" stars:>{GITHUB_AGENTIC_EDGE_MIN_STARS} pushed:>{cutoff}',
+            "candidate_category": "Geek AI Productivity Hardware",
+            "category_eligible": False,
+            "min_stars": GITHUB_AGENTIC_EDGE_MIN_STARS,
+            "required_keywords": GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+        },
+        {
+            "name": "GitHub Stream Deck Plugin Ecosystem",
+            "query": f'"stream deck" plugin OR streamdeck plugin OR "stream deck sdk" stars:>{GITHUB_AGENTIC_EDGE_MIN_STARS} pushed:>{cutoff}',
+            "candidate_category": "Geek AI Productivity Hardware",
+            "category_eligible": False,
+            "min_stars": GITHUB_AGENTIC_EDGE_MIN_STARS,
+            "required_keywords": GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+        },
+        {
+            "name": "GitHub AI Workflow Controller",
+            "query": f'"claude code" OR "cursor" OR "codex" OR "copilot" "stream deck" OR macropad OR "macro pad" stars:>{GITHUB_AGENTIC_EDGE_MIN_STARS} pushed:>{cutoff}',
+            "candidate_category": "Geek AI Productivity Hardware",
+            "category_eligible": False,
+            "min_stars": GITHUB_AGENTIC_EDGE_MIN_STARS,
+            "required_keywords": GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS,
+        },
     ]
 
 
@@ -494,6 +660,35 @@ def google_trends_sources():
         }
         for geo in GOOGLE_TRENDS_GEOS
     ]
+
+
+def product_reference_items(observed_at):
+    items = []
+    health_entries = []
+    for source in PRODUCT_REFERENCE_SOURCES:
+        item = {
+            "title": source["title"],
+            "link": source["url"],
+            "source_name": source["name"],
+            "source_type": "product_reference",
+            "source_language": "en",
+            "candidate_category": "Geek AI Productivity Hardware",
+            "category_eligible": False,
+            "extraction_engine": "SOURCE_REFERENCE",
+            "metrics": {"reference_kind": "first_party_product_site"},
+            "tags": ["first_party_product_reference"],
+        }
+        items.append(item)
+        health_entries.append(
+            source_health_entry(
+                {"name": source["name"], "source_type": "product_reference", "source_language": "en"},
+                source["url"],
+                observed_at,
+                "ok",
+                item_count=1,
+            )
+        )
+    return items, health_entries
 
 
 def read_json(path, default):
@@ -535,6 +730,22 @@ def compact_text(value):
 def contains_any(value, keywords):
     compacted = compact_text(value)
     return any(compact_text(keyword) in compacted for keyword in keywords)
+
+
+def contains_required_keyword(value, keywords):
+    normalized = normalize_text(value)
+    compacted = compact_text(value)
+    for keyword in keywords:
+        normalized_keyword = normalize_text(keyword)
+        if not normalized_keyword:
+            continue
+        if len(normalized_keyword) <= 3:
+            if re.search(rf"(^|\s){re.escape(normalized_keyword)}($|\s)", normalized):
+                return True
+            continue
+        if compact_text(keyword) in compacted:
+            return True
+    return False
 
 
 def format_category(category):
@@ -892,6 +1103,8 @@ def parse_github_repositories(payload, source):
             continue
 
         raw_text = f"{full_name} - {description}".strip(" -")
+        if source.get("required_keywords") and not contains_required_keyword(raw_text, source["required_keywords"]):
+            continue
         items.append(
             {
                 "title": raw_text,
@@ -978,6 +1191,8 @@ def parse_reddit_listing(payload, source):
             continue
         if not title or not HARDWARE_PATTERN.search(title):
             continue
+        if source.get("required_keywords") and not contains_required_keyword(title, source["required_keywords"]):
+            continue
 
         permalink = post.get("permalink") or ""
         source_url = f"https://www.reddit.com{permalink}" if permalink.startswith("/") else post.get("url") or permalink
@@ -1006,6 +1221,8 @@ def parse_reddit_listing(payload, source):
 
 def append_hardware_item(items, title, link, feed):
     if title and link and HARDWARE_PATTERN.search(title):
+        if feed.get("required_keywords") and not contains_required_keyword(title, feed["required_keywords"]):
+            return
         item = {
             "title": title.strip(),
             "link": link.strip(),
@@ -1270,6 +1487,8 @@ def behavior_strength(source_type, metrics):
         if traffic >= 50000:
             return 4
         return 3
+    if source_type == "product_reference":
+        return 2
     if source_type in {"marketplace", "product_launch"}:
         return 3
     return 0
@@ -1295,7 +1514,7 @@ def specificity_score(category):
 
 
 def diffusion_stage_for_signal(source_type):
-    if source_type in {"developer", "product_launch"}:
+    if source_type in {"developer", "product_launch", "product_reference"}:
         return "innovator"
     if source_type == "community":
         return "early_adopter"
@@ -1435,6 +1654,14 @@ def prune_invalid_signals(signals_doc):
     kept = []
     removed = 0
     for signal in signals:
+        if (
+            signal.get("category_eligible") is False
+            and signal.get("candidate_category") == "Geek AI Productivity Hardware"
+            and signal.get("source_type") != "product_reference"
+            and not contains_required_keyword(signal.get("source_title", ""), GEEK_PRODUCTIVITY_REQUIRED_KEYWORDS)
+        ):
+            removed += 1
+            continue
         if signal.get("category_eligible") is False:
             kept.append(signal)
             continue
@@ -1673,6 +1900,9 @@ def main():
 
     raw_items = []
     source_health_entries = []
+    reference_items, reference_health = product_reference_items(observed_at)
+    raw_items.extend(reference_items)
+    source_health_entries.extend(reference_health)
     for feed in FEEDS:
         xml, health = fetch_rss(feed["url"], feed, observed_at)
         items, parse_error = parse_feed(xml, feed)

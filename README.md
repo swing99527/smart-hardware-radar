@@ -46,6 +46,7 @@
 - AI 编程工具周边：已加入 OpenClaw、Claude Code、OpenAI Codex、Gemini CLI / Gemini Code Assist 的 watch-only 监视，不直接生成硬件类目
 - OpenClaw 硬件交叉：单独监控 OpenClaw + 摄像头、机器人、终端盒子、AI keyboard、AI recorder、edge/local device、ClawBox、OpenClaw OS 等组合
 - Agentic edge hardware：扩展监控本地 AI 盒子、AI 摄像头、AI recorder、AI keyboard/command deck、机器人 agent kit、AI dev kit 等 agent + 物理 I/O 组合
+- 极客 AI 生产力硬件：新增 Stream Deck、ZSA Moonlander、Keychron、Wooting、Loupedeck、Work Louder、CharaChorder、Naya、Glove80 等产品官网参考源，并跟踪 QMK/ZMK/VIA、Kickstarter/Indiegogo、Reddit 键盘社区和 Stream Deck/Raycast/VS Code/Cursor 等 workflow plugin 生态
 - 数据源凭据：GitHub / Reddit / LLM 的 token 和 API key 配置见 `docs/data_source_credentials.md`
 - `v2/input/`：微观产品拆解数据 (Jungle Scout MCP 产出的具体 ASIN 和 PPC 竞价)
 - `web/`：Dashboard 源码，使用 Vite + Vue + Tailwind 本地构建

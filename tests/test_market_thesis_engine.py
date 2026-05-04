@@ -70,6 +70,28 @@ class MarketThesisEngineTest(unittest.TestCase):
         self.assertIn(thesis["evidence_status"], {"Watch", "Warming"})
         self.assertIn("amazon_keyword_scan", thesis["next_validation"])
 
+    def test_geek_productivity_cluster_maps_to_specific_market_thesis(self):
+        doc = {
+            "clusters": [
+                cluster(
+                    "watch:geek_ai_productivity_hardware",
+                    "Geek AI Productivity Hardware",
+                    "Warming",
+                    ["product_reference", "developer", "community"],
+                    5,
+                    3.0,
+                )
+            ]
+        }
+
+        thesis = market.build_market_theses(doc, observed_at="2026-05-04T00:00:00Z")["theses"][0]
+
+        self.assertEqual(thesis["thesis_key"], "geek_ai_productivity_hardware")
+        self.assertEqual(thesis["name_zh"], "极客 AI 生产力硬件")
+        self.assertIn("programmable keyboard", thesis["hardware_form_factors"])
+        self.assertNotIn("market_validation", thesis["missing_evidence"])
+        self.assertIn("supply_chain", thesis["missing_evidence"])
+
     def test_market_and_demand_can_validate_but_not_select_without_supply(self):
         doc = {
             "clusters": [

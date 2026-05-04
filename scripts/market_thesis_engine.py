@@ -10,11 +10,13 @@ TREND_CLUSTER_FILE = ROOT / "data" / "trend_clusters.json"
 MARKET_THESIS_FILE = ROOT / "data" / "market_theses.json"
 
 BEHAVIOR_DEMAND_TYPES = {"community", "search"}
-MARKET_TYPES = {"marketplace", "crowdfunding", "product_launch"}
+MARKET_TYPES = {"marketplace", "crowdfunding", "product_launch", "product_reference"}
+PRODUCTIZATION_TYPES = {"marketplace", "crowdfunding", "product_launch", "product_reference"}
 SUPPLY_TYPES = {"supply_chain"}
 SOURCE_WEIGHTS = {
     "community": 25,
     "developer": 20,
+    "product_reference": 15,
     "crowdfunding": 20,
     "product_launch": 15,
     "search": 20,
@@ -60,6 +62,38 @@ THESIS_RULES = [
         "hardware_form_factors": ["edge AI box", "AI camera node", "sensor gateway", "robot agent kit"],
         "buyer_segments": ["AI builders", "smart-home power users", "robotics teams", "industrial pilots"],
         "substitution_risk": "Medium-high from Raspberry Pi, Jetson kits, cameras with built-in AI, and cloud automation stacks.",
+    },
+    {
+        "key": "geek_ai_productivity_hardware",
+        "name": "Geek AI productivity hardware",
+        "name_zh": "极客 AI 生产力硬件",
+        "keywords": [
+            "geek_ai_productivity_hardware",
+            "programmable_keyboard_ecosystem",
+            "workflow_plugin_hardware",
+            "stream deck",
+            "moonlander",
+            "keychron",
+            "wooting",
+            "loupedeck",
+            "work louder",
+            "charachorder",
+            "glove80",
+            "naya keyboard",
+            "qmk",
+            "zmk",
+            "via keyboard",
+            "split keyboard",
+            "macro pad",
+            "macropad",
+            "creative console",
+            "programmable keyboard",
+            "ai workflow controller",
+        ],
+        "job_to_be_done": "Developers and creators want high-leverage physical controls for coding, AI agents and repeated workflow actions.",
+        "hardware_form_factors": ["programmable keyboard", "macro pad", "workflow control console", "split ergonomic keyboard"],
+        "buyer_segments": ["software engineers", "AI-heavy operators", "creators", "desk setup enthusiasts"],
+        "substitution_risk": "High from Stream Deck, Loupedeck, QMK/ZMK keyboards, Raycast/Alfred and purely software shortcuts.",
     },
     {
         "key": "ai_command_input_peripherals",
@@ -179,7 +213,7 @@ def missing_evidence_for_cluster(cluster):
         missing.append("market_validation")
     if not source_types & SUPPLY_TYPES:
         missing.append("supply_chain")
-    if not source_types & {"crowdfunding", "product_launch", "marketplace"}:
+    if not source_types & PRODUCTIZATION_TYPES:
         missing.append("productization")
     if len(source_types) < 2:
         missing.append("source_diversity")

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-03T19:55:47.533844Z",
+  "generated_at": "2026-05-04T20:52:45.244104Z",
   "theses": [
     {
       "id": "M001",
@@ -38,7 +38,7 @@
         "Reddit Agentic Edge Hardware Search",
         "Reddit OpenClaw Hardware Search"
       ],
-      "signal_count": 60,
+      "signal_count": 62,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -102,7 +102,9 @@
         "S105",
         "S106",
         "S107",
-        "S108"
+        "S108",
+        "S120",
+        "S124"
       ],
       "top_signals": [
         {
@@ -163,6 +165,134 @@
     },
     {
       "id": "M002",
+      "thesis_key": "ai_command_input_peripherals",
+      "name": "AI command input peripherals",
+      "name_zh": "AI 指令输入外设",
+      "job_to_be_done": "Power users want physical controls that shorten repeated AI, coding and creative workflows.",
+      "hardware_form_factors": [
+        "AI keyboard",
+        "command deck",
+        "macro pad",
+        "programmable desktop controller"
+      ],
+      "buyer_segments": [
+        "developers",
+        "creators",
+        "AI-heavy operators"
+      ],
+      "evidence_status": "Warming",
+      "evidence_score": 70,
+      "source_mix": {
+        "community": 1,
+        "developer": 1,
+        "media": 1
+      },
+      "source_names": [
+        "GitHub Claude Code Ecosystem",
+        "GitHub Codex Ecosystem",
+        "GitHub Gemini Code Ecosystem",
+        "GitHub OpenClaw Ecosystem",
+        "Reddit r/MechanicalKeyboards",
+        "Yanko Design"
+      ],
+      "signal_count": 33,
+      "trend_key": "watch:ai_coding_agent_ecosystem",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S001",
+        "S013",
+        "S014",
+        "S015",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S025",
+        "S026",
+        "S027",
+        "S028",
+        "S029",
+        "S030",
+        "S031",
+        "S032",
+        "S033",
+        "S034",
+        "S035",
+        "S036",
+        "S037",
+        "S038",
+        "S039",
+        "S040",
+        "S041",
+        "S042",
+        "S043",
+        "S123"
+      ],
+      "top_signals": [
+        {
+          "id": "S123",
+          "source_name": "Reddit r/MechanicalKeyboards",
+          "source_type": "community",
+          "source_title": "Wireless MIDI keyboard using hall effect switches",
+          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
+          "signal_strength": 3.0
+        },
+        {
+          "id": "S014",
+          "source_name": "GitHub Claude Code Ecosystem",
+          "source_type": "developer",
+          "source_title": "affaan-m/everything-claude-code - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "source_url": "https://github.com/affaan-m/everything-claude-code",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S016",
+          "source_name": "GitHub Gemini Code Ecosystem",
+          "source_type": "developer",
+          "source_title": "google-gemini/gemini-cli - An open-source AI agent that brings the power of Gemini directly into your terminal.",
+          "source_url": "https://github.com/google-gemini/gemini-cli",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S017",
+          "source_name": "GitHub OpenClaw Ecosystem",
+          "source_type": "developer",
+          "source_title": "NousResearch/hermes-agent - The agent that grows with you",
+          "source_url": "https://github.com/NousResearch/hermes-agent",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S001",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "Logitech G512 X gaming keyboard is highly customizable with analog and mechanical switches",
+          "source_url": "https://www.yankodesign.com/2026/04/29/logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches/?utm_source=rss&utm_medium=rss&utm_campaign=logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches",
+          "signal_strength": 0.75
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "High from software launchers, Stream Deck, programmable keyboards and OS shortcuts.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
+    },
+    {
+      "id": "M003",
       "thesis_key": "local_first_smart_home_security",
       "name": "Local-first smart home security",
       "name_zh": "本地优先智能家居安防",
@@ -206,7 +336,7 @@
           "source_type": "community",
           "source_title": "Outdoor camera for remote viewing without monthly fees?",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.8
+          "signal_strength": 2.55
         },
         {
           "id": "S004",
@@ -241,125 +371,108 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M003",
-      "thesis_key": "ai_command_input_peripherals",
-      "name": "AI command input peripherals",
-      "name_zh": "AI 指令输入外设",
-      "job_to_be_done": "Power users want physical controls that shorten repeated AI, coding and creative workflows.",
+      "id": "M004",
+      "thesis_key": "geek_ai_productivity_hardware",
+      "name": "Geek AI productivity hardware",
+      "name_zh": "极客 AI 生产力硬件",
+      "job_to_be_done": "Developers and creators want high-leverage physical controls for coding, AI agents and repeated workflow actions.",
       "hardware_form_factors": [
-        "AI keyboard",
-        "command deck",
+        "programmable keyboard",
         "macro pad",
-        "programmable desktop controller"
+        "workflow control console",
+        "split ergonomic keyboard"
       ],
       "buyer_segments": [
-        "developers",
+        "software engineers",
+        "AI-heavy operators",
         "creators",
-        "AI-heavy operators"
+        "desk setup enthusiasts"
       ],
-      "evidence_status": "Watch",
+      "evidence_status": "Warming",
       "evidence_score": 65,
       "source_mix": {
-        "developer": 1,
-        "media": 1
+        "crowdfunding": 1,
+        "media": 1,
+        "product_reference": 1
       },
       "source_names": [
-        "GitHub Claude Code Ecosystem",
-        "GitHub Codex Ecosystem",
-        "GitHub Gemini Code Ecosystem",
-        "GitHub OpenClaw Ecosystem",
-        "Yanko Design"
+        "CharaChorder",
+        "Elgato Stream Deck",
+        "Geek AI Productivity Hardware News",
+        "Glove80",
+        "Keychron",
+        "Kickstarter Geek Productivity Hardware",
+        "Loupedeck",
+        "Naya",
+        "Wooting",
+        "Work Louder",
+        "ZSA Moonlander"
       ],
-      "signal_count": 32,
-      "trend_key": "watch:ai_coding_agent_ecosystem",
+      "signal_count": 17,
+      "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
-        "S001",
-        "S013",
-        "S014",
-        "S015",
-        "S016",
-        "S017",
-        "S018",
-        "S019",
-        "S020",
-        "S021",
-        "S022",
-        "S023",
-        "S024",
-        "S025",
-        "S026",
-        "S027",
-        "S028",
-        "S029",
-        "S030",
-        "S031",
-        "S032",
-        "S033",
-        "S034",
-        "S035",
-        "S036",
-        "S037",
-        "S038",
-        "S039",
-        "S040",
-        "S041",
-        "S042",
-        "S043"
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119",
+        "S121",
+        "S122",
+        "S125",
+        "S126",
+        "S127",
+        "S128"
       ],
       "top_signals": [
         {
-          "id": "S014",
-          "source_name": "GitHub Claude Code Ecosystem",
-          "source_type": "developer",
-          "source_title": "affaan-m/everything-claude-code - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-          "source_url": "https://github.com/affaan-m/everything-claude-code",
-          "signal_strength": 2.7
+          "id": "S119",
+          "source_name": "Kickstarter Geek Productivity Hardware",
+          "source_type": "crowdfunding",
+          "source_title": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
+          "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlTc0NoZG1hLUJNeUMxbDd4VW8tTkhjNW5Jd1dfSXFrQW1OUjMwYTZ1YjFXX2lQekRmMzA2WmJuSUpDU1VYZGc0YnFYSk1uYjZJWk1FaXEzTno5NlRwWDAyYmh6ejNVeVdDaEhlZU1KWFhLcXB6Vk5FQUZxWGRhX1hrXzd5eEpuYWIyTm9PUkFDNXluMElZaGxCSlJQTkVrd0ZrY24teGlQOEh2aS1pS2F4OUo?oc=5",
+          "signal_strength": 2.0
         },
         {
-          "id": "S016",
-          "source_name": "GitHub Gemini Code Ecosystem",
-          "source_type": "developer",
-          "source_title": "google-gemini/gemini-cli - An open-source AI agent that brings the power of Gemini directly into your terminal.",
-          "source_url": "https://github.com/google-gemini/gemini-cli",
-          "signal_strength": 2.7
+          "id": "S122",
+          "source_name": "Kickstarter Geek Productivity Hardware",
+          "source_type": "crowdfunding",
+          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
+          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
+          "signal_strength": 2.0
         },
         {
-          "id": "S017",
-          "source_name": "GitHub OpenClaw Ecosystem",
-          "source_type": "developer",
-          "source_title": "NousResearch/hermes-agent - The agent that grows with you",
-          "source_url": "https://github.com/NousResearch/hermes-agent",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S001",
-          "source_name": "Yanko Design",
-          "source_type": "media",
-          "source_title": "Logitech G512 X gaming keyboard is highly customizable with analog and mechanical switches",
-          "source_url": "https://www.yankodesign.com/2026/04/29/logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches/?utm_source=rss&utm_medium=rss&utm_campaign=logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches",
-          "signal_strength": 0.75
+          "id": "S126",
+          "source_name": "Kickstarter Geek Productivity Hardware",
+          "source_type": "crowdfunding",
+          "source_title": "duckyPad: Do-It-All Mechanical Macropad by dekuNukem - Kickstarter",
+          "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQnllQ2VuR2F6MVplQkxLQXoyNE92MUp3OXE0RVFnQ2RmejdxMlB3SmhsdFJCbkN4MGw1cWY0d1pQU1ZKVjh5eDZQLVpGek1fXzN5dklrdzdMQS10bVNwdGoxemZxS2x1akQxZDZGclFJYXZQbzdpdWZlUlp3aktxUnF0aWx3OHBlbkhhWU9R?oc=5",
+          "signal_strength": 2.0
         }
       ],
       "missing_evidence": [
         "demand_behavior",
-        "market_validation",
-        "supply_chain",
-        "productization"
+        "supply_chain"
       ],
-      "substitution_risk": "High from software launchers, Stream Deck, programmable keyboards and OS shortcuts.",
+      "substitution_risk": "High from Stream Deck, Loupedeck, QMK/ZMK keyboards, Raycast/Alfred and purely software shortcuts.",
       "next_validation": [
         "reddit_pain_scan",
         "google_trends_keyword_scan",
         "youtube_review_query",
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot"
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
       ],
-      "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
+      "confidence_reason": "Warming because behavior or market evidence exists, but Demand behavior, Supply chain is still missing."
     },
     {
-      "id": "M004",
+      "id": "M005",
       "thesis_key": "ai_voice_capture_workflow",
       "name": "AI voice capture workflow devices",
       "name_zh": "AI语音采集工作流设备",
@@ -449,7 +562,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
     },
     {
-      "id": "M005",
+      "id": "M006",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -507,7 +620,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M006",
+      "id": "M007",
       "thesis_key": "emerging_smart_window_shades",
       "name": "Smart Window Shades",
       "name_zh": "Smart Window Shades",
@@ -560,7 +673,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M007",
+      "id": "M008",
       "thesis_key": "smart_audio_devices",
       "name": "Smart audio devices",
       "name_zh": "智能音频设备",
@@ -618,7 +731,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M008",
+      "id": "M009",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -670,7 +783,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M009",
+      "id": "M010",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",

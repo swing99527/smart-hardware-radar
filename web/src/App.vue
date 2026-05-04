@@ -576,6 +576,7 @@ const sourceTypeText = (type) => {
     media: '媒体',
     community: '社区',
     developer: '开发者',
+    product_reference: '产品官网',
     product_launch: '发布',
     crowdfunding: '众筹',
     marketplace: '电商',
