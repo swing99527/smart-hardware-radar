@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-04T20:20:47.994844Z",
+  "generated_at": "2026-05-05T20:11:49.626792Z",
   "theses": [
     {
       "id": "M001",
@@ -23,9 +23,9 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "crowdfunding": 1,
         "community": 1,
-        "media": 1
+        "media": 1,
+        "crowdfunding": 1
       },
       "source_names": [
         "Gizmodo",
@@ -45,14 +45,6 @@
         "S133"
       ],
       "top_signals": [
-        {
-          "id": "S133",
-          "source_name": "Indiegogo Tech",
-          "source_type": "crowdfunding",
-          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
-          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
-          "signal_strength": 2.6
-        },
         {
           "id": "S003",
           "source_name": "Reddit r/smarthome",
@@ -76,6 +68,14 @@
           "source_title": "Smart Lock Recommendations with these specs",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
           "signal_strength": 2.2
+        },
+        {
+          "id": "S133",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
+          "signal_strength": 2.6
         }
       ],
       "missing_evidence": [
@@ -111,7 +111,7 @@
       "evidence_score": 70,
       "source_mix": {
         "developer": 5,
-        "community": 2,
+        "community": 3,
         "media": 4
       },
       "source_names": [
@@ -122,9 +122,10 @@
         "Gizmodo",
         "OpenClaw Hardware News",
         "Reddit Agentic Edge Hardware Search",
-        "Reddit OpenClaw Hardware Search"
+        "Reddit OpenClaw Hardware Search",
+        "Reddit r/gadgets"
       ],
-      "signal_count": 65,
+      "signal_count": 75,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -193,7 +194,17 @@
         "S129",
         "S130",
         "S134",
-        "S137"
+        "S137",
+        "S141",
+        "S142",
+        "S143",
+        "S144",
+        "S145",
+        "S147",
+        "S148",
+        "S149",
+        "S151",
+        "S152"
       ],
       "top_signals": [
         {
@@ -423,7 +434,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 23,
+      "signal_count": 25,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -450,7 +461,9 @@
         "S135",
         "S136",
         "S138",
-        "S139"
+        "S139",
+        "S146",
+        "S150"
       ],
       "top_signals": [
         {
@@ -695,6 +708,72 @@
     },
     {
       "id": "M008",
+      "thesis_key": "gaming_productivity_peripherals",
+      "name": "Gaming productivity peripherals",
+      "name_zh": "游戏与效率外设",
+      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
+      "hardware_form_factors": [
+        "gaming monitor",
+        "gaming keyboard",
+        "desktop controller"
+      ],
+      "buyer_segments": [
+        "gamers",
+        "developers",
+        "desk setup buyers"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 45,
+      "source_mix": {
+        "product_launch": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Product Hunt"
+      ],
+      "signal_count": 2,
+      "trend_key": "gaming controller",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S011",
+        "S140"
+      ],
+      "top_signals": [
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S011",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "supply_chain"
+      ],
+      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M009",
       "thesis_key": "smart_audio_devices",
       "name": "Smart audio devices",
       "name_zh": "智能音频设备",
@@ -752,7 +831,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M009",
+      "id": "M010",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -802,64 +881,6 @@
         "fcc_bluetooth_bom_check"
       ],
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
-    },
-    {
-      "id": "M010",
-      "thesis_key": "gaming_productivity_peripherals",
-      "name": "Gaming productivity peripherals",
-      "name_zh": "游戏与效率外设",
-      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
-      "hardware_form_factors": [
-        "gaming monitor",
-        "gaming keyboard",
-        "desktop controller"
-      ],
-      "buyer_segments": [
-        "gamers",
-        "developers",
-        "desk setup buyers"
-      ],
-      "evidence_status": "Noise",
-      "evidence_score": 16,
-      "source_mix": {
-        "media": 1
-      },
-      "source_names": [
-        "Engadget"
-      ],
-      "signal_count": 1,
-      "trend_key": "gaming monitor",
-      "trend_status": "Noise",
-      "trend_reason": "media_only_awareness",
-      "evidence_signal_ids": [
-        "S011"
-      ],
-      "top_signals": [
-        {
-          "id": "S011",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
-          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
-          "signal_strength": 0.9
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot"
-      ],
-      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     }
   ]
 }

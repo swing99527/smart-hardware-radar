@@ -51,6 +51,46 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A002",
+      "name": "【证据聚类】Robot Vacuum",
+      "name_en": "Robot Vacuum",
+      "name_zh": null,
+      "cluster_key": "robot vacuum",
+      "cluster_members": [
+        "Robot Vacuum"
+      ],
+      "source_title": "Dreame Hopes to Take On ‘Impossible’ Homes With Four New Robot Vacuums - Gizmodo",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeVAzamhOa2p2ZHFJYTc0R3JJUWNOejdBZHFXQ1ZELVBVY0E0WkppMFRldXpfejFSRW9VekFTQTIyS0RCX2tvR0RSYUVoMWRReHpiWExrOXdncEN3T2RGZEdCaUNZb29UdTFDTUNUaDJtbEtsNzkzNkl6UUtlVVNNZ0V4cnBaUUtGTTIxbTQwc0xFM3c2Z2FZQmFvTmUtLTdq?oc=5",
+      "evidence_signal_ids": [
+        "S078",
+        "S106",
+        "S147"
+      ],
+      "confidence": 0.84,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 1.57,
+        "matched_watch_topics": [
+          "hardware_intersections"
+        ],
+        "candidate_keys": [
+          "robot vacuum"
+        ],
+        "l0_confidence": 0.84
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }
