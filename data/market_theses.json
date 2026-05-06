@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-05T20:11:49.626792Z",
+  "generated_at": "2026-05-06T20:27:49.879280Z",
   "theses": [
     {
       "id": "M001",
@@ -91,6 +91,80 @@
     },
     {
       "id": "M002",
+      "thesis_key": "gaming_productivity_peripherals",
+      "name": "Gaming productivity peripherals",
+      "name_zh": "游戏与效率外设",
+      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
+      "hardware_form_factors": [
+        "gaming monitor",
+        "gaming keyboard",
+        "desktop controller"
+      ],
+      "buyer_segments": [
+        "gamers",
+        "developers",
+        "desk setup buyers"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 75,
+      "source_mix": {
+        "community": 1,
+        "product_launch": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Product Hunt",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 3,
+      "trend_key": "smart home air quality monitor",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S011",
+        "S140",
+        "S157"
+      ],
+      "top_signals": [
+        {
+          "id": "S157",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S011",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 75 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M003",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
       "name_zh": "智能体边缘 I/O 节点",
@@ -125,7 +199,7 @@
         "Reddit OpenClaw Hardware Search",
         "Reddit r/gadgets"
       ],
-      "signal_count": 75,
+      "signal_count": 82,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -204,7 +278,14 @@
         "S148",
         "S149",
         "S151",
-        "S152"
+        "S152",
+        "S153",
+        "S155",
+        "S156",
+        "S158",
+        "S159",
+        "S161",
+        "S162"
       ],
       "top_signals": [
         {
@@ -264,7 +345,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M003",
+      "id": "M004",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -394,7 +475,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M004",
+      "id": "M005",
       "thesis_key": "geek_ai_productivity_hardware",
       "name": "Geek AI productivity hardware",
       "name_zh": "极客 AI 生产力硬件",
@@ -434,7 +515,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 25,
+      "signal_count": 26,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -463,7 +544,8 @@
         "S138",
         "S139",
         "S146",
-        "S150"
+        "S150",
+        "S154"
       ],
       "top_signals": [
         {
@@ -506,7 +588,75 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Demand behavior, Supply chain is still missing."
     },
     {
-      "id": "M005",
+      "id": "M006",
+      "thesis_key": "smart_audio_devices",
+      "name": "Smart audio devices",
+      "name_zh": "智能音频设备",
+      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
+      "hardware_form_factors": [
+        "wireless speaker",
+        "smart microphone",
+        "earbuds",
+        "desktop audio device"
+      ],
+      "buyer_segments": [
+        "home users",
+        "remote workers",
+        "audio enthusiasts"
+      ],
+      "evidence_status": "Warming",
+      "evidence_score": 56,
+      "source_mix": {
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "36氪",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 2,
+      "trend_key": "wireless bluetooth speaker",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S006",
+        "S160"
+      ],
+      "top_signals": [
+        {
+          "id": "S006",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S160",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
+          "source_url": "https://36kr.com/p/3682907323150215?f=rss",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
+    },
+    {
+      "id": "M007",
       "thesis_key": "ai_voice_capture_workflow",
       "name": "AI voice capture workflow devices",
       "name_zh": "AI语音采集工作流设备",
@@ -596,7 +746,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
     },
     {
-      "id": "M006",
+      "id": "M008",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -654,7 +804,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M007",
+      "id": "M009",
       "thesis_key": "emerging_smart_window_shades",
       "name": "Smart Window Shades",
       "name_zh": "Smart Window Shades",
@@ -697,130 +847,6 @@
         "source_diversity"
       ],
       "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
-    },
-    {
-      "id": "M008",
-      "thesis_key": "gaming_productivity_peripherals",
-      "name": "Gaming productivity peripherals",
-      "name_zh": "游戏与效率外设",
-      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
-      "hardware_form_factors": [
-        "gaming monitor",
-        "gaming keyboard",
-        "desktop controller"
-      ],
-      "buyer_segments": [
-        "gamers",
-        "developers",
-        "desk setup buyers"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 45,
-      "source_mix": {
-        "product_launch": 1,
-        "media": 1
-      },
-      "source_names": [
-        "Engadget",
-        "Product Hunt"
-      ],
-      "signal_count": 2,
-      "trend_key": "gaming controller",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S011",
-        "S140"
-      ],
-      "top_signals": [
-        {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S011",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
-          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
-          "signal_strength": 0.9
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "supply_chain"
-      ],
-      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
-    },
-    {
-      "id": "M009",
-      "thesis_key": "smart_audio_devices",
-      "name": "Smart audio devices",
-      "name_zh": "智能音频设备",
-      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
-      "hardware_form_factors": [
-        "wireless speaker",
-        "smart microphone",
-        "earbuds",
-        "desktop audio device"
-      ],
-      "buyer_segments": [
-        "home users",
-        "remote workers",
-        "audio enthusiasts"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 45,
-      "source_mix": {
-        "community": 1
-      },
-      "source_names": [
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 1,
-      "trend_key": "wireless bluetooth speaker",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S006"
-      ],
-      "top_signals": [
-        {
-          "id": "S006",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
-          "signal_strength": 2.45
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
       "next_validation": [
         "amazon_keyword_scan",
         "amazon_competition_snapshot",

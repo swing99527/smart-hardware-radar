@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-05T20:11:49.626792Z",
+  "generated_at": "2026-05-06T20:27:49.879280Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 18,
+      "seen_count_total": 21,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -90,7 +90,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.56,
       "max_signal_strength": 2.7,
-      "seen_count_total": 259,
+      "seen_count_total": 272,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -98,7 +98,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -175,7 +175,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.86,
+      "velocity_7run_delta": 0.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -193,7 +193,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.41,
       "max_signal_strength": 2.7,
-      "seen_count_total": 18,
+      "seen_count_total": 21,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -201,7 +201,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -252,38 +252,38 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 1.8,
+      "velocity_7run_delta": 1.5,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "gaming controller",
-      "name": "Gaming Controller",
+      "trend_key": "smart home air quality monitor",
+      "name": "Smart Home Air Quality Monitor",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
-        "product_launch"
+        "community"
       ],
       "source_names": [
-        "Product Hunt"
+        "Reddit r/smarthome"
       ],
       "has_behavior_source": true,
       "avg_signal_strength": 2.3,
       "max_signal_strength": 2.3,
       "seen_count_total": 1,
       "matched_watch_topics": [],
-      "first_seen_at": "2026-05-05T20:11:49.626792Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "first_seen_at": "2026-05-06T20:27:49.879280Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
-        "S140"
+        "S157"
       ],
       "top_signals": [
         {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "id": "S157",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
           "signal_strength": 2.3
         }
       ],
@@ -362,7 +362,7 @@
           "signal_strength": 1.15
         }
       ],
-      "velocity_7run_delta": 0.29,
+      "velocity_7run_delta": 0.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -380,7 +380,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.13,
       "max_signal_strength": 2.6,
-      "seen_count_total": 18,
+      "seen_count_total": 21,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -389,7 +389,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -439,7 +439,7 @@
           "signal_strength": 1.9
         }
       ],
-      "velocity_7run_delta": 0.2,
+      "velocity_7run_delta": 0.17,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -496,7 +496,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 1.4,
+      "velocity_7run_delta": 1.17,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -504,7 +504,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 25,
+      "signal_count": 26,
       "source_types": [
         "crowdfunding",
         "developer",
@@ -527,9 +527,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.45,
+      "avg_signal_strength": 1.47,
       "max_signal_strength": 2.55,
-      "seen_count_total": 59,
+      "seen_count_total": 80,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "geek_ai_productivity_hardware",
@@ -537,7 +537,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -563,7 +563,8 @@
         "S138",
         "S139",
         "S146",
-        "S150"
+        "S150",
+        "S154"
       ],
       "top_signals": [
         {
@@ -607,7 +608,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 5.0,
+      "velocity_7run_delta": 4.33,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -615,7 +616,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 28,
+      "signal_count": 31,
       "source_types": [
         "community",
         "media"
@@ -625,9 +626,9 @@
         "Reddit OpenClaw Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.17,
+      "avg_signal_strength": 1.2,
       "max_signal_strength": 2.7,
-      "seen_count_total": 75,
+      "seen_count_total": 81,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -637,7 +638,7 @@
         "openclaw_hardware_bridge"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -666,7 +667,10 @@
         "S142",
         "S145",
         "S148",
-        "S151"
+        "S151",
+        "S155",
+        "S158",
+        "S161"
       ],
       "top_signals": [
         {
@@ -702,15 +706,15 @@
           "signal_strength": 2.0
         },
         {
-          "id": "S101",
+          "id": "S158",
           "source_name": "Reddit OpenClaw Hardware Search",
           "source_type": "community",
-          "source_title": "wait... did openclaw just ship a stable update?",
-          "source_url": "https://www.reddit.com/r/better_claw/comments/1t2s5pd/wait_did_openclaw_just_ship_a_stable_update/",
-          "signal_strength": 1.85
+          "source_title": "If you give a openclaw full access to a 3D printer and a robotic arm, could it eventually build a robot?",
+          "source_url": "https://www.reddit.com/r/openclaw/comments/1t59q2e/if_you_give_a_openclaw_full_access_to_a_3d/",
+          "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 11.43,
+      "velocity_7run_delta": 11.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -718,7 +722,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 30,
+      "signal_count": 34,
       "source_types": [
         "community",
         "media"
@@ -730,7 +734,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.05,
       "max_signal_strength": 1.85,
-      "seen_count_total": 63,
+      "seen_count_total": 69,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_model_peripherals",
@@ -739,7 +743,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -770,7 +774,11 @@
         "S137",
         "S143",
         "S149",
-        "S152"
+        "S152",
+        "S153",
+        "S156",
+        "S159",
+        "S162"
       ],
       "top_signals": [
         {
@@ -814,7 +822,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 12.43,
+      "velocity_7run_delta": 13.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -832,10 +840,10 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.0,
       "max_signal_strength": 3.0,
-      "seen_count_total": 2,
+      "seen_count_total": 3,
       "matched_watch_topics": [],
       "first_seen_at": "2026-05-04T20:52:45.244104Z",
-      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S123"
       ],
@@ -867,12 +875,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 20,
+      "seen_count_total": 21,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -886,7 +894,7 @@
           "signal_strength": 2.8
         }
       ],
-      "velocity_7run_delta": -0.86,
+      "velocity_7run_delta": -0.71,
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity"
     },
@@ -1050,13 +1058,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.6,
       "max_signal_strength": 2.6,
-      "seen_count_total": 20,
+      "seen_count_total": 21,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S010"
       ],
@@ -1147,8 +1155,43 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
-      "trend_key": "smart fridge robot",
-      "name": "Smart Fridge Robot",
+      "trend_key": "gaming controller",
+      "name": "Gaming Controller",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "product_launch"
+      ],
+      "source_names": [
+        "Product Hunt"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.3,
+      "max_signal_strength": 2.3,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-05T20:11:49.626792Z",
+      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "evidence_signal_ids": [
+        "S140"
+      ],
+      "top_signals": [
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
+      "trend_key": "smart fridge",
+      "name": "Smart Fridge",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
@@ -1158,15 +1201,15 @@
         "Gizmodo"
       ],
       "has_behavior_source": false,
-      "avg_signal_strength": 1.3,
-      "max_signal_strength": 1.3,
-      "seen_count_total": 4,
+      "avg_signal_strength": 1.05,
+      "max_signal_strength": 1.05,
+      "seen_count_total": 5,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
       "evidence_signal_ids": [
         "S061"
       ],
@@ -1177,10 +1220,45 @@
           "source_type": "media",
           "source_title": "Dreame’s Smart Fridge Has a Robot Arm That Can Put Your Groceries Away for You - Gizmodo",
           "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3gzX1BteUt1djlKaUQ3WFk1YTViNVJsU0NlTGtXdThqeHhoV1RWZm5ubDR3dE44dHVwM1JzQzhaQzA3Q2tUZHcwaE8zb3lfOXZ0SllWdjNXZUZhN2dzUjJjSFdUclZoQ1VDT3hBeHl5Vm5GdkRGT2kxM2VVNEllT0poVUQ4bFY1Qk1mcGhqaTc1RFZ2R1ZDYnJiUkF0S0YyaGY0cHd3TmEwdnFP?oc=5",
-          "signal_strength": 1.3
+          "signal_strength": 1.05
         }
       ],
       "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "ai健康监测耳机",
+      "name": "AI健康监测耳机",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "36氪"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 1.0,
+      "max_signal_strength": 1.0,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-06T20:27:49.879280Z",
+      "last_seen_at": "2026-05-06T20:27:49.879280Z",
+      "evidence_signal_ids": [
+        "S160"
+      ],
+      "top_signals": [
+        {
+          "id": "S160",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
+          "source_url": "https://36kr.com/p/3682907323150215?f=rss",
+          "signal_strength": 1.0
+        }
+      ],
+      "velocity_7run_delta": 1,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
