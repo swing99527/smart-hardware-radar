@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-06T20:27:49.879280Z",
+  "generated_at": "2026-05-07T20:19:03.009396Z",
   "theses": [
     {
       "id": "M001",
@@ -108,8 +108,8 @@
       "evidence_status": "Validated",
       "evidence_score": 75,
       "source_mix": {
-        "community": 1,
         "product_launch": 1,
+        "community": 1,
         "media": 1
       },
       "source_names": [
@@ -119,8 +119,8 @@
       ],
       "signal_count": 3,
       "trend_key": "smart home air quality monitor",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S011",
         "S140",
@@ -128,19 +128,19 @@
       ],
       "top_signals": [
         {
-          "id": "S157",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
-          "signal_strength": 2.3
-        },
-        {
           "id": "S140",
           "source_name": "Product Hunt",
           "source_type": "product_launch",
           "source_title": "Steam Controller",
           "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S157",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
           "signal_strength": 2.3
         },
         {
@@ -186,7 +186,7 @@
       "source_mix": {
         "developer": 5,
         "community": 3,
-        "media": 4
+        "media": 6
       },
       "source_names": [
         "Agentic Edge Hardware News",
@@ -197,9 +197,10 @@
         "OpenClaw Hardware News",
         "Reddit Agentic Edge Hardware Search",
         "Reddit OpenClaw Hardware Search",
-        "Reddit r/gadgets"
+        "Reddit r/gadgets",
+        "The Verge"
       ],
-      "signal_count": 82,
+      "signal_count": 91,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -285,7 +286,16 @@
         "S158",
         "S159",
         "S161",
-        "S162"
+        "S162",
+        "S163",
+        "S164",
+        "S165",
+        "S167",
+        "S169",
+        "S170",
+        "S172",
+        "S173",
+        "S174"
       ],
       "top_signals": [
         {
@@ -515,7 +525,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 26,
+      "signal_count": 28,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -545,7 +555,9 @@
         "S139",
         "S146",
         "S150",
-        "S154"
+        "S154",
+        "S168",
+        "S171"
       ],
       "top_signals": [
         {
@@ -907,6 +919,64 @@
         "fcc_bluetooth_bom_check"
       ],
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M011",
+      "thesis_key": "ai_model_peripheral_devices",
+      "name": "AI model peripheral devices",
+      "name_zh": "AI 模型周边设备",
+      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
+      "hardware_form_factors": [
+        "AI dev kit",
+        "desktop AI accessory",
+        "local inference peripheral"
+      ],
+      "buyer_segments": [
+        "AI hobbyists",
+        "developers",
+        "prototype teams"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "TechCrunch Hardware"
+      ],
+      "signal_count": 1,
+      "trend_key": "fitness tracker",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S166"
+      ],
+      "top_signals": [
+        {
+          "id": "S166",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
+          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     }
   ]
 }
