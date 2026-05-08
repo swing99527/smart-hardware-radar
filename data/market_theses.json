@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-07T20:19:03.009396Z",
+  "generated_at": "2026-05-08T20:09:19.567881Z",
   "theses": [
     {
       "id": "M001",
@@ -186,7 +186,7 @@
       "source_mix": {
         "developer": 5,
         "community": 3,
-        "media": 6
+        "media": 7
       },
       "source_names": [
         "Agentic Edge Hardware News",
@@ -198,9 +198,10 @@
         "Reddit Agentic Edge Hardware Search",
         "Reddit OpenClaw Hardware Search",
         "Reddit r/gadgets",
-        "The Verge"
+        "The Verge",
+        "Yanko Design"
       ],
-      "signal_count": 91,
+      "signal_count": 102,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -295,7 +296,18 @@
         "S170",
         "S172",
         "S173",
-        "S174"
+        "S174",
+        "S175",
+        "S176",
+        "S177",
+        "S178",
+        "S179",
+        "S180",
+        "S181",
+        "S182",
+        "S184",
+        "S186",
+        "S187"
       ],
       "top_signals": [
         {
@@ -525,7 +537,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 28,
+      "signal_count": 29,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -557,7 +569,8 @@
         "S150",
         "S154",
         "S168",
-        "S171"
+        "S171",
+        "S185"
       ],
       "top_signals": [
         {
@@ -695,7 +708,7 @@
         "GitHub AI Recorder Device",
         "TechCrunch Hardware"
       ],
-      "signal_count": 6,
+      "signal_count": 7,
       "trend_key": "watch:ai_recorder",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -705,7 +718,8 @@
         "S071",
         "S076",
         "S082",
-        "S098"
+        "S098",
+        "S183"
       ],
       "top_signals": [
         {
