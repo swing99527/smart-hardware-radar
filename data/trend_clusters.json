@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-08T20:09:19.567881Z",
+  "generated_at": "2026-05-09T19:58:49.445216Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 27,
+      "seen_count_total": 30,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -90,7 +90,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.56,
       "max_signal_strength": 2.7,
-      "seen_count_total": 298,
+      "seen_count_total": 311,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -98,7 +98,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -175,7 +175,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.43,
+      "velocity_7run_delta": 0.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -193,7 +193,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.4,
       "max_signal_strength": 2.7,
-      "seen_count_total": 27,
+      "seen_count_total": 30,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -201,7 +201,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -253,7 +253,7 @@
           "signal_strength": 2.35
         }
       ],
-      "velocity_7run_delta": 2.0,
+      "velocity_7run_delta": 1.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -346,7 +346,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.12,
       "max_signal_strength": 2.6,
-      "seen_count_total": 27,
+      "seen_count_total": 30,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -355,7 +355,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -406,7 +406,7 @@
           "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -463,7 +463,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -471,7 +471,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 29,
+      "signal_count": 31,
       "source_types": [
         "crowdfunding",
         "developer",
@@ -496,15 +496,16 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.42,
       "max_signal_strength": 2.55,
-      "seen_count_total": 122,
+      "seen_count_total": 143,
       "matched_watch_topics": [
         "ai_model_peripherals",
+        "big_tech_peripherals",
         "geek_ai_productivity_hardware",
         "programmable_keyboard_ecosystem",
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -534,7 +535,9 @@
         "S154",
         "S168",
         "S171",
-        "S185"
+        "S185",
+        "S188",
+        "S191"
       ],
       "top_signals": [
         {
@@ -578,7 +581,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 5.2,
+      "velocity_7run_delta": 6.33,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -586,7 +589,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 38,
+      "signal_count": 40,
       "source_types": [
         "community",
         "media"
@@ -598,7 +601,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.24,
       "max_signal_strength": 2.7,
-      "seen_count_total": 93,
+      "seen_count_total": 99,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -608,7 +611,7 @@
         "openclaw_hardware_bridge"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -647,7 +650,9 @@
         "S177",
         "S180",
         "S181",
-        "S186"
+        "S186",
+        "S189",
+        "S192"
       ],
       "top_signals": [
         {
@@ -691,7 +696,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 12.43,
+      "velocity_7run_delta": 11.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -699,7 +704,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 42,
+      "signal_count": 45,
       "source_types": [
         "community",
         "media"
@@ -709,9 +714,9 @@
         "Reddit Agentic Edge Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.09,
+      "avg_signal_strength": 1.1,
       "max_signal_strength": 2.35,
-      "seen_count_total": 81,
+      "seen_count_total": 87,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_model_peripherals",
@@ -720,7 +725,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -763,7 +768,10 @@
         "S176",
         "S178",
         "S182",
-        "S187"
+        "S187",
+        "S190",
+        "S193",
+        "S194"
       ],
       "top_signals": [
         {
@@ -807,7 +815,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 14.0,
+      "velocity_7run_delta": 13.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -860,12 +868,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 23,
+      "seen_count_total": 24,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -879,7 +887,7 @@
           "signal_strength": 2.8
         }
       ],
-      "velocity_7run_delta": -0.43,
+      "velocity_7run_delta": -0.29,
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity"
     },
@@ -897,14 +905,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 5,
+      "seen_count_total": 6,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -1210,6 +1218,44 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
+      "trend_key": "smart fridge robot",
+      "name": "Smart Fridge Robot",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "Gizmodo"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 1.3,
+      "max_signal_strength": 1.3,
+      "seen_count_total": 8,
+      "matched_watch_topics": [
+        "ai_model_peripherals",
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-05-01T20:08:31.823442Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
+      "evidence_signal_ids": [
+        "S061"
+      ],
+      "top_signals": [
+        {
+          "id": "S061",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Dreame’s Smart Fridge Has a Robot Arm That Can Put Your Groceries Away for You - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3gzX1BteUt1djlKaUQ3WFk1YTViNVJsU0NlTGtXdThqeHhoV1RWZm5ubDR3dE44dHVwM1JzQzhaQzA3Q2tUZHcwaE8zb3lfOXZ0SllWdjNXZUZhN2dzUjJjSFdUclZoQ1VDT3hBeHl5Vm5GdkRGT2kxM2VVNEllT0poVUQ4bFY1Qk1mcGhqaTc1RFZ2R1ZDYnJiUkF0S0YyaGY0cHd3TmEwdnFP?oc=5",
+          "signal_strength": 1.3
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
       "trend_key": "ai camera earbuds",
       "name": "AI Camera Earbuds",
       "name_zh": null,
@@ -1253,7 +1299,7 @@
           "signal_strength": 1.15
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.5,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -1290,7 +1336,7 @@
           "signal_strength": 1.15
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -1308,12 +1354,12 @@
       "has_behavior_source": false,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 1.15,
-      "seen_count_total": 2,
+      "seen_count_total": 3,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-07T20:19:03.009396Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S174"
       ],
@@ -1325,44 +1371,6 @@
           "source_title": "Roomba’s Creator Is Making an AI Robot Pet That Can’t Lie to You - Gizmodo",
           "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMVk3bTM5bzlYdE5vN3k5RHY4TGVBajd5YUZKQS10UnZYMlVRUUZibDZPa09EdThNRUpySXM4VVhxUGs4bEo3cEtxVUpoMGgxWnRkUWJFV1FSNWV0MnFYTHdPXzhuU0s0eEh3dktJTWZ3eC1kbTM4Qkp3dzVwajlVYk1WQ2lnbl9naWx3UV9UMTFzV19ITFQ5SA?oc=5",
           "signal_strength": 1.15
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Noise",
-      "trend_reason": "media_only_awareness"
-    },
-    {
-      "trend_key": "smart fridge",
-      "name": "Smart Fridge",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "media"
-      ],
-      "source_names": [
-        "Gizmodo"
-      ],
-      "has_behavior_source": false,
-      "avg_signal_strength": 1.05,
-      "max_signal_strength": 1.05,
-      "seen_count_total": 7,
-      "matched_watch_topics": [
-        "ai_model_peripherals",
-        "hardware_intersections"
-      ],
-      "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
-      "evidence_signal_ids": [
-        "S061"
-      ],
-      "top_signals": [
-        {
-          "id": "S061",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Dreame’s Smart Fridge Has a Robot Arm That Can Put Your Groceries Away for You - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON3gzX1BteUt1djlKaUQ3WFk1YTViNVJsU0NlTGtXdThqeHhoV1RWZm5ubDR3dE44dHVwM1JzQzhaQzA3Q2tUZHcwaE8zb3lfOXZ0SllWdjNXZUZhN2dzUjJjSFdUclZoQ1VDT3hBeHl5Vm5GdkRGT2kxM2VVNEllT0poVUQ4bFY1Qk1mcGhqaTc1RFZ2R1ZDYnJiUkF0S0YyaGY0cHd3TmEwdnFP?oc=5",
-          "signal_strength": 1.05
         }
       ],
       "velocity_7run_delta": 0.0,
@@ -1418,12 +1426,12 @@
       "has_behavior_source": false,
       "avg_signal_strength": 0.9,
       "max_signal_strength": 0.9,
-      "seen_count_total": 2,
+      "seen_count_total": 3,
       "matched_watch_topics": [
         "big_tech_peripherals"
       ],
       "first_seen_at": "2026-05-07T20:19:03.009396Z",
-      "last_seen_at": "2026-05-08T20:09:19.567881Z",
+      "last_seen_at": "2026-05-09T19:58:49.445216Z",
       "evidence_signal_ids": [
         "S166"
       ],
