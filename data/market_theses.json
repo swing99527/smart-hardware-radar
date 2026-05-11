@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-10T20:00:36.018738Z",
+  "generated_at": "2026-05-11T20:49:18.666729Z",
   "theses": [
     {
       "id": "M001",
@@ -106,9 +106,9 @@
         "desk setup buyers"
       ],
       "evidence_status": "Validated",
-      "evidence_score": 75,
+      "evidence_score": 80,
       "source_mix": {
-        "product_launch": 1,
+        "product_launch": 2,
         "community": 1,
         "media": 1
       },
@@ -117,16 +117,25 @@
         "Product Hunt",
         "Reddit r/smarthome"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "trend_key": "smart home air quality monitor",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S011",
         "S140",
-        "S157"
+        "S157",
+        "S212"
       ],
       "top_signals": [
+        {
+          "id": "S212",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "AIFORPET",
+          "source_url": "https://www.producthunt.com/products/aiforpet",
+          "signal_strength": 2.55
+        },
         {
           "id": "S140",
           "source_name": "Product Hunt",
@@ -161,7 +170,7 @@
         "fcc_bluetooth_bom_check",
         "reference_design_scan"
       ],
-      "confidence_reason": "Validated because evidence score is 75 with source mix community, media, product_launch."
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
     },
     {
       "id": "M003",
@@ -201,7 +210,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 115,
+      "signal_count": 121,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -320,7 +329,13 @@
         "S199",
         "S200",
         "S201",
-        "S202"
+        "S202",
+        "S203",
+        "S204",
+        "S206",
+        "S207",
+        "S210",
+        "S211"
       ],
       "top_signals": [
         {
@@ -550,7 +565,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 31,
+      "signal_count": 33,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -585,7 +600,9 @@
         "S171",
         "S185",
         "S188",
-        "S191"
+        "S191",
+        "S205",
+        "S208"
       ],
       "top_signals": [
         {
@@ -788,6 +805,59 @@
     },
     {
       "id": "M008",
+      "thesis_key": "emerging_ai_art_ceiling_light",
+      "name": "AI Art Ceiling Light",
+      "name_zh": "AI Art Ceiling Light",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Art Ceiling Light"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 48,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Reddit r/gadgets"
+      ],
+      "signal_count": 1,
+      "trend_key": "ai art ceiling light",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S209"
+      ],
+      "top_signals": [
+        {
+          "id": "S209",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Govee Ceiling Light Ultra Review: AI Art Ain’t It",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1t9f512/govee_ceiling_light_ultra_review_ai_art_aint_it/",
+          "signal_strength": 3.0
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M009",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -845,7 +915,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M009",
+      "id": "M010",
       "thesis_key": "emerging_smart_window_shades",
       "name": "Smart Window Shades",
       "name_zh": "Smart Window Shades",
@@ -898,7 +968,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M010",
+      "id": "M011",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -950,7 +1020,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M011",
+      "id": "M012",
       "thesis_key": "ai_model_peripheral_devices",
       "name": "AI model peripheral devices",
       "name_zh": "AI 模型周边设备",
