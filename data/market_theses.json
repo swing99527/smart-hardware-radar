@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-11T20:49:18.666729Z",
+  "generated_at": "2026-05-12T20:43:08.358121Z",
   "theses": [
     {
       "id": "M001",
@@ -210,7 +210,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 121,
+      "signal_count": 127,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -335,7 +335,13 @@
         "S206",
         "S207",
         "S210",
-        "S211"
+        "S211",
+        "S213",
+        "S214",
+        "S216",
+        "S217",
+        "S218",
+        "S219"
       ],
       "top_signals": [
         {
@@ -565,7 +571,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 33,
+      "signal_count": 34,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -602,7 +608,8 @@
         "S188",
         "S191",
         "S205",
-        "S208"
+        "S208",
+        "S215"
       ],
       "top_signals": [
         {
@@ -825,8 +832,8 @@
       ],
       "signal_count": 1,
       "trend_key": "ai art ceiling light",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S209"
       ],
