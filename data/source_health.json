@@ -12,9 +12,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 4,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 7,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "auth_mode": "none"
     },
     {
@@ -27,9 +27,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 82,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 80,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "auth_mode": "none"
     },
     {
@@ -44,8 +44,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Elgato Stream Deck",
@@ -59,8 +59,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Engadget",
@@ -71,9 +71,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 8,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -88,84 +88,84 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 62,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 75,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub AI Camera Node",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22edge%20AI%22%20camera%20OR%20%22local%20AI%20camera%22%20OR%20%22RTSP%20AI%22%20OR%20%22ONVIF%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"edge AI\" camera OR \"local AI camera\" OR \"RTSP AI\" OR \"ONVIF AI\" stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22edge%20AI%22%20camera%20OR%20%22local%20AI%20camera%22%20OR%20%22RTSP%20AI%22%20OR%20%22ONVIF%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"edge AI\" camera OR \"local AI camera\" OR \"RTSP AI\" OR \"ONVIF AI\" stars:>25 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "16",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub AI Recorder Device",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22AI%20recorder%22%20OR%20%22local%20transcription%22%20OR%20%22offline%20speech%22%20OR%20%22Whisper%20device%22%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"AI recorder\" OR \"local transcription\" OR \"offline speech\" OR \"Whisper device\" stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22AI%20recorder%22%20OR%20%22local%20transcription%22%20OR%20%22offline%20speech%22%20OR%20%22Whisper%20device%22%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"AI recorder\" OR \"local transcription\" OR \"offline speech\" OR \"Whisper device\" stars:>25 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "15",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 5,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub AI Workflow Controller",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22claude%20code%22%20OR%20%22cursor%22%20OR%20%22codex%22%20OR%20%22copilot%22%20%22stream%20deck%22%20OR%20macropad%20OR%20%22macro%20pad%22%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"claude code\" OR \"cursor\" OR \"codex\" OR \"copilot\" \"stream deck\" OR macropad OR \"macro pad\" stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22claude%20code%22%20OR%20%22cursor%22%20OR%20%22codex%22%20OR%20%22copilot%22%20%22stream%20deck%22%20OR%20macropad%20OR%20%22macro%20pad%22%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"claude code\" OR \"cursor\" OR \"codex\" OR \"copilot\" \"stream deck\" OR macropad OR \"macro pad\" stars:>25 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "11",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Agentic Edge Hardware",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22local%20AI%20agent%22%20OR%20%22edge%20AI%22%20OR%20%22on-device%20AI%22%20camera%20OR%20robot%20OR%20keyboard%20OR%20recorder%20OR%20sensor%20OR%20gateway%20OR%20Jetson%20OR%20Hailo%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"local AI agent\" OR \"edge AI\" OR \"on-device AI\" camera OR robot OR keyboard OR recorder OR sensor OR gateway OR Jetson OR Hailo stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22local%20AI%20agent%22%20OR%20%22edge%20AI%22%20OR%20%22on-device%20AI%22%20camera%20OR%20robot%20OR%20keyboard%20OR%20recorder%20OR%20sensor%20OR%20gateway%20OR%20Jetson%20OR%20Hailo%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"local AI agent\" OR \"edge AI\" OR \"on-device AI\" camera OR robot OR keyboard OR recorder OR sensor OR gateway OR Jetson OR Hailo stars:>25 pushed:>2026-03-29",
       "status": "error",
       "http_status": 422,
       "error": "HTTP Error 422: Unprocessable Entity",
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "18",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
+      "checked_at": "2026-05-13T20:47:50.539482Z",
       "last_success_at": null
     },
     {
@@ -173,94 +173,94 @@
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22claude%20code%22%20OR%20claude-code%20stars%3A%3E50%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"claude code\" OR claude-code stars:>50 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22claude%20code%22%20OR%20claude-code%20stars%3A%3E50%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"claude code\" OR claude-code stars:>50 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "23",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Codex Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22openai%20codex%22%20OR%20%22codex%20cli%22%20stars%3A%3E50%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"openai codex\" OR \"codex cli\" stars:>50 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22openai%20codex%22%20OR%20%22codex%20cli%22%20stars%3A%3E50%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"openai codex\" OR \"codex cli\" stars:>50 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "22",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Edge AI Camera",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22edge%20ai%22%20camera%20stars%3A%3E1000%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"edge ai\" camera stars:>1000 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22edge%20ai%22%20camera%20stars%3A%3E1000%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"edge ai\" camera stars:>1000 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "29",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Gemini Code Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22gemini%20cli%22%20OR%20%22gemini%20code%22%20OR%20%22gemini%20code%20assist%22%20stars%3A%3E50%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"gemini cli\" OR \"gemini code\" OR \"gemini code assist\" stars:>50 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22gemini%20cli%22%20OR%20%22gemini%20code%22%20OR%20%22gemini%20code%20assist%22%20stars%3A%3E50%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"gemini cli\" OR \"gemini code\" OR \"gemini code assist\" stars:>50 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "21",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Local AI Box",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22local%20AI%22%20box%20OR%20gateway%20OR%20hub%20OR%20Jetson%20OR%20Hailo%20OR%20RK3588%20OR%20%22Ryzen%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"local AI\" box OR gateway OR hub OR Jetson OR Hailo OR RK3588 OR \"Ryzen AI\" stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22local%20AI%22%20box%20OR%20gateway%20OR%20hub%20OR%20Jetson%20OR%20Hailo%20OR%20RK3588%20OR%20%22Ryzen%20AI%22%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"local AI\" box OR gateway OR hub OR Jetson OR Hailo OR RK3588 OR \"Ryzen AI\" stars:>25 pushed:>2026-03-29",
       "status": "error",
       "http_status": 422,
       "error": "HTTP Error 422: Unprocessable Entity",
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "17",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
+      "checked_at": "2026-05-13T20:47:50.539482Z",
       "last_success_at": null
     },
     {
@@ -268,190 +268,190 @@
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22on-device%20ai%22%20camera%20OR%20sensor%20stars%3A%3E1000%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"on-device ai\" camera OR sensor stars:>1000 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22on-device%20ai%22%20camera%20OR%20sensor%20stars%3A%3E1000%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"on-device ai\" camera OR sensor stars:>1000 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "25",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 4,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub OpenClaw Camera Node",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=openclaw%20camera%20stars%3A%3E10%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "openclaw camera stars:>10 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=openclaw%20camera%20stars%3A%3E10%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "openclaw camera stars:>10 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "19",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub OpenClaw Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=openclaw%20OR%20%22open%20claw%22%20stars%3A%3E50%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "openclaw OR \"open claw\" stars:>50 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=openclaw%20OR%20%22open%20claw%22%20stars%3A%3E50%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "openclaw OR \"open claw\" stars:>50 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "24",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub OpenClaw Hardware Bridge",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=openclaw%20camera%20OR%20robot%20OR%20hardware%20OR%20%22edge%20device%22%20OR%20keyboard%20OR%20recorder%20stars%3A%3E10%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "openclaw camera OR robot OR hardware OR \"edge device\" OR keyboard OR recorder stars:>10 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=openclaw%20camera%20OR%20robot%20OR%20hardware%20OR%20%22edge%20device%22%20OR%20keyboard%20OR%20recorder%20stars%3A%3E10%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "openclaw camera OR robot OR hardware OR \"edge device\" OR keyboard OR recorder stars:>10 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "20",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Programmable Keyboard Firmware",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22qmk%20firmware%22%20OR%20%22zmk%20firmware%22%20OR%20%22via%20keyboard%22%20OR%20%22keyboard%20firmware%22%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"qmk firmware\" OR \"zmk firmware\" OR \"via keyboard\" OR \"keyboard firmware\" stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22qmk%20firmware%22%20OR%20%22zmk%20firmware%22%20OR%20%22via%20keyboard%22%20OR%20%22keyboard%20firmware%22%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"qmk firmware\" OR \"zmk firmware\" OR \"via keyboard\" OR \"keyboard firmware\" stars:>25 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "13",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 8,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Robot Agent Kit",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22robot%20agent%22%20OR%20%22embodied%20AI%22%20OR%20%22robot%20controller%22%20OR%20%22local%20robot%20agent%22%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"robot agent\" OR \"embodied AI\" OR \"robot controller\" OR \"local robot agent\" stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22robot%20agent%22%20OR%20%22embodied%20AI%22%20OR%20%22robot%20controller%22%20OR%20%22local%20robot%20agent%22%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"robot agent\" OR \"embodied AI\" OR \"robot controller\" OR \"local robot agent\" stars:>25 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "14",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Robotics AI Hardware",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=robotics%20ai%20hardware%20stars%3A%3E1000%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "robotics ai hardware stars:>1000 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=robotics%20ai%20hardware%20stars%3A%3E1000%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "robotics ai hardware stars:>1000 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "28",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
-      "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 1,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Stream Deck Plugin Ecosystem",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22stream%20deck%22%20plugin%20OR%20streamdeck%20plugin%20OR%20%22stream%20deck%20sdk%22%20stars%3A%3E25%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"stream deck\" plugin OR streamdeck plugin OR \"stream deck sdk\" stars:>25 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22stream%20deck%22%20plugin%20OR%20streamdeck%20plugin%20OR%20%22stream%20deck%20sdk%22%20stars%3A%3E25%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"stream deck\" plugin OR streamdeck plugin OR \"stream deck sdk\" stars:>25 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "12",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Voice AI Device",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22voice%20assistant%22%20device%20ai%20stars%3A%3E1000%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"voice assistant\" device ai stars:>1000 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22voice%20assistant%22%20device%20ai%20stars%3A%3E1000%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"voice assistant\" device ai stars:>1000 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "26",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "GitHub Wearable AI",
       "source_type": "developer",
       "source_language": "unknown",
       "auth_mode": "token",
-      "url": "https://api.github.com/search/repositories?q=%22wearable%20ai%22%20stars%3A%3E1000%20pushed%3A%3E2026-03-28&sort=stars&order=desc&per_page=10",
-      "query": "\"wearable ai\" stars:>1000 pushed:>2026-03-28",
+      "url": "https://api.github.com/search/repositories?q=%22wearable%20ai%22%20stars%3A%3E1000%20pushed%3A%3E2026-03-29&sort=stars&order=desc&per_page=10",
+      "query": "\"wearable ai\" stars:>1000 pushed:>2026-03-29",
       "status": "ok",
       "http_status": 200,
       "error": null,
       "rate_limit": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "27",
-        "x-ratelimit-reset": "1778618667"
+        "x-ratelimit-reset": "1778705348"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Gizmodo",
@@ -463,9 +463,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 34,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 31,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "auth_mode": "none"
     },
     {
@@ -480,8 +480,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Google Trends US Daily",
@@ -492,9 +492,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 4,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 6,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -507,9 +507,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 7,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -525,8 +525,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Indiegogo Tech",
@@ -538,9 +538,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 102,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 104,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "auth_mode": "none"
     },
     {
@@ -555,8 +555,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Kickstarter Design",
@@ -567,9 +567,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 3,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 7,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -584,9 +584,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 17,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 19,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Kickstarter Tech",
@@ -597,9 +597,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 3,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 7,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -615,8 +615,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Naya",
@@ -630,8 +630,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "OpenClaw Hardware News",
@@ -643,9 +643,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 53,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 57,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "auth_mode": "none"
     },
     {
@@ -658,8 +658,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 6,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -675,11 +675,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "989.0",
-        "x-ratelimit-reset": "394"
+        "x-ratelimit-reset": "113"
       },
-      "item_count": 20,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 25,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit Geek Productivity Hardware Search",
@@ -693,11 +693,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "988.0",
-        "x-ratelimit-reset": "394"
+        "x-ratelimit-reset": "112"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit OpenClaw Hardware Search",
@@ -711,11 +711,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "990.0",
-        "x-ratelimit-reset": "395"
+        "x-ratelimit-reset": "113"
       },
-      "item_count": 19,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 20,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/ErgoMechKeyboards",
@@ -729,11 +729,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "994.0",
-        "x-ratelimit-reset": "398"
+        "x-ratelimit-reset": "117"
       },
       "item_count": 15,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/MechanicalKeyboards",
@@ -747,11 +747,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "995.0",
-        "x-ratelimit-reset": "399"
+        "x-ratelimit-reset": "118"
       },
-      "item_count": 7,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 5,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/Workspaces",
@@ -765,11 +765,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "992.0",
-        "x-ratelimit-reset": "396"
+        "x-ratelimit-reset": "115"
       },
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/gadgets",
@@ -783,11 +783,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "999.0",
-        "x-ratelimit-reset": "401"
+        "x-ratelimit-reset": "119"
       },
-      "item_count": 6,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 9,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/hardware",
@@ -801,11 +801,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "998.0",
-        "x-ratelimit-reset": "400"
+        "x-ratelimit-reset": "119"
       },
-      "item_count": 10,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 9,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/olkb",
@@ -819,11 +819,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "993.0",
-        "x-ratelimit-reset": "397"
+        "x-ratelimit-reset": "116"
       },
-      "item_count": 6,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 5,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/smarthome",
@@ -837,11 +837,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "997.0",
-        "x-ratelimit-reset": "400"
+        "x-ratelimit-reset": "118"
       },
-      "item_count": 11,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 12,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/unixporn",
@@ -855,11 +855,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "991.0",
-        "x-ratelimit-reset": "396"
+        "x-ratelimit-reset": "114"
       },
-      "item_count": 3,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "item_count": 2,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Reddit r/wearabletech",
@@ -873,11 +873,11 @@
       "error": null,
       "rate_limit": {
         "x-ratelimit-remaining": "996.0",
-        "x-ratelimit-reset": "399"
+        "x-ratelimit-reset": "118"
       },
       "item_count": 0,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "SlashGear",
@@ -888,9 +888,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 4,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 6,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -903,9 +903,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 7,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 6,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -919,8 +919,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 3,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -936,8 +936,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Work Louder",
@@ -951,8 +951,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "Yanko Design",
@@ -963,9 +963,9 @@
       "http_status": 200,
       "error": null,
       "rate_limit": {},
-      "item_count": 2,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "item_count": 7,
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "source_language": "en",
       "auth_mode": "none"
     },
@@ -981,8 +981,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 1,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z"
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z"
     },
     {
       "source_name": "少数派",
@@ -995,8 +995,8 @@
       "error": null,
       "rate_limit": {},
       "item_count": 2,
-      "checked_at": "2026-05-12T20:43:08.358121Z",
-      "last_success_at": "2026-05-12T20:43:08.358121Z",
+      "checked_at": "2026-05-13T20:47:50.539482Z",
+      "last_success_at": "2026-05-13T20:47:50.539482Z",
       "auth_mode": "none"
     }
   ]

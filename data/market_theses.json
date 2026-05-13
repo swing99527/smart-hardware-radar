@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-12T20:43:08.358121Z",
+  "generated_at": "2026-05-13T20:47:50.539482Z",
   "theses": [
     {
       "id": "M001",
@@ -174,6 +174,81 @@
     },
     {
       "id": "M003",
+      "thesis_key": "smart_audio_devices",
+      "name": "Smart audio devices",
+      "name_zh": "智能音频设备",
+      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
+      "hardware_form_factors": [
+        "wireless speaker",
+        "smart microphone",
+        "earbuds",
+        "desktop audio device"
+      ],
+      "buyer_segments": [
+        "home users",
+        "remote workers",
+        "audio enthusiasts"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 77,
+      "source_mix": {
+        "product_launch": 1,
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "36氪",
+        "Product Hunt",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 3,
+      "trend_key": "wireless bluetooth speaker",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S006",
+        "S160",
+        "S223"
+      ],
+      "top_signals": [
+        {
+          "id": "S223",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Crade AI",
+          "source_url": "https://www.producthunt.com/products/crade",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S006",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S160",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
+          "source_url": "https://36kr.com/p/3682907323150215?f=rss",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 77 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M004",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
       "name_zh": "智能体边缘 I/O 节点",
@@ -193,7 +268,7 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
-        "developer": 5,
+        "developer": 6,
         "community": 3,
         "media": 7
       },
@@ -202,6 +277,7 @@
         "GitHub AI Camera Node",
         "GitHub On Device AI",
         "GitHub Robot Agent Kit",
+        "GitHub Robotics AI Hardware",
         "Gizmodo",
         "OpenClaw Hardware News",
         "Reddit Agentic Edge Hardware Search",
@@ -210,7 +286,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 127,
+      "signal_count": 135,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -341,7 +417,15 @@
         "S216",
         "S217",
         "S218",
-        "S219"
+        "S219",
+        "S220",
+        "S221",
+        "S222",
+        "S224",
+        "S225",
+        "S226",
+        "S227",
+        "S228"
       ],
       "top_signals": [
         {
@@ -401,7 +485,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M004",
+      "id": "M005",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -433,7 +517,7 @@
         "Reddit r/MechanicalKeyboards",
         "Yanko Design"
       ],
-      "signal_count": 34,
+      "signal_count": 35,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -471,7 +555,8 @@
         "S041",
         "S042",
         "S043",
-        "S123"
+        "S123",
+        "S229"
       ],
       "top_signals": [
         {
@@ -531,7 +616,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M005",
+      "id": "M006",
       "thesis_key": "geek_ai_productivity_hardware",
       "name": "Geek AI productivity hardware",
       "name_zh": "极客 AI 生产力硬件",
@@ -650,74 +735,6 @@
         "fcc_bluetooth_bom_check"
       ],
       "confidence_reason": "Warming because behavior or market evidence exists, but Demand behavior, Supply chain is still missing."
-    },
-    {
-      "id": "M006",
-      "thesis_key": "smart_audio_devices",
-      "name": "Smart audio devices",
-      "name_zh": "智能音频设备",
-      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
-      "hardware_form_factors": [
-        "wireless speaker",
-        "smart microphone",
-        "earbuds",
-        "desktop audio device"
-      ],
-      "buyer_segments": [
-        "home users",
-        "remote workers",
-        "audio enthusiasts"
-      ],
-      "evidence_status": "Warming",
-      "evidence_score": 56,
-      "source_mix": {
-        "community": 1,
-        "media": 1
-      },
-      "source_names": [
-        "36氪",
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 2,
-      "trend_key": "wireless bluetooth speaker",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S006",
-        "S160"
-      ],
-      "top_signals": [
-        {
-          "id": "S006",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S160",
-          "source_name": "36氪",
-          "source_type": "media",
-          "source_title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
-          "source_url": "https://36kr.com/p/3682907323150215?f=rss",
-          "signal_strength": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization"
-      ],
-      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
       "id": "M007",
