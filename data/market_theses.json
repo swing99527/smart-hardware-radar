@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-14T20:39:08.331548Z",
+  "generated_at": "2026-05-15T20:18:19.982438Z",
   "theses": [
     {
       "id": "M001",
@@ -91,6 +91,90 @@
     },
     {
       "id": "M002",
+      "thesis_key": "ai_model_peripheral_devices",
+      "name": "AI model peripheral devices",
+      "name_zh": "AI 模型周边设备",
+      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
+      "hardware_form_factors": [
+        "AI dev kit",
+        "desktop AI accessory",
+        "local inference peripheral"
+      ],
+      "buyer_segments": [
+        "AI hobbyists",
+        "developers",
+        "prototype teams"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 79,
+      "source_mix": {
+        "community": 1,
+        "media": 2,
+        "product_launch": 1
+      },
+      "source_names": [
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "TechCrunch Hardware",
+        "The Verge"
+      ],
+      "signal_count": 4,
+      "trend_key": "gaming controller",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S140",
+        "S166",
+        "S236",
+        "S246"
+      ],
+      "top_signals": [
+        {
+          "id": "S246",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
+          "signal_strength": 2.9
+        },
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S236",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S166",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
+          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 79 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M003",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",
@@ -164,7 +248,7 @@
       "confidence_reason": "Validated because evidence score is 77 with source mix community, media, product_launch."
     },
     {
-      "id": "M003",
+      "id": "M004",
       "thesis_key": "smart_audio_devices",
       "name": "Smart audio devices",
       "name_zh": "智能音频设备",
@@ -239,7 +323,7 @@
       "confidence_reason": "Validated because evidence score is 77 with source mix community, media, product_launch."
     },
     {
-      "id": "M004",
+      "id": "M005",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
       "name_zh": "智能体边缘 I/O 节点",
@@ -277,7 +361,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 144,
+      "signal_count": 151,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -425,7 +509,14 @@
         "S235",
         "S237",
         "S238",
-        "S239"
+        "S239",
+        "S240",
+        "S241",
+        "S242",
+        "S243",
+        "S244",
+        "S248",
+        "S249"
       ],
       "top_signals": [
         {
@@ -485,7 +576,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M005",
+      "id": "M006",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -504,8 +595,8 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
+        "community": 2,
         "developer": 1,
-        "community": 1,
         "media": 1
       },
       "source_names": [
@@ -515,9 +606,10 @@
         "GitHub On Device AI",
         "GitHub OpenClaw Ecosystem",
         "Reddit r/MechanicalKeyboards",
+        "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 35,
+      "signal_count": 36,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -556,9 +648,18 @@
         "S042",
         "S043",
         "S123",
-        "S229"
+        "S229",
+        "S247"
       ],
       "top_signals": [
+        {
+          "id": "S247",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "Inline hardware device for host-independent remaps/macros: useful niche, or useless?",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
+          "signal_strength": 2.75
+        },
         {
           "id": "S014",
           "source_name": "GitHub Claude Code Ecosystem",
@@ -590,14 +691,6 @@
           "source_title": "Wireless MIDI keyboard using hall effect switches",
           "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
           "signal_strength": 3.0
-        },
-        {
-          "id": "S001",
-          "source_name": "Yanko Design",
-          "source_type": "media",
-          "source_title": "Logitech G512 X gaming keyboard is highly customizable with analog and mechanical switches",
-          "source_url": "https://www.yankodesign.com/2026/04/29/logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches/?utm_source=rss&utm_medium=rss&utm_campaign=logitech-g512-x-gaming-keyboard-is-highly-customizable-with-analog-and-mechanical-switches",
-          "signal_strength": 0.75
         }
       ],
       "missing_evidence": [
@@ -616,7 +709,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M006",
+      "id": "M007",
       "thesis_key": "geek_ai_productivity_hardware",
       "name": "Geek AI productivity hardware",
       "name_zh": "极客 AI 生产力硬件",
@@ -656,7 +749,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 34,
+      "signal_count": 35,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -694,7 +787,8 @@
         "S191",
         "S205",
         "S208",
-        "S215"
+        "S215",
+        "S245"
       ],
       "top_signals": [
         {
@@ -737,7 +831,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Demand behavior, Supply chain is still missing."
     },
     {
-      "id": "M007",
+      "id": "M008",
       "thesis_key": "ai_voice_capture_workflow",
       "name": "AI voice capture workflow devices",
       "name_zh": "AI语音采集工作流设备",
@@ -828,7 +922,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
     },
     {
-      "id": "M008",
+      "id": "M009",
       "thesis_key": "emerging_ai_art_ceiling_light",
       "name": "AI Art Ceiling Light",
       "name_zh": "AI Art Ceiling Light",
@@ -879,82 +973,6 @@
         "fcc_bluetooth_bom_check"
       ],
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
-    },
-    {
-      "id": "M009",
-      "thesis_key": "ai_model_peripheral_devices",
-      "name": "AI model peripheral devices",
-      "name_zh": "AI 模型周边设备",
-      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
-      "hardware_form_factors": [
-        "AI dev kit",
-        "desktop AI accessory",
-        "local inference peripheral"
-      ],
-      "buyer_segments": [
-        "AI hobbyists",
-        "developers",
-        "prototype teams"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 46,
-      "source_mix": {
-        "media": 2,
-        "product_launch": 1
-      },
-      "source_names": [
-        "Product Hunt",
-        "TechCrunch Hardware",
-        "The Verge"
-      ],
-      "signal_count": 3,
-      "trend_key": "gaming controller",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S140",
-        "S166",
-        "S236"
-      ],
-      "top_signals": [
-        {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S236",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S166",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
-          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
-          "signal_strength": 0.9
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "supply_chain"
-      ],
-      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
       "id": "M010",
