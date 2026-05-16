@@ -1,10 +1,141 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-15T20:18:19.982438Z",
+  "generated_at": "2026-05-16T20:03:40.640356Z",
   "theses": [
     {
       "id": "M001",
+      "thesis_key": "geek_ai_productivity_hardware",
+      "name": "Geek AI productivity hardware",
+      "name_zh": "极客 AI 生产力硬件",
+      "job_to_be_done": "Developers and creators want high-leverage physical controls for coding, AI agents and repeated workflow actions.",
+      "hardware_form_factors": [
+        "programmable keyboard",
+        "macro pad",
+        "workflow control console",
+        "split ergonomic keyboard"
+      ],
+      "buyer_segments": [
+        "software engineers",
+        "AI-heavy operators",
+        "creators",
+        "desk setup enthusiasts"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 1,
+        "crowdfunding": 1,
+        "developer": 1,
+        "media": 1,
+        "product_reference": 1
+      },
+      "source_names": [
+        "CharaChorder",
+        "Elgato Stream Deck",
+        "Geek AI Productivity Hardware News",
+        "GitHub Programmable Keyboard Firmware",
+        "GitHub Stream Deck Plugin Ecosystem",
+        "Glove80",
+        "Keychron",
+        "Kickstarter Geek Productivity Hardware",
+        "Loupedeck",
+        "Naya",
+        "Reddit r/olkb",
+        "Wooting",
+        "Work Louder",
+        "ZSA Moonlander"
+      ],
+      "signal_count": 37,
+      "trend_key": "watch:geek_ai_productivity_hardware",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119",
+        "S121",
+        "S122",
+        "S125",
+        "S126",
+        "S127",
+        "S128",
+        "S131",
+        "S132",
+        "S135",
+        "S136",
+        "S138",
+        "S139",
+        "S146",
+        "S150",
+        "S154",
+        "S168",
+        "S171",
+        "S185",
+        "S188",
+        "S191",
+        "S205",
+        "S208",
+        "S215",
+        "S245",
+        "S250",
+        "S256"
+      ],
+      "top_signals": [
+        {
+          "id": "S256",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S131",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+          "source_url": "https://github.com/qmk/qmk_firmware",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S135",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+          "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
+          "signal_strength": 2.2
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Stream Deck, Loupedeck, QMK/ZMK keyboards, Raycast/Alfred and purely software shortcuts.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, developer, media, product_reference."
+    },
+    {
+      "id": "M002",
       "thesis_key": "local_first_smart_home_security",
       "name": "Local-first smart home security",
       "name_zh": "本地优先智能家居安防",
@@ -90,7 +221,91 @@
       "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
     },
     {
-      "id": "M002",
+      "id": "M003",
+      "thesis_key": "smart_audio_devices",
+      "name": "Smart audio devices",
+      "name_zh": "智能音频设备",
+      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
+      "hardware_form_factors": [
+        "wireless speaker",
+        "smart microphone",
+        "earbuds",
+        "desktop audio device"
+      ],
+      "buyer_segments": [
+        "home users",
+        "remote workers",
+        "audio enthusiasts"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "product_launch": 2,
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "36氪",
+        "Product Hunt",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 4,
+      "trend_key": "wireless bluetooth speaker",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S006",
+        "S160",
+        "S223",
+        "S253"
+      ],
+      "top_signals": [
+        {
+          "id": "S253",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "DramaBox by Resemble AI",
+          "source_url": "https://www.producthunt.com/products/resemble-clone",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S223",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Crade AI",
+          "source_url": "https://www.producthunt.com/products/crade",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S006",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S160",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
+          "source_url": "https://36kr.com/p/3682907323150215?f=rss",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M004",
       "thesis_key": "ai_model_peripheral_devices",
       "name": "AI model peripheral devices",
       "name_zh": "AI 模型周边设备",
@@ -174,7 +389,7 @@
       "confidence_reason": "Validated because evidence score is 79 with source mix community, media, product_launch."
     },
     {
-      "id": "M003",
+      "id": "M005",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",
@@ -248,82 +463,7 @@
       "confidence_reason": "Validated because evidence score is 77 with source mix community, media, product_launch."
     },
     {
-      "id": "M004",
-      "thesis_key": "smart_audio_devices",
-      "name": "Smart audio devices",
-      "name_zh": "智能音频设备",
-      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
-      "hardware_form_factors": [
-        "wireless speaker",
-        "smart microphone",
-        "earbuds",
-        "desktop audio device"
-      ],
-      "buyer_segments": [
-        "home users",
-        "remote workers",
-        "audio enthusiasts"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 77,
-      "source_mix": {
-        "product_launch": 1,
-        "community": 1,
-        "media": 1
-      },
-      "source_names": [
-        "36氪",
-        "Product Hunt",
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 3,
-      "trend_key": "wireless bluetooth speaker",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S006",
-        "S160",
-        "S223"
-      ],
-      "top_signals": [
-        {
-          "id": "S223",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Crade AI",
-          "source_url": "https://www.producthunt.com/products/crade",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S006",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S160",
-          "source_name": "36氪",
-          "source_type": "media",
-          "source_title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
-          "source_url": "https://36kr.com/p/3682907323150215?f=rss",
-          "signal_strength": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 77 with source mix community, media, product_launch."
-    },
-    {
-      "id": "M005",
+      "id": "M006",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
       "name_zh": "智能体边缘 I/O 节点",
@@ -361,7 +501,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 151,
+      "signal_count": 157,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -516,7 +656,13 @@
         "S243",
         "S244",
         "S248",
-        "S249"
+        "S249",
+        "S251",
+        "S252",
+        "S254",
+        "S255",
+        "S257",
+        "S258"
       ],
       "top_signals": [
         {
@@ -576,7 +722,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M006",
+      "id": "M007",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -595,8 +741,8 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
-        "community": 2,
         "developer": 1,
+        "community": 2,
         "media": 1
       },
       "source_names": [
@@ -653,14 +799,6 @@
       ],
       "top_signals": [
         {
-          "id": "S247",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "Inline hardware device for host-independent remaps/macros: useful niche, or useless?",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
-          "signal_strength": 2.75
-        },
-        {
           "id": "S014",
           "source_name": "GitHub Claude Code Ecosystem",
           "source_type": "developer",
@@ -691,6 +829,14 @@
           "source_title": "Wireless MIDI keyboard using hall effect switches",
           "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
           "signal_strength": 3.0
+        },
+        {
+          "id": "S247",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "Inline hardware device for host-independent remaps/macros: useful niche, or useless?",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
+          "signal_strength": 2.75
         }
       ],
       "missing_evidence": [
@@ -707,128 +853,6 @@
         "fcc_bluetooth_bom_check"
       ],
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
-    },
-    {
-      "id": "M007",
-      "thesis_key": "geek_ai_productivity_hardware",
-      "name": "Geek AI productivity hardware",
-      "name_zh": "极客 AI 生产力硬件",
-      "job_to_be_done": "Developers and creators want high-leverage physical controls for coding, AI agents and repeated workflow actions.",
-      "hardware_form_factors": [
-        "programmable keyboard",
-        "macro pad",
-        "workflow control console",
-        "split ergonomic keyboard"
-      ],
-      "buyer_segments": [
-        "software engineers",
-        "AI-heavy operators",
-        "creators",
-        "desk setup enthusiasts"
-      ],
-      "evidence_status": "Warming",
-      "evidence_score": 65,
-      "source_mix": {
-        "crowdfunding": 1,
-        "developer": 1,
-        "media": 1,
-        "product_reference": 1
-      },
-      "source_names": [
-        "CharaChorder",
-        "Elgato Stream Deck",
-        "Geek AI Productivity Hardware News",
-        "GitHub Programmable Keyboard Firmware",
-        "GitHub Stream Deck Plugin Ecosystem",
-        "Glove80",
-        "Keychron",
-        "Kickstarter Geek Productivity Hardware",
-        "Loupedeck",
-        "Naya",
-        "Wooting",
-        "Work Louder",
-        "ZSA Moonlander"
-      ],
-      "signal_count": 35,
-      "trend_key": "watch:geek_ai_productivity_hardware",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S109",
-        "S110",
-        "S111",
-        "S112",
-        "S113",
-        "S114",
-        "S115",
-        "S116",
-        "S117",
-        "S118",
-        "S119",
-        "S121",
-        "S122",
-        "S125",
-        "S126",
-        "S127",
-        "S128",
-        "S131",
-        "S132",
-        "S135",
-        "S136",
-        "S138",
-        "S139",
-        "S146",
-        "S150",
-        "S154",
-        "S168",
-        "S171",
-        "S185",
-        "S188",
-        "S191",
-        "S205",
-        "S208",
-        "S215",
-        "S245"
-      ],
-      "top_signals": [
-        {
-          "id": "S131",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
-          "source_url": "https://github.com/qmk/qmk_firmware",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S135",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
-          "source_url": "https://github.com/zmkfirmware/zmk",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S138",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
-          "source_url": "https://github.com/qmk/qmk_toolbox",
-          "signal_strength": 2.2
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "supply_chain"
-      ],
-      "substitution_risk": "High from Stream Deck, Loupedeck, QMK/ZMK keyboards, Raycast/Alfred and purely software shortcuts.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Warming because behavior or market evidence exists, but Demand behavior, Supply chain is still missing."
     },
     {
       "id": "M008",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-15T20:18:19.982438Z",
+  "generated_at": "2026-05-16T20:03:40.640356Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 48,
+      "seen_count_total": 51,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -73,34 +73,36 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "keyboard macro",
-      "name": "Keyboard Macro",
+      "trend_key": "ai storytelling speaker",
+      "name": "AI Storytelling Speaker",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
-        "community"
+        "product_launch"
       ],
       "source_names": [
-        "Reddit r/olkb"
+        "Product Hunt"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.75,
-      "max_signal_strength": 2.75,
+      "avg_signal_strength": 2.7,
+      "max_signal_strength": 2.7,
       "seen_count_total": 1,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-05-15T20:18:19.982438Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-05-16T20:03:40.640356Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
-        "S247"
+        "S253"
       ],
       "top_signals": [
         {
-          "id": "S247",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "Inline hardware device for host-independent remaps/macros: useful niche, or useless?",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
-          "signal_strength": 2.75
+          "id": "S253",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "DramaBox by Resemble AI",
+          "source_url": "https://www.producthunt.com/products/resemble-clone",
+          "signal_strength": 2.7
         }
       ],
       "velocity_7run_delta": 1,
@@ -125,7 +127,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.56,
       "max_signal_strength": 2.7,
-      "seen_count_total": 389,
+      "seen_count_total": 402,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -133,7 +135,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -211,7 +213,44 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.57,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "modular mechanical keyboard",
+      "name": "Modular Mechanical Keyboard",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/olkb"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.45,
+      "max_signal_strength": 2.45,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "programmable_keyboard_ecosystem"
+      ],
+      "first_seen_at": "2026-05-16T20:03:40.640356Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
+      "evidence_signal_ids": [
+        "S256"
+      ],
+      "top_signals": [
+        {
+          "id": "S256",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
+          "signal_strength": 2.45
+        }
+      ],
+      "velocity_7run_delta": 1,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -229,7 +268,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.4,
       "max_signal_strength": 2.7,
-      "seen_count_total": 48,
+      "seen_count_total": 51,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -237,7 +276,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -382,7 +421,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.12,
       "max_signal_strength": 2.6,
-      "seen_count_total": 48,
+      "seen_count_total": 51,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -391,7 +430,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -501,7 +540,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 1.86,
+      "velocity_7run_delta": 1.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -567,7 +606,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -575,7 +614,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 35,
+      "signal_count": 36,
       "source_types": [
         "crowdfunding",
         "developer",
@@ -598,9 +637,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.35,
+      "avg_signal_strength": 1.33,
       "max_signal_strength": 2.55,
-      "seen_count_total": 269,
+      "seen_count_total": 290,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -609,7 +648,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -645,7 +684,8 @@
         "S205",
         "S208",
         "S215",
-        "S245"
+        "S245",
+        "S250"
       ],
       "top_signals": [
         {
@@ -689,7 +729,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 2.71,
+      "velocity_7run_delta": 2.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -697,7 +737,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 59,
+      "signal_count": 62,
       "source_types": [
         "community",
         "media"
@@ -707,9 +747,9 @@
         "Reddit OpenClaw Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.28,
+      "avg_signal_strength": 1.3,
       "max_signal_strength": 2.7,
-      "seen_count_total": 136,
+      "seen_count_total": 142,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -719,7 +759,7 @@
         "openclaw_hardware_bridge"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -779,7 +819,10 @@
         "S240",
         "S241",
         "S243",
-        "S248"
+        "S248",
+        "S251",
+        "S254",
+        "S257"
       ],
       "top_signals": [
         {
@@ -788,6 +831,14 @@
           "source_type": "community",
           "source_title": "Gave my Raspberry Pi agent a thermal camera so it can detect when I’m in the room",
           "source_url": "https://www.reddit.com/r/raspberry_pi/comments/1t1h3f7/gave_my_raspberry_pi_agent_a_thermal_camera_so_it/",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S254",
+          "source_name": "Reddit OpenClaw Hardware Search",
+          "source_type": "community",
+          "source_title": "Apple is going to win the AI race and everyone pretending otherwise is missing this one thing",
+          "source_url": "https://www.reddit.com/r/apple/comments/1te9mr5/apple_is_going_to_win_the_ai_race_and_everyone/",
           "signal_strength": 2.7
         },
         {
@@ -813,14 +864,6 @@
           "source_title": "I spent 4 years automating everything with AI. Ask me anything about automating YOUR workflow",
           "source_url": "https://www.reddit.com/r/AiAutomations/comments/1t19cw2/i_spent_4_years_automating_everything_with_ai_ask/",
           "signal_strength": 2.2
-        },
-        {
-          "id": "S099",
-          "source_name": "Reddit OpenClaw Hardware Search",
-          "source_type": "community",
-          "source_title": "I spent 4 years automating everything with AI. Ask me anything about automating YOUR workflow",
-          "source_url": "https://www.reddit.com/r/aiagents/comments/1t19bmh/i_spent_4_years_automating_everything_with_ai_ask/",
-          "signal_strength": 2.2
         }
       ],
       "velocity_7run_delta": 12.86,
@@ -831,7 +874,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 68,
+      "signal_count": 71,
       "source_types": [
         "community",
         "media"
@@ -841,9 +884,9 @@
         "Reddit Agentic Edge Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.08,
+      "avg_signal_strength": 1.09,
       "max_signal_strength": 2.35,
-      "seen_count_total": 124,
+      "seen_count_total": 130,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_model_peripherals",
@@ -853,7 +896,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -922,7 +965,10 @@
         "S239",
         "S242",
         "S244",
-        "S249"
+        "S249",
+        "S252",
+        "S255",
+        "S258"
       ],
       "top_signals": [
         {
@@ -950,23 +996,23 @@
           "signal_strength": 1.85
         },
         {
+          "id": "S258",
+          "source_name": "Reddit Agentic Edge Hardware Search",
+          "source_type": "community",
+          "source_title": "Matter over thread newbie - Ikea smart devices",
+          "source_url": "https://www.reddit.com/r/MatterProtocol/comments/1teywwr/matter_over_thread_newbie_ikea_smart_devices/",
+          "signal_strength": 1.85
+        },
+        {
           "id": "S080",
           "source_name": "Reddit Agentic Edge Hardware Search",
           "source_type": "community",
           "source_title": "AI &amp; Robotics in Japan: Best path for a Master's in 2027?",
           "source_url": "https://www.reddit.com/r/mext/comments/1t11s32/ai_robotics_in_japan_best_path_for_a_masters_in/",
           "signal_strength": 1.3
-        },
-        {
-          "id": "S086",
-          "source_name": "Reddit Agentic Edge Hardware Search",
-          "source_type": "community",
-          "source_title": "Pursuing Robotics &amp; AI in Japan – Is it the right path after a \"lost\" undergrad?",
-          "source_url": "https://www.reddit.com/r/JapanJobs/comments/1t11ov7/pursuing_robotics_ai_in_japan_is_it_the_right/",
-          "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 15.14,
+      "velocity_7run_delta": 14.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1054,12 +1100,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 30,
+      "seen_count_total": 31,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1071,6 +1117,41 @@
           "source_title": "pytorch/executorch - On-device AI across mobile, embedded and edge for PyTorch",
           "source_url": "https://github.com/pytorch/executorch",
           "signal_strength": 2.8
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
+      "trend_key": "keyboard macro",
+      "name": "Keyboard Macro",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/olkb"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.75,
+      "max_signal_strength": 2.75,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "evidence_signal_ids": [
+        "S247"
+      ],
+      "top_signals": [
+        {
+          "id": "S247",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "Inline hardware device for host-independent remaps/macros: useful niche, or useless?",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
+          "signal_strength": 2.75
         }
       ],
       "velocity_7run_delta": 0.0,
@@ -1091,14 +1172,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 12,
+      "seen_count_total": 13,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -1452,13 +1533,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.85,
       "max_signal_strength": 1.85,
-      "seen_count_total": 3,
+      "seen_count_total": 4,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S222"
       ],
@@ -1613,12 +1694,12 @@
       "has_behavior_source": false,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 1.15,
-      "seen_count_total": 9,
+      "seen_count_total": 10,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-07T20:19:03.009396Z",
-      "last_seen_at": "2026-05-15T20:18:19.982438Z",
+      "last_seen_at": "2026-05-16T20:03:40.640356Z",
       "evidence_signal_ids": [
         "S174"
       ],
