@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-16T20:03:40.640356Z",
+  "generated_at": "2026-05-17T20:06:25.485625Z",
   "theses": [
     {
       "id": "M001",
@@ -24,11 +24,11 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "community": 1,
         "crowdfunding": 1,
         "developer": 1,
         "media": 1,
-        "product_reference": 1
+        "product_reference": 1,
+        "community": 1
       },
       "source_names": [
         "CharaChorder",
@@ -46,7 +46,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 37,
+      "signal_count": 39,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -87,17 +87,11 @@
         "S215",
         "S245",
         "S250",
-        "S256"
+        "S256",
+        "S261",
+        "S267"
       ],
       "top_signals": [
-        {
-          "id": "S256",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
-          "signal_strength": 2.45
-        },
         {
           "id": "S131",
           "source_name": "GitHub Programmable Keyboard Firmware",
@@ -121,6 +115,14 @@
           "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
           "source_url": "https://github.com/qmk/qmk_toolbox",
           "signal_strength": 2.2
+        },
+        {
+          "id": "S256",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
+          "signal_strength": 2.45
         }
       ],
       "missing_evidence": [
@@ -484,7 +486,7 @@
       "evidence_score": 70,
       "source_mix": {
         "developer": 6,
-        "community": 3,
+        "community": 4,
         "media": 7
       },
       "source_names": [
@@ -498,10 +500,11 @@
         "Reddit Agentic Edge Hardware Search",
         "Reddit OpenClaw Hardware Search",
         "Reddit r/gadgets",
+        "Reddit r/smarthome",
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 157,
+      "signal_count": 167,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -662,7 +665,17 @@
         "S254",
         "S255",
         "S257",
-        "S258"
+        "S258",
+        "S259",
+        "S260",
+        "S262",
+        "S263",
+        "S264",
+        "S265",
+        "S266",
+        "S268",
+        "S269",
+        "S270"
       ],
       "top_signals": [
         {
