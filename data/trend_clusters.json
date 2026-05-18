@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-17T20:06:25.485625Z",
+  "generated_at": "2026-05-18T20:27:49.352651Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 54,
+      "seen_count_total": 57,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -90,7 +90,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.57,
       "max_signal_strength": 2.7,
-      "seen_count_total": 415,
+      "seen_count_total": 428,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -98,7 +98,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -176,7 +176,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.43,
+      "velocity_7run_delta": 0.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -184,17 +184,18 @@
       "trend_key": "watch:robot_agent_kit",
       "name": "Robot Agent Kit",
       "name_zh": null,
-      "signal_count": 7,
+      "signal_count": 8,
       "source_types": [
         "developer"
       ],
       "source_names": [
-        "GitHub Robot Agent Kit"
+        "GitHub Robot Agent Kit",
+        "GitHub Robotics AI Hardware"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.4,
+      "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 54,
+      "seen_count_total": 58,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -202,7 +203,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -210,7 +211,8 @@
         "S083",
         "S130",
         "S144",
-        "S184"
+        "S184",
+        "S273"
       ],
       "top_signals": [
         {
@@ -254,41 +256,40 @@
           "signal_strength": 2.35
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "smart robot",
-      "name": "Smart Robot",
+      "trend_key": "ai wearable",
+      "name": "AI Wearable",
       "name_zh": null,
       "signal_count": 1,
       "source_types": [
-        "community"
+        "crowdfunding"
       ],
       "source_names": [
-        "Reddit r/smarthome"
+        "Indiegogo Tech"
       ],
       "has_behavior_source": true,
       "avg_signal_strength": 2.35,
       "max_signal_strength": 2.35,
       "seen_count_total": 1,
       "matched_watch_topics": [
-        "github_ai_projects",
         "hardware_intersections"
       ],
-      "first_seen_at": "2026-05-17T20:06:25.485625Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "first_seen_at": "2026-05-18T20:27:49.352651Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
-        "S268"
+        "S274"
       ],
       "top_signals": [
         {
-          "id": "S268",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "My \"Smart Backyard\" is 90% finished. The final step was the robot garage.",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1tdvn3t/my_smart_backyard_is_90_finished_the_final_step/",
+          "id": "S274",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Your AI Note-Taker Captures what you see and hear. Builds your digital asset. - Sein listens to your life and turns it into action—automatic journals, structured memos, task lists, and reminders. All without storing recordings. It's with you, not surveilling you.",
+          "source_url": "https://www.indiegogo.com/projects/sein-pai/sein",
           "signal_strength": 2.35
         }
       ],
@@ -385,7 +386,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.12,
       "max_signal_strength": 2.6,
-      "seen_count_total": 54,
+      "seen_count_total": 57,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -394,7 +395,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -504,7 +505,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 1.29,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -570,7 +571,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.43,
+      "velocity_7run_delta": 0.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -603,7 +604,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.33,
       "max_signal_strength": 2.55,
-      "seen_count_total": 311,
+      "seen_count_total": 332,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -612,7 +613,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -695,7 +696,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 4.14,
+      "velocity_7run_delta": 3.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -703,7 +704,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 67,
+      "signal_count": 70,
       "source_types": [
         "community",
         "media"
@@ -715,7 +716,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.29,
       "max_signal_strength": 2.7,
-      "seen_count_total": 148,
+      "seen_count_total": 154,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -725,7 +726,7 @@
         "openclaw_hardware_bridge"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -793,7 +794,10 @@
         "S262",
         "S264",
         "S265",
-        "S269"
+        "S269",
+        "S271",
+        "S275",
+        "S277"
       ],
       "top_signals": [
         {
@@ -837,7 +841,7 @@
           "signal_strength": 2.2
         }
       ],
-      "velocity_7run_delta": 14.71,
+      "velocity_7run_delta": 14.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -845,7 +849,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 75,
+      "signal_count": 78,
       "source_types": [
         "community",
         "media"
@@ -855,9 +859,9 @@
         "Reddit Agentic Edge Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.09,
+      "avg_signal_strength": 1.1,
       "max_signal_strength": 2.35,
-      "seen_count_total": 136,
+      "seen_count_total": 142,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_model_peripherals",
@@ -867,7 +871,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -943,7 +947,10 @@
         "S260",
         "S263",
         "S266",
-        "S270"
+        "S270",
+        "S272",
+        "S276",
+        "S278"
       ],
       "top_signals": [
         {
@@ -987,7 +994,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 14.71,
+      "velocity_7run_delta": 14.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1075,12 +1082,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 32,
+      "seen_count_total": 33,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1147,14 +1154,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 14,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -1473,12 +1480,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.45,
       "max_signal_strength": 2.45,
-      "seen_count_total": 1,
+      "seen_count_total": 2,
       "matched_watch_topics": [
         "programmable_keyboard_ecosystem"
       ],
       "first_seen_at": "2026-05-16T20:03:40.640356Z",
-      "last_seen_at": "2026-05-16T20:03:40.640356Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S256"
       ],
@@ -1534,6 +1541,44 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
+      "trend_key": "smart robot",
+      "name": "Smart Robot",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.35,
+      "max_signal_strength": 2.35,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "github_ai_projects",
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "evidence_signal_ids": [
+        "S268"
+      ],
+      "top_signals": [
+        {
+          "id": "S268",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "My \"Smart Backyard\" is 90% finished. The final step was the robot garage.",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1tdvn3t/my_smart_backyard_is_90_finished_the_final_step/",
+          "signal_strength": 2.35
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
       "trend_key": "smart home air quality monitor",
       "name": "Smart Home Air Quality Monitor",
       "name_zh": null,
@@ -1580,15 +1625,15 @@
         "GitHub Robotics AI Hardware"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.85,
-      "max_signal_strength": 1.85,
-      "seen_count_total": 5,
+      "avg_signal_strength": 2.2,
+      "max_signal_strength": 2.2,
+      "seen_count_total": 6,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S222"
       ],
@@ -1599,7 +1644,7 @@
           "source_type": "developer",
           "source_title": "earthtojake/text-to-cad - A collection of agent skills for CAD, robotics and hardware design",
           "source_url": "https://github.com/earthtojake/text-to-cad",
-          "signal_strength": 1.85
+          "signal_strength": 2.2
         }
       ],
       "velocity_7run_delta": 0.0,
@@ -1743,12 +1788,12 @@
       "has_behavior_source": false,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 1.15,
-      "seen_count_total": 11,
+      "seen_count_total": 12,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-07T20:19:03.009396Z",
-      "last_seen_at": "2026-05-17T20:06:25.485625Z",
+      "last_seen_at": "2026-05-18T20:27:49.352651Z",
       "evidence_signal_ids": [
         "S174"
       ],
