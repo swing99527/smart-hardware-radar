@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-18T20:27:49.352651Z",
+  "generated_at": "2026-05-19T20:47:17.120717Z",
   "theses": [
     {
       "id": "M001",
@@ -504,7 +504,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 174,
+      "signal_count": 181,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -682,7 +682,14 @@
         "S275",
         "S276",
         "S277",
-        "S278"
+        "S278",
+        "S279",
+        "S280",
+        "S281",
+        "S283",
+        "S284",
+        "S285",
+        "S286"
       ],
       "top_signals": [
         {
@@ -775,7 +782,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 36,
+      "signal_count": 37,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -815,7 +822,8 @@
         "S043",
         "S123",
         "S229",
-        "S247"
+        "S247",
+        "S282"
       ],
       "top_signals": [
         {
@@ -1131,58 +1139,6 @@
     },
     {
       "id": "M012",
-      "thesis_key": "emerging_ai_wearable",
-      "name": "AI Wearable",
-      "name_zh": "AI Wearable",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "AI Wearable"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 40,
-      "source_mix": {
-        "crowdfunding": 1
-      },
-      "source_names": [
-        "Indiegogo Tech"
-      ],
-      "signal_count": 1,
-      "trend_key": "ai wearable",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S274"
-      ],
-      "top_signals": [
-        {
-          "id": "S274",
-          "source_name": "Indiegogo Tech",
-          "source_type": "crowdfunding",
-          "source_title": "Your AI Note-Taker Captures what you see and hear. Builds your digital asset. - Sein listens to your life and turns it into action—automatic journals, structured memos, task lists, and reminders. All without storing recordings. It's with you, not surveilling you.",
-          "source_url": "https://www.indiegogo.com/projects/sein-pai/sein",
-          "signal_strength": 2.35
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "supply_chain",
-        "source_diversity"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
-    },
-    {
-      "id": "M013",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -1216,6 +1172,58 @@
           "source_title": "INMO GO3: Powerful AI Translation Glasses for All Day Wear by INMO",
           "source_url": "https://www.kickstarter.com/projects/inmo-go3-ai-glasses/everyday-wear-ai-glasses",
           "signal_strength": 2.45
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "supply_chain",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M013",
+      "thesis_key": "emerging_ai_wearable",
+      "name": "AI Wearable",
+      "name_zh": "AI Wearable",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Wearable"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 40,
+      "source_mix": {
+        "crowdfunding": 1
+      },
+      "source_names": [
+        "Indiegogo Tech"
+      ],
+      "signal_count": 1,
+      "trend_key": "ai wearable",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S274"
+      ],
+      "top_signals": [
+        {
+          "id": "S274",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Your AI Note-Taker Captures what you see and hear. Builds your digital asset. - Sein listens to your life and turns it into action—automatic journals, structured memos, task lists, and reminders. All without storing recordings. It's with you, not surveilling you.",
+          "source_url": "https://www.indiegogo.com/projects/sein-pai/sein",
+          "signal_strength": 2.35
         }
       ],
       "missing_evidence": [
