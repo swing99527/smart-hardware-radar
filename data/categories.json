@@ -130,6 +130,45 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A004",
+      "name": "【证据聚类】Gaming Monitor",
+      "name_en": "Gaming Monitor",
+      "name_zh": null,
+      "cluster_key": "gaming monitor",
+      "cluster_members": [
+        "Gaming Monitor"
+      ],
+      "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+      "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+      "evidence_signal_ids": [
+        "S011",
+        "S293"
+      ],
+      "confidence": 0.76,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 1.82,
+        "matched_watch_topics": [
+          "github_ai_projects"
+        ],
+        "candidate_keys": [
+          "gaming monitor"
+        ],
+        "l0_confidence": 0.76
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }

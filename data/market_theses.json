@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-19T20:47:17.120717Z",
+  "generated_at": "2026-05-20T21:01:14.143410Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 39,
+      "signal_count": 40,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -89,7 +89,8 @@
         "S250",
         "S256",
         "S261",
-        "S267"
+        "S267",
+        "S292"
       ],
       "top_signals": [
         {
@@ -224,6 +225,90 @@
     },
     {
       "id": "M003",
+      "thesis_key": "gaming_productivity_peripherals",
+      "name": "Gaming productivity peripherals",
+      "name_zh": "游戏与效率外设",
+      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
+      "hardware_form_factors": [
+        "gaming monitor",
+        "gaming keyboard",
+        "desktop controller"
+      ],
+      "buyer_segments": [
+        "gamers",
+        "developers",
+        "desk setup buyers"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 2,
+        "media": 1,
+        "product_launch": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 4,
+      "trend_key": "gaming monitor",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S011",
+        "S157",
+        "S212",
+        "S293"
+      ],
+      "top_signals": [
+        {
+          "id": "S293",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S011",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S212",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "AIFORPET",
+          "source_url": "https://www.producthunt.com/products/aiforpet",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S157",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
+          "signal_strength": 2.3
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M004",
       "thesis_key": "smart_audio_devices",
       "name": "Smart audio devices",
       "name_zh": "智能音频设备",
@@ -307,7 +392,7 @@
       "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
     },
     {
-      "id": "M004",
+      "id": "M005",
       "thesis_key": "ai_model_peripheral_devices",
       "name": "AI model peripheral devices",
       "name_zh": "AI 模型周边设备",
@@ -391,80 +476,6 @@
       "confidence_reason": "Validated because evidence score is 79 with source mix community, media, product_launch."
     },
     {
-      "id": "M005",
-      "thesis_key": "gaming_productivity_peripherals",
-      "name": "Gaming productivity peripherals",
-      "name_zh": "游戏与效率外设",
-      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
-      "hardware_form_factors": [
-        "gaming monitor",
-        "gaming keyboard",
-        "desktop controller"
-      ],
-      "buyer_segments": [
-        "gamers",
-        "developers",
-        "desk setup buyers"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 77,
-      "source_mix": {
-        "product_launch": 1,
-        "community": 1,
-        "media": 1
-      },
-      "source_names": [
-        "Engadget",
-        "Product Hunt",
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 3,
-      "trend_key": "smart home air quality monitor",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S011",
-        "S157",
-        "S212"
-      ],
-      "top_signals": [
-        {
-          "id": "S212",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "AIFORPET",
-          "source_url": "https://www.producthunt.com/products/aiforpet",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S157",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S011",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
-          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
-          "signal_strength": 0.9
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 77 with source mix community, media, product_launch."
-    },
-    {
       "id": "M006",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
@@ -504,7 +515,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 181,
+      "signal_count": 188,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -689,7 +700,14 @@
         "S283",
         "S284",
         "S285",
-        "S286"
+        "S286",
+        "S287",
+        "S288",
+        "S289",
+        "S290",
+        "S291",
+        "S294",
+        "S295"
       ],
       "top_signals": [
         {
