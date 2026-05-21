@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-20T21:01:14.143410Z",
+  "generated_at": "2026-05-21T20:52:39.696304Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 63,
+      "seen_count_total": 66,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -73,6 +73,41 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "health tracking smart ring",
+      "name": "Health Tracking Smart Ring",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "search"
+      ],
+      "source_names": [
+        "Google Trends US Daily"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 3.05,
+      "max_signal_strength": 3.05,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-21T20:52:39.696304Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
+      "evidence_signal_ids": [
+        "S305"
+      ],
+      "top_signals": [
+        {
+          "id": "S305",
+          "source_name": "Google Trends US Daily",
+          "source_type": "search",
+          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
+          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
+          "signal_strength": 3.05
+        }
+      ],
+      "velocity_7run_delta": 1,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "name": "AI Coding Agent Ecosystem",
       "name_zh": null,
@@ -88,9 +123,9 @@
         "GitHub OpenClaw Ecosystem"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.58,
+      "avg_signal_strength": 2.57,
       "max_signal_strength": 2.7,
-      "seen_count_total": 454,
+      "seen_count_total": 467,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -98,7 +133,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -177,7 +212,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.86,
+      "velocity_7run_delta": 0.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -196,7 +231,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 66,
+      "seen_count_total": 70,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -204,7 +239,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -257,82 +292,44 @@
           "signal_strength": 2.35
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "cluster:smart_home_security",
-      "name": "Smart Home Security Device",
-      "name_zh": "智能家居安防设备",
-      "signal_count": 5,
+      "trend_key": "modular keyboard",
+      "name": "Modular Keyboard",
+      "name_zh": null,
+      "signal_count": 1,
       "source_types": [
-        "community",
-        "media"
+        "community"
       ],
       "source_names": [
-        "Gizmodo",
-        "Reddit r/smarthome"
+        "Reddit r/olkb"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.13,
-      "max_signal_strength": 2.8,
-      "seen_count_total": 43,
+      "avg_signal_strength": 2.2,
+      "max_signal_strength": 2.2,
+      "seen_count_total": 4,
       "matched_watch_topics": [
-        "hardware_intersections"
+        "programmable_keyboard_ecosystem"
       ],
-      "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
+      "first_seen_at": "2026-05-16T20:03:40.640356Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007",
-        "S084"
+        "S256"
       ],
       "top_signals": [
         {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
+          "id": "S256",
+          "source_name": "Reddit r/olkb",
           "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
           "signal_strength": 2.2
-        },
-        {
-          "id": "S005",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Deadbolt",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sxc766/smart_deadbolt/",
-          "signal_strength": 2.05
-        },
-        {
-          "id": "S084",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Dreame’s Next Smart Lock Packs a 3K Doorbell Camera and Aliro Support - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZG9wNU43b1pjTkpDTjlDUnJIdlNubi05UXZlcWpSNVJxQllVSmhPNW51TnBsbHlNdVFURnlaNXZsRXlCclBtX3JicF9LS2twVWFTeXhTM1BlZEswaFN2ZW1JZzdMVTNUc25NN1NtRzBNNE53RXdHRWFWM0VmN2xRM2p3NjVSOE5qZzV2NUVZYVBlc3lTemowQzFXbkk5RDhC?oc=5",
-          "signal_strength": 1.15
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -350,7 +347,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.12,
       "max_signal_strength": 2.6,
-      "seen_count_total": 63,
+      "seen_count_total": 66,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -359,7 +356,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -469,7 +466,83 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.43,
+      "velocity_7run_delta": 0.14,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "cluster:smart_home_security",
+      "name": "Smart Home Security Device",
+      "name_zh": "智能家居安防设备",
+      "signal_count": 6,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Gizmodo",
+        "Reddit r/smarthome"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.93,
+      "max_signal_strength": 2.8,
+      "seen_count_total": 44,
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084",
+        "S300"
+      ],
+      "top_signals": [
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S005",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Deadbolt",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sxc766/smart_deadbolt/",
+          "signal_strength": 2.05
+        },
+        {
+          "id": "S084",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Dreame’s Next Smart Lock Packs a 3K Doorbell Camera and Aliro Support - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZG9wNU43b1pjTkpDTjlDUnJIdlNubi05UXZlcWpSNVJxQllVSmhPNW51TnBsbHlNdVFURnlaNXZsRXlCclBtX3JicF9LS2twVWFTeXhTM1BlZEswaFN2ZW1JZzdMVTNUc25NN1NtRzBNNE53RXdHRWFWM0VmN2xRM2p3NjVSOE5qZzV2NUVZYVBlc3lTemowQzFXbkk5RDhC?oc=5",
+          "signal_strength": 1.15
+        }
+      ],
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -489,12 +562,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.82,
       "max_signal_strength": 2.75,
-      "seen_count_total": 14,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-01T15:36:43.010443Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S011",
         "S293"
@@ -517,7 +590,7 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -591,7 +664,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 39,
+      "signal_count": 41,
       "source_types": [
         "crowdfunding",
         "developer",
@@ -614,9 +687,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.31,
+      "avg_signal_strength": 1.3,
       "max_signal_strength": 2.55,
-      "seen_count_total": 374,
+      "seen_count_total": 395,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -625,7 +698,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -665,7 +738,9 @@
         "S250",
         "S261",
         "S267",
-        "S292"
+        "S292",
+        "S301",
+        "S302"
       ],
       "top_signals": [
         {
@@ -709,7 +784,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 2.86,
+      "velocity_7run_delta": 4.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -717,7 +792,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 76,
+      "signal_count": 79,
       "source_types": [
         "community",
         "media"
@@ -727,9 +802,9 @@
         "Reddit OpenClaw Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.29,
+      "avg_signal_strength": 1.28,
       "max_signal_strength": 2.7,
-      "seen_count_total": 166,
+      "seen_count_total": 172,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -739,7 +814,7 @@
         "openclaw_hardware_bridge"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -816,7 +891,10 @@
         "S285",
         "S287",
         "S289",
-        "S294"
+        "S294",
+        "S296",
+        "S298",
+        "S303"
       ],
       "top_signals": [
         {
@@ -860,7 +938,7 @@
           "signal_strength": 2.2
         }
       ],
-      "velocity_7run_delta": 13.43,
+      "velocity_7run_delta": 13.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -868,7 +946,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 86,
+      "signal_count": 89,
       "source_types": [
         "community",
         "media"
@@ -878,9 +956,9 @@
         "Reddit Agentic Edge Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.09,
+      "avg_signal_strength": 1.1,
       "max_signal_strength": 2.35,
-      "seen_count_total": 154,
+      "seen_count_total": 160,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_model_peripherals",
@@ -890,7 +968,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -977,7 +1055,10 @@
         "S288",
         "S290",
         "S291",
-        "S295"
+        "S295",
+        "S297",
+        "S299",
+        "S304"
       ],
       "top_signals": [
         {
@@ -1021,7 +1102,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 14.86,
+      "velocity_7run_delta": 14.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1109,12 +1190,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 35,
+      "seen_count_total": 36,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1181,14 +1262,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 17,
+      "seen_count_total": 18,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -1486,43 +1567,6 @@
           "source_type": "crowdfunding",
           "source_title": "INMO GO3: Powerful AI Translation Glasses for All Day Wear by INMO",
           "source_url": "https://www.kickstarter.com/projects/inmo-go3-ai-glasses/everyday-wear-ai-glasses",
-          "signal_strength": 2.45
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity"
-    },
-    {
-      "trend_key": "modular mechanical keyboard",
-      "name": "Modular Mechanical Keyboard",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "community"
-      ],
-      "source_names": [
-        "Reddit r/olkb"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.45,
-      "max_signal_strength": 2.45,
-      "seen_count_total": 3,
-      "matched_watch_topics": [
-        "programmable_keyboard_ecosystem"
-      ],
-      "first_seen_at": "2026-05-16T20:03:40.640356Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
-      "evidence_signal_ids": [
-        "S256"
-      ],
-      "top_signals": [
-        {
-          "id": "S256",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
           "signal_strength": 2.45
         }
       ],
@@ -1852,12 +1896,12 @@
       "has_behavior_source": false,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 1.15,
-      "seen_count_total": 14,
+      "seen_count_total": 15,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-07T20:19:03.009396Z",
-      "last_seen_at": "2026-05-20T21:01:14.143410Z",
+      "last_seen_at": "2026-05-21T20:52:39.696304Z",
       "evidence_signal_ids": [
         "S174"
       ],

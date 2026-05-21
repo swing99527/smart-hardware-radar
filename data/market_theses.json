@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-20T21:01:14.143410Z",
+  "generated_at": "2026-05-21T20:52:39.696304Z",
   "theses": [
     {
       "id": "M001",
@@ -24,11 +24,11 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
+        "community": 1,
         "crowdfunding": 1,
         "developer": 1,
         "media": 1,
-        "product_reference": 1,
-        "community": 1
+        "product_reference": 1
       },
       "source_names": [
         "CharaChorder",
@@ -46,7 +46,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 40,
+      "signal_count": 42,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -90,9 +90,19 @@
         "S256",
         "S261",
         "S267",
-        "S292"
+        "S292",
+        "S301",
+        "S302"
       ],
       "top_signals": [
+        {
+          "id": "S256",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
+          "signal_strength": 2.2
+        },
         {
           "id": "S131",
           "source_name": "GitHub Programmable Keyboard Firmware",
@@ -116,14 +126,6 @@
           "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
           "source_url": "https://github.com/qmk/qmk_toolbox",
           "signal_strength": 2.2
-        },
-        {
-          "id": "S256",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
-          "signal_strength": 2.45
         }
       ],
       "missing_evidence": [
@@ -166,7 +168,7 @@
         "Indiegogo Tech",
         "Reddit r/smarthome"
       ],
-      "signal_count": 6,
+      "signal_count": 7,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -176,7 +178,8 @@
         "S005",
         "S007",
         "S084",
-        "S133"
+        "S133",
+        "S300"
       ],
       "top_signals": [
         {
@@ -515,7 +518,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 188,
+      "signal_count": 194,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -707,7 +710,13 @@
         "S290",
         "S291",
         "S294",
-        "S295"
+        "S295",
+        "S296",
+        "S297",
+        "S298",
+        "S299",
+        "S303",
+        "S304"
       ],
       "top_signals": [
         {
@@ -1157,6 +1166,59 @@
     },
     {
       "id": "M012",
+      "thesis_key": "emerging_health_tracking_smart_ring",
+      "name": "Health Tracking Smart Ring",
+      "name_zh": "Health Tracking Smart Ring",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Health Tracking Smart Ring"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 44,
+      "source_mix": {
+        "search": 1
+      },
+      "source_names": [
+        "Google Trends US Daily"
+      ],
+      "signal_count": 1,
+      "trend_key": "health tracking smart ring",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S305"
+      ],
+      "top_signals": [
+        {
+          "id": "S305",
+          "source_name": "Google Trends US Daily",
+          "source_type": "search",
+          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
+          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
+          "signal_strength": 3.05
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M013",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -1208,7 +1270,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M013",
+      "id": "M014",
       "thesis_key": "emerging_ai_wearable",
       "name": "AI Wearable",
       "name_zh": "AI Wearable",
