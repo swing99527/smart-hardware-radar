@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-22T20:43:57.980755Z",
+  "generated_at": "2026-05-23T20:08:41.661890Z",
   "theses": [
     {
       "id": "M001",
@@ -37,6 +37,7 @@
         "GitHub Programmable Keyboard Firmware",
         "GitHub Stream Deck Plugin Ecosystem",
         "Glove80",
+        "Indiegogo Geek Productivity Hardware",
         "Keychron",
         "Kickstarter Geek Productivity Hardware",
         "Loupedeck",
@@ -46,7 +47,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 42,
+      "signal_count": 45,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -92,7 +93,10 @@
         "S267",
         "S292",
         "S301",
-        "S302"
+        "S302",
+        "S315",
+        "S316",
+        "S317"
       ],
       "top_signals": [
         {
@@ -228,6 +232,92 @@
     },
     {
       "id": "M003",
+      "thesis_key": "ai_model_peripheral_devices",
+      "name": "AI model peripheral devices",
+      "name_zh": "AI 模型周边设备",
+      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
+      "hardware_form_factors": [
+        "AI dev kit",
+        "desktop AI accessory",
+        "local inference peripheral"
+      ],
+      "buyer_segments": [
+        "AI hobbyists",
+        "developers",
+        "prototype teams"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 1,
+        "media": 2,
+        "product_launch": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "TechCrunch Hardware",
+        "The Verge"
+      ],
+      "signal_count": 5,
+      "trend_key": "gaming controller",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S140",
+        "S166",
+        "S236",
+        "S246",
+        "S320"
+      ],
+      "top_signals": [
+        {
+          "id": "S246",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
+          "signal_strength": 2.9
+        },
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S236",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S166",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
+          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M004",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",
@@ -311,7 +401,7 @@
       "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
     },
     {
-      "id": "M004",
+      "id": "M005",
       "thesis_key": "smart_audio_devices",
       "name": "Smart audio devices",
       "name_zh": "智能音频设备",
@@ -395,90 +485,6 @@
       "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
     },
     {
-      "id": "M005",
-      "thesis_key": "ai_model_peripheral_devices",
-      "name": "AI model peripheral devices",
-      "name_zh": "AI 模型周边设备",
-      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
-      "hardware_form_factors": [
-        "AI dev kit",
-        "desktop AI accessory",
-        "local inference peripheral"
-      ],
-      "buyer_segments": [
-        "AI hobbyists",
-        "developers",
-        "prototype teams"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 79,
-      "source_mix": {
-        "community": 1,
-        "media": 2,
-        "product_launch": 1
-      },
-      "source_names": [
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "TechCrunch Hardware",
-        "The Verge"
-      ],
-      "signal_count": 4,
-      "trend_key": "gaming controller",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S140",
-        "S166",
-        "S236",
-        "S246"
-      ],
-      "top_signals": [
-        {
-          "id": "S246",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
-          "signal_strength": 2.9
-        },
-        {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S236",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S166",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
-          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
-          "signal_strength": 0.9
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 79 with source mix community, media, product_launch."
-    },
-    {
       "id": "M006",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
@@ -518,7 +524,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 201,
+      "signal_count": 208,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -723,7 +729,14 @@
         "S309",
         "S310",
         "S312",
-        "S313"
+        "S313",
+        "S314",
+        "S318",
+        "S319",
+        "S321",
+        "S322",
+        "S323",
+        "S324"
       ],
       "top_signals": [
         {
