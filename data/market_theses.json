@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-23T20:08:41.661890Z",
+  "generated_at": "2026-05-24T20:10:08.750674Z",
   "theses": [
     {
       "id": "M001",
@@ -24,11 +24,11 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
+        "community": 2,
         "crowdfunding": 1,
         "developer": 1,
         "media": 1,
-        "product_reference": 1,
-        "community": 1
+        "product_reference": 1
       },
       "source_names": [
         "CharaChorder",
@@ -42,12 +42,13 @@
         "Kickstarter Geek Productivity Hardware",
         "Loupedeck",
         "Naya",
+        "Reddit Geek Productivity Hardware Search",
         "Reddit r/olkb",
         "Wooting",
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 45,
+      "signal_count": 47,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -96,7 +97,9 @@
         "S302",
         "S315",
         "S316",
-        "S317"
+        "S317",
+        "S328",
+        "S329"
       ],
       "top_signals": [
         {
@@ -249,7 +252,7 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "community": 1,
+        "community": 2,
         "media": 2,
         "product_launch": 1
       },
@@ -260,7 +263,7 @@
         "TechCrunch Hardware",
         "The Verge"
       ],
-      "signal_count": 5,
+      "signal_count": 6,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -269,9 +272,18 @@
         "S166",
         "S236",
         "S246",
-        "S320"
+        "S320",
+        "S332"
       ],
       "top_signals": [
+        {
+          "id": "S332",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Unannounced Apple headphones revealed in FCC documents",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
+          "signal_strength": 3.15
+        },
         {
           "id": "S246",
           "source_name": "Reddit r/gadgets",
@@ -524,7 +536,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 208,
+      "signal_count": 214,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -736,7 +748,13 @@
         "S321",
         "S322",
         "S323",
-        "S324"
+        "S324",
+        "S325",
+        "S326",
+        "S327",
+        "S330",
+        "S331",
+        "S333"
       ],
       "top_signals": [
         {
