@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-24T20:10:08.750674Z",
+  "generated_at": "2026-05-25T20:24:21.540681Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 47,
+      "signal_count": 48,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -99,7 +99,8 @@
         "S316",
         "S317",
         "S328",
-        "S329"
+        "S329",
+        "S339"
       ],
       "top_signals": [
         {
@@ -277,14 +278,6 @@
       ],
       "top_signals": [
         {
-          "id": "S332",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Unannounced Apple headphones revealed in FCC documents",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
-          "signal_strength": 3.15
-        },
-        {
           "id": "S246",
           "source_name": "Reddit r/gadgets",
           "source_type": "community",
@@ -307,6 +300,14 @@
           "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
           "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
           "signal_strength": 0.9
+        },
+        {
+          "id": "S332",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Unannounced Apple headphones revealed in FCC documents",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
+          "signal_strength": 3.15
         },
         {
           "id": "S166",
@@ -536,7 +537,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 214,
+      "signal_count": 220,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -754,7 +755,13 @@
         "S327",
         "S330",
         "S331",
-        "S333"
+        "S333",
+        "S334",
+        "S335",
+        "S336",
+        "S337",
+        "S340",
+        "S341"
       ],
       "top_signals": [
         {
@@ -847,7 +854,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 38,
+      "signal_count": 39,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -889,7 +896,8 @@
         "S229",
         "S247",
         "S282",
-        "S311"
+        "S311",
+        "S342"
       ],
       "top_signals": [
         {
@@ -1041,6 +1049,69 @@
     },
     {
       "id": "M009",
+      "thesis_key": "emerging_health_tracking_smart_ring",
+      "name": "Health Tracking Smart Ring",
+      "name_zh": "Health Tracking Smart Ring",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Health Tracking Smart Ring"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 48,
+      "source_mix": {
+        "media": 1,
+        "search": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Google Trends US Daily"
+      ],
+      "signal_count": 2,
+      "trend_key": "health tracking smart ring",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S305",
+        "S338"
+      ],
+      "top_signals": [
+        {
+          "id": "S305",
+          "source_name": "Google Trends US Daily",
+          "source_type": "search",
+          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
+          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
+          "signal_strength": 3.05
+        },
+        {
+          "id": "S338",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
+          "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M010",
       "thesis_key": "emerging_ai_art_ceiling_light",
       "name": "AI Art Ceiling Light",
       "name_zh": "AI Art Ceiling Light",
@@ -1093,7 +1164,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M010",
+      "id": "M011",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -1151,7 +1222,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M011",
+      "id": "M012",
       "thesis_key": "emerging_smart_window_shades",
       "name": "Smart Window Shades",
       "name_zh": "Smart Window Shades",
@@ -1185,59 +1256,6 @@
           "source_title": "Automating shades to close when nobody is home during the summer. Does it actually help?",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1swp4ir/automating_shades_to_close_when_nobody_is_home/",
           "signal_strength": 2.65
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
-    },
-    {
-      "id": "M012",
-      "thesis_key": "emerging_health_tracking_smart_ring",
-      "name": "Health Tracking Smart Ring",
-      "name_zh": "Health Tracking Smart Ring",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "Health Tracking Smart Ring"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 44,
-      "source_mix": {
-        "search": 1
-      },
-      "source_names": [
-        "Google Trends US Daily"
-      ],
-      "signal_count": 1,
-      "trend_key": "health tracking smart ring",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S305"
-      ],
-      "top_signals": [
-        {
-          "id": "S305",
-          "source_name": "Google Trends US Daily",
-          "source_type": "search",
-          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
-          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
-          "signal_strength": 3.05
         }
       ],
       "missing_evidence": [

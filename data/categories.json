@@ -169,6 +169,43 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A005",
+      "name": "【证据聚类】Health Tracking Smart Ring",
+      "name_en": "Health Tracking Smart Ring",
+      "name_zh": null,
+      "cluster_key": "health tracking smart ring",
+      "cluster_members": [
+        "Health Tracking Smart Ring"
+      ],
+      "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
+      "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
+      "evidence_signal_ids": [
+        "S305",
+        "S338"
+      ],
+      "confidence": 0.77,
+      "l0_evidence": {
+        "source_types": [
+          "media",
+          "search"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "multi_source_unclassified",
+        "avg_signal_strength": 2.02,
+        "matched_watch_topics": [],
+        "candidate_keys": [
+          "health tracking smart ring"
+        ],
+        "l0_confidence": 0.77
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }
