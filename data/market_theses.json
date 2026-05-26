@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-25T20:24:21.540681Z",
+  "generated_at": "2026-05-26T20:57:19.079933Z",
   "theses": [
     {
       "id": "M001",
@@ -519,8 +519,8 @@
       "evidence_score": 70,
       "source_mix": {
         "developer": 6,
-        "community": 4,
-        "media": 7
+        "community": 5,
+        "media": 8
       },
       "source_names": [
         "Agentic Edge Hardware News",
@@ -537,7 +537,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 220,
+      "signal_count": 229,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -761,7 +761,16 @@
         "S336",
         "S337",
         "S340",
-        "S341"
+        "S341",
+        "S343",
+        "S344",
+        "S345",
+        "S346",
+        "S347",
+        "S348",
+        "S349",
+        "S350",
+        "S351"
       ],
       "top_signals": [
         {
@@ -789,19 +798,19 @@
           "signal_strength": 2.75
         },
         {
+          "id": "S344",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "These metal washers are replacing smart home sensors, and they work without a single wire or battery",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1to0d74/these_metal_washers_are_replacing_smart_home/",
+          "signal_strength": 2.95
+        },
+        {
           "id": "S066",
           "source_name": "GitHub Robot Agent Kit",
           "source_type": "developer",
           "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
           "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S130",
-          "source_name": "GitHub Robot Agent Kit",
-          "source_type": "developer",
-          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
-          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
           "signal_strength": 2.7
         }
       ],
