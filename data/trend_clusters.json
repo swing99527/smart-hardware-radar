@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-27T21:04:28.282886Z",
+  "generated_at": "2026-05-28T21:11:15.771461Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 84,
+      "seen_count_total": 87,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -73,44 +73,6 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "smart home sensor",
-      "name": "Smart Home Sensor",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "community"
-      ],
-      "source_names": [
-        "Reddit r/smarthome"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.95,
-      "max_signal_strength": 2.95,
-      "seen_count_total": 2,
-      "matched_watch_topics": [
-        "big_tech_peripherals",
-        "hardware_intersections"
-      ],
-      "first_seen_at": "2026-05-26T20:57:19.079933Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
-      "evidence_signal_ids": [
-        "S344"
-      ],
-      "top_signals": [
-        {
-          "id": "S344",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "These metal washers are replacing smart home sensors, and they work without a single wire or battery",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1to0d74/these_metal_washers_are_replacing_smart_home/",
-          "signal_strength": 2.95
-        }
-      ],
-      "velocity_7run_delta": 1,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "name": "AI Coding Agent Ecosystem",
       "name_zh": null,
@@ -128,7 +90,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 545,
+      "seen_count_total": 558,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -136,7 +98,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -217,7 +179,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -236,7 +198,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 90,
+      "seen_count_total": 93,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -244,7 +206,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -315,7 +277,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.12,
       "max_signal_strength": 2.6,
-      "seen_count_total": 84,
+      "seen_count_total": 87,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -324,7 +286,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -376,52 +338,6 @@
         }
       ],
       "velocity_7run_delta": 0.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "health tracking smart ring",
-      "name": "Health Tracking Smart Ring",
-      "name_zh": null,
-      "signal_count": 2,
-      "source_types": [
-        "media",
-        "search"
-      ],
-      "source_names": [
-        "Engadget",
-        "Google Trends US Daily"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.02,
-      "max_signal_strength": 3.05,
-      "seen_count_total": 2,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-05-21T20:52:39.696304Z",
-      "last_seen_at": "2026-05-25T20:24:21.540681Z",
-      "evidence_signal_ids": [
-        "S305",
-        "S338"
-      ],
-      "top_signals": [
-        {
-          "id": "S305",
-          "source_name": "Google Trends US Daily",
-          "source_type": "search",
-          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
-          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
-          "signal_strength": 3.05
-        },
-        {
-          "id": "S338",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
-          "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
-          "signal_strength": 1.0
-        }
-      ],
-      "velocity_7run_delta": 0.67,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -497,7 +413,7 @@
           "signal_strength": 1.15
         }
       ],
-      "velocity_7run_delta": 0.14,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -614,7 +530,63 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.43,
+      "velocity_7run_delta": 0.29,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "health tracking smart ring",
+      "name": "Health Tracking Smart Ring",
+      "name_zh": null,
+      "signal_count": 3,
+      "source_types": [
+        "media",
+        "search"
+      ],
+      "source_names": [
+        "Engadget",
+        "Google Trends US Daily",
+        "TechCrunch Hardware"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.68,
+      "max_signal_strength": 3.05,
+      "seen_count_total": 3,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-21T20:52:39.696304Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
+      "evidence_signal_ids": [
+        "S305",
+        "S338",
+        "S361"
+      ],
+      "top_signals": [
+        {
+          "id": "S305",
+          "source_name": "Google Trends US Daily",
+          "source_type": "search",
+          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
+          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
+          "signal_strength": 3.05
+        },
+        {
+          "id": "S338",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
+          "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
+          "signal_strength": 1.0
+        },
+        {
+          "id": "S361",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Oura unveils its Ring 5 with a thinner, lighter design starting at $399",
+          "source_url": "https://techcrunch.com/2026/05/28/oura-unveils-its-ring-5-with-a-thinner-lighter-design-starting-at-399/",
+          "signal_strength": 1.0
+        }
+      ],
+      "velocity_7run_delta": 1.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -688,7 +660,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 97,
+      "signal_count": 100,
       "source_types": [
         "community",
         "media"
@@ -700,7 +672,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.3,
       "max_signal_strength": 2.7,
-      "seen_count_total": 208,
+      "seen_count_total": 211,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -710,7 +682,7 @@
         "openclaw_hardware_bridge"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -808,7 +780,10 @@
         "S349",
         "S354",
         "S356",
-        "S359"
+        "S359",
+        "S363",
+        "S366",
+        "S368"
       ],
       "top_signals": [
         {
@@ -860,7 +835,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 48,
+      "signal_count": 49,
       "source_types": [
         "community",
         "crowdfunding",
@@ -886,9 +861,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.3,
+      "avg_signal_strength": 1.28,
       "max_signal_strength": 2.55,
-      "seen_count_total": 524,
+      "seen_count_total": 548,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -897,7 +872,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -946,7 +921,8 @@
         "S328",
         "S329",
         "S339",
-        "S353"
+        "S353",
+        "S362"
       ],
       "top_signals": [
         {
@@ -990,7 +966,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 4.43,
+      "velocity_7run_delta": 4.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -998,7 +974,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 112,
+      "signal_count": 115,
       "source_types": [
         "community",
         "media"
@@ -1010,7 +986,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.09,
       "max_signal_strength": 2.35,
-      "seen_count_total": 196,
+      "seen_count_total": 199,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_coding_agent_ecosystem",
@@ -1021,7 +997,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1134,7 +1110,10 @@
         "S355",
         "S357",
         "S358",
-        "S360"
+        "S360",
+        "S364",
+        "S367",
+        "S369"
       ],
       "top_signals": [
         {
@@ -1178,7 +1157,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 15.57,
+      "velocity_7run_delta": 14.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1290,6 +1269,44 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
+      "trend_key": "smart home sensor",
+      "name": "Smart Home Sensor",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.95,
+      "max_signal_strength": 2.95,
+      "seen_count_total": 2,
+      "matched_watch_topics": [
+        "big_tech_peripherals",
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-05-26T20:57:19.079933Z",
+      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "evidence_signal_ids": [
+        "S344"
+      ],
+      "top_signals": [
+        {
+          "id": "S344",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "These metal washers are replacing smart home sensors, and they work without a single wire or battery",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1to0d74/these_metal_washers_are_replacing_smart_home/",
+          "signal_strength": 2.95
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
       "trend_key": "watch:github_ai_projects",
       "name": "Hot GitHub AI Projects",
       "name_zh": null,
@@ -1303,12 +1320,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 42,
+      "seen_count_total": 43,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1375,14 +1392,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 24,
+      "seen_count_total": 25,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -1701,12 +1718,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.45,
       "max_signal_strength": 2.45,
-      "seen_count_total": 10,
+      "seen_count_total": 11,
       "matched_watch_topics": [
         "programmable_keyboard_ecosystem"
       ],
       "first_seen_at": "2026-05-16T20:03:40.640356Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
       "evidence_signal_ids": [
         "S256"
       ],
@@ -2138,6 +2155,41 @@
         }
       ],
       "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "smart health ring",
+      "name": "Smart Health Ring",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "The Verge"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 1.0,
+      "max_signal_strength": 1.0,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-28T21:11:15.771461Z",
+      "last_seen_at": "2026-05-28T21:11:15.771461Z",
+      "evidence_signal_ids": [
+        "S365"
+      ],
+      "top_signals": [
+        {
+          "id": "S365",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Here’s where you can preorder the new Oura Ring 5",
+          "source_url": "https://www.theverge.com/gadgets/938380/oura-ring-5-preorder-price-release-date-availability",
+          "signal_strength": 1.0
+        }
+      ],
+      "velocity_7run_delta": 1,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },

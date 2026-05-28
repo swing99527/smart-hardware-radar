@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-27T21:04:28.282886Z",
+  "generated_at": "2026-05-28T21:11:15.771461Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 49,
+      "signal_count": 50,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -101,7 +101,8 @@
         "S328",
         "S329",
         "S339",
-        "S353"
+        "S353",
+        "S362"
       ],
       "top_signals": [
         {
@@ -538,7 +539,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 237,
+      "signal_count": 243,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -779,7 +780,13 @@
         "S357",
         "S358",
         "S359",
-        "S360"
+        "S360",
+        "S363",
+        "S364",
+        "S366",
+        "S367",
+        "S368",
+        "S369"
       ],
       "top_signals": [
         {
@@ -807,19 +814,19 @@
           "signal_strength": 2.75
         },
         {
-          "id": "S344",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "These metal washers are replacing smart home sensors, and they work without a single wire or battery",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1to0d74/these_metal_washers_are_replacing_smart_home/",
-          "signal_strength": 2.95
-        },
-        {
           "id": "S066",
           "source_name": "GitHub Robot Agent Kit",
           "source_type": "developer",
           "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
           "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S130",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
           "signal_strength": 2.7
         }
       ],
@@ -1078,22 +1085,24 @@
         "early adopters"
       ],
       "evidence_status": "Watch",
-      "evidence_score": 48,
+      "evidence_score": 52,
       "source_mix": {
         "media": 1,
         "search": 1
       },
       "source_names": [
         "Engadget",
-        "Google Trends US Daily"
+        "Google Trends US Daily",
+        "TechCrunch Hardware"
       ],
-      "signal_count": 2,
+      "signal_count": 3,
       "trend_key": "health tracking smart ring",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S305",
-        "S338"
+        "S338",
+        "S361"
       ],
       "top_signals": [
         {
@@ -1110,6 +1119,14 @@
           "source_type": "media",
           "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
           "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
+          "signal_strength": 1.0
+        },
+        {
+          "id": "S361",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Oura unveils its Ring 5 with a thinner, lighter design starting at $399",
+          "source_url": "https://techcrunch.com/2026/05/28/oura-unveils-its-ring-5-with-a-thinner-lighter-design-starting-at-399/",
           "signal_strength": 1.0
         }
       ],
@@ -1395,6 +1412,60 @@
         "fcc_bluetooth_bom_check"
       ],
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M015",
+      "thesis_key": "emerging_smart_health_ring",
+      "name": "Smart Health Ring",
+      "name_zh": "Smart Health Ring",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Health Ring"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "The Verge"
+      ],
+      "signal_count": 1,
+      "trend_key": "smart health ring",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S365"
+      ],
+      "top_signals": [
+        {
+          "id": "S365",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Here’s where you can preorder the new Oura Ring 5",
+          "source_url": "https://www.theverge.com/gadgets/938380/oura-ring-5-preorder-price-release-date-availability",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     }
   ]
 }
