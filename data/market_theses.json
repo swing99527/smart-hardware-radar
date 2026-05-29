@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-28T21:11:15.771461Z",
+  "generated_at": "2026-05-29T21:10:19.669107Z",
   "theses": [
     {
       "id": "M001",
@@ -178,7 +178,7 @@
         "Indiegogo Tech",
         "Reddit r/smarthome"
       ],
-      "signal_count": 7,
+      "signal_count": 8,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -189,7 +189,8 @@
         "S007",
         "S084",
         "S133",
-        "S300"
+        "S300",
+        "S377"
       ],
       "top_signals": [
         {
@@ -266,7 +267,7 @@
         "TechCrunch Hardware",
         "The Verge"
       ],
-      "signal_count": 6,
+      "signal_count": 7,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -276,9 +277,26 @@
         "S236",
         "S246",
         "S320",
-        "S332"
+        "S332",
+        "S376"
       ],
       "top_signals": [
+        {
+          "id": "S332",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Unannounced Apple headphones revealed in FCC documents",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
+          "signal_strength": 3.15
+        },
+        {
+          "id": "S376",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
+          "signal_strength": 3.0
+        },
         {
           "id": "S246",
           "source_name": "Reddit r/gadgets",
@@ -301,22 +319,6 @@
           "source_type": "media",
           "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
           "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S332",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Unannounced Apple headphones revealed in FCC documents",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
-          "signal_strength": 3.15
-        },
-        {
-          "id": "S166",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
-          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
           "signal_strength": 0.9
         }
       ],
@@ -539,7 +541,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 243,
+      "signal_count": 250,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -786,7 +788,14 @@
         "S366",
         "S367",
         "S368",
-        "S369"
+        "S369",
+        "S370",
+        "S371",
+        "S373",
+        "S374",
+        "S375",
+        "S378",
+        "S379"
       ],
       "top_signals": [
         {
@@ -1009,7 +1018,7 @@
         "GitHub AI Recorder Device",
         "TechCrunch Hardware"
       ],
-      "signal_count": 7,
+      "signal_count": 8,
       "trend_key": "watch:ai_recorder",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1020,9 +1029,18 @@
         "S076",
         "S082",
         "S098",
-        "S183"
+        "S183",
+        "S372"
       ],
       "top_signals": [
+        {
+          "id": "S372",
+          "source_name": "GitHub AI Recorder Device",
+          "source_type": "developer",
+          "source_title": "alphacep/vosk-api - Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
+          "source_url": "https://github.com/alphacep/vosk-api",
+          "signal_strength": 3.45
+        },
         {
           "id": "S065",
           "source_name": "GitHub AI Recorder Device",
@@ -1037,14 +1055,6 @@
           "source_type": "developer",
           "source_title": "vilassn/whisper_android - Offline Speech Recognition with OpenAI Whisper and TensorFlow Lite for Android",
           "source_url": "https://github.com/vilassn/whisper_android",
-          "signal_strength": 2.05
-        },
-        {
-          "id": "S076",
-          "source_name": "GitHub AI Recorder Device",
-          "source_type": "developer",
-          "source_title": "Xingxun7777/Aria - Windows 本地 AI 语音输入法 — 离线语音识别，屏幕感知上下文，热词纠错，语音指令操作选区。Local AI voice typing for Windows — offline speech-to-text with screen-aware context.",
-          "source_url": "https://github.com/Xingxun7777/Aria",
           "signal_strength": 2.05
         },
         {
@@ -1085,24 +1095,22 @@
         "early adopters"
       ],
       "evidence_status": "Watch",
-      "evidence_score": 52,
+      "evidence_score": 48,
       "source_mix": {
         "media": 1,
         "search": 1
       },
       "source_names": [
         "Engadget",
-        "Google Trends US Daily",
-        "TechCrunch Hardware"
+        "Google Trends US Daily"
       ],
-      "signal_count": 3,
+      "signal_count": 2,
       "trend_key": "health tracking smart ring",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S305",
-        "S338",
-        "S361"
+        "S338"
       ],
       "top_signals": [
         {
@@ -1119,14 +1127,6 @@
           "source_type": "media",
           "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
           "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
-          "signal_strength": 1.0
-        },
-        {
-          "id": "S361",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Oura unveils its Ring 5 with a thinner, lighter design starting at $399",
-          "source_url": "https://techcrunch.com/2026/05/28/oura-unveils-its-ring-5-with-a-thinner-lighter-design-starting-at-399/",
           "signal_strength": 1.0
         }
       ],
@@ -1426,21 +1426,31 @@
         "early adopters"
       ],
       "evidence_status": "Noise",
-      "evidence_score": 16,
+      "evidence_score": 22,
       "source_mix": {
         "media": 1
       },
       "source_names": [
+        "TechCrunch Hardware",
         "The Verge"
       ],
-      "signal_count": 1,
+      "signal_count": 2,
       "trend_key": "smart health ring",
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness",
       "evidence_signal_ids": [
+        "S361",
         "S365"
       ],
       "top_signals": [
+        {
+          "id": "S361",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Oura unveils its Ring 5 with a thinner, lighter design starting at $399",
+          "source_url": "https://techcrunch.com/2026/05/28/oura-unveils-its-ring-5-with-a-thinner-lighter-design-starting-at-399/",
+          "signal_strength": 1.0
+        },
         {
           "id": "S365",
           "source_name": "The Verge",
