@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-29T21:10:19.669107Z",
+  "generated_at": "2026-05-30T20:11:24.169396Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 90,
+      "seen_count_total": 93,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -114,7 +114,7 @@
           "signal_strength": 3.0
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.83,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -136,7 +136,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 571,
+      "seen_count_total": 584,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -144,7 +144,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -225,7 +225,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.43,
+      "velocity_7run_delta": 0.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -244,7 +244,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 96,
+      "seen_count_total": 99,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -252,7 +252,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -323,7 +323,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.31,
       "max_signal_strength": 3.45,
-      "seen_count_total": 90,
+      "seen_count_total": 93,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -332,7 +332,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -384,53 +384,7 @@
           "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 1.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "health tracking smart ring",
-      "name": "Health Tracking Smart Ring",
-      "name_zh": null,
-      "signal_count": 2,
-      "source_types": [
-        "media",
-        "search"
-      ],
-      "source_names": [
-        "Engadget",
-        "Google Trends US Daily"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.02,
-      "max_signal_strength": 3.05,
-      "seen_count_total": 2,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-05-21T20:52:39.696304Z",
-      "last_seen_at": "2026-05-25T20:24:21.540681Z",
-      "evidence_signal_ids": [
-        "S305",
-        "S338"
-      ],
-      "top_signals": [
-        {
-          "id": "S305",
-          "source_name": "Google Trends US Daily",
-          "source_type": "search",
-          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
-          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
-          "signal_strength": 3.05
-        },
-        {
-          "id": "S338",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
-          "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
-          "signal_strength": 1.0
-        }
-      ],
-      "velocity_7run_delta": 0.29,
+      "velocity_7run_delta": 0.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -438,24 +392,25 @@
       "trend_key": "cluster:smart_home_security",
       "name": "Smart Home Security Device",
       "name_zh": "智能家居安防设备",
-      "signal_count": 7,
+      "signal_count": 8,
       "source_types": [
         "community",
         "media"
       ],
       "source_names": [
         "Gizmodo",
+        "Hacker News Show",
         "Reddit r/smarthome"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.96,
+      "avg_signal_strength": 1.94,
       "max_signal_strength": 2.8,
-      "seen_count_total": 48,
+      "seen_count_total": 50,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S003",
         "S004",
@@ -463,7 +418,8 @@
         "S007",
         "S084",
         "S300",
-        "S377"
+        "S377",
+        "S384"
       ],
       "top_signals": [
         {
@@ -507,7 +463,7 @@
           "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 1.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -624,7 +580,63 @@
           "signal_strength": 0.9
         }
       ],
-      "velocity_7run_delta": 0.14,
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "health tracking smart ring",
+      "name": "Health Tracking Smart Ring",
+      "name_zh": null,
+      "signal_count": 3,
+      "source_types": [
+        "media",
+        "search"
+      ],
+      "source_names": [
+        "Engadget",
+        "Gizmodo",
+        "Google Trends US Daily"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.68,
+      "max_signal_strength": 3.05,
+      "seen_count_total": 3,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-21T20:52:39.696304Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
+      "evidence_signal_ids": [
+        "S305",
+        "S338",
+        "S380"
+      ],
+      "top_signals": [
+        {
+          "id": "S305",
+          "source_name": "Google Trends US Daily",
+          "source_type": "search",
+          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
+          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
+          "signal_strength": 3.05
+        },
+        {
+          "id": "S338",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
+          "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
+          "signal_strength": 1.0
+        },
+        {
+          "id": "S380",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Oura’s Ring 5 Is Its Slimmest and Most Accurate Smart Ring Yet - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPODc5WDc4NFRsNUJkYXFSTU1qR2FLY2dyZXdLdWh1bG1CNjVCcDROQzVEckpOVU85U0xCdm9zLVl1QWh5Y05VWDNlYXF5YkxQNHo4dExyUjN3dmFnS0pQeUpiMmlIUzE4Rzl4c0NFZUxqcEZTS3hKR3BuWnRCRXI5LVlVU3h0UmQ2emttQ05GNlVqWFBrMkE?oc=5",
+          "signal_strength": 1.0
+        }
+      ],
+      "velocity_7run_delta": 1.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -698,7 +710,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 103,
+      "signal_count": 106,
       "source_types": [
         "community",
         "media"
@@ -710,7 +722,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.3,
       "max_signal_strength": 2.7,
-      "seen_count_total": 217,
+      "seen_count_total": 223,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -720,7 +732,7 @@
         "openclaw_hardware_bridge"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -824,7 +836,10 @@
         "S368",
         "S370",
         "S373",
-        "S378"
+        "S378",
+        "S382",
+        "S385",
+        "S387"
       ],
       "top_signals": [
         {
@@ -876,7 +891,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 49,
+      "signal_count": 50,
       "source_types": [
         "community",
         "crowdfunding",
@@ -902,9 +917,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.28,
+      "avg_signal_strength": 1.3,
       "max_signal_strength": 2.55,
-      "seen_count_total": 570,
+      "seen_count_total": 592,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -913,7 +928,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -963,7 +978,8 @@
         "S329",
         "S339",
         "S353",
-        "S362"
+        "S362",
+        "S381"
       ],
       "top_signals": [
         {
@@ -1007,7 +1023,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 3.0,
+      "velocity_7run_delta": 2.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1015,7 +1031,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 119,
+      "signal_count": 122,
       "source_types": [
         "community",
         "media"
@@ -1027,7 +1043,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.09,
       "max_signal_strength": 2.35,
-      "seen_count_total": 205,
+      "seen_count_total": 211,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_coding_agent_ecosystem",
@@ -1038,7 +1054,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1158,7 +1174,10 @@
         "S371",
         "S374",
         "S375",
-        "S379"
+        "S379",
+        "S383",
+        "S386",
+        "S388"
       ],
       "top_signals": [
         {
@@ -1202,7 +1221,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 15.14,
+      "velocity_7run_delta": 14.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1290,13 +1309,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.95,
       "max_signal_strength": 2.95,
-      "seen_count_total": 2,
+      "seen_count_total": 3,
       "matched_watch_topics": [
         "big_tech_peripherals",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-26T20:57:19.079933Z",
-      "last_seen_at": "2026-05-27T21:04:28.282886Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S344"
       ],
@@ -1328,12 +1347,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 44,
+      "seen_count_total": 45,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1400,14 +1419,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 26,
+      "seen_count_total": 27,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -1726,12 +1745,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.45,
       "max_signal_strength": 2.45,
-      "seen_count_total": 12,
+      "seen_count_total": 13,
       "matched_watch_topics": [
         "programmable_keyboard_ecosystem"
       ],
       "first_seen_at": "2026-05-16T20:03:40.640356Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-05-30T20:11:24.169396Z",
       "evidence_signal_ids": [
         "S256"
       ],
@@ -2172,7 +2191,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.5,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
