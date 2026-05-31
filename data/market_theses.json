@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-30T20:11:24.169396Z",
+  "generated_at": "2026-05-31T20:15:04.095683Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 51,
+      "signal_count": 52,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -103,7 +103,8 @@
         "S339",
         "S353",
         "S362",
-        "S381"
+        "S381",
+        "S395"
       ],
       "top_signals": [
         {
@@ -355,17 +356,18 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
+        "product_launch": 2,
         "community": 2,
-        "media": 1,
-        "product_launch": 1
+        "media": 2
       },
       "source_names": [
         "Engadget",
+        "Gizmodo",
         "Product Hunt",
         "Reddit r/gadgets",
         "Reddit r/smarthome"
       ],
-      "signal_count": 4,
+      "signal_count": 6,
       "trend_key": "gaming monitor",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -373,9 +375,19 @@
         "S011",
         "S157",
         "S212",
-        "S293"
+        "S293",
+        "S380",
+        "S394"
       ],
       "top_signals": [
+        {
+          "id": "S394",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Wingbits AI",
+          "source_url": "https://www.producthunt.com/products/wingbits-ai",
+          "signal_strength": 2.3
+        },
         {
           "id": "S293",
           "source_name": "Reddit r/gadgets",
@@ -506,6 +518,78 @@
     },
     {
       "id": "M006",
+      "thesis_key": "emerging_health_tracking_smart_ring",
+      "name": "Health Tracking Smart Ring",
+      "name_zh": "Health Tracking Smart Ring",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Health Tracking Smart Ring"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 73,
+      "source_mix": {
+        "media": 1,
+        "product_launch": 1,
+        "search": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Google Trends US Daily",
+        "Product Hunt",
+        "TechCrunch Hardware"
+      ],
+      "signal_count": 4,
+      "trend_key": "health tracking smart ring",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S305",
+        "S338",
+        "S361",
+        "S391"
+      ],
+      "top_signals": [
+        {
+          "id": "S305",
+          "source_name": "Google Trends US Daily",
+          "source_type": "search",
+          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
+          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
+          "signal_strength": 3.05
+        },
+        {
+          "id": "S391",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Oura Ring 5",
+          "source_url": "https://www.producthunt.com/products/oura",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S338",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
+          "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 73 with source mix media, product_launch, search."
+    },
+    {
+      "id": "M007",
       "thesis_key": "agentic_edge_io_nodes",
       "name": "Agentic edge I/O nodes",
       "name_zh": "智能体边缘 I/O 节点",
@@ -544,7 +628,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 256,
+      "signal_count": 262,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -804,7 +888,13 @@
         "S385",
         "S386",
         "S387",
-        "S388"
+        "S388",
+        "S389",
+        "S390",
+        "S392",
+        "S393",
+        "S396",
+        "S397"
       ],
       "top_signals": [
         {
@@ -864,7 +954,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M007",
+      "id": "M008",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -1000,7 +1090,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M008",
+      "id": "M009",
       "thesis_key": "ai_voice_capture_workflow",
       "name": "AI voice capture workflow devices",
       "name_zh": "AI语音采集工作流设备",
@@ -1090,79 +1180,6 @@
         "amazon_competition_snapshot"
       ],
       "confidence_reason": "Watch because the thesis needs Demand behavior, Market validation."
-    },
-    {
-      "id": "M009",
-      "thesis_key": "emerging_health_tracking_smart_ring",
-      "name": "Health Tracking Smart Ring",
-      "name_zh": "Health Tracking Smart Ring",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "Health Tracking Smart Ring"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 52,
-      "source_mix": {
-        "media": 1,
-        "search": 1
-      },
-      "source_names": [
-        "Engadget",
-        "Gizmodo",
-        "Google Trends US Daily"
-      ],
-      "signal_count": 3,
-      "trend_key": "health tracking smart ring",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S305",
-        "S338",
-        "S380"
-      ],
-      "top_signals": [
-        {
-          "id": "S305",
-          "source_name": "Google Trends US Daily",
-          "source_type": "search",
-          "source_title": "Oura Ring 5 launch date leaks and it's next week - GSMArena.com news",
-          "source_url": "https://www.gsmarena.com/oura_ring_5_launch_date_leaks_and_its_next_week-news-72936.php",
-          "signal_strength": 3.05
-        },
-        {
-          "id": "S338",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "Ultrahuman Ring Pro review: The future of smart rings looks a lot like its present",
-          "source_url": "https://www.engadget.com/2172740/ultrahuman-ring-pro-review/",
-          "signal_strength": 1.0
-        },
-        {
-          "id": "S380",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Oura’s Ring 5 Is Its Slimmest and Most Accurate Smart Ring Yet - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPODc5WDc4NFRsNUJkYXFSTU1qR2FLY2dyZXdLdWh1bG1CNjVCcDROQzVEckpOVU85U0xCdm9zLVl1QWh5Y05VWDNlYXF5YkxQNHo4dExyUjN3dmFnS0pQeUpiMmlIUzE4Rzl4c0NFZUxqcEZTS3hKR3BuWnRCRXI5LVlVU3h0UmQ2emttQ05GNlVqWFBrMkE?oc=5",
-          "signal_strength": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
       "id": "M010",
@@ -1445,31 +1462,21 @@
         "early adopters"
       ],
       "evidence_status": "Noise",
-      "evidence_score": 22,
+      "evidence_score": 16,
       "source_mix": {
         "media": 1
       },
       "source_names": [
-        "TechCrunch Hardware",
         "The Verge"
       ],
-      "signal_count": 2,
+      "signal_count": 1,
       "trend_key": "smart health ring",
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness",
       "evidence_signal_ids": [
-        "S361",
         "S365"
       ],
       "top_signals": [
-        {
-          "id": "S361",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Oura unveils its Ring 5 with a thinner, lighter design starting at $399",
-          "source_url": "https://techcrunch.com/2026/05/28/oura-unveils-its-ring-5-with-a-thinner-lighter-design-starting-at-399/",
-          "signal_strength": 1.0
-        },
         {
           "id": "S365",
           "source_name": "The Verge",
