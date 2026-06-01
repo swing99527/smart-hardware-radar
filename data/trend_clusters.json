@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-31T20:15:04.095683Z",
+  "generated_at": "2026-06-01T22:12:52.229833Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 96,
+      "seen_count_total": 99,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -73,10 +73,10 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "wireless noise cancelling headphones",
-      "name": "Wireless Noise-cancelling Headphones",
+      "trend_key": "wireless headphones",
+      "name": "Wireless Headphones",
       "name_zh": null,
-      "signal_count": 2,
+      "signal_count": 1,
       "source_types": [
         "community"
       ],
@@ -84,37 +84,26 @@
         "Reddit r/gadgets"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 3.08,
-      "max_signal_strength": 3.15,
+      "avg_signal_strength": 2.75,
+      "max_signal_strength": 2.75,
       "seen_count_total": 2,
-      "matched_watch_topics": [
-        "big_tech_peripherals"
-      ],
-      "first_seen_at": "2026-05-24T20:10:08.750674Z",
-      "last_seen_at": "2026-05-29T21:10:19.669107Z",
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-29T21:10:19.669107Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
-        "S332",
         "S376"
       ],
       "top_signals": [
-        {
-          "id": "S332",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Unannounced Apple headphones revealed in FCC documents",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
-          "signal_strength": 3.15
-        },
         {
           "id": "S376",
           "source_name": "Reddit r/gadgets",
           "source_type": "community",
           "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
           "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
-          "signal_strength": 3.0
+          "signal_strength": 2.75
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 1,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -136,7 +125,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 597,
+      "seen_count_total": 610,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -144,7 +133,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -225,7 +214,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.14,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -244,7 +233,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 102,
+      "seen_count_total": 105,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -252,7 +241,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -323,7 +312,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.31,
       "max_signal_strength": 3.45,
-      "seen_count_total": 96,
+      "seen_count_total": 99,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -332,7 +321,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -384,42 +373,7 @@
           "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 0.71,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "health monitor",
-      "name": "Health Monitor",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "product_launch"
-      ],
-      "source_names": [
-        "Product Hunt"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.3,
-      "max_signal_strength": 2.3,
-      "seen_count_total": 1,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-05-31T20:15:04.095683Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
-      "evidence_signal_ids": [
-        "S394"
-      ],
-      "top_signals": [
-        {
-          "id": "S394",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Wingbits AI",
-          "source_url": "https://www.producthunt.com/products/wingbits-ai",
-          "signal_strength": 2.3
-        }
-      ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -440,12 +394,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.94,
       "max_signal_strength": 2.8,
-      "seen_count_total": 51,
+      "seen_count_total": 53,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S003",
         "S004",
@@ -498,7 +452,7 @@
           "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 1.57,
+      "velocity_7run_delta": 1.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -565,55 +519,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 1.86,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "gaming monitor",
-      "name": "Gaming Monitor",
-      "name_zh": null,
-      "signal_count": 2,
-      "source_types": [
-        "community",
-        "media"
-      ],
-      "source_names": [
-        "Engadget",
-        "Reddit r/gadgets"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 1.82,
-      "max_signal_strength": 2.75,
-      "seen_count_total": 19,
-      "matched_watch_topics": [
-        "github_ai_projects"
-      ],
-      "first_seen_at": "2026-05-01T15:36:43.010443Z",
-      "last_seen_at": "2026-05-25T20:24:21.540681Z",
-      "evidence_signal_ids": [
-        "S011",
-        "S293"
-      ],
-      "top_signals": [
-        {
-          "id": "S293",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
-          "signal_strength": 2.75
-        },
-        {
-          "id": "S011",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
-          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
-          "signal_strength": 0.9
-        }
-      ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -687,6 +593,64 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "gaming monitor",
+      "name": "Gaming Monitor",
+      "name_zh": null,
+      "signal_count": 3,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Engadget",
+        "Reddit r/gadgets",
+        "The Verge"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.47,
+      "max_signal_strength": 2.75,
+      "seen_count_total": 20,
+      "matched_watch_topics": [
+        "github_ai_projects"
+      ],
+      "first_seen_at": "2026-05-01T15:36:43.010443Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
+      "evidence_signal_ids": [
+        "S011",
+        "S293",
+        "S403"
+      ],
+      "top_signals": [
+        {
+          "id": "S293",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S011",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S403",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Sony’s new fight stick and gaming monitor launch in August",
+          "source_url": "https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price",
+          "signal_strength": 0.75
+        }
+      ],
+      "velocity_7run_delta": 1.0,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "robot vacuum",
       "name": "Robot Vacuum",
       "name_zh": null,
@@ -753,151 +717,10 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "watch:geek_ai_productivity_hardware",
-      "name": "Geek AI Productivity Hardware",
-      "name_zh": null,
-      "signal_count": 51,
-      "source_types": [
-        "community",
-        "crowdfunding",
-        "developer",
-        "media",
-        "product_reference"
-      ],
-      "source_names": [
-        "CharaChorder",
-        "Elgato Stream Deck",
-        "Geek AI Productivity Hardware News",
-        "GitHub Programmable Keyboard Firmware",
-        "GitHub Stream Deck Plugin Ecosystem",
-        "Glove80",
-        "Indiegogo Geek Productivity Hardware",
-        "Keychron",
-        "Kickstarter Geek Productivity Hardware",
-        "Loupedeck",
-        "Naya",
-        "Reddit Geek Productivity Hardware Search",
-        "Wooting",
-        "Work Louder",
-        "ZSA Moonlander"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 1.31,
-      "max_signal_strength": 2.55,
-      "seen_count_total": 614,
-      "matched_watch_topics": [
-        "ai_model_peripherals",
-        "big_tech_peripherals",
-        "geek_ai_productivity_hardware",
-        "programmable_keyboard_ecosystem",
-        "workflow_plugin_hardware"
-      ],
-      "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
-      "evidence_signal_ids": [
-        "S109",
-        "S110",
-        "S111",
-        "S112",
-        "S113",
-        "S114",
-        "S115",
-        "S116",
-        "S117",
-        "S118",
-        "S119",
-        "S121",
-        "S122",
-        "S125",
-        "S126",
-        "S127",
-        "S128",
-        "S131",
-        "S132",
-        "S135",
-        "S136",
-        "S138",
-        "S139",
-        "S146",
-        "S150",
-        "S154",
-        "S168",
-        "S171",
-        "S185",
-        "S188",
-        "S191",
-        "S205",
-        "S208",
-        "S215",
-        "S245",
-        "S250",
-        "S261",
-        "S267",
-        "S292",
-        "S301",
-        "S302",
-        "S315",
-        "S316",
-        "S317",
-        "S328",
-        "S329",
-        "S339",
-        "S353",
-        "S362",
-        "S381",
-        "S395"
-      ],
-      "top_signals": [
-        {
-          "id": "S131",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
-          "source_url": "https://github.com/qmk/qmk_firmware",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S135",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
-          "source_url": "https://github.com/zmkfirmware/zmk",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S138",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
-          "source_url": "https://github.com/qmk/qmk_toolbox",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S119",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlTc0NoZG1hLUJNeUMxbDd4VW8tTkhjNW5Jd1dfSXFrQW1OUjMwYTZ1YjFXX2lQekRmMzA2WmJuSUpDU1VYZGc0YnFYSk1uYjZJWk1FaXEzTno5NlRwWDAyYmh6ejNVeVdDaEhlZU1KWFhLcXB6Vk5FQUZxWGRhX1hrXzd5eEpuYWIyTm9PUkFDNXluMElZaGxCSlJQTkVrd0ZrY24teGlQOEh2aS1pS2F4OUo?oc=5",
-          "signal_strength": 2.0
-        },
-        {
-          "id": "S122",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
-          "signal_strength": 2.0
-        }
-      ],
-      "velocity_7run_delta": 3.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 109,
+      "signal_count": 112,
       "source_types": [
         "community",
         "media"
@@ -909,17 +732,18 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.3,
       "max_signal_strength": 2.7,
-      "seen_count_total": 229,
+      "seen_count_total": 235,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects",
         "hardware_intersections",
-        "openclaw_hardware_bridge"
+        "openclaw_hardware_bridge",
+        "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1029,7 +853,10 @@
         "S387",
         "S389",
         "S392",
-        "S396"
+        "S396",
+        "S399",
+        "S401",
+        "S405"
       ],
       "top_signals": [
         {
@@ -1078,10 +905,152 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "watch:geek_ai_productivity_hardware",
+      "name": "Geek AI Productivity Hardware",
+      "name_zh": null,
+      "signal_count": 52,
+      "source_types": [
+        "community",
+        "crowdfunding",
+        "developer",
+        "media",
+        "product_reference"
+      ],
+      "source_names": [
+        "CharaChorder",
+        "Elgato Stream Deck",
+        "Geek AI Productivity Hardware News",
+        "GitHub Programmable Keyboard Firmware",
+        "GitHub Stream Deck Plugin Ecosystem",
+        "Glove80",
+        "Indiegogo Geek Productivity Hardware",
+        "Keychron",
+        "Kickstarter Geek Productivity Hardware",
+        "Loupedeck",
+        "Naya",
+        "Reddit Geek Productivity Hardware Search",
+        "Wooting",
+        "Work Louder",
+        "ZSA Moonlander"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.3,
+      "max_signal_strength": 2.55,
+      "seen_count_total": 636,
+      "matched_watch_topics": [
+        "ai_model_peripherals",
+        "big_tech_peripherals",
+        "geek_ai_productivity_hardware",
+        "programmable_keyboard_ecosystem",
+        "workflow_plugin_hardware"
+      ],
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
+      "evidence_signal_ids": [
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119",
+        "S121",
+        "S122",
+        "S125",
+        "S126",
+        "S127",
+        "S128",
+        "S131",
+        "S132",
+        "S135",
+        "S136",
+        "S138",
+        "S139",
+        "S146",
+        "S150",
+        "S154",
+        "S168",
+        "S171",
+        "S185",
+        "S188",
+        "S191",
+        "S205",
+        "S208",
+        "S215",
+        "S245",
+        "S250",
+        "S261",
+        "S267",
+        "S292",
+        "S301",
+        "S302",
+        "S315",
+        "S316",
+        "S317",
+        "S328",
+        "S329",
+        "S339",
+        "S353",
+        "S362",
+        "S381",
+        "S395",
+        "S398"
+      ],
+      "top_signals": [
+        {
+          "id": "S131",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+          "source_url": "https://github.com/qmk/qmk_firmware",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S135",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+          "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S119",
+          "source_name": "Kickstarter Geek Productivity Hardware",
+          "source_type": "crowdfunding",
+          "source_title": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
+          "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlTc0NoZG1hLUJNeUMxbDd4VW8tTkhjNW5Jd1dfSXFrQW1OUjMwYTZ1YjFXX2lQekRmMzA2WmJuSUpDU1VYZGc0YnFYSk1uYjZJWk1FaXEzTno5NlRwWDAyYmh6ejNVeVdDaEhlZU1KWFhLcXB6Vk5FQUZxWGRhX1hrXzd5eEpuYWIyTm9PUkFDNXluMElZaGxCSlJQTkVrd0ZrY24teGlQOEh2aS1pS2F4OUo?oc=5",
+          "signal_strength": 2.0
+        },
+        {
+          "id": "S122",
+          "source_name": "Kickstarter Geek Productivity Hardware",
+          "source_type": "crowdfunding",
+          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
+          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
+          "signal_strength": 2.0
+        }
+      ],
+      "velocity_7run_delta": 3.29,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 125,
+      "signal_count": 129,
       "source_types": [
         "community",
         "media"
@@ -1093,7 +1062,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.1,
       "max_signal_strength": 2.35,
-      "seen_count_total": 217,
+      "seen_count_total": 223,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_coding_agent_ecosystem",
@@ -1104,7 +1073,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1230,7 +1199,11 @@
         "S388",
         "S390",
         "S393",
-        "S397"
+        "S397",
+        "S400",
+        "S402",
+        "S404",
+        "S406"
       ],
       "top_signals": [
         {
@@ -1274,9 +1247,46 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 13.86,
+      "velocity_7run_delta": 14.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "wireless noise cancelling headphones",
+      "name": "Wireless Noise-cancelling Headphones",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/gadgets"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 3.15,
+      "max_signal_strength": 3.15,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "big_tech_peripherals"
+      ],
+      "first_seen_at": "2026-05-24T20:10:08.750674Z",
+      "last_seen_at": "2026-05-24T20:10:08.750674Z",
+      "evidence_signal_ids": [
+        "S332"
+      ],
+      "top_signals": [
+        {
+          "id": "S332",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Unannounced Apple headphones revealed in FCC documents",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
+          "signal_strength": 3.15
+        }
+      ],
+      "velocity_7run_delta": -0.43,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
     },
     {
       "trend_key": "ai art ceiling light",
@@ -1400,12 +1410,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 46,
+      "seen_count_total": 47,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1472,14 +1482,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 28,
+      "seen_count_total": 29,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-06-01T22:12:52.229833Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -1934,6 +1944,41 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
+      "trend_key": "health monitor",
+      "name": "Health Monitor",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "product_launch"
+      ],
+      "source_names": [
+        "Product Hunt"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.3,
+      "max_signal_strength": 2.3,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-05-31T20:15:04.095683Z",
+      "last_seen_at": "2026-05-31T20:15:04.095683Z",
+      "evidence_signal_ids": [
+        "S394"
+      ],
+      "top_signals": [
+        {
+          "id": "S394",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Wingbits AI",
+          "source_url": "https://www.producthunt.com/products/wingbits-ai",
+          "signal_strength": 2.3
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
       "trend_key": "smart home air quality monitor",
       "name": "Smart Home Air Quality Monitor",
       "name_zh": null,
@@ -2269,7 +2314,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -2304,7 +2349,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": -0.67,
+      "velocity_7run_delta": -0.5,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },

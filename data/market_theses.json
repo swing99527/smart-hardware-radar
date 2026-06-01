@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-05-31T20:15:04.095683Z",
+  "generated_at": "2026-06-01T22:12:52.229833Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 52,
+      "signal_count": 53,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -104,7 +104,8 @@
         "S353",
         "S362",
         "S381",
-        "S395"
+        "S395",
+        "S398"
       ],
       "top_signals": [
         {
@@ -243,6 +244,103 @@
     },
     {
       "id": "M003",
+      "thesis_key": "gaming_productivity_peripherals",
+      "name": "Gaming productivity peripherals",
+      "name_zh": "游戏与效率外设",
+      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
+      "hardware_form_factors": [
+        "gaming monitor",
+        "gaming keyboard",
+        "desktop controller"
+      ],
+      "buyer_segments": [
+        "gamers",
+        "developers",
+        "desk setup buyers"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 2,
+        "media": 2,
+        "product_launch": 2
+      },
+      "source_names": [
+        "Engadget",
+        "Gizmodo",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "Reddit r/smarthome",
+        "The Verge"
+      ],
+      "signal_count": 7,
+      "trend_key": "gaming monitor",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S011",
+        "S157",
+        "S212",
+        "S293",
+        "S380",
+        "S394",
+        "S403"
+      ],
+      "top_signals": [
+        {
+          "id": "S293",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S011",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S403",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Sony’s new fight stick and gaming monitor launch in August",
+          "source_url": "https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price",
+          "signal_strength": 0.75
+        },
+        {
+          "id": "S212",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "AIFORPET",
+          "source_url": "https://www.producthunt.com/products/aiforpet",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S394",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Wingbits AI",
+          "source_url": "https://www.producthunt.com/products/wingbits-ai",
+          "signal_strength": 2.3
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M004",
       "thesis_key": "ai_model_peripheral_devices",
       "name": "AI model peripheral devices",
       "name_zh": "AI 模型周边设备",
@@ -271,7 +369,7 @@
         "TechCrunch Hardware",
         "The Verge"
       ],
-      "signal_count": 7,
+      "signal_count": 6,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -281,26 +379,9 @@
         "S236",
         "S246",
         "S320",
-        "S332",
-        "S376"
+        "S332"
       ],
       "top_signals": [
-        {
-          "id": "S332",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Unannounced Apple headphones revealed in FCC documents",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
-          "signal_strength": 3.15
-        },
-        {
-          "id": "S376",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
-          "signal_strength": 3.0
-        },
         {
           "id": "S246",
           "source_name": "Reddit r/gadgets",
@@ -324,107 +405,28 @@
           "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
           "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
           "signal_strength": 0.9
+        },
+        {
+          "id": "S332",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Unannounced Apple headphones revealed in FCC documents",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
+          "signal_strength": 3.15
+        },
+        {
+          "id": "S166",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
+          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
+          "signal_strength": 0.9
         }
       ],
       "missing_evidence": [
         "supply_chain"
       ],
       "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
-      "id": "M004",
-      "thesis_key": "gaming_productivity_peripherals",
-      "name": "Gaming productivity peripherals",
-      "name_zh": "游戏与效率外设",
-      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
-      "hardware_form_factors": [
-        "gaming monitor",
-        "gaming keyboard",
-        "desktop controller"
-      ],
-      "buyer_segments": [
-        "gamers",
-        "developers",
-        "desk setup buyers"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "product_launch": 2,
-        "community": 2,
-        "media": 2
-      },
-      "source_names": [
-        "Engadget",
-        "Gizmodo",
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 6,
-      "trend_key": "gaming monitor",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S011",
-        "S157",
-        "S212",
-        "S293",
-        "S380",
-        "S394"
-      ],
-      "top_signals": [
-        {
-          "id": "S394",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Wingbits AI",
-          "source_url": "https://www.producthunt.com/products/wingbits-ai",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S293",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
-          "signal_strength": 2.75
-        },
-        {
-          "id": "S011",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
-          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S212",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "AIFORPET",
-          "source_url": "https://www.producthunt.com/products/aiforpet",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S157",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
-          "signal_strength": 2.3
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
       "next_validation": [
         "1688_alibaba_supplier_scan",
         "fcc_bluetooth_bom_check",
@@ -452,16 +454,17 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
+        "community": 2,
         "product_launch": 2,
-        "community": 1,
         "media": 1
       },
       "source_names": [
         "36氪",
         "Product Hunt",
+        "Reddit r/gadgets",
         "Reddit r/smarthome"
       ],
-      "signal_count": 4,
+      "signal_count": 5,
       "trend_key": "wireless bluetooth speaker",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
@@ -469,9 +472,18 @@
         "S006",
         "S160",
         "S223",
-        "S253"
+        "S253",
+        "S376"
       ],
       "top_signals": [
+        {
+          "id": "S376",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
+          "signal_strength": 2.75
+        },
         {
           "id": "S253",
           "source_name": "Product Hunt",
@@ -628,7 +640,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 262,
+      "signal_count": 269,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -894,7 +906,14 @@
         "S392",
         "S393",
         "S396",
-        "S397"
+        "S397",
+        "S399",
+        "S400",
+        "S401",
+        "S402",
+        "S404",
+        "S405",
+        "S406"
       ],
       "top_signals": [
         {
