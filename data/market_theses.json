@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-01T22:12:52.229833Z",
+  "generated_at": "2026-06-02T21:52:32.071573Z",
   "theses": [
     {
       "id": "M001",
@@ -244,6 +244,103 @@
     },
     {
       "id": "M003",
+      "thesis_key": "ai_model_peripheral_devices",
+      "name": "AI model peripheral devices",
+      "name_zh": "AI 模型周边设备",
+      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
+      "hardware_form_factors": [
+        "AI dev kit",
+        "desktop AI accessory",
+        "local inference peripheral"
+      ],
+      "buyer_segments": [
+        "AI hobbyists",
+        "developers",
+        "prototype teams"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 2,
+        "media": 2,
+        "product_launch": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "SlashGear",
+        "TechCrunch Hardware",
+        "The Verge"
+      ],
+      "signal_count": 7,
+      "trend_key": "gaming controller",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S140",
+        "S166",
+        "S236",
+        "S246",
+        "S320",
+        "S332",
+        "S410"
+      ],
+      "top_signals": [
+        {
+          "id": "S246",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
+          "signal_strength": 2.9
+        },
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S236",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S332",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Unannounced Apple headphones revealed in FCC documents",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
+          "signal_strength": 3.15
+        },
+        {
+          "id": "S166",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
+          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M004",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",
@@ -332,101 +429,6 @@
         "supply_chain"
       ],
       "substitution_risk": "High from mature peripheral brands and heavy price competition.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
-      "id": "M004",
-      "thesis_key": "ai_model_peripheral_devices",
-      "name": "AI model peripheral devices",
-      "name_zh": "AI 模型周边设备",
-      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
-      "hardware_form_factors": [
-        "AI dev kit",
-        "desktop AI accessory",
-        "local inference peripheral"
-      ],
-      "buyer_segments": [
-        "AI hobbyists",
-        "developers",
-        "prototype teams"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "community": 2,
-        "media": 2,
-        "product_launch": 1
-      },
-      "source_names": [
-        "Engadget",
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "TechCrunch Hardware",
-        "The Verge"
-      ],
-      "signal_count": 6,
-      "trend_key": "gaming controller",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S140",
-        "S166",
-        "S236",
-        "S246",
-        "S320",
-        "S332"
-      ],
-      "top_signals": [
-        {
-          "id": "S246",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
-          "signal_strength": 2.9
-        },
-        {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S236",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S332",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Unannounced Apple headphones revealed in FCC documents",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
-          "signal_strength": 3.15
-        },
-        {
-          "id": "S166",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
-          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
-          "signal_strength": 0.9
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
       "next_validation": [
         "1688_alibaba_supplier_scan",
         "fcc_bluetooth_bom_check",
@@ -640,7 +642,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 269,
+      "signal_count": 276,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -913,7 +915,14 @@
         "S402",
         "S404",
         "S405",
-        "S406"
+        "S406",
+        "S407",
+        "S408",
+        "S409",
+        "S411",
+        "S412",
+        "S413",
+        "S414"
       ],
       "top_signals": [
         {
