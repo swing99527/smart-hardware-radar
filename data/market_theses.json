@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-02T21:52:32.071573Z",
+  "generated_at": "2026-06-03T21:54:05.265910Z",
   "theses": [
     {
       "id": "M001",
@@ -642,7 +642,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 276,
+      "signal_count": 282,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -922,7 +922,13 @@
         "S411",
         "S412",
         "S413",
-        "S414"
+        "S414",
+        "S416",
+        "S417",
+        "S418",
+        "S419",
+        "S420",
+        "S421"
       ],
       "top_signals": [
         {
@@ -1479,6 +1485,60 @@
     },
     {
       "id": "M015",
+      "thesis_key": "emerging_smart_fart_wearable",
+      "name": "Smart Fart Wearable",
+      "name_zh": "Smart Fart Wearable",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Fart Wearable"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 17,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "Gizmodo"
+      ],
+      "signal_count": 1,
+      "trend_key": "smart fart wearable",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S415"
+      ],
+      "top_signals": [
+        {
+          "id": "S415",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "I Wore a Smart Fart Wearable for Three Days. Here’s What I Learned - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY2x2X3AwWGdhYlcxVHNQQ2RNT2xhd3NVTlpKajlBTnBCSEd4WnZZZ3JLb2hacmFETXNYUGFBdFd3M3lnTDV1bHo4eldBSHZhWXRFNXBkc3VCM1dvVVRuREZQbG55emFfdThmOXUxS2VPeXFOOHJPTXZyUDVvWE1tamtyeE5oUGh0eXl6WXNCYXVOSllaSDdWdEd2RQ?oc=5",
+          "signal_strength": 1.15
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M016",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
