@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-04T21:00:28.391307Z",
+  "generated_at": "2026-06-05T20:49:59.569088Z",
   "theses": [
     {
       "id": "M001",
@@ -645,7 +645,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 288,
+      "signal_count": 294,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -937,7 +937,13 @@
         "S426",
         "S427",
         "S428",
-        "S429"
+        "S429",
+        "S430",
+        "S431",
+        "S432",
+        "S433",
+        "S434",
+        "S435"
       ],
       "top_signals": [
         {
