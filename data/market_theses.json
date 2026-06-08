@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-07T20:16:43.302187Z",
+  "generated_at": "2026-06-08T21:11:50.835740Z",
   "theses": [
     {
       "id": "M001",
@@ -646,7 +646,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 307,
+      "signal_count": 313,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -957,7 +957,13 @@
         "S446",
         "S447",
         "S448",
-        "S449"
+        "S449",
+        "S450",
+        "S451",
+        "S454",
+        "S455",
+        "S457",
+        "S458"
       ],
       "top_signals": [
         {
@@ -1050,7 +1056,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 39,
+      "signal_count": 40,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1093,7 +1099,8 @@
         "S247",
         "S282",
         "S311",
-        "S342"
+        "S342",
+        "S456"
       ],
       "top_signals": [
         {
@@ -1299,6 +1306,59 @@
     },
     {
       "id": "M011",
+      "thesis_key": "emerging_smart_lighting",
+      "name": "Smart Lighting",
+      "name_zh": "Smart Lighting",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Lighting"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 47,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 1,
+      "trend_key": "smart lighting",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S453"
+      ],
+      "top_signals": [
+        {
+          "id": "S453",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Best smart lighting recommendations for kitchen under-cabinet lights and indirect cove lighting?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1tzlpfp/best_smart_lighting_recommendations_for_kitchen/",
+          "signal_strength": 2.75
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M012",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -1356,7 +1416,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M012",
+      "id": "M013",
       "thesis_key": "emerging_smart_window_shades",
       "name": "Smart Window Shades",
       "name_zh": "Smart Window Shades",
@@ -1409,7 +1469,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M013",
+      "id": "M014",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -1461,7 +1521,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M014",
+      "id": "M015",
       "thesis_key": "emerging_ai_wearable",
       "name": "AI Wearable",
       "name_zh": "AI Wearable",
@@ -1513,7 +1573,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M015",
+      "id": "M016",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -1567,7 +1627,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M016",
+      "id": "M017",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -1600,6 +1660,60 @@
           "source_type": "media",
           "source_title": "Here’s where you can preorder the new Oura Ring 5",
           "source_url": "https://www.theverge.com/gadgets/938380/oura-ring-5-preorder-price-release-date-availability",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M018",
+      "thesis_key": "emerging_”的睡眠床头灯",
+      "name": "”的睡眠床头灯",
+      "name_zh": "”的睡眠床头灯",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "”的睡眠床头灯"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "36氪"
+      ],
+      "signal_count": 1,
+      "trend_key": "的睡眠床头灯",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S452"
+      ],
+      "top_signals": [
+        {
+          "id": "S452",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "产品观察 | 小米创始员工范典创业AI硬件，做了台“无摩擦”的睡眠床头灯",
+          "source_url": "https://36kr.com/p/3844006775360002?f=rss",
           "signal_strength": 1.0
         }
       ],
