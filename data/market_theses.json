@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-08T21:11:50.835740Z",
+  "generated_at": "2026-06-09T21:02:54.681827Z",
   "theses": [
     {
       "id": "M001",
@@ -184,7 +184,7 @@
         "Indiegogo Tech",
         "Reddit r/smarthome"
       ],
-      "signal_count": 9,
+      "signal_count": 10,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -197,7 +197,8 @@
         "S133",
         "S300",
         "S377",
-        "S384"
+        "S384",
+        "S463"
       ],
       "top_signals": [
         {
@@ -209,20 +210,20 @@
           "signal_strength": 2.8
         },
         {
+          "id": "S463",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart lock? No smart home anything...",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1u0gv31/smart_lock_no_smart_home_anything/",
+          "signal_strength": 2.8
+        },
+        {
           "id": "S004",
           "source_name": "Reddit r/smarthome",
           "source_type": "community",
           "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
           "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
-          "signal_strength": 2.2
         },
         {
           "id": "S133",
@@ -646,7 +647,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 313,
+      "signal_count": 319,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -963,7 +964,13 @@
         "S454",
         "S455",
         "S457",
-        "S458"
+        "S458",
+        "S459",
+        "S460",
+        "S461",
+        "S462",
+        "S464",
+        "S465"
       ],
       "top_signals": [
         {
@@ -1326,8 +1333,8 @@
       ],
       "signal_count": 1,
       "trend_key": "smart lighting",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S453"
       ],

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-08T21:11:50.835740Z",
+  "generated_at": "2026-06-09T21:02:54.681827Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 120,
+      "seen_count_total": 123,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -73,41 +73,6 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "smart lighting",
-      "name": "Smart Lighting",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "community"
-      ],
-      "source_names": [
-        "Reddit r/smarthome"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.75,
-      "max_signal_strength": 2.75,
-      "seen_count_total": 1,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-06-08T21:11:50.835740Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
-      "evidence_signal_ids": [
-        "S453"
-      ],
-      "top_signals": [
-        {
-          "id": "S453",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Best smart lighting recommendations for kitchen under-cabinet lights and indirect cove lighting?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1tzlpfp/best_smart_lighting_recommendations_for_kitchen/",
-          "signal_strength": 2.75
-        }
-      ],
-      "velocity_7run_delta": 1,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "name": "AI Coding Agent Ecosystem",
       "name_zh": null,
@@ -125,7 +90,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.59,
       "max_signal_strength": 2.7,
-      "seen_count_total": 701,
+      "seen_count_total": 714,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -133,7 +98,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -215,7 +180,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -234,7 +199,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 126,
+      "seen_count_total": 129,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -242,7 +207,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -313,7 +278,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.31,
       "max_signal_strength": 3.45,
-      "seen_count_total": 120,
+      "seen_count_total": 123,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -322,7 +287,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -382,7 +347,7 @@
       "trend_key": "cluster:smart_home_security",
       "name": "Smart Home Security Device",
       "name_zh": "智能家居安防设备",
-      "signal_count": 8,
+      "signal_count": 9,
       "source_types": [
         "community",
         "media"
@@ -393,14 +358,14 @@
         "Reddit r/smarthome"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.94,
+      "avg_signal_strength": 2.03,
       "max_signal_strength": 2.8,
-      "seen_count_total": 54,
+      "seen_count_total": 55,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-02T21:52:32.071573Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S003",
         "S004",
@@ -409,7 +374,8 @@
         "S084",
         "S300",
         "S377",
-        "S384"
+        "S384",
+        "S463"
       ],
       "top_signals": [
         {
@@ -418,6 +384,14 @@
           "source_type": "community",
           "source_title": "Outdoor camera for remote viewing without monthly fees?",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S463",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart lock? No smart home anything...",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1u0gv31/smart_lock_no_smart_home_anything/",
           "signal_strength": 2.8
         },
         {
@@ -443,17 +417,9 @@
           "source_title": "Smart Lock that installs in frame instead of door",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1tpotdl/smart_lock_that_installs_in_frame_instead_of_door/",
           "signal_strength": 2.2
-        },
-        {
-          "id": "S005",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Deadbolt",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sxc766/smart_deadbolt/",
-          "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -721,7 +687,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 133,
+      "signal_count": 135,
       "source_types": [
         "community",
         "media"
@@ -733,7 +699,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.32,
       "max_signal_strength": 2.7,
-      "seen_count_total": 277,
+      "seen_count_total": 281,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -744,7 +710,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -878,7 +844,9 @@
         "S448",
         "S450",
         "S454",
-        "S457"
+        "S457",
+        "S459",
+        "S464"
       ],
       "top_signals": [
         {
@@ -922,7 +890,7 @@
           "signal_strength": 2.35
         }
       ],
-      "velocity_7run_delta": 12.0,
+      "velocity_7run_delta": 11.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -958,7 +926,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.29,
       "max_signal_strength": 2.55,
-      "seen_count_total": 788,
+      "seen_count_total": 803,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -967,7 +935,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1066,7 +1034,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 1.14,
+      "velocity_7run_delta": 0.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1074,7 +1042,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 151,
+      "signal_count": 155,
       "source_types": [
         "community",
         "media"
@@ -1086,7 +1054,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.11,
       "max_signal_strength": 2.35,
-      "seen_count_total": 265,
+      "seen_count_total": 269,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_coding_agent_ecosystem",
@@ -1097,7 +1065,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1249,7 +1217,11 @@
         "S449",
         "S451",
         "S455",
-        "S458"
+        "S458",
+        "S460",
+        "S461",
+        "S462",
+        "S465"
       ],
       "top_signals": [
         {
@@ -1293,7 +1265,7 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 12.14,
+      "velocity_7run_delta": 13.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1456,12 +1428,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 54,
+      "seen_count_total": 55,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1515,6 +1487,41 @@
       "trend_reason": "single_network_or_low_velocity"
     },
     {
+      "trend_key": "smart lighting",
+      "name": "Smart Lighting",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "community"
+      ],
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.75,
+      "max_signal_strength": 2.75,
+      "seen_count_total": 2,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
+      "evidence_signal_ids": [
+        "S453"
+      ],
+      "top_signals": [
+        {
+          "id": "S453",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Best smart lighting recommendations for kitchen under-cabinet lights and indirect cove lighting?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1tzlpfp/best_smart_lighting_recommendations_for_kitchen/",
+          "signal_strength": 2.75
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
       "trend_key": "watch:big_tech_peripherals",
       "name": "Big Tech Peripherals",
       "name_zh": null,
@@ -1528,14 +1535,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 36,
+      "seen_count_total": 37,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-06-08T21:11:50.835740Z",
+      "last_seen_at": "2026-06-09T21:02:54.681827Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -2540,7 +2547,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -2624,7 +2631,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 0.14,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
