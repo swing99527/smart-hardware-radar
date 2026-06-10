@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-09T21:02:54.681827Z",
+  "generated_at": "2026-06-10T21:26:22.597516Z",
   "theses": [
     {
       "id": "M001",
@@ -647,7 +647,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 319,
+      "signal_count": 324,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -970,7 +970,12 @@
         "S461",
         "S462",
         "S464",
-        "S465"
+        "S465",
+        "S466",
+        "S467",
+        "S468",
+        "S469",
+        "S470"
       ],
       "top_signals": [
         {
@@ -1063,7 +1068,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 40,
+      "signal_count": 41,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1107,7 +1112,8 @@
         "S282",
         "S311",
         "S342",
-        "S456"
+        "S456",
+        "S471"
       ],
       "top_signals": [
         {
@@ -1194,7 +1200,7 @@
         "GitHub AI Recorder Device",
         "TechCrunch Hardware"
       ],
-      "signal_count": 8,
+      "signal_count": 9,
       "trend_key": "watch:ai_recorder",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1206,7 +1212,8 @@
         "S082",
         "S098",
         "S183",
-        "S372"
+        "S372",
+        "S472"
       ],
       "top_signals": [
         {
