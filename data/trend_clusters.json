@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-10T21:26:22.597516Z",
+  "generated_at": "2026-06-11T21:25:08.900754Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 126,
+      "seen_count_total": 129,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -90,7 +90,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 727,
+      "seen_count_total": 740,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -98,7 +98,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -181,7 +181,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 1.71,
+      "velocity_7run_delta": 1.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -200,7 +200,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 132,
+      "seen_count_total": 135,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -208,7 +208,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -279,7 +279,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.27,
       "max_signal_strength": 3.45,
-      "seen_count_total": 126,
+      "seen_count_total": 129,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -288,7 +288,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -341,7 +341,7 @@
           "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 1.0,
+      "velocity_7run_delta": 0.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -349,7 +349,7 @@
       "trend_key": "cluster:smart_home_security",
       "name": "Smart Home Security Device",
       "name_zh": "智能家居安防设备",
-      "signal_count": 9,
+      "signal_count": 10,
       "source_types": [
         "community",
         "media"
@@ -357,17 +357,18 @@
       "source_names": [
         "Gizmodo",
         "Hacker News Show",
-        "Reddit r/smarthome"
+        "Reddit r/smarthome",
+        "The Verge"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.03,
+      "avg_signal_strength": 1.92,
       "max_signal_strength": 2.8,
-      "seen_count_total": 55,
+      "seen_count_total": 56,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-09T21:02:54.681827Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S003",
         "S004",
@@ -377,7 +378,8 @@
         "S300",
         "S377",
         "S384",
-        "S463"
+        "S463",
+        "S473"
       ],
       "top_signals": [
         {
@@ -421,7 +423,7 @@
           "signal_strength": 2.2
         }
       ],
-      "velocity_7run_delta": 0.86,
+      "velocity_7run_delta": 1.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -689,7 +691,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 137,
+      "signal_count": 139,
       "source_types": [
         "community",
         "media"
@@ -699,9 +701,9 @@
         "Reddit OpenClaw Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.32,
+      "avg_signal_strength": 1.33,
       "max_signal_strength": 2.7,
-      "seen_count_total": 287,
+      "seen_count_total": 293,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -712,7 +714,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -850,7 +852,9 @@
         "S459",
         "S464",
         "S466",
-        "S468"
+        "S468",
+        "S474",
+        "S476"
       ],
       "top_signals": [
         {
@@ -894,7 +898,7 @@
           "signal_strength": 2.35
         }
       ],
-      "velocity_7run_delta": 10.14,
+      "velocity_7run_delta": 9.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -902,7 +906,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 54,
+      "signal_count": 55,
       "source_types": [
         "community",
         "crowdfunding",
@@ -928,9 +932,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.29,
+      "avg_signal_strength": 1.31,
       "max_signal_strength": 2.55,
-      "seen_count_total": 824,
+      "seen_count_total": 845,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -939,7 +943,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -994,7 +998,8 @@
         "S395",
         "S398",
         "S422",
-        "S436"
+        "S436",
+        "S478"
       ],
       "top_signals": [
         {
@@ -1038,7 +1043,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 0.57,
+      "velocity_7run_delta": 1.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1046,7 +1051,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 158,
+      "signal_count": 161,
       "source_types": [
         "community",
         "media"
@@ -1058,7 +1063,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.12,
       "max_signal_strength": 2.35,
-      "seen_count_total": 275,
+      "seen_count_total": 281,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_coding_agent_ecosystem",
@@ -1069,7 +1074,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1228,7 +1233,10 @@
         "S465",
         "S467",
         "S469",
-        "S470"
+        "S470",
+        "S475",
+        "S477",
+        "S479"
       ],
       "top_signals": [
         {
@@ -1272,7 +1280,7 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 12.86,
+      "velocity_7run_delta": 12.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1435,12 +1443,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 56,
+      "seen_count_total": 57,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1507,10 +1515,10 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 3,
+      "seen_count_total": 4,
       "matched_watch_topics": [],
       "first_seen_at": "2026-06-08T21:11:50.835740Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S453"
       ],
@@ -1542,14 +1550,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 38,
+      "seen_count_total": 39,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S097"
       ],
@@ -2395,12 +2403,12 @@
       "has_behavior_source": false,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 1.15,
-      "seen_count_total": 7,
+      "seen_count_total": 8,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-06-03T21:54:05.265910Z",
-      "last_seen_at": "2026-06-10T21:26:22.597516Z",
+      "last_seen_at": "2026-06-11T21:25:08.900754Z",
       "evidence_signal_ids": [
         "S415"
       ],

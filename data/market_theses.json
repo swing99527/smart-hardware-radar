@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-10T21:26:22.597516Z",
+  "generated_at": "2026-06-11T21:25:08.900754Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 55,
+      "signal_count": 56,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -107,7 +107,8 @@
         "S395",
         "S398",
         "S422",
-        "S436"
+        "S436",
+        "S478"
       ],
       "top_signals": [
         {
@@ -182,9 +183,10 @@
         "Gizmodo",
         "Hacker News Show",
         "Indiegogo Tech",
-        "Reddit r/smarthome"
+        "Reddit r/smarthome",
+        "The Verge"
       ],
-      "signal_count": 10,
+      "signal_count": 11,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -198,7 +200,8 @@
         "S300",
         "S377",
         "S384",
-        "S463"
+        "S463",
+        "S473"
       ],
       "top_signals": [
         {
@@ -647,7 +650,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 324,
+      "signal_count": 329,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -975,7 +978,12 @@
         "S467",
         "S468",
         "S469",
-        "S470"
+        "S470",
+        "S474",
+        "S475",
+        "S476",
+        "S477",
+        "S479"
       ],
       "top_signals": [
         {
