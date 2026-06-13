@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-12T21:03:31.712753Z",
+  "generated_at": "2026-06-13T20:19:57.305460Z",
   "theses": [
     {
       "id": "M001",
@@ -650,7 +650,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 336,
+      "signal_count": 342,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -990,7 +990,13 @@
         "S483",
         "S484",
         "S485",
-        "S486"
+        "S486",
+        "S487",
+        "S488",
+        "S489",
+        "S490",
+        "S492",
+        "S493"
       ],
       "top_signals": [
         {
@@ -1711,6 +1717,60 @@
     },
     {
       "id": "M018",
+      "thesis_key": "emerging_小学生戴ai眼镜参加期末",
+      "name": "小学生戴AI眼镜参加期末",
+      "name_zh": "小学生戴AI眼镜参加期末",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "小学生戴AI眼镜参加期末"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "36氪"
+      ],
+      "signal_count": 1,
+      "trend_key": "小学生戴ai眼镜参加期末",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S491"
+      ],
+      "top_signals": [
+        {
+          "id": "S491",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "首尔禁止中小学生戴AI眼镜参加期末考试",
+          "source_url": "https://36kr.com/newsflashes/3851265277220103?f=rss",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M019",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
