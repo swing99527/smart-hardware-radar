@@ -206,6 +206,43 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A006",
+      "name": "【证据聚类】Wireless Headphones",
+      "name_en": "Wireless Headphones",
+      "name_zh": null,
+      "cluster_key": "wireless headphones",
+      "cluster_members": [
+        "Wireless Headphones"
+      ],
+      "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
+      "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
+      "evidence_signal_ids": [
+        "S376",
+        "S501"
+      ],
+      "confidence": 0.76,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 1.75,
+        "matched_watch_topics": [],
+        "candidate_keys": [
+          "wireless headphones"
+        ],
+        "l0_confidence": 0.76
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-13T20:19:57.305460Z",
+  "generated_at": "2026-06-14T20:21:58.595382Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 56,
+      "signal_count": 58,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -108,7 +108,9 @@
         "S398",
         "S422",
         "S436",
-        "S478"
+        "S478",
+        "S497",
+        "S500"
       ],
       "top_signals": [
         {
@@ -349,6 +351,104 @@
     },
     {
       "id": "M004",
+      "thesis_key": "smart_audio_devices",
+      "name": "Smart audio devices",
+      "name_zh": "智能音频设备",
+      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
+      "hardware_form_factors": [
+        "wireless speaker",
+        "smart microphone",
+        "earbuds",
+        "desktop audio device"
+      ],
+      "buyer_segments": [
+        "home users",
+        "remote workers",
+        "audio enthusiasts"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 2,
+        "media": 3,
+        "product_launch": 2
+      },
+      "source_names": [
+        "36氪",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "Reddit r/smarthome",
+        "SlashGear",
+        "少数派"
+      ],
+      "signal_count": 7,
+      "trend_key": "wireless headphones",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S006",
+        "S160",
+        "S223",
+        "S253",
+        "S376",
+        "S494",
+        "S501"
+      ],
+      "top_signals": [
+        {
+          "id": "S376",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S501",
+          "source_name": "SlashGear",
+          "source_type": "media",
+          "source_title": "4 Common Problems With Wireless Headphones (And How To Fix Them)",
+          "source_url": "https://www.slashgear.com/2191265/wireless-headphones-common-problems/",
+          "signal_strength": 0.75
+        },
+        {
+          "id": "S253",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "DramaBox by Resemble AI",
+          "source_url": "https://www.producthunt.com/products/resemble-clone",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S223",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Crade AI",
+          "source_url": "https://www.producthunt.com/products/crade",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S006",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
+          "signal_strength": 2.45
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M005",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",
@@ -437,100 +537,6 @@
         "supply_chain"
       ],
       "substitution_risk": "High from mature peripheral brands and heavy price competition.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
-      "id": "M005",
-      "thesis_key": "smart_audio_devices",
-      "name": "Smart audio devices",
-      "name_zh": "智能音频设备",
-      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
-      "hardware_form_factors": [
-        "wireless speaker",
-        "smart microphone",
-        "earbuds",
-        "desktop audio device"
-      ],
-      "buyer_segments": [
-        "home users",
-        "remote workers",
-        "audio enthusiasts"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "community": 2,
-        "product_launch": 2,
-        "media": 1
-      },
-      "source_names": [
-        "36氪",
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 5,
-      "trend_key": "wireless bluetooth speaker",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S006",
-        "S160",
-        "S223",
-        "S253",
-        "S376"
-      ],
-      "top_signals": [
-        {
-          "id": "S376",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
-          "signal_strength": 2.75
-        },
-        {
-          "id": "S253",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "DramaBox by Resemble AI",
-          "source_url": "https://www.producthunt.com/products/resemble-clone",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S223",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Crade AI",
-          "source_url": "https://www.producthunt.com/products/crade",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S006",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S160",
-          "source_name": "36氪",
-          "source_type": "media",
-          "source_title": "一家AI原生健康硬件公司完成近亿元融资，韶音、甘洁出手，高秉强投过｜硬氪首发",
-          "source_url": "https://36kr.com/p/3682907323150215?f=rss",
-          "signal_strength": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
       "next_validation": [
         "1688_alibaba_supplier_scan",
         "fcc_bluetooth_bom_check",
@@ -631,7 +637,7 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
-        "developer": 6,
+        "developer": 7,
         "community": 5,
         "media": 9
       },
@@ -650,8 +656,8 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 342,
-      "trend_key": "watch:openclaw_hardware_bridge",
+      "signal_count": 349,
+      "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
@@ -996,7 +1002,14 @@
         "S489",
         "S490",
         "S492",
-        "S493"
+        "S493",
+        "S495",
+        "S496",
+        "S498",
+        "S499",
+        "S502",
+        "S503",
+        "S504"
       ],
       "top_signals": [
         {
