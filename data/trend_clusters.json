@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-15T21:46:36.924993Z",
+  "generated_at": "2026-06-16T21:43:20.922748Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 141,
+      "seen_count_total": 144,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -90,7 +90,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 790,
+      "seen_count_total": 802,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -98,7 +98,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -181,7 +181,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.29,
+      "velocity_7run_delta": 0.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -200,7 +200,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 147,
+      "seen_count_total": 150,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -208,7 +208,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -279,7 +279,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.27,
       "max_signal_strength": 3.45,
-      "seen_count_total": 141,
+      "seen_count_total": 144,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -288,7 +288,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -341,7 +341,7 @@
           "signal_strength": 2.05
         }
       ],
-      "velocity_7run_delta": 0.29,
+      "velocity_7run_delta": 0.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -359,13 +359,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 10,
+      "seen_count_total": 11,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -388,7 +388,7 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 0.57,
+      "velocity_7run_delta": 0.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -470,7 +470,7 @@
           "signal_strength": 2.2
         }
       ],
-      "velocity_7run_delta": 0.57,
+      "velocity_7run_delta": 0.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -652,7 +652,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 0.86,
+      "velocity_7run_delta": 0.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -781,158 +781,10 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "watch:geek_ai_productivity_hardware",
-      "name": "Geek AI Productivity Hardware",
-      "name_zh": null,
-      "signal_count": 58,
-      "source_types": [
-        "community",
-        "crowdfunding",
-        "developer",
-        "media",
-        "product_reference"
-      ],
-      "source_names": [
-        "CharaChorder",
-        "Elgato Stream Deck",
-        "Geek AI Productivity Hardware News",
-        "GitHub Programmable Keyboard Firmware",
-        "GitHub Stream Deck Plugin Ecosystem",
-        "Glove80",
-        "Indiegogo Geek Productivity Hardware",
-        "Keychron",
-        "Kickstarter Geek Productivity Hardware",
-        "Loupedeck",
-        "Naya",
-        "Reddit Geek Productivity Hardware Search",
-        "Wooting",
-        "Work Louder",
-        "ZSA Moonlander"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 1.33,
-      "max_signal_strength": 2.55,
-      "seen_count_total": 934,
-      "matched_watch_topics": [
-        "ai_model_peripherals",
-        "big_tech_peripherals",
-        "geek_ai_productivity_hardware",
-        "programmable_keyboard_ecosystem",
-        "workflow_plugin_hardware"
-      ],
-      "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
-      "evidence_signal_ids": [
-        "S109",
-        "S110",
-        "S111",
-        "S112",
-        "S113",
-        "S114",
-        "S115",
-        "S116",
-        "S117",
-        "S118",
-        "S119",
-        "S121",
-        "S122",
-        "S125",
-        "S126",
-        "S127",
-        "S128",
-        "S131",
-        "S132",
-        "S135",
-        "S136",
-        "S138",
-        "S139",
-        "S146",
-        "S150",
-        "S154",
-        "S168",
-        "S171",
-        "S185",
-        "S188",
-        "S191",
-        "S205",
-        "S208",
-        "S215",
-        "S245",
-        "S250",
-        "S261",
-        "S267",
-        "S292",
-        "S301",
-        "S302",
-        "S315",
-        "S316",
-        "S317",
-        "S328",
-        "S329",
-        "S339",
-        "S353",
-        "S362",
-        "S381",
-        "S395",
-        "S398",
-        "S422",
-        "S436",
-        "S478",
-        "S497",
-        "S500",
-        "S511"
-      ],
-      "top_signals": [
-        {
-          "id": "S131",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
-          "source_url": "https://github.com/qmk/qmk_firmware",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S135",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
-          "source_url": "https://github.com/zmkfirmware/zmk",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S138",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
-          "source_url": "https://github.com/qmk/qmk_toolbox",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S119",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlTc0NoZG1hLUJNeUMxbDd4VW8tTkhjNW5Jd1dfSXFrQW1OUjMwYTZ1YjFXX2lQekRmMzA2WmJuSUpDU1VYZGc0YnFYSk1uYjZJWk1FaXEzTno5NlRwWDAyYmh6ejNVeVdDaEhlZU1KWFhLcXB6Vk5FQUZxWGRhX1hrXzd5eEpuYWIyTm9PUkFDNXluMElZaGxCSlJQTkVrd0ZrY24teGlQOEh2aS1pS2F4OUo?oc=5",
-          "signal_strength": 2.0
-        },
-        {
-          "id": "S122",
-          "source_name": "Kickstarter Geek Productivity Hardware",
-          "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
-          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
-          "signal_strength": 2.0
-        }
-      ],
-      "velocity_7run_delta": 3.14,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 151,
+      "signal_count": 154,
       "source_types": [
         "community",
         "media"
@@ -944,7 +796,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.32,
       "max_signal_strength": 2.7,
-      "seen_count_total": 317,
+      "seen_count_total": 323,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -955,7 +807,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1107,7 +959,10 @@
         "S502",
         "S505",
         "S507",
-        "S509"
+        "S509",
+        "S512",
+        "S514",
+        "S517"
       ],
       "top_signals": [
         {
@@ -1151,7 +1006,156 @@
           "signal_strength": 2.35
         }
       ],
-      "velocity_7run_delta": 11.14,
+      "velocity_7run_delta": 11.57,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "watch:geek_ai_productivity_hardware",
+      "name": "Geek AI Productivity Hardware",
+      "name_zh": null,
+      "signal_count": 59,
+      "source_types": [
+        "community",
+        "crowdfunding",
+        "developer",
+        "media",
+        "product_reference"
+      ],
+      "source_names": [
+        "CharaChorder",
+        "Elgato Stream Deck",
+        "Geek AI Productivity Hardware News",
+        "GitHub Programmable Keyboard Firmware",
+        "GitHub Stream Deck Plugin Ecosystem",
+        "Glove80",
+        "Indiegogo Geek Productivity Hardware",
+        "Keychron",
+        "Kickstarter Geek Productivity Hardware",
+        "Loupedeck",
+        "Naya",
+        "Reddit Geek Productivity Hardware Search",
+        "Wooting",
+        "Work Louder",
+        "ZSA Moonlander"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.31,
+      "max_signal_strength": 2.55,
+      "seen_count_total": 956,
+      "matched_watch_topics": [
+        "ai_model_peripherals",
+        "big_tech_peripherals",
+        "geek_ai_productivity_hardware",
+        "programmable_keyboard_ecosystem",
+        "workflow_plugin_hardware"
+      ],
+      "first_seen_at": "2026-05-04T20:20:47.994844Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
+      "evidence_signal_ids": [
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119",
+        "S121",
+        "S122",
+        "S125",
+        "S126",
+        "S127",
+        "S128",
+        "S131",
+        "S132",
+        "S135",
+        "S136",
+        "S138",
+        "S139",
+        "S146",
+        "S150",
+        "S154",
+        "S168",
+        "S171",
+        "S185",
+        "S188",
+        "S191",
+        "S205",
+        "S208",
+        "S215",
+        "S245",
+        "S250",
+        "S261",
+        "S267",
+        "S292",
+        "S301",
+        "S302",
+        "S315",
+        "S316",
+        "S317",
+        "S328",
+        "S329",
+        "S339",
+        "S353",
+        "S362",
+        "S381",
+        "S395",
+        "S398",
+        "S422",
+        "S436",
+        "S478",
+        "S497",
+        "S500",
+        "S511",
+        "S516"
+      ],
+      "top_signals": [
+        {
+          "id": "S131",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_firmware - Open-source keyboard firmware for Atmel AVR and Arm USB families",
+          "source_url": "https://github.com/qmk/qmk_firmware",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S135",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
+          "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S119",
+          "source_name": "Kickstarter Geek Productivity Hardware",
+          "source_type": "crowdfunding",
+          "source_title": "JezailFunder丨Jiffy75： A Unity 75% Split Keyboard - Kickstarter",
+          "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWjlTc0NoZG1hLUJNeUMxbDd4VW8tTkhjNW5Jd1dfSXFrQW1OUjMwYTZ1YjFXX2lQekRmMzA2WmJuSUpDU1VYZGc0YnFYSk1uYjZJWk1FaXEzTno5NlRwWDAyYmh6ejNVeVdDaEhlZU1KWFhLcXB6Vk5FQUZxWGRhX1hrXzd5eEpuYWIyTm9PUkFDNXluMElZaGxCSlJQTkVrd0ZrY24teGlQOEh2aS1pS2F4OUo?oc=5",
+          "signal_strength": 2.0
+        },
+        {
+          "id": "S122",
+          "source_name": "Kickstarter Geek Productivity Hardware",
+          "source_type": "crowdfunding",
+          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect by Solar » FAQ - Kickstarter",
+          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
+          "signal_strength": 2.0
+        }
+      ],
+      "velocity_7run_delta": 3.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1159,7 +1163,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 174,
+      "signal_count": 177,
       "source_types": [
         "community",
         "developer",
@@ -1173,7 +1177,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.13,
       "max_signal_strength": 2.75,
-      "seen_count_total": 307,
+      "seen_count_total": 314,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_coding_agent_ecosystem",
@@ -1184,7 +1188,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1359,7 +1363,10 @@
         "S504",
         "S506",
         "S508",
-        "S510"
+        "S510",
+        "S513",
+        "S515",
+        "S518"
       ],
       "top_signals": [
         {
@@ -1403,7 +1410,7 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 13.0,
+      "velocity_7run_delta": 12.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1566,12 +1573,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 61,
+      "seen_count_total": 62,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -1673,14 +1680,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.75,
       "max_signal_strength": 2.75,
-      "seen_count_total": 43,
+      "seen_count_total": 44,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-06-15T21:46:36.924993Z",
+      "last_seen_at": "2026-06-16T21:43:20.922748Z",
       "evidence_signal_ids": [
         "S097"
       ],
