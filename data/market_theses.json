@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-16T21:43:20.922748Z",
+  "generated_at": "2026-06-17T21:12:48.330309Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 60,
+      "signal_count": 61,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -112,7 +112,8 @@
         "S497",
         "S500",
         "S511",
-        "S516"
+        "S516",
+        "S526"
       ],
       "top_signals": [
         {
@@ -272,7 +273,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 2,
-        "media": 3,
+        "media": 4,
         "product_launch": 1
       },
       "source_names": [
@@ -282,9 +283,10 @@
         "Reddit r/gadgets",
         "SlashGear",
         "TechCrunch Hardware",
-        "The Verge"
+        "The Verge",
+        "Yanko Design"
       ],
-      "signal_count": 8,
+      "signal_count": 9,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -296,7 +298,8 @@
         "S320",
         "S332",
         "S410",
-        "S423"
+        "S423",
+        "S523"
       ],
       "top_signals": [
         {
@@ -658,7 +661,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 361,
+      "signal_count": 367,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1023,7 +1026,13 @@
         "S514",
         "S515",
         "S517",
-        "S518"
+        "S518",
+        "S519",
+        "S520",
+        "S521",
+        "S522",
+        "S524",
+        "S525"
       ],
       "top_signals": [
         {
