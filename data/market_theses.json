@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-17T21:12:48.330309Z",
+  "generated_at": "2026-06-18T21:23:11.683639Z",
   "theses": [
     {
       "id": "M001",
@@ -661,7 +661,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 367,
+      "signal_count": 374,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1032,7 +1032,14 @@
         "S521",
         "S522",
         "S524",
-        "S525"
+        "S525",
+        "S527",
+        "S528",
+        "S529",
+        "S530",
+        "S531",
+        "S532",
+        "S533"
       ],
       "top_signals": [
         {
@@ -1060,20 +1067,20 @@
           "signal_strength": 2.75
         },
         {
-          "id": "S066",
-          "source_name": "GitHub Robot Agent Kit",
+          "id": "S097",
+          "source_name": "GitHub On Device AI",
           "source_type": "developer",
-          "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
-          "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
-          "signal_strength": 2.7
+          "source_title": "TypeWhisper/typewhisper-mac - Local speech-to-text for macOS  on-device AI, fully private, optional cloud",
+          "source_url": "https://github.com/TypeWhisper/typewhisper-mac",
+          "signal_strength": 2.75
         },
         {
-          "id": "S130",
-          "source_name": "GitHub Robot Agent Kit",
+          "id": "S533",
+          "source_name": "GitHub On Device AI",
           "source_type": "developer",
-          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
-          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
-          "signal_strength": 2.7
+          "source_title": "apple/coreai-models - Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+          "source_url": "https://github.com/apple/coreai-models",
+          "signal_strength": 2.6
         }
       ],
       "missing_evidence": [
