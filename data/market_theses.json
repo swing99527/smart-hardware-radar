@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-20T20:19:07.415225Z",
+  "generated_at": "2026-06-21T20:26:57.670375Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 62,
+      "signal_count": 64,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -114,7 +114,9 @@
         "S511",
         "S516",
         "S526",
-        "S543"
+        "S543",
+        "S551",
+        "S554"
       ],
       "top_signals": [
         {
@@ -662,7 +664,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 389,
+      "signal_count": 392,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1055,7 +1057,10 @@
         "S547",
         "S548",
         "S549",
-        "S550"
+        "S550",
+        "S552",
+        "S553",
+        "S555"
       ],
       "top_signals": [
         {
