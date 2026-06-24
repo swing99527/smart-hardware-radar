@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-23T21:02:05.576174Z",
+  "generated_at": "2026-06-24T20:50:20.682166Z",
   "theses": [
     {
       "id": "M001",
@@ -168,6 +168,113 @@
     },
     {
       "id": "M002",
+      "thesis_key": "ai_model_peripheral_devices",
+      "name": "AI model peripheral devices",
+      "name_zh": "AI 模型周边设备",
+      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
+      "hardware_form_factors": [
+        "AI dev kit",
+        "desktop AI accessory",
+        "local inference peripheral"
+      ],
+      "buyer_segments": [
+        "AI hobbyists",
+        "developers",
+        "prototype teams"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 2,
+        "media": 7,
+        "product_launch": 1
+      },
+      "source_names": [
+        "36氪",
+        "Engadget",
+        "Gizmodo",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "SlashGear",
+        "TechCrunch Hardware",
+        "The Verge",
+        "Yanko Design",
+        "少数派"
+      ],
+      "signal_count": 13,
+      "trend_key": "gaming controller",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S140",
+        "S166",
+        "S236",
+        "S246",
+        "S320",
+        "S332",
+        "S410",
+        "S423",
+        "S494",
+        "S523",
+        "S570",
+        "S572",
+        "S577"
+      ],
+      "top_signals": [
+        {
+          "id": "S246",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
+          "signal_strength": 2.9
+        },
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S236",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S332",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Unannounced Apple headphones revealed in FCC documents",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
+          "signal_strength": 3.15
+        },
+        {
+          "id": "S570",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeG4yUGxpUmk4ZEdoRnczbWdfSkwxZUZJZEgzNE9PUS1nRjNoeVBnWndRd09fTjlEVkZKN21ETG5SVHVraXFNRlEyYXg3cFpENmpmci1NNHBYTVJ0RXdnNUt1bGFwWGE0b0hMcG5Da0dKZXI5UXd2dGRrVF9FaThtcEUtVDJKbHliRFZseGhERkxpLUhGTHprRURTTHdvQQ?oc=5",
+          "signal_strength": 1.3
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M003",
       "thesis_key": "local_first_smart_home_security",
       "name": "Local-first smart home security",
       "name_zh": "本地优先智能家居安防",
@@ -261,208 +368,7 @@
       "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
     },
     {
-      "id": "M003",
-      "thesis_key": "ai_model_peripheral_devices",
-      "name": "AI model peripheral devices",
-      "name_zh": "AI 模型周边设备",
-      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
-      "hardware_form_factors": [
-        "AI dev kit",
-        "desktop AI accessory",
-        "local inference peripheral"
-      ],
-      "buyer_segments": [
-        "AI hobbyists",
-        "developers",
-        "prototype teams"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "community": 2,
-        "media": 5,
-        "product_launch": 1
-      },
-      "source_names": [
-        "36氪",
-        "Engadget",
-        "Gizmodo",
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "SlashGear",
-        "TechCrunch Hardware",
-        "The Verge",
-        "Yanko Design"
-      ],
-      "signal_count": 10,
-      "trend_key": "gaming controller",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S140",
-        "S166",
-        "S236",
-        "S246",
-        "S320",
-        "S332",
-        "S410",
-        "S423",
-        "S523",
-        "S570"
-      ],
-      "top_signals": [
-        {
-          "id": "S246",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
-          "signal_strength": 2.9
-        },
-        {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S236",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S332",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Unannounced Apple headphones revealed in FCC documents",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
-          "signal_strength": 3.15
-        },
-        {
-          "id": "S570",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeG4yUGxpUmk4ZEdoRnczbWdfSkwxZUZJZEgzNE9PUS1nRjNoeVBnWndRd09fTjlEVkZKN21ETG5SVHVraXFNRlEyYXg3cFpENmpmci1NNHBYTVJ0RXdnNUt1bGFwWGE0b0hMcG5Da0dKZXI5UXd2dGRrVF9FaThtcEUtVDJKbHliRFZseGhERkxpLUhGTHprRURTTHdvQQ?oc=5",
-          "signal_strength": 1.3
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
       "id": "M004",
-      "thesis_key": "smart_audio_devices",
-      "name": "Smart audio devices",
-      "name_zh": "智能音频设备",
-      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
-      "hardware_form_factors": [
-        "wireless speaker",
-        "smart microphone",
-        "earbuds",
-        "desktop audio device"
-      ],
-      "buyer_segments": [
-        "home users",
-        "remote workers",
-        "audio enthusiasts"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "community": 2,
-        "media": 3,
-        "product_launch": 2
-      },
-      "source_names": [
-        "36氪",
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "Reddit r/smarthome",
-        "SlashGear",
-        "少数派"
-      ],
-      "signal_count": 7,
-      "trend_key": "wireless headphones",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S006",
-        "S160",
-        "S223",
-        "S253",
-        "S376",
-        "S494",
-        "S501"
-      ],
-      "top_signals": [
-        {
-          "id": "S376",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
-          "signal_strength": 2.75
-        },
-        {
-          "id": "S501",
-          "source_name": "SlashGear",
-          "source_type": "media",
-          "source_title": "4 Common Problems With Wireless Headphones (And How To Fix Them)",
-          "source_url": "https://www.slashgear.com/2191265/wireless-headphones-common-problems/",
-          "signal_strength": 0.75
-        },
-        {
-          "id": "S253",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "DramaBox by Resemble AI",
-          "source_url": "https://www.producthunt.com/products/resemble-clone",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S223",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Crade AI",
-          "source_url": "https://www.producthunt.com/products/crade",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S006",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
-          "signal_strength": 2.45
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
-      "id": "M005",
       "thesis_key": "gaming_productivity_peripherals",
       "name": "Gaming productivity peripherals",
       "name_zh": "游戏与效率外设",
@@ -551,6 +457,102 @@
         "supply_chain"
       ],
       "substitution_risk": "High from mature peripheral brands and heavy price competition.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M005",
+      "thesis_key": "smart_audio_devices",
+      "name": "Smart audio devices",
+      "name_zh": "智能音频设备",
+      "job_to_be_done": "Users want better listening and voice interaction hardware across home, desk and mobile contexts.",
+      "hardware_form_factors": [
+        "wireless speaker",
+        "smart microphone",
+        "earbuds",
+        "desktop audio device"
+      ],
+      "buyer_segments": [
+        "home users",
+        "remote workers",
+        "audio enthusiasts"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 2,
+        "media": 2,
+        "product_launch": 2
+      },
+      "source_names": [
+        "36氪",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "Reddit r/smarthome",
+        "SlashGear"
+      ],
+      "signal_count": 6,
+      "trend_key": "wireless headphones",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S006",
+        "S160",
+        "S223",
+        "S253",
+        "S376",
+        "S501"
+      ],
+      "top_signals": [
+        {
+          "id": "S376",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Sennheiser Momentum 5 Wireless Headphones Review: One Big Crucial Upgrade",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tqss8c/sennheiser_momentum_5_wireless_headphones_review/",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S501",
+          "source_name": "SlashGear",
+          "source_type": "media",
+          "source_title": "4 Common Problems With Wireless Headphones (And How To Fix Them)",
+          "source_url": "https://www.slashgear.com/2191265/wireless-headphones-common-problems/",
+          "signal_strength": 0.75
+        },
+        {
+          "id": "S253",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "DramaBox by Resemble AI",
+          "source_url": "https://www.producthunt.com/products/resemble-clone",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S223",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Crade AI",
+          "source_url": "https://www.producthunt.com/products/crade",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S006",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
+          "signal_strength": 2.45
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Apple, Sonos, Bose, JBL and commodity Bluetooth audio.",
       "next_validation": [
         "1688_alibaba_supplier_scan",
         "fcc_bluetooth_bom_check",
@@ -662,7 +664,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 207,
+      "signal_count": 211,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -873,7 +875,11 @@
         "S563",
         "S567",
         "S569",
-        "S571"
+        "S571",
+        "S574",
+        "S575",
+        "S576",
+        "S579"
       ],
       "top_signals": [
         {
@@ -970,7 +976,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 204,
+      "signal_count": 205,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1178,7 +1184,8 @@
         "S556",
         "S559",
         "S566",
-        "S568"
+        "S568",
+        "S573"
       ],
       "top_signals": [
         {
@@ -1595,6 +1602,59 @@
     },
     {
       "id": "M014",
+      "thesis_key": "emerging_smart_fan",
+      "name": "Smart Fan",
+      "name_zh": "Smart Fan",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Fan"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 43,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 1,
+      "trend_key": "smart fan",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S578"
+      ],
+      "top_signals": [
+        {
+          "id": "S578",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart fan control",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1uba9a6/smart_fan_control/",
+          "signal_strength": 2.05
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M015",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -1646,7 +1706,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M015",
+      "id": "M016",
       "thesis_key": "emerging_ai_wearable",
       "name": "AI Wearable",
       "name_zh": "AI Wearable",
@@ -1698,7 +1758,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M016",
+      "id": "M017",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -1752,7 +1812,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M017",
+      "id": "M018",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -1806,7 +1866,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M018",
+      "id": "M019",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -1860,7 +1920,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M019",
+      "id": "M020",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -1914,7 +1974,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M020",
+      "id": "M021",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
