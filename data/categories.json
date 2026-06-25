@@ -243,6 +243,46 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A007",
+      "name": "【证据聚类】AI Smart Glasses",
+      "name_en": "AI Smart Glasses",
+      "name_zh": null,
+      "cluster_key": "ai smart glasses",
+      "cluster_members": [
+        "AI Smart Glasses"
+      ],
+      "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner - Gizmodo",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeG4yUGxpUmk4ZEdoRnczbWdfSkwxZUZJZEgzNE9PUS1nRjNoeVBnWndRd09fTjlEVkZKN21ETG5SVHVraXFNRlEyYXg3cFpENmpmci1NNHBYTVJ0RXdnNUt1bGFwWGE0b0hMcG5Da0dKZXI5UXd2dGRrVF9FaThtcEUtVDJKbHliRFZseGhERkxpLUhGTHprRURTTHdvQQ?oc=5",
+      "evidence_signal_ids": [
+        "S570",
+        "S586"
+      ],
+      "confidence": 0.78,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 2.3,
+        "matched_watch_topics": [
+          "big_tech_peripherals",
+          "hardware_intersections"
+        ],
+        "candidate_keys": [
+          "ai smart glasses"
+        ],
+        "l0_confidence": 0.78
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }

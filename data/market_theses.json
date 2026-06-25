@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-24T20:50:20.682166Z",
+  "generated_at": "2026-06-25T21:00:15.633778Z",
   "theses": [
     {
       "id": "M001",
@@ -185,7 +185,7 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "community": 2,
+        "community": 3,
         "media": 7,
         "product_launch": 1
       },
@@ -201,7 +201,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 13,
+      "signal_count": 14,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -218,9 +218,26 @@
         "S523",
         "S570",
         "S572",
-        "S577"
+        "S577",
+        "S586"
       ],
       "top_signals": [
+        {
+          "id": "S586",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1ue51wf/metas_new_ai_smart_glasses_drop_rayban_branding/",
+          "signal_strength": 3.3
+        },
+        {
+          "id": "S570",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeG4yUGxpUmk4ZEdoRnczbWdfSkwxZUZJZEgzNE9PUS1nRjNoeVBnWndRd09fTjlEVkZKN21ETG5SVHVraXFNRlEyYXg3cFpENmpmci1NNHBYTVJ0RXdnNUt1bGFwWGE0b0hMcG5Da0dKZXI5UXd2dGRrVF9FaThtcEUtVDJKbHliRFZseGhERkxpLUhGTHprRURTTHdvQQ?oc=5",
+          "signal_strength": 1.3
+        },
         {
           "id": "S246",
           "source_name": "Reddit r/gadgets",
@@ -244,22 +261,6 @@
           "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
           "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
           "signal_strength": 0.9
-        },
-        {
-          "id": "S332",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Unannounced Apple headphones revealed in FCC documents",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tldgzt/unannounced_apple_headphones_revealed_in_fcc/",
-          "signal_strength": 3.15
-        },
-        {
-          "id": "S570",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeG4yUGxpUmk4ZEdoRnczbWdfSkwxZUZJZEgzNE9PUS1nRjNoeVBnWndRd09fTjlEVkZKN21ETG5SVHVraXFNRlEyYXg3cFpENmpmci1NNHBYTVJ0RXdnNUt1bGFwWGE0b0hMcG5Da0dKZXI5UXd2dGRrVF9FaThtcEUtVDJKbHliRFZseGhERkxpLUhGTHprRURTTHdvQQ?oc=5",
-          "signal_strength": 1.3
         }
       ],
       "missing_evidence": [
@@ -664,7 +665,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 211,
+      "signal_count": 215,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -879,7 +880,11 @@
         "S574",
         "S575",
         "S576",
-        "S579"
+        "S579",
+        "S580",
+        "S582",
+        "S584",
+        "S587"
       ],
       "top_signals": [
         {
@@ -976,7 +981,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 205,
+      "signal_count": 207,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1185,7 +1190,9 @@
         "S559",
         "S566",
         "S568",
-        "S573"
+        "S573",
+        "S581",
+        "S583"
       ],
       "top_signals": [
         {
@@ -1622,8 +1629,8 @@
       ],
       "signal_count": 1,
       "trend_key": "smart fan",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S578"
       ],
@@ -1813,6 +1820,60 @@
     },
     {
       "id": "M018",
+      "thesis_key": "emerging_跑ar+智能眼镜品类，q",
+      "name": "跑AR+智能眼镜品类，Q",
+      "name_zh": "跑AR+智能眼镜品类，Q",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "跑AR+智能眼镜品类，Q"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 17,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "36氪"
+      ],
+      "signal_count": 1,
+      "trend_key": "跑ar 智能眼镜品类 q",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S585"
+      ],
+      "top_signals": [
+        {
+          "id": "S585",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "科氪 | 雷鸟创新 618 持续领跑 AR+智能眼镜品类，Q1 全球出货量再度登顶",
+          "source_url": "https://36kr.com/p/3868204527457287?f=rss",
+          "signal_strength": 1.15
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M019",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -1866,7 +1927,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M019",
+      "id": "M020",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -1920,7 +1981,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M020",
+      "id": "M021",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -1974,7 +2035,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M021",
+      "id": "M022",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
