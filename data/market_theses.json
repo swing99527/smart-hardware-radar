@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-25T21:00:15.633778Z",
+  "generated_at": "2026-06-26T20:48:57.173712Z",
   "theses": [
     {
       "id": "M001",
@@ -303,9 +303,10 @@
         "Hacker News Show",
         "Indiegogo Tech",
         "Reddit r/smarthome",
+        "SlashGear",
         "The Verge"
       ],
-      "signal_count": 12,
+      "signal_count": 14,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -321,7 +322,9 @@
         "S384",
         "S463",
         "S473",
-        "S561"
+        "S561",
+        "S590",
+        "S592"
       ],
       "top_signals": [
         {
@@ -665,7 +668,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 215,
+      "signal_count": 219,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -884,7 +887,11 @@
         "S580",
         "S582",
         "S584",
-        "S587"
+        "S587",
+        "S589",
+        "S591",
+        "S594",
+        "S597"
       ],
       "top_signals": [
         {
@@ -981,7 +988,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 207,
+      "signal_count": 210,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1192,7 +1199,10 @@
         "S568",
         "S573",
         "S581",
-        "S583"
+        "S583",
+        "S588",
+        "S593",
+        "S596"
       ],
       "top_signals": [
         {
@@ -1392,6 +1402,74 @@
     },
     {
       "id": "M010",
+      "thesis_key": "outdoor_smart_devices",
+      "name": "Outdoor smart devices",
+      "name_zh": "户外智能设备",
+      "job_to_be_done": "Outdoor users want connected devices that survive weather, motion and intermittent connectivity.",
+      "hardware_form_factors": [
+        "outdoor sensor",
+        "bike device",
+        "tracker",
+        "rugged smart accessory"
+      ],
+      "buyer_segments": [
+        "outdoor enthusiasts",
+        "cyclists",
+        "fleet operators"
+      ],
+      "evidence_status": "Warming",
+      "evidence_score": 57,
+      "source_mix": {
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Engadget",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 2,
+      "trend_key": "outdoor smart device",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S012",
+        "S595"
+      ],
+      "top_signals": [
+        {
+          "id": "S012",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
+          "signal_strength": 2.65
+        },
+        {
+          "id": "S595",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "California launches tracker for AI-related job losses",
+          "source_url": "https://www.engadget.com/2202231/californa-launches-ai-job-loss-tracker/",
+          "signal_strength": 0.75
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "Medium from phones, sports watches and action cameras.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
+    },
+    {
+      "id": "M011",
       "thesis_key": "emerging_ai_art_ceiling_light",
       "name": "AI Art Ceiling Light",
       "name_zh": "AI Art Ceiling Light",
@@ -1444,7 +1522,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M011",
+      "id": "M012",
       "thesis_key": "emerging_smart_lighting",
       "name": "Smart Lighting",
       "name_zh": "Smart Lighting",
@@ -1487,64 +1565,6 @@
         "source_diversity"
       ],
       "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
-    },
-    {
-      "id": "M012",
-      "thesis_key": "outdoor_smart_devices",
-      "name": "Outdoor smart devices",
-      "name_zh": "户外智能设备",
-      "job_to_be_done": "Outdoor users want connected devices that survive weather, motion and intermittent connectivity.",
-      "hardware_form_factors": [
-        "outdoor sensor",
-        "bike device",
-        "tracker",
-        "rugged smart accessory"
-      ],
-      "buyer_segments": [
-        "outdoor enthusiasts",
-        "cyclists",
-        "fleet operators"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 46,
-      "source_mix": {
-        "community": 1
-      },
-      "source_names": [
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 1,
-      "trend_key": "outdoor smart device",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S012"
-      ],
-      "top_signals": [
-        {
-          "id": "S012",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
-          "signal_strength": 2.65
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "Medium from phones, sports watches and action cameras.",
       "next_validation": [
         "amazon_keyword_scan",
         "amazon_competition_snapshot",
