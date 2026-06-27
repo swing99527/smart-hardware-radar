@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-26T20:48:57.173712Z",
+  "generated_at": "2026-06-27T20:11:58.791367Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 174,
+      "seen_count_total": 177,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -86,14 +86,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.67,
       "max_signal_strength": 2.75,
-      "seen_count_total": 63,
+      "seen_count_total": 65,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S097",
         "S533"
@@ -138,7 +138,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 922,
+      "seen_count_total": 934,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -146,7 +146,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -248,7 +248,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.39,
       "max_signal_strength": 2.7,
-      "seen_count_total": 180,
+      "seen_count_total": 183,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -256,7 +256,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -329,13 +329,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.3,
       "max_signal_strength": 3.3,
-      "seen_count_total": 5,
+      "seen_count_total": 7,
       "matched_watch_topics": [
         "big_tech_peripherals",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-06-23T21:02:05.576174Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S570",
         "S586"
@@ -358,7 +358,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 0.67,
+      "velocity_7run_delta": 0.5,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -376,7 +376,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.27,
       "max_signal_strength": 3.45,
-      "seen_count_total": 174,
+      "seen_count_total": 177,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -385,7 +385,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -456,13 +456,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 21,
+      "seen_count_total": 22,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -638,7 +638,7 @@
           "signal_strength": 2.2
         }
       ],
-      "velocity_7run_delta": 2.43,
+      "velocity_7run_delta": 2.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -885,7 +885,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 179,
+      "signal_count": 182,
       "source_types": [
         "community",
         "media"
@@ -897,7 +897,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.32,
       "max_signal_strength": 2.7,
-      "seen_count_total": 384,
+      "seen_count_total": 390,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -908,7 +908,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1088,7 +1088,10 @@
         "S583",
         "S588",
         "S593",
-        "S596"
+        "S596",
+        "S598",
+        "S600",
+        "S602"
       ],
       "top_signals": [
         {
@@ -1132,7 +1135,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 8.71,
+      "velocity_7run_delta": 9.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1168,7 +1171,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.31,
       "max_signal_strength": 2.55,
-      "seen_count_total": 1173,
+      "seen_count_total": 1195,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
@@ -1177,7 +1180,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1288,7 +1291,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 2.29,
+      "velocity_7run_delta": 1.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1296,7 +1299,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 210,
+      "signal_count": 213,
       "source_types": [
         "community",
         "developer",
@@ -1310,7 +1313,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.14,
       "max_signal_strength": 2.75,
-      "seen_count_total": 372,
+      "seen_count_total": 378,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1323,7 +1326,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1534,7 +1537,10 @@
         "S589",
         "S591",
         "S594",
-        "S597"
+        "S597",
+        "S599",
+        "S601",
+        "S603"
       ],
       "top_signals": [
         {
@@ -1578,7 +1584,7 @@
           "signal_strength": 1.85
         }
       ],
-      "velocity_7run_delta": 13.86,
+      "velocity_7run_delta": 13.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1741,12 +1747,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 72,
+      "seen_count_total": 73,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-06-26T20:48:57.173712Z",
+      "last_seen_at": "2026-06-27T20:11:58.791367Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -2836,7 +2842,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.57,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -3235,7 +3241,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     }
