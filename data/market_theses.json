@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-28T20:16:31.115080Z",
+  "generated_at": "2026-06-29T20:50:25.352666Z",
   "theses": [
     {
       "id": "M001",
@@ -668,7 +668,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 225,
+      "signal_count": 228,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -897,7 +897,10 @@
         "S603",
         "S605",
         "S606",
-        "S607"
+        "S607",
+        "S610",
+        "S612",
+        "S613"
       ],
       "top_signals": [
         {
@@ -994,7 +997,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 214,
+      "signal_count": 216,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1212,7 +1215,9 @@
         "S598",
         "S600",
         "S602",
-        "S604"
+        "S604",
+        "S609",
+        "S611"
       ],
       "top_signals": [
         {
@@ -1904,6 +1909,60 @@
     },
     {
       "id": "M019",
+      "thesis_key": "emerging_首款ai陪伴机器人｜最前线",
+      "name": "首款AI陪伴机器人｜最前线",
+      "name_zh": "首款AI陪伴机器人｜最前线",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "首款AI陪伴机器人｜最前线"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 17,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "36氪"
+      ],
+      "signal_count": 1,
+      "trend_key": "首款ai陪伴机器人 最前线",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S608"
+      ],
+      "top_signals": [
+        {
+          "id": "S608",
+          "source_name": "36氪",
+          "source_type": "media",
+          "source_title": "自研全域柔性电子皮肤，Moxy摸喜发布首款AI陪伴机器人｜最前线",
+          "source_url": "https://36kr.com/p/3874015941645570?f=rss",
+          "signal_strength": 1.15
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M020",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -1957,7 +2016,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M020",
+      "id": "M021",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -2011,7 +2070,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M021",
+      "id": "M022",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -2065,7 +2124,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M022",
+      "id": "M023",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
