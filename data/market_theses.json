@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-06-29T20:50:25.352666Z",
+  "generated_at": "2026-06-30T20:59:12.512940Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 67,
+      "signal_count": 69,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -119,7 +119,9 @@
         "S554",
         "S558",
         "S564",
-        "S565"
+        "S565",
+        "S616",
+        "S619"
       ],
       "top_signals": [
         {
@@ -402,7 +404,7 @@
         "Reddit r/smarthome",
         "The Verge"
       ],
-      "signal_count": 7,
+      "signal_count": 8,
       "trend_key": "gaming monitor",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -413,7 +415,8 @@
         "S293",
         "S380",
         "S394",
-        "S403"
+        "S403",
+        "S614"
       ],
       "top_signals": [
         {
@@ -668,7 +671,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 228,
+      "signal_count": 231,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -900,7 +903,10 @@
         "S607",
         "S610",
         "S612",
-        "S613"
+        "S613",
+        "S618",
+        "S621",
+        "S623"
       ],
       "top_signals": [
         {
@@ -997,7 +1003,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 216,
+      "signal_count": 220,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1217,7 +1223,11 @@
         "S602",
         "S604",
         "S609",
-        "S611"
+        "S611",
+        "S615",
+        "S617",
+        "S620",
+        "S622"
       ],
       "top_signals": [
         {
