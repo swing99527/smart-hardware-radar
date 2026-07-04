@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-03T20:17:44.453884Z",
+  "generated_at": "2026-07-04T20:11:49.960117Z",
   "theses": [
     {
       "id": "M001",
@@ -674,7 +674,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 241,
+      "signal_count": 244,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -919,7 +919,10 @@
         "S641",
         "S642",
         "S643",
-        "S644"
+        "S644",
+        "S646",
+        "S648",
+        "S650"
       ],
       "top_signals": [
         {
@@ -1016,7 +1019,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 228,
+      "signal_count": 231,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1248,7 +1251,10 @@
         "S632",
         "S635",
         "S638",
-        "S640"
+        "S640",
+        "S645",
+        "S647",
+        "S649"
       ],
       "top_signals": [
         {
