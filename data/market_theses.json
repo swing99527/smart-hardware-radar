@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-04T20:11:49.960117Z",
+  "generated_at": "2026-07-05T20:17:57.000705Z",
   "theses": [
     {
       "id": "M001",
@@ -674,7 +674,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 244,
+      "signal_count": 248,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -922,7 +922,11 @@
         "S644",
         "S646",
         "S648",
-        "S650"
+        "S650",
+        "S652",
+        "S654",
+        "S656",
+        "S658"
       ],
       "top_signals": [
         {
@@ -1002,13 +1006,14 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
-        "developer": 6,
+        "developer": 7,
         "community": 4,
         "media": 8
       },
       "source_names": [
         "GitHub AI Camera Node",
         "GitHub On Device AI",
+        "GitHub OpenClaw Camera Node",
         "GitHub Robot Agent Kit",
         "GitHub Robotics AI Hardware",
         "Gizmodo",
@@ -1019,7 +1024,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 231,
+      "signal_count": 235,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1254,7 +1259,11 @@
         "S640",
         "S645",
         "S647",
-        "S649"
+        "S649",
+        "S651",
+        "S653",
+        "S655",
+        "S657"
       ],
       "top_signals": [
         {
