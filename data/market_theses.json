@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-05T20:17:57.000705Z",
+  "generated_at": "2026-07-06T20:54:11.130288Z",
   "theses": [
     {
       "id": "M001",
@@ -674,7 +674,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 248,
+      "signal_count": 251,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -926,7 +926,10 @@
         "S652",
         "S654",
         "S656",
-        "S658"
+        "S658",
+        "S661",
+        "S663",
+        "S665"
       ],
       "top_signals": [
         {
@@ -1024,7 +1027,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 235,
+      "signal_count": 238,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1263,7 +1266,10 @@
         "S651",
         "S653",
         "S655",
-        "S657"
+        "S657",
+        "S660",
+        "S662",
+        "S664"
       ],
       "top_signals": [
         {
@@ -1343,7 +1349,7 @@
       "evidence_score": 70,
       "source_mix": {
         "developer": 1,
-        "community": 3,
+        "community": 4,
         "media": 1
       },
       "source_names": [
@@ -1356,7 +1362,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 42,
+      "signal_count": 44,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1402,7 +1408,9 @@
         "S342",
         "S456",
         "S471",
-        "S562"
+        "S562",
+        "S659",
+        "S666"
       ],
       "top_signals": [
         {
@@ -1430,20 +1438,20 @@
           "signal_strength": 2.7
         },
         {
-          "id": "S123",
+          "id": "S659",
           "source_name": "Reddit r/MechanicalKeyboards",
           "source_type": "community",
-          "source_title": "Wireless MIDI keyboard using hall effect switches",
-          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1szinoc/wireless_midi_keyboard_using_hall_effect_switches/",
-          "signal_strength": 3.0
+          "source_title": "[GB] TwinCat Split Wireless Keyboard Kit by rain2 | Closes July 12",
+          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1uory6n/gb_twincat_split_wireless_keyboard_kit_by_rain2/",
+          "signal_strength": 2.75
         },
         {
-          "id": "S247",
+          "id": "S666",
           "source_name": "Reddit r/olkb",
           "source_type": "community",
-          "source_title": "Inline hardware device for host-independent remaps/macros: useful niche, or useless?",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
-          "signal_strength": 2.75
+          "source_title": "The king is back! Meet the K:04 - a wireless keyboard with a modular design",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1ufduhp/the_king_is_back_meet_the_k04_a_wireless_keyboard/",
+          "signal_strength": 2.05
         }
       ],
       "missing_evidence": [
