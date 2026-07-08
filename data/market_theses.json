@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-07T20:51:16.608311Z",
+  "generated_at": "2026-07-08T20:23:52.447944Z",
   "theses": [
     {
       "id": "M001",
@@ -675,7 +675,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 255,
+      "signal_count": 259,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -934,7 +934,11 @@
         "S667",
         "S670",
         "S671",
-        "S672"
+        "S672",
+        "S674",
+        "S677",
+        "S678",
+        "S679"
       ],
       "top_signals": [
         {
@@ -1032,7 +1036,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 239,
+      "signal_count": 240,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1275,7 +1279,8 @@
         "S660",
         "S662",
         "S664",
-        "S669"
+        "S669",
+        "S673"
       ],
       "top_signals": [
         {
@@ -1368,7 +1373,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 44,
+      "signal_count": 45,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1416,7 +1421,8 @@
         "S471",
         "S562",
         "S659",
-        "S666"
+        "S666",
+        "S675"
       ],
       "top_signals": [
         {
@@ -1493,22 +1499,24 @@
         "fleet operators"
       ],
       "evidence_status": "Warming",
-      "evidence_score": 57,
+      "evidence_score": 62,
       "source_mix": {
         "community": 1,
-        "media": 1
+        "media": 2
       },
       "source_names": [
         "Engadget",
-        "Reddit r/smarthome"
+        "Reddit r/smarthome",
+        "The Verge"
       ],
-      "signal_count": 2,
+      "signal_count": 3,
       "trend_key": "outdoor smart device",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S012",
-        "S595"
+        "S595",
+        "S676"
       ],
       "top_signals": [
         {
@@ -1518,6 +1526,14 @@
           "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
           "signal_strength": 2.65
+        },
+        {
+          "id": "S676",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
+          "source_url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
+          "signal_strength": 0.75
         },
         {
           "id": "S595",
