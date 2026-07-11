@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-10T20:27:10.640958Z",
+  "generated_at": "2026-07-11T20:07:18.801367Z",
   "theses": [
     {
       "id": "M001",
@@ -675,7 +675,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 268,
+      "signal_count": 271,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -947,7 +947,10 @@
         "S686",
         "S687",
         "S688",
-        "S689"
+        "S689",
+        "S691",
+        "S693",
+        "S696"
       ],
       "top_signals": [
         {
@@ -1045,7 +1048,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 241,
+      "signal_count": 244,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1290,7 +1293,10 @@
         "S664",
         "S669",
         "S673",
-        "S684"
+        "S684",
+        "S690",
+        "S692",
+        "S695"
       ],
       "top_signals": [
         {
@@ -1509,24 +1515,26 @@
         "fleet operators"
       ],
       "evidence_status": "Warming",
-      "evidence_score": 62,
+      "evidence_score": 68,
       "source_mix": {
         "community": 1,
-        "media": 2
+        "media": 3
       },
       "source_names": [
         "Engadget",
         "Reddit r/smarthome",
-        "The Verge"
+        "The Verge",
+        "Yanko Design"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "trend_key": "outdoor smart device",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S012",
         "S595",
-        "S676"
+        "S676",
+        "S694"
       ],
       "top_signals": [
         {
@@ -1536,6 +1544,14 @@
           "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
           "signal_strength": 2.65
+        },
+        {
+          "id": "S694",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "This GPS dog tracker uses Starlink satellites to work anywhere cell service doesn’t",
+          "source_url": "https://www.yankodesign.com/2026/07/10/this-gps-dog-tracker-uses-starlink-satellites-to-work-anywhere-cell-service-doesnt/?utm_source=rss&utm_medium=rss&utm_campaign=this-gps-dog-tracker-uses-starlink-satellites-to-work-anywhere-cell-service-doesnt",
+          "signal_strength": 0.75
         },
         {
           "id": "S676",
