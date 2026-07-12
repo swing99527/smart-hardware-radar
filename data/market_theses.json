@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-11T20:07:18.801367Z",
+  "generated_at": "2026-07-12T20:07:30.557266Z",
   "theses": [
     {
       "id": "M001",
@@ -48,7 +48,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 73,
+      "signal_count": 74,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -125,7 +125,8 @@
         "S627",
         "S634",
         "S637",
-        "S668"
+        "S668",
+        "S697"
       ],
       "top_signals": [
         {
@@ -174,6 +175,104 @@
     },
     {
       "id": "M002",
+      "thesis_key": "local_first_smart_home_security",
+      "name": "Local-first smart home security",
+      "name_zh": "本地优先智能家居安防",
+      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
+      "hardware_form_factors": [
+        "outdoor camera",
+        "video doorbell",
+        "smart lock",
+        "home security hub"
+      ],
+      "buyer_segments": [
+        "homeowners",
+        "apartment renters",
+        "smart-home installers"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 1,
+        "media": 1,
+        "crowdfunding": 1
+      },
+      "source_names": [
+        "Gizmodo",
+        "Hacker News Show",
+        "Indiegogo Tech",
+        "Reddit r/smarthome",
+        "SlashGear",
+        "The Verge"
+      ],
+      "signal_count": 15,
+      "trend_key": "cluster:smart_home_security",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084",
+        "S133",
+        "S300",
+        "S377",
+        "S384",
+        "S463",
+        "S473",
+        "S561",
+        "S590",
+        "S592",
+        "S702"
+      ],
+      "top_signals": [
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S463",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart lock? No smart home anything...",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1u0gv31/smart_lock_no_smart_home_anything/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S133",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
+          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
+          "signal_strength": 2.6
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
+    },
+    {
+      "id": "M003",
       "thesis_key": "ai_model_peripheral_devices",
       "name": "AI model peripheral devices",
       "name_zh": "AI 模型周边设备",
@@ -279,103 +378,6 @@
         "reference_design_scan"
       ],
       "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
-      "id": "M003",
-      "thesis_key": "local_first_smart_home_security",
-      "name": "Local-first smart home security",
-      "name_zh": "本地优先智能家居安防",
-      "job_to_be_done": "Homeowners want visible security and access control without subscription lock-in or cloud-only failure modes.",
-      "hardware_form_factors": [
-        "outdoor camera",
-        "video doorbell",
-        "smart lock",
-        "home security hub"
-      ],
-      "buyer_segments": [
-        "homeowners",
-        "apartment renters",
-        "smart-home installers"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "community": 1,
-        "media": 1,
-        "crowdfunding": 1
-      },
-      "source_names": [
-        "Gizmodo",
-        "Hacker News Show",
-        "Indiegogo Tech",
-        "Reddit r/smarthome",
-        "SlashGear",
-        "The Verge"
-      ],
-      "signal_count": 14,
-      "trend_key": "cluster:smart_home_security",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007",
-        "S084",
-        "S133",
-        "S300",
-        "S377",
-        "S384",
-        "S463",
-        "S473",
-        "S561",
-        "S590",
-        "S592"
-      ],
-      "top_signals": [
-        {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S463",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart lock? No smart home anything...",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1u0gv31/smart_lock_no_smart_home_anything/",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S133",
-          "source_name": "Indiegogo Tech",
-          "source_type": "crowdfunding",
-          "source_title": "Patroller - A true virtual guardian for your home. - Imagine a security guard who never sleeps, dedicated exclusively to protecting your home. Discover Patroller, the autonomous patrol robot designed for individuals.",
-          "source_url": "https://www.indiegogo.com/projects/securima/patroller-by-securima",
-          "signal_strength": 2.6
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from Ring, Eufy, Aqara, Reolink and existing smart-home platforms.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
     },
     {
       "id": "M004",
@@ -675,7 +677,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 271,
+      "signal_count": 274,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -950,7 +952,10 @@
         "S689",
         "S691",
         "S693",
-        "S696"
+        "S696",
+        "S699",
+        "S701",
+        "S704"
       ],
       "top_signals": [
         {
@@ -1048,7 +1053,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 244,
+      "signal_count": 247,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1296,7 +1301,10 @@
         "S684",
         "S690",
         "S692",
-        "S695"
+        "S695",
+        "S698",
+        "S700",
+        "S703"
       ],
       "top_signals": [
         {
