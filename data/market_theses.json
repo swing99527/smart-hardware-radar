@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-21T20:21:01.332538Z",
+  "generated_at": "2026-07-22T20:13:42.000374Z",
   "theses": [
     {
       "id": "M001",
@@ -25,9 +25,9 @@
       "evidence_score": 80,
       "source_mix": {
         "developer": 7,
-        "crowdfunding": 1,
         "community": 4,
-        "media": 8
+        "media": 8,
+        "crowdfunding": 1
       },
       "source_names": [
         "GitHub AI Camera Node",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 269,
+      "signal_count": 271,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -317,7 +317,9 @@
         "S752",
         "S754",
         "S755",
-        "S757"
+        "S757",
+        "S759",
+        "S760"
       ],
       "top_signals": [
         {
@@ -417,7 +419,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 75,
+      "signal_count": 76,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -496,7 +498,8 @@
         "S637",
         "S668",
         "S697",
-        "S722"
+        "S722",
+        "S763"
       ],
       "top_signals": [
         {
@@ -947,6 +950,101 @@
     },
     {
       "id": "M007",
+      "thesis_key": "outdoor_smart_devices",
+      "name": "Outdoor smart devices",
+      "name_zh": "户外智能设备",
+      "job_to_be_done": "Outdoor users want connected devices that survive weather, motion and intermittent connectivity.",
+      "hardware_form_factors": [
+        "outdoor sensor",
+        "bike device",
+        "tracker",
+        "rugged smart accessory"
+      ],
+      "buyer_segments": [
+        "outdoor enthusiasts",
+        "cyclists",
+        "fleet operators"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "crowdfunding": 1,
+        "community": 1,
+        "media": 3
+      },
+      "source_names": [
+        "Engadget",
+        "Indiegogo Tech",
+        "Reddit r/smarthome",
+        "The Verge",
+        "Yanko Design"
+      ],
+      "signal_count": 5,
+      "trend_key": "outdoor smart device",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S012",
+        "S595",
+        "S676",
+        "S694",
+        "S764"
+      ],
+      "top_signals": [
+        {
+          "id": "S764",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Zeroil – Know Your Oil - Meet Zeroil, the smart cooking oil tracker that automatically helps you understand and manage your household cooking oil usage for healthier everyday cooking.",
+          "source_url": "https://www.indiegogo.com/projects/akbarmajeed/zeroil-know-your-oil",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S012",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
+          "signal_strength": 2.65
+        },
+        {
+          "id": "S694",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "This GPS dog tracker uses Starlink satellites to work anywhere cell service doesn’t",
+          "source_url": "https://www.yankodesign.com/2026/07/10/this-gps-dog-tracker-uses-starlink-satellites-to-work-anywhere-cell-service-doesnt/?utm_source=rss&utm_medium=rss&utm_campaign=this-gps-dog-tracker-uses-starlink-satellites-to-work-anywhere-cell-service-doesnt",
+          "signal_strength": 0.75
+        },
+        {
+          "id": "S676",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
+          "source_url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
+          "signal_strength": 0.75
+        },
+        {
+          "id": "S595",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "California launches tracker for AI-related job losses",
+          "source_url": "https://www.engadget.com/2202231/californa-launches-ai-job-loss-tracker/",
+          "signal_strength": 0.75
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "Medium from phones, sports watches and action cameras.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
+    },
+    {
+      "id": "M008",
       "thesis_key": "emerging_health_tracking_smart_ring",
       "name": "Health Tracking Smart Ring",
       "name_zh": "Health Tracking Smart Ring",
@@ -1018,7 +1116,7 @@
       "confidence_reason": "Validated because evidence score is 73 with source mix media, product_launch, search."
     },
     {
-      "id": "M008",
+      "id": "M009",
       "thesis_key": "ai_voice_capture_workflow",
       "name": "AI voice capture workflow devices",
       "name_zh": "AI语音采集工作流设备",
@@ -1049,7 +1147,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 303,
+      "signal_count": 306,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1356,7 +1454,10 @@
         "S751",
         "S753",
         "S756",
-        "S758"
+        "S758",
+        "S761",
+        "S762",
+        "S765"
       ],
       "top_signals": [
         {
@@ -1416,7 +1517,7 @@
       "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
     },
     {
-      "id": "M009",
+      "id": "M010",
       "thesis_key": "ai_command_input_peripherals",
       "name": "AI command input peripherals",
       "name_zh": "AI 指令输入外设",
@@ -1548,94 +1649,6 @@
         "productization"
       ],
       "substitution_risk": "High from software launchers, Stream Deck, programmable keyboards and OS shortcuts.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Warming because behavior or market evidence exists, but Market validation, Supply chain is still missing."
-    },
-    {
-      "id": "M010",
-      "thesis_key": "outdoor_smart_devices",
-      "name": "Outdoor smart devices",
-      "name_zh": "户外智能设备",
-      "job_to_be_done": "Outdoor users want connected devices that survive weather, motion and intermittent connectivity.",
-      "hardware_form_factors": [
-        "outdoor sensor",
-        "bike device",
-        "tracker",
-        "rugged smart accessory"
-      ],
-      "buyer_segments": [
-        "outdoor enthusiasts",
-        "cyclists",
-        "fleet operators"
-      ],
-      "evidence_status": "Warming",
-      "evidence_score": 68,
-      "source_mix": {
-        "community": 1,
-        "media": 3
-      },
-      "source_names": [
-        "Engadget",
-        "Reddit r/smarthome",
-        "The Verge",
-        "Yanko Design"
-      ],
-      "signal_count": 4,
-      "trend_key": "outdoor smart device",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S012",
-        "S595",
-        "S676",
-        "S694"
-      ],
-      "top_signals": [
-        {
-          "id": "S012",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
-          "signal_strength": 2.65
-        },
-        {
-          "id": "S694",
-          "source_name": "Yanko Design",
-          "source_type": "media",
-          "source_title": "This GPS dog tracker uses Starlink satellites to work anywhere cell service doesn’t",
-          "source_url": "https://www.yankodesign.com/2026/07/10/this-gps-dog-tracker-uses-starlink-satellites-to-work-anywhere-cell-service-doesnt/?utm_source=rss&utm_medium=rss&utm_campaign=this-gps-dog-tracker-uses-starlink-satellites-to-work-anywhere-cell-service-doesnt",
-          "signal_strength": 0.75
-        },
-        {
-          "id": "S676",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
-          "source_url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
-          "signal_strength": 0.75
-        },
-        {
-          "id": "S595",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "California launches tracker for AI-related job losses",
-          "source_url": "https://www.engadget.com/2202231/californa-launches-ai-job-loss-tracker/",
-          "signal_strength": 0.75
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization"
-      ],
-      "substitution_risk": "Medium from phones, sports watches and action cameras.",
       "next_validation": [
         "amazon_keyword_scan",
         "amazon_competition_snapshot",
