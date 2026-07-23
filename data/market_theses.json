@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-22T20:13:42.000374Z",
+  "generated_at": "2026-07-23T20:16:51.375741Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 271,
+      "signal_count": 274,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -319,7 +319,10 @@
         "S755",
         "S757",
         "S759",
-        "S760"
+        "S760",
+        "S767",
+        "S770",
+        "S772"
       ],
       "top_signals": [
         {
@@ -419,7 +422,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 76,
+      "signal_count": 77,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -499,7 +502,8 @@
         "S668",
         "S697",
         "S722",
-        "S763"
+        "S763",
+        "S769"
       ],
       "top_signals": [
         {
@@ -968,8 +972,8 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "crowdfunding": 1,
         "community": 1,
+        "crowdfunding": 1,
         "media": 3
       },
       "source_names": [
@@ -992,20 +996,20 @@
       ],
       "top_signals": [
         {
-          "id": "S764",
-          "source_name": "Indiegogo Tech",
-          "source_type": "crowdfunding",
-          "source_title": "Zeroil – Know Your Oil - Meet Zeroil, the smart cooking oil tracker that automatically helps you understand and manage your household cooking oil usage for healthier everyday cooking.",
-          "source_url": "https://www.indiegogo.com/projects/akbarmajeed/zeroil-know-your-oil",
-          "signal_strength": 2.45
-        },
-        {
           "id": "S012",
           "source_name": "Reddit r/smarthome",
           "source_type": "community",
           "source_title": "what's the most underrated outdoor smart device you actually use? I'll start with mine",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1szv303/whats_the_most_underrated_outdoor_smart_device/",
           "signal_strength": 2.65
+        },
+        {
+          "id": "S764",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Zeroil – Know Your Oil - Meet Zeroil, the smart cooking oil tracker that automatically helps you understand and manage your household cooking oil usage for healthier everyday cooking.",
+          "source_url": "https://www.indiegogo.com/projects/akbarmajeed/zeroil-know-your-oil",
+          "signal_strength": 2.45
         },
         {
           "id": "S694",
@@ -1147,7 +1151,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 306,
+      "signal_count": 310,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1457,7 +1461,11 @@
         "S758",
         "S761",
         "S762",
-        "S765"
+        "S765",
+        "S766",
+        "S768",
+        "S771",
+        "S773"
       ],
       "top_signals": [
         {
