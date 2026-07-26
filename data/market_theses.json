@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-25T20:12:18.724732Z",
+  "generated_at": "2026-07-26T20:12:55.393383Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 276,
+      "signal_count": 278,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -324,7 +324,9 @@
         "S770",
         "S772",
         "S775",
-        "S780"
+        "S780",
+        "S784",
+        "S787"
       ],
       "top_signals": [
         {
@@ -1155,7 +1157,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 316,
+      "signal_count": 319,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1475,7 +1477,10 @@
         "S778",
         "S781",
         "S782",
-        "S783"
+        "S783",
+        "S785",
+        "S788",
+        "S789"
       ],
       "top_signals": [
         {
@@ -2264,6 +2269,60 @@
     },
     {
       "id": "M022",
+      "thesis_key": "emerging_smart_multicolor_ceiling_light",
+      "name": "Smart Multicolor Ceiling Light",
+      "name_zh": "Smart Multicolor Ceiling Light",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Multicolor Ceiling Light"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "Gizmodo"
+      ],
+      "signal_count": 1,
+      "trend_key": "smart multicolor ceiling light",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S786"
+      ],
+      "top_signals": [
+        {
+          "id": "S786",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Nanoleaf Smart Multicolor Ceiling Light Review: A Paper Plate on Your Ceiling - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTNoUG8waEJLLTBNSEpiYktUU0ticHVGU2xWVXNHa3AtUjhBX2ZJMVZWM0hHbVBPUVNKZnZSelNCdlJiV1RHdHNtTWlvS3dRY0hpY1JfaDdoa2ZHbFJOY3VtU0dzeGQ4c3NWZ2FTeC1TcnBZZ1BIVnppbDBkRVB5MXI0VjFqM1lwZnd2TE14c1NSR0ZFZWFIMWFkd2dMVHUyNF9lcENwNzFwUjA?oc=5",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M023",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -2317,7 +2376,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M023",
+      "id": "M024",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
