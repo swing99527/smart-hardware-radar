@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-26T20:12:55.393383Z",
+  "generated_at": "2026-07-27T20:25:15.735459Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 278,
+      "signal_count": 281,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -326,7 +326,10 @@
         "S775",
         "S780",
         "S784",
-        "S787"
+        "S787",
+        "S791",
+        "S794",
+        "S798"
       ],
       "top_signals": [
         {
@@ -426,7 +429,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 79,
+      "signal_count": 80,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -509,7 +512,8 @@
         "S763",
         "S769",
         "S774",
-        "S779"
+        "S779",
+        "S797"
       ],
       "top_signals": [
         {
@@ -558,6 +562,122 @@
     },
     {
       "id": "M003",
+      "thesis_key": "ai_model_peripheral_devices",
+      "name": "AI model peripheral devices",
+      "name_zh": "AI 模型周边设备",
+      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
+      "hardware_form_factors": [
+        "AI dev kit",
+        "desktop AI accessory",
+        "local inference peripheral"
+      ],
+      "buyer_segments": [
+        "AI hobbyists",
+        "developers",
+        "prototype teams"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "community": 4,
+        "media": 9,
+        "product_launch": 1
+      },
+      "source_names": [
+        "36氪",
+        "Engadget",
+        "Gizmodo",
+        "Product Hunt",
+        "Reddit r/gadgets",
+        "SlashGear",
+        "TechCrunch Hardware",
+        "The Verge",
+        "Yanko Design",
+        "少数派"
+      ],
+      "signal_count": 22,
+      "trend_key": "gaming controller",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S011",
+        "S140",
+        "S166",
+        "S236",
+        "S246",
+        "S293",
+        "S320",
+        "S332",
+        "S403",
+        "S410",
+        "S423",
+        "S494",
+        "S523",
+        "S570",
+        "S572",
+        "S577",
+        "S586",
+        "S614",
+        "S733",
+        "S749",
+        "S793",
+        "S796"
+      ],
+      "top_signals": [
+        {
+          "id": "S586",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1ue51wf/metas_new_ai_smart_glasses_drop_rayban_branding/",
+          "signal_strength": 3.3
+        },
+        {
+          "id": "S570",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeG4yUGxpUmk4ZEdoRnczbWdfSkwxZUZJZEgzNE9PUS1nRjNoeVBnWndRd09fTjlEVkZKN21ETG5SVHVraXFNRlEyYXg3cFpENmpmci1NNHBYTVJ0RXdnNUt1bGFwWGE0b0hMcG5Da0dKZXI5UXd2dGRrVF9FaThtcEUtVDJKbHliRFZseGhERkxpLUhGTHprRURTTHdvQQ?oc=5",
+          "signal_strength": 1.3
+        },
+        {
+          "id": "S246",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
+          "signal_strength": 2.9
+        },
+        {
+          "id": "S140",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Steam Controller",
+          "source_url": "https://www.producthunt.com/products/steam-machine",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S236",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
+          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
+          "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+    },
+    {
+      "id": "M004",
       "thesis_key": "local_first_smart_home_security",
       "name": "Local-first smart home security",
       "name_zh": "本地优先智能家居安防",
@@ -655,215 +775,7 @@
       "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
     },
     {
-      "id": "M004",
-      "thesis_key": "ai_model_peripheral_devices",
-      "name": "AI model peripheral devices",
-      "name_zh": "AI 模型周边设备",
-      "job_to_be_done": "AI early adopters need physical extensions around fast-moving models, but demand is still mostly developer-led.",
-      "hardware_form_factors": [
-        "AI dev kit",
-        "desktop AI accessory",
-        "local inference peripheral"
-      ],
-      "buyer_segments": [
-        "AI hobbyists",
-        "developers",
-        "prototype teams"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "community": 3,
-        "media": 7,
-        "product_launch": 1
-      },
-      "source_names": [
-        "36氪",
-        "Engadget",
-        "Gizmodo",
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "SlashGear",
-        "TechCrunch Hardware",
-        "The Verge",
-        "Yanko Design",
-        "少数派"
-      ],
-      "signal_count": 14,
-      "trend_key": "gaming controller",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S140",
-        "S166",
-        "S236",
-        "S246",
-        "S320",
-        "S332",
-        "S410",
-        "S423",
-        "S494",
-        "S523",
-        "S570",
-        "S572",
-        "S577",
-        "S586"
-      ],
-      "top_signals": [
-        {
-          "id": "S586",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1ue51wf/metas_new_ai_smart_glasses_drop_rayban_branding/",
-          "signal_strength": 3.3
-        },
-        {
-          "id": "S570",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Meta’s New AI Smart Glasses Drop Ray-Ban Branding and Add Kylie Jenner - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeG4yUGxpUmk4ZEdoRnczbWdfSkwxZUZJZEgzNE9PUS1nRjNoeVBnWndRd09fTjlEVkZKN21ETG5SVHVraXFNRlEyYXg3cFpENmpmci1NNHBYTVJ0RXdnNUt1bGFwWGE0b0hMcG5Da0dKZXI5UXd2dGRrVF9FaThtcEUtVDJKbHliRFZseGhERkxpLUhGTHprRURTTHdvQQ?oc=5",
-          "signal_strength": 1.3
-        },
-        {
-          "id": "S246",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
-          "signal_strength": 2.9
-        },
-        {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
-          "signal_strength": 2.3
-        },
-        {
-          "id": "S236",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-          "signal_strength": 0.9
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from generic dev boards, laptops and purely software workflows.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
       "id": "M005",
-      "thesis_key": "gaming_productivity_peripherals",
-      "name": "Gaming productivity peripherals",
-      "name_zh": "游戏与效率外设",
-      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
-      "hardware_form_factors": [
-        "gaming monitor",
-        "gaming keyboard",
-        "desktop controller"
-      ],
-      "buyer_segments": [
-        "gamers",
-        "developers",
-        "desk setup buyers"
-      ],
-      "evidence_status": "Validated",
-      "evidence_score": 80,
-      "source_mix": {
-        "community": 2,
-        "media": 2,
-        "product_launch": 2
-      },
-      "source_names": [
-        "Engadget",
-        "Gizmodo",
-        "Product Hunt",
-        "Reddit r/gadgets",
-        "Reddit r/smarthome",
-        "The Verge"
-      ],
-      "signal_count": 10,
-      "trend_key": "gaming monitor",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S011",
-        "S157",
-        "S212",
-        "S293",
-        "S380",
-        "S394",
-        "S403",
-        "S614",
-        "S733",
-        "S749"
-      ],
-      "top_signals": [
-        {
-          "id": "S293",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
-          "signal_strength": 2.75
-        },
-        {
-          "id": "S011",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
-          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S403",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Sony’s new fight stick and gaming monitor launch in August",
-          "source_url": "https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price",
-          "signal_strength": 0.75
-        },
-        {
-          "id": "S212",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "AIFORPET",
-          "source_url": "https://www.producthunt.com/products/aiforpet",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S394",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Wingbits AI",
-          "source_url": "https://www.producthunt.com/products/wingbits-ai",
-          "signal_strength": 2.3
-        }
-      ],
-      "missing_evidence": [
-        "supply_chain"
-      ],
-      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
-      "next_validation": [
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check",
-        "reference_design_scan"
-      ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
-    },
-    {
-      "id": "M006",
       "thesis_key": "smart_audio_devices",
       "name": "Smart audio devices",
       "name_zh": "智能音频设备",
@@ -959,7 +871,7 @@
       "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
     },
     {
-      "id": "M007",
+      "id": "M006",
       "thesis_key": "outdoor_smart_devices",
       "name": "Outdoor smart devices",
       "name_zh": "户外智能设备",
@@ -1052,6 +964,89 @@
         "reference_design_scan"
       ],
       "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media."
+    },
+    {
+      "id": "M007",
+      "thesis_key": "gaming_productivity_peripherals",
+      "name": "Gaming productivity peripherals",
+      "name_zh": "游戏与效率外设",
+      "job_to_be_done": "Desk users want hardware that improves focus, control and visual performance in gaming or productivity setups.",
+      "hardware_form_factors": [
+        "gaming monitor",
+        "gaming keyboard",
+        "desktop controller"
+      ],
+      "buyer_segments": [
+        "gamers",
+        "developers",
+        "desk setup buyers"
+      ],
+      "evidence_status": "Validated",
+      "evidence_score": 80,
+      "source_mix": {
+        "product_launch": 2,
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Gizmodo",
+        "Product Hunt",
+        "Reddit r/smarthome"
+      ],
+      "signal_count": 4,
+      "trend_key": "smart home air quality monitor",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S157",
+        "S212",
+        "S380",
+        "S394"
+      ],
+      "top_signals": [
+        {
+          "id": "S212",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "AIFORPET",
+          "source_url": "https://www.producthunt.com/products/aiforpet",
+          "signal_strength": 2.55
+        },
+        {
+          "id": "S394",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Wingbits AI",
+          "source_url": "https://www.producthunt.com/products/wingbits-ai",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S157",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
+          "signal_strength": 2.3
+        },
+        {
+          "id": "S380",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Oura’s Ring 5 Is Its Slimmest and Most Accurate Smart Ring Yet - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPODc5WDc4NFRsNUJkYXFSTU1qR2FLY2dyZXdLdWh1bG1CNjVCcDROQzVEckpOVU85U0xCdm9zLVl1QWh5Y05VWDNlYXF5YkxQNHo4dExyUjN3dmFnS0pQeUpiMmlIUzE4Rzl4c0NFZUxqcEZTS3hKR3BuWnRCRXI5LVlVU3h0UmQ2emttQ05GNlVqWFBrMkE?oc=5",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "supply_chain"
+      ],
+      "substitution_risk": "High from mature peripheral brands and heavy price competition.",
+      "next_validation": [
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check",
+        "reference_design_scan"
+      ],
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
     },
     {
       "id": "M008",
@@ -1157,7 +1152,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 319,
+      "signal_count": 323,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1480,7 +1475,11 @@
         "S783",
         "S785",
         "S788",
-        "S789"
+        "S789",
+        "S790",
+        "S792",
+        "S795",
+        "S799"
       ],
       "top_signals": [
         {
