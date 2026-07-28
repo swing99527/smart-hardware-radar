@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-27T20:25:15.735459Z",
+  "generated_at": "2026-07-28T20:19:10.273425Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 281,
+      "signal_count": 284,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -329,7 +329,10 @@
         "S787",
         "S791",
         "S794",
-        "S798"
+        "S798",
+        "S800",
+        "S804",
+        "S807"
       ],
       "top_signals": [
         {
@@ -429,7 +432,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 80,
+      "signal_count": 81,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -513,7 +516,8 @@
         "S769",
         "S774",
         "S779",
-        "S797"
+        "S797",
+        "S802"
       ],
       "top_signals": [
         {
@@ -708,7 +712,7 @@
         "SlashGear",
         "The Verge"
       ],
-      "signal_count": 15,
+      "signal_count": 16,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -727,7 +731,8 @@
         "S561",
         "S590",
         "S592",
-        "S702"
+        "S702",
+        "S803"
       ],
       "top_signals": [
         {
@@ -1152,7 +1157,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 323,
+      "signal_count": 326,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1479,7 +1484,10 @@
         "S790",
         "S792",
         "S795",
-        "S799"
+        "S799",
+        "S801",
+        "S805",
+        "S808"
       ],
       "top_signals": [
         {
@@ -1572,7 +1580,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 45,
+      "signal_count": 46,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1621,7 +1629,8 @@
         "S562",
         "S659",
         "S666",
-        "S675"
+        "S675",
+        "S806"
       ],
       "top_signals": [
         {
