@@ -283,6 +283,43 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A008",
+      "name": "【证据聚类】Smart Multicolor Ceiling Light",
+      "name_en": "Smart Multicolor Ceiling Light",
+      "name_zh": null,
+      "cluster_key": "smart multicolor ceiling light",
+      "cluster_members": [
+        "Smart Multicolor Ceiling Light"
+      ],
+      "source_title": "Nanoleaf Smart Multicolor Ceiling Light Review: A Paper Plate on Your Ceiling - Gizmodo",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTNoUG8waEJLLTBNSEpiYktUU0ticHVGU2xWVXNHa3AtUjhBX2ZJMVZWM0hHbVBPUVNKZnZSelNCdlJiV1RHdHNtTWlvS3dRY0hpY1JfaDdoa2ZHbFJOY3VtU0dzeGQ4c3NWZ2FTeC1TcnBZZ1BIVnppbDBkRVB5MXI0VjFqM1lwZnd2TE14c1NSR0ZFZWFIMWFkd2dMVHUyNF9lcENwNzFwUjA?oc=5",
+      "evidence_signal_ids": [
+        "S786",
+        "S840"
+      ],
+      "confidence": 0.77,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 2.0,
+        "matched_watch_topics": [],
+        "candidate_keys": [
+          "smart multicolor ceiling light"
+        ],
+        "l0_confidence": 0.77
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }

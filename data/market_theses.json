@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-07-31T20:22:20.624626Z",
+  "generated_at": "2026-08-01T20:11:21.795413Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 293,
+      "signal_count": 296,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -341,7 +341,10 @@
         "S826",
         "S828",
         "S831",
-        "S833"
+        "S833",
+        "S835",
+        "S838",
+        "S841"
       ],
       "top_signals": [
         {
@@ -441,7 +444,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 84,
+      "signal_count": 85,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -529,7 +532,8 @@
         "S802",
         "S821",
         "S827",
-        "S830"
+        "S830",
+        "S837"
       ],
       "top_signals": [
         {
@@ -1169,7 +1173,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 339,
+      "signal_count": 342,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1512,7 +1516,10 @@
         "S825",
         "S829",
         "S832",
-        "S834"
+        "S834",
+        "S836",
+        "S839",
+        "S842"
       ],
       "top_signals": [
         {
@@ -1716,6 +1723,69 @@
     },
     {
       "id": "M011",
+      "thesis_key": "emerging_smart_multicolor_ceiling_light",
+      "name": "Smart Multicolor Ceiling Light",
+      "name_zh": "Smart Multicolor Ceiling Light",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Multicolor Ceiling Light"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 53,
+      "source_mix": {
+        "community": 1,
+        "media": 1
+      },
+      "source_names": [
+        "Gizmodo",
+        "Reddit r/gadgets"
+      ],
+      "signal_count": 2,
+      "trend_key": "smart multicolor ceiling light",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S786",
+        "S840"
+      ],
+      "top_signals": [
+        {
+          "id": "S840",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Nanoleaf Smart Multicolor Ceiling Light Review: A Paper Plate on Your Ceiling",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1v7qt0h/nanoleaf_smart_multicolor_ceiling_light_review_a/",
+          "signal_strength": 3.0
+        },
+        {
+          "id": "S786",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Nanoleaf Smart Multicolor Ceiling Light Review: A Paper Plate on Your Ceiling - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTNoUG8waEJLLTBNSEpiYktUU0ticHVGU2xWVXNHa3AtUjhBX2ZJMVZWM0hHbVBPUVNKZnZSelNCdlJiV1RHdHNtTWlvS3dRY0hpY1JfaDdoa2ZHbFJOY3VtU0dzeGQ4c3NWZ2FTeC1TcnBZZ1BIVnppbDBkRVB5MXI0VjFqM1lwZnd2TE14c1NSR0ZFZWFIMWFkd2dMVHUyNF9lcENwNzFwUjA?oc=5",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M012",
       "thesis_key": "emerging_ai_art_ceiling_light",
       "name": "AI Art Ceiling Light",
       "name_zh": "AI Art Ceiling Light",
@@ -1768,7 +1838,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M012",
+      "id": "M013",
       "thesis_key": "emerging_smart_lighting",
       "name": "Smart Lighting",
       "name_zh": "Smart Lighting",
@@ -1821,7 +1891,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M013",
+      "id": "M014",
       "thesis_key": "emerging_smart_window_shades",
       "name": "Smart Window Shades",
       "name_zh": "Smart Window Shades",
@@ -1874,7 +1944,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M014",
+      "id": "M015",
       "thesis_key": "emerging_smart_fan",
       "name": "Smart Fan",
       "name_zh": "Smart Fan",
@@ -1927,7 +1997,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M015",
+      "id": "M016",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -1979,7 +2049,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M016",
+      "id": "M017",
       "thesis_key": "emerging_ai_wearable",
       "name": "AI Wearable",
       "name_zh": "AI Wearable",
@@ -2031,7 +2101,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M017",
+      "id": "M018",
       "thesis_key": "emerging_ai_search_console",
       "name": "AI Search Console",
       "name_zh": "AI Search Console",
@@ -2083,7 +2153,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M018",
+      "id": "M019",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -2137,7 +2207,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M019",
+      "id": "M020",
       "thesis_key": "emerging_跑ar+智能眼镜品类，q",
       "name": "跑AR+智能眼镜品类，Q",
       "name_zh": "跑AR+智能眼镜品类，Q",
@@ -2191,7 +2261,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M020",
+      "id": "M021",
       "thesis_key": "emerging_首款ai陪伴机器人｜最前线",
       "name": "首款AI陪伴机器人｜最前线",
       "name_zh": "首款AI陪伴机器人｜最前线",
@@ -2245,7 +2315,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M021",
+      "id": "M022",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -2299,7 +2369,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M022",
+      "id": "M023",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -2332,60 +2402,6 @@
           "source_type": "media",
           "source_title": "Here’s where you can preorder the new Oura Ring 5",
           "source_url": "https://www.theverge.com/gadgets/938380/oura-ring-5-preorder-price-release-date-availability",
-          "signal_strength": 1.0
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot"
-      ],
-      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
-    },
-    {
-      "id": "M023",
-      "thesis_key": "emerging_smart_multicolor_ceiling_light",
-      "name": "Smart Multicolor Ceiling Light",
-      "name_zh": "Smart Multicolor Ceiling Light",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "Smart Multicolor Ceiling Light"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Noise",
-      "evidence_score": 16,
-      "source_mix": {
-        "media": 1
-      },
-      "source_names": [
-        "Gizmodo"
-      ],
-      "signal_count": 1,
-      "trend_key": "smart multicolor ceiling light",
-      "trend_status": "Noise",
-      "trend_reason": "media_only_awareness",
-      "evidence_signal_ids": [
-        "S786"
-      ],
-      "top_signals": [
-        {
-          "id": "S786",
-          "source_name": "Gizmodo",
-          "source_type": "media",
-          "source_title": "Nanoleaf Smart Multicolor Ceiling Light Review: A Paper Plate on Your Ceiling - Gizmodo",
-          "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTNoUG8waEJLLTBNSEpiYktUU0ticHVGU2xWVXNHa3AtUjhBX2ZJMVZWM0hHbVBPUVNKZnZSelNCdlJiV1RHdHNtTWlvS3dRY0hpY1JfaDdoa2ZHbFJOY3VtU0dzeGQ4c3NWZ2FTeC1TcnBZZ1BIVnppbDBkRVB5MXI0VjFqM1lwZnd2TE14c1NSR0ZFZWFIMWFkd2dMVHUyNF9lcENwNzFwUjA?oc=5",
           "signal_strength": 1.0
         }
       ],
