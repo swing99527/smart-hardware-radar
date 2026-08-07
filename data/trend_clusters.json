@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-07T00:42:35.925345Z",
+  "generated_at": "2026-08-07T19:53:32.760251Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 297,
+      "seen_count_total": 300,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -86,14 +86,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.67,
       "max_signal_strength": 2.75,
-      "seen_count_total": 145,
+      "seen_count_total": 147,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S097",
         "S533"
@@ -138,7 +138,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1414,
+      "seen_count_total": 1426,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -146,7 +146,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -235,41 +235,6 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "ai spend console",
-      "name": "AI Spend Console",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "product_launch"
-      ],
-      "source_names": [
-        "Product Hunt"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.55,
-      "max_signal_strength": 2.55,
-      "seen_count_total": 1,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-08-07T00:42:35.925345Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
-      "evidence_signal_ids": [
-        "S867"
-      ],
-      "top_signals": [
-        {
-          "id": "S867",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "AI Spend Console by Rippling",
-          "source_url": "https://www.producthunt.com/products/rippling",
-          "signal_strength": 2.55
-        }
-      ],
-      "velocity_7run_delta": 1,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:robot_agent_kit",
       "name": "Robot Agent Kit",
       "name_zh": null,
@@ -284,7 +249,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.43,
       "max_signal_strength": 2.7,
-      "seen_count_total": 303,
+      "seen_count_total": 306,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -292,7 +257,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -346,7 +311,7 @@
           "signal_strength": 2.35
         }
       ],
-      "velocity_7run_delta": 0.43,
+      "velocity_7run_delta": 0.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -458,7 +423,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.27,
       "max_signal_strength": 3.45,
-      "seen_count_total": 297,
+      "seen_count_total": 300,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -467,7 +432,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -538,13 +503,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 62,
+      "seen_count_total": 63,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -613,7 +578,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 0.29,
+      "velocity_7run_delta": 0.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -971,7 +936,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.32,
       "max_signal_strength": 2.7,
-      "seen_count_total": 668,
+      "seen_count_total": 676,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -982,7 +947,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1296,7 +1261,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 5.14,
+      "velocity_7run_delta": 3.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1332,7 +1297,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.24,
       "max_signal_strength": 2.55,
-      "seen_count_total": 2038,
+      "seen_count_total": 2058,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1342,7 +1307,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1476,7 +1441,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 3.43,
+      "velocity_7run_delta": 2.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1484,7 +1449,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 350,
+      "signal_count": 354,
       "source_types": [
         "community",
         "developer",
@@ -1498,7 +1463,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.14,
       "max_signal_strength": 2.75,
-      "seen_count_total": 614,
+      "seen_count_total": 620,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1511,7 +1476,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1862,7 +1827,11 @@
         "S869",
         "S872",
         "S873",
-        "S874"
+        "S874",
+        "S876",
+        "S877",
+        "S878",
+        "S880"
       ],
       "top_signals": [
         {
@@ -1906,7 +1875,7 @@
           "signal_strength": 2.2
         }
       ],
-      "velocity_7run_delta": 13.43,
+      "velocity_7run_delta": 14.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2149,12 +2118,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 113,
+      "seen_count_total": 114,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -2487,6 +2456,41 @@
           "source_type": "product_launch",
           "source_title": "AI Search Console",
           "source_url": "https://www.producthunt.com/products/ai-search-console",
+          "signal_strength": 2.55
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
+      "trend_key": "ai spend console",
+      "name": "AI Spend Console",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "product_launch"
+      ],
+      "source_names": [
+        "Product Hunt"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.55,
+      "max_signal_strength": 2.55,
+      "seen_count_total": 2,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
+      "evidence_signal_ids": [
+        "S867"
+      ],
+      "top_signals": [
+        {
+          "id": "S867",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "AI Spend Console by Rippling",
+          "source_url": "https://www.producthunt.com/products/rippling",
           "signal_strength": 2.55
         }
       ],
@@ -2939,13 +2943,13 @@
       "has_behavior_source": false,
       "avg_signal_strength": 1.3,
       "max_signal_strength": 1.3,
-      "seen_count_total": 1,
+      "seen_count_total": 2,
       "matched_watch_topics": [
         "big_tech_peripherals",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-08-07T00:42:35.925345Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S868"
       ],
@@ -2959,7 +2963,7 @@
           "signal_strength": 1.3
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -3468,6 +3472,44 @@
       "trend_reason": "media_only_awareness"
     },
     {
+      "trend_key": "ai robot",
+      "name": "AI Robot",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "Gizmodo"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 1.05,
+      "max_signal_strength": 1.05,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "big_tech_peripherals",
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-08-07T19:53:32.760251Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
+      "evidence_signal_ids": [
+        "S875"
+      ],
+      "top_signals": [
+        {
+          "id": "S875",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "OpenAI’s Rumored Smart Speaker Sounds More Like a… Squirming AI Robot? - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbUV6MGNKbVdaeVdyTlhPcDlEZXB5Ymc5bU15LURzRldLZlZOTm1CdTFEQ1RHUlNFQnNlNHhYZTFydzBPS3dLTnVBbVpkZWxid0doMjd3WmE1dHlQc3ZzeGpNcGZZakhSeG1lQy03YnJseUhQV2JveWhpWGJEV3dHalUxV3VUVnpQdHItWWpLTFVDSGFZLV9kMUFuQUl0alk?oc=5",
+          "signal_strength": 1.05
+        }
+      ],
+      "velocity_7run_delta": 1,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
       "trend_key": "ai music device",
       "name": "AI Music Device",
       "name_zh": null,
@@ -3586,10 +3628,10 @@
       "has_behavior_source": false,
       "avg_signal_strength": 1.0,
       "max_signal_strength": 1.0,
-      "seen_count_total": 1,
+      "seen_count_total": 2,
       "matched_watch_topics": [],
       "first_seen_at": "2026-08-07T00:42:35.925345Z",
-      "last_seen_at": "2026-08-07T00:42:35.925345Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
       "evidence_signal_ids": [
         "S870"
       ],
@@ -3603,7 +3645,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -3755,6 +3797,43 @@
         }
       ],
       "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "translation device",
+      "name": "Translation Device",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "Yanko Design"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 0.9,
+      "max_signal_strength": 0.9,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "big_tech_peripherals"
+      ],
+      "first_seen_at": "2026-08-07T19:53:32.760251Z",
+      "last_seen_at": "2026-08-07T19:53:32.760251Z",
+      "evidence_signal_ids": [
+        "S879"
+      ],
+      "top_signals": [
+        {
+          "id": "S879",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "Google Built a Translation Device That Doesn’t Need Google’s Own Cloud",
+          "source_url": "https://www.yankodesign.com/2026/08/07/google-built-a-translation-device-that-doesnt-need-googles-own-cloud/?utm_source=rss&utm_medium=rss&utm_campaign=google-built-a-translation-device-that-doesnt-need-googles-own-cloud",
+          "signal_strength": 0.9
+        }
+      ],
+      "velocity_7run_delta": 1,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },

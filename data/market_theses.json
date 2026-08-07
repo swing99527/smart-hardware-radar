@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-07T00:42:35.925345Z",
+  "generated_at": "2026-08-07T19:53:32.760251Z",
   "theses": [
     {
       "id": "M001",
@@ -26,7 +26,7 @@
       "source_mix": {
         "developer": 7,
         "community": 4,
-        "media": 8,
+        "media": 9,
         "crowdfunding": 1
       },
       "source_names": [
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 303,
+      "signal_count": 304,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -351,7 +351,8 @@
         "S851",
         "S854",
         "S862",
-        "S871"
+        "S871",
+        "S875"
       ],
       "top_signals": [
         {
@@ -612,7 +613,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 4,
-        "media": 10,
+        "media": 11,
         "product_launch": 1
       },
       "source_names": [
@@ -627,7 +628,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 23,
+      "signal_count": 24,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -654,7 +655,8 @@
         "S749",
         "S793",
         "S796",
-        "S868"
+        "S868",
+        "S879"
       ],
       "top_signals": [
         {
@@ -1188,7 +1190,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 359,
+      "signal_count": 363,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1551,7 +1553,11 @@
         "S869",
         "S872",
         "S873",
-        "S874"
+        "S874",
+        "S876",
+        "S877",
+        "S878",
+        "S880"
       ],
       "top_signals": [
         {
@@ -2134,58 +2140,6 @@
     },
     {
       "id": "M018",
-      "thesis_key": "emerging_ai_spend_console",
-      "name": "AI Spend Console",
-      "name_zh": "AI Spend Console",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "AI Spend Console"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 36,
-      "source_mix": {
-        "product_launch": 1
-      },
-      "source_names": [
-        "Product Hunt"
-      ],
-      "signal_count": 1,
-      "trend_key": "ai spend console",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
-      "evidence_signal_ids": [
-        "S867"
-      ],
-      "top_signals": [
-        {
-          "id": "S867",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "AI Spend Console by Rippling",
-          "source_url": "https://www.producthunt.com/products/rippling",
-          "signal_strength": 2.55
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "supply_chain",
-        "source_diversity"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
-    },
-    {
-      "id": "M019",
       "thesis_key": "emerging_ai_search_console",
       "name": "AI Search Console",
       "name_zh": "AI Search Console",
@@ -2218,6 +2172,58 @@
           "source_type": "product_launch",
           "source_title": "AI Search Console",
           "source_url": "https://www.producthunt.com/products/ai-search-console",
+          "signal_strength": 2.55
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "supply_chain",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M019",
+      "thesis_key": "emerging_ai_spend_console",
+      "name": "AI Spend Console",
+      "name_zh": "AI Spend Console",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Spend Console"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 36,
+      "source_mix": {
+        "product_launch": 1
+      },
+      "source_names": [
+        "Product Hunt"
+      ],
+      "signal_count": 1,
+      "trend_key": "ai spend console",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
+      "evidence_signal_ids": [
+        "S867"
+      ],
+      "top_signals": [
+        {
+          "id": "S867",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "AI Spend Console by Rippling",
+          "source_url": "https://www.producthunt.com/products/rippling",
           "signal_strength": 2.55
         }
       ],
