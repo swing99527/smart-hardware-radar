@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-05T20:34:50.610392Z",
+  "generated_at": "2026-08-07T00:42:35.925345Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 302,
+      "signal_count": 303,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -350,7 +350,8 @@
         "S848",
         "S851",
         "S854",
-        "S862"
+        "S862",
+        "S871"
       ],
       "top_signals": [
         {
@@ -611,7 +612,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 4,
-        "media": 9,
+        "media": 10,
         "product_launch": 1
       },
       "source_names": [
@@ -626,7 +627,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 22,
+      "signal_count": 23,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -652,7 +653,8 @@
         "S733",
         "S749",
         "S793",
-        "S796"
+        "S796",
+        "S868"
       ],
       "top_signals": [
         {
@@ -827,7 +829,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 2,
-        "media": 2,
+        "media": 3,
         "product_launch": 2
       },
       "source_names": [
@@ -835,9 +837,10 @@
         "Product Hunt",
         "Reddit r/gadgets",
         "Reddit r/smarthome",
-        "SlashGear"
+        "SlashGear",
+        "少数派"
       ],
-      "signal_count": 6,
+      "signal_count": 7,
       "trend_key": "wireless headphones",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -847,7 +850,8 @@
         "S223",
         "S253",
         "S376",
-        "S501"
+        "S501",
+        "S870"
       ],
       "top_signals": [
         {
@@ -1184,7 +1188,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 355,
+      "signal_count": 359,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1543,7 +1547,11 @@
         "S861",
         "S863",
         "S865",
-        "S866"
+        "S866",
+        "S869",
+        "S872",
+        "S873",
+        "S874"
       ],
       "top_signals": [
         {
@@ -2126,6 +2134,58 @@
     },
     {
       "id": "M018",
+      "thesis_key": "emerging_ai_spend_console",
+      "name": "AI Spend Console",
+      "name_zh": "AI Spend Console",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Spend Console"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 36,
+      "source_mix": {
+        "product_launch": 1
+      },
+      "source_names": [
+        "Product Hunt"
+      ],
+      "signal_count": 1,
+      "trend_key": "ai spend console",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S867"
+      ],
+      "top_signals": [
+        {
+          "id": "S867",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "AI Spend Console by Rippling",
+          "source_url": "https://www.producthunt.com/products/rippling",
+          "signal_strength": 2.55
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "supply_chain",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M019",
       "thesis_key": "emerging_ai_search_console",
       "name": "AI Search Console",
       "name_zh": "AI Search Console",
@@ -2177,7 +2237,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M019",
+      "id": "M020",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -2231,7 +2291,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M020",
+      "id": "M021",
       "thesis_key": "emerging_跑ar+智能眼镜品类，q",
       "name": "跑AR+智能眼镜品类，Q",
       "name_zh": "跑AR+智能眼镜品类，Q",
@@ -2285,7 +2345,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M021",
+      "id": "M022",
       "thesis_key": "emerging_首款ai陪伴机器人｜最前线",
       "name": "首款AI陪伴机器人｜最前线",
       "name_zh": "首款AI陪伴机器人｜最前线",
@@ -2339,7 +2399,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M022",
+      "id": "M023",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -2393,7 +2453,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M023",
+      "id": "M024",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -2447,7 +2507,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M024",
+      "id": "M025",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -2501,7 +2561,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M025",
+      "id": "M026",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
