@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-07T19:53:32.760251Z",
+  "generated_at": "2026-08-08T19:33:59.323116Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 304,
+      "signal_count": 305,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -352,7 +352,8 @@
         "S854",
         "S862",
         "S871",
-        "S875"
+        "S875",
+        "S881"
       ],
       "top_signals": [
         {
@@ -452,7 +453,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 90,
+      "signal_count": 91,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -546,7 +547,8 @@
         "S850",
         "S853",
         "S857",
-        "S864"
+        "S864",
+        "S883"
       ],
       "top_signals": [
         {
@@ -1190,7 +1192,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 363,
+      "signal_count": 366,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1557,7 +1559,10 @@
         "S876",
         "S877",
         "S878",
-        "S880"
+        "S880",
+        "S882",
+        "S885",
+        "S886"
       ],
       "top_signals": [
         {
@@ -2036,6 +2041,59 @@
     },
     {
       "id": "M016",
+      "thesis_key": "emerging_translation_smart_glasses",
+      "name": "Translation Smart Glasses",
+      "name_zh": "Translation Smart Glasses",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Translation Smart Glasses"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 41,
+      "source_mix": {
+        "community": 1
+      },
+      "source_names": [
+        "Hacker News Show"
+      ],
+      "signal_count": 1,
+      "trend_key": "translation smart glasses",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S884"
+      ],
+      "top_signals": [
+        {
+          "id": "S884",
+          "source_name": "Hacker News Show",
+          "source_type": "community",
+          "source_title": "Show HN: Sign language translation with smart glasses",
+          "source_url": "https://github.com/aadisang/hand-wave",
+          "signal_strength": 1.75
+        }
+      ],
+      "missing_evidence": [
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot",
+        "kickstarter_indiegogo_deep_scan",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
+    },
+    {
+      "id": "M017",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -2087,7 +2145,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M017",
+      "id": "M018",
       "thesis_key": "emerging_ai_wearable",
       "name": "AI Wearable",
       "name_zh": "AI Wearable",
@@ -2139,7 +2197,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M018",
+      "id": "M019",
       "thesis_key": "emerging_ai_search_console",
       "name": "AI Search Console",
       "name_zh": "AI Search Console",
@@ -2191,7 +2249,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M019",
+      "id": "M020",
       "thesis_key": "emerging_ai_spend_console",
       "name": "AI Spend Console",
       "name_zh": "AI Spend Console",
@@ -2243,7 +2301,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M020",
+      "id": "M021",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -2297,7 +2355,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M021",
+      "id": "M022",
       "thesis_key": "emerging_跑ar+智能眼镜品类，q",
       "name": "跑AR+智能眼镜品类，Q",
       "name_zh": "跑AR+智能眼镜品类，Q",
@@ -2351,7 +2409,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M022",
+      "id": "M023",
       "thesis_key": "emerging_首款ai陪伴机器人｜最前线",
       "name": "首款AI陪伴机器人｜最前线",
       "name_zh": "首款AI陪伴机器人｜最前线",
@@ -2405,7 +2463,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M023",
+      "id": "M024",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -2459,7 +2517,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M024",
+      "id": "M025",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -2513,7 +2571,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M025",
+      "id": "M026",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -2567,7 +2625,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M026",
+      "id": "M027",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
