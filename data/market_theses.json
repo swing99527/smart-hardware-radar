@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-09T19:37:37.047999Z",
+  "generated_at": "2026-08-10T19:55:47.882813Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 307,
+      "signal_count": 310,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -355,7 +355,10 @@
         "S875",
         "S881",
         "S887",
-        "S889"
+        "S889",
+        "S894",
+        "S896",
+        "S898"
       ],
       "top_signals": [
         {
@@ -434,7 +437,7 @@
         "community": 2,
         "crowdfunding": 1,
         "developer": 1,
-        "media": 1,
+        "media": 2,
         "product_reference": 1
       },
       "source_names": [
@@ -451,11 +454,12 @@
         "Naya",
         "Reddit Geek Productivity Hardware Search",
         "Reddit r/olkb",
+        "The Verge",
         "Wooting",
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 92,
+      "signal_count": 94,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -551,7 +555,9 @@
         "S857",
         "S864",
         "S883",
-        "S891"
+        "S891",
+        "S893",
+        "S900"
       ],
       "top_signals": [
         {
@@ -585,6 +591,14 @@
           "source_title": "Vanguard Keyboard Outsider - A Modular Build",
           "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
           "signal_strength": 2.45
+        },
+        {
+          "id": "S900",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Keychron’s wireless Hall effect keyboard is back to its lowest price",
+          "source_url": "https://www.theverge.com/gadgets/977300/keychron-hall-effect-sony-inzone-headsets-gaming-laptop-deal-sale",
+          "signal_strength": 1.15
         }
       ],
       "missing_evidence": [
@@ -1195,7 +1209,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 369,
+      "signal_count": 372,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1568,7 +1582,10 @@
         "S886",
         "S888",
         "S890",
-        "S892"
+        "S892",
+        "S895",
+        "S897",
+        "S899"
       ],
       "top_signals": [
         {
