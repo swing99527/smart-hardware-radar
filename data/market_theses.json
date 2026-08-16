@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-15T19:24:30.610478Z",
+  "generated_at": "2026-08-16T19:24:17.972232Z",
   "theses": [
     {
       "id": "M001",
@@ -474,7 +474,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 100,
+      "signal_count": 101,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -578,7 +578,8 @@
         "S922",
         "S929",
         "S933",
-        "S938"
+        "S938",
+        "S945"
       ],
       "top_signals": [
         {
@@ -1230,7 +1231,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 393,
+      "signal_count": 398,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1627,7 +1628,12 @@
         "S937",
         "S940",
         "S942",
-        "S943"
+        "S943",
+        "S944",
+        "S946",
+        "S947",
+        "S948",
+        "S949"
       ],
       "top_signals": [
         {
@@ -1663,12 +1669,12 @@
           "signal_strength": 2.75
         },
         {
-          "id": "S539",
-          "source_name": "Reddit Agentic Edge Hardware Search",
-          "source_type": "community",
-          "source_title": "EXCLUSIVE: Grocery Stores Are Now Deploying “AI Shopping Carts”, Loaded With Cameras That Track Your Exact Location In The Store And Bombard You With Targeted Ads The Entire Time You Shop 🤖",
-          "source_url": "https://www.reddit.com/r/InterstellarKinetics/comments/1uaa1s2/exclusive_grocery_stores_are_now_deploying_ai/",
-          "signal_strength": 2.7
+          "id": "S949",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "nico-martin/gemma4-browser-extension - On-device AI agent Chrome extension powered by Transformers.js and Gemma 4",
+          "source_url": "https://github.com/nico-martin/gemma4-browser-extension",
+          "signal_strength": 2.75
         }
       ],
       "missing_evidence": [
