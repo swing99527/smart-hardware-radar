@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-17T19:31:31.756988Z",
+  "generated_at": "2026-08-18T19:30:45.483877Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 328,
+      "signal_count": 331,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -376,7 +376,10 @@
         "S941",
         "S950",
         "S952",
-        "S956"
+        "S956",
+        "S959",
+        "S961",
+        "S963"
       ],
       "top_signals": [
         {
@@ -1236,7 +1239,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 401,
+      "signal_count": 404,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1641,7 +1644,10 @@
         "S949",
         "S951",
         "S953",
-        "S957"
+        "S957",
+        "S960",
+        "S962",
+        "S964"
       ],
       "top_signals": [
         {
@@ -1734,7 +1740,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 47,
+      "signal_count": 48,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1785,7 +1791,8 @@
         "S666",
         "S675",
         "S806",
-        "S916"
+        "S916",
+        "S965"
       ],
       "top_signals": [
         {
@@ -2382,6 +2389,58 @@
     },
     {
       "id": "M021",
+      "thesis_key": "emerging_controller_ai",
+      "name": "Controller AI",
+      "name_zh": "Controller AI",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Controller AI"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Watch",
+      "evidence_score": 34,
+      "source_mix": {
+        "product_launch": 1
+      },
+      "source_names": [
+        "Product Hunt"
+      ],
+      "signal_count": 1,
+      "trend_key": "controller ai",
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "evidence_signal_ids": [
+        "S958"
+      ],
+      "top_signals": [
+        {
+          "id": "S958",
+          "source_name": "Product Hunt",
+          "source_type": "product_launch",
+          "source_title": "Controller AI",
+          "source_url": "https://www.producthunt.com/products/insight-ai",
+          "signal_strength": 2.3
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "supply_chain",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "1688_alibaba_supplier_scan",
+        "fcc_bluetooth_bom_check"
+      ],
+      "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
+    },
+    {
+      "id": "M022",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -2435,7 +2494,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M022",
+      "id": "M023",
       "thesis_key": "emerging_跑ar+智能眼镜品类，q",
       "name": "跑AR+智能眼镜品类，Q",
       "name_zh": "跑AR+智能眼镜品类，Q",
@@ -2489,7 +2548,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M023",
+      "id": "M024",
       "thesis_key": "emerging_首款ai陪伴机器人｜最前线",
       "name": "首款AI陪伴机器人｜最前线",
       "name_zh": "首款AI陪伴机器人｜最前线",
@@ -2543,7 +2602,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M024",
+      "id": "M025",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -2597,7 +2656,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M025",
+      "id": "M026",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -2651,7 +2710,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M026",
+      "id": "M027",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -2705,7 +2764,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M027",
+      "id": "M028",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
