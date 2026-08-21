@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-20T19:35:23.523674Z",
+  "generated_at": "2026-08-21T19:28:39.688004Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 339,
+      "seen_count_total": 342,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -86,14 +86,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.67,
       "max_signal_strength": 2.75,
-      "seen_count_total": 173,
+      "seen_count_total": 175,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S097",
         "S533"
@@ -138,7 +138,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1583,
+      "seen_count_total": 1595,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -146,7 +146,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -232,7 +232,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -251,7 +251,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.43,
       "max_signal_strength": 2.7,
-      "seen_count_total": 345,
+      "seen_count_total": 348,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -259,7 +259,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -425,7 +425,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.27,
       "max_signal_strength": 3.45,
-      "seen_count_total": 339,
+      "seen_count_total": 342,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -434,7 +434,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -505,13 +505,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 76,
+      "seen_count_total": 77,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -652,94 +652,6 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "cluster:smart_home_security",
-      "name": "Smart Home Security Device",
-      "name_zh": "智能家居安防设备",
-      "signal_count": 15,
-      "source_types": [
-        "community",
-        "media"
-      ],
-      "source_names": [
-        "Gizmodo",
-        "Hacker News Show",
-        "Reddit r/smarthome",
-        "SlashGear",
-        "The Verge"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 1.79,
-      "max_signal_strength": 2.8,
-      "seen_count_total": 63,
-      "matched_watch_topics": [
-        "hardware_intersections"
-      ],
-      "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-07-28T20:19:10.273425Z",
-      "evidence_signal_ids": [
-        "S003",
-        "S004",
-        "S005",
-        "S007",
-        "S084",
-        "S300",
-        "S377",
-        "S384",
-        "S463",
-        "S473",
-        "S561",
-        "S590",
-        "S592",
-        "S702",
-        "S803"
-      ],
-      "top_signals": [
-        {
-          "id": "S003",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Outdoor camera for remote viewing without monthly fees?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S463",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart lock? No smart home anything...",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1u0gv31/smart_lock_no_smart_home_anything/",
-          "signal_strength": 2.8
-        },
-        {
-          "id": "S004",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S561",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart interior door lock?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1u8306i/smart_interior_door_lock/",
-          "signal_strength": 2.45
-        },
-        {
-          "id": "S007",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Smart Lock Recommendations with these specs",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
-          "signal_strength": 2.2
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "gaming controller",
       "name": "Gaming Controller",
       "name_zh": null,
@@ -855,6 +767,95 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "cluster:smart_home_security",
+      "name": "Smart Home Security Device",
+      "name_zh": "智能家居安防设备",
+      "signal_count": 16,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Gizmodo",
+        "Hacker News Show",
+        "Reddit r/smarthome",
+        "SlashGear",
+        "The Verge"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.73,
+      "max_signal_strength": 2.8,
+      "seen_count_total": 64,
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
+      "evidence_signal_ids": [
+        "S003",
+        "S004",
+        "S005",
+        "S007",
+        "S084",
+        "S300",
+        "S377",
+        "S384",
+        "S463",
+        "S473",
+        "S561",
+        "S590",
+        "S592",
+        "S702",
+        "S803",
+        "S982"
+      ],
+      "top_signals": [
+        {
+          "id": "S003",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Outdoor camera for remote viewing without monthly fees?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy3tfl/outdoor_camera_for_remote_viewing_without_monthly/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S463",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart lock? No smart home anything...",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1u0gv31/smart_lock_no_smart_home_anything/",
+          "signal_strength": 2.8
+        },
+        {
+          "id": "S004",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S561",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart interior door lock?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1u8306i/smart_interior_door_lock/",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S007",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Smart Lock Recommendations with these specs",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1syx8du/smart_lock_recommendations_with_these_specs/",
+          "signal_strength": 2.2
+        }
+      ],
+      "velocity_7run_delta": 1.0,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "robot vacuum",
       "name": "Robot Vacuum",
       "name_zh": null,
@@ -924,7 +925,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 297,
+      "signal_count": 300,
       "source_types": [
         "community",
         "developer",
@@ -938,7 +939,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.34,
       "max_signal_strength": 2.7,
-      "seen_count_total": 784,
+      "seen_count_total": 793,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -949,7 +950,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1247,7 +1248,10 @@
         "S959",
         "S961",
         "S963",
-        "S967"
+        "S967",
+        "S978",
+        "S980",
+        "S983"
       ],
       "top_signals": [
         {
@@ -1291,7 +1295,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 5.86,
+      "velocity_7run_delta": 7.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1327,7 +1331,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.22,
       "max_signal_strength": 2.55,
-      "seen_count_total": 2333,
+      "seen_count_total": 2356,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1337,7 +1341,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1487,7 +1491,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 6.0,
+      "velocity_7run_delta": 4.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1495,7 +1499,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 401,
+      "signal_count": 404,
       "source_types": [
         "community",
         "developer",
@@ -1509,7 +1513,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 2.75,
-      "seen_count_total": 712,
+      "seen_count_total": 719,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1522,7 +1526,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -1924,7 +1928,10 @@
         "S970",
         "S972",
         "S975",
-        "S976"
+        "S976",
+        "S979",
+        "S981",
+        "S984"
       ],
       "top_signals": [
         {
@@ -1968,7 +1975,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 13.0,
+      "velocity_7run_delta": 12.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2211,12 +2218,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 127,
+      "seen_count_total": 128,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-08-20T19:35:23.523674Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -3953,6 +3960,41 @@
         }
       ],
       "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "降噪真无线耳机体验",
+      "name": ")降噪真无线耳机体验",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "少数派"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 1.0,
+      "max_signal_strength": 1.0,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-08-21T19:28:39.688004Z",
+      "last_seen_at": "2026-08-21T19:28:39.688004Z",
+      "evidence_signal_ids": [
+        "S977"
+      ],
+      "top_signals": [
+        {
+          "id": "S977",
+          "source_name": "少数派",
+          "source_type": "media",
+          "source_title": "TDS REVIEW | Nothing Ear (3a) 降噪真无线耳机体验",
+          "source_url": "https://sspai.com/post/113586",
+          "signal_strength": 1.0
+        }
+      ],
+      "velocity_7run_delta": 1,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },

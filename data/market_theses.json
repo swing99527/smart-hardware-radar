@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-20T19:35:23.523674Z",
+  "generated_at": "2026-08-21T19:28:39.688004Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 332,
+      "signal_count": 335,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -380,7 +380,10 @@
         "S959",
         "S961",
         "S963",
-        "S967"
+        "S967",
+        "S978",
+        "S980",
+        "S983"
       ],
       "top_signals": [
         {
@@ -797,7 +800,7 @@
         "SlashGear",
         "The Verge"
       ],
-      "signal_count": 16,
+      "signal_count": 17,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -817,7 +820,8 @@
         "S590",
         "S592",
         "S702",
-        "S803"
+        "S803",
+        "S982"
       ],
       "top_signals": [
         {
@@ -885,7 +889,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 2,
-        "media": 3,
+        "media": 4,
         "product_launch": 2
       },
       "source_names": [
@@ -896,7 +900,7 @@
         "SlashGear",
         "少数派"
       ],
-      "signal_count": 7,
+      "signal_count": 8,
       "trend_key": "wireless headphones",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -907,7 +911,8 @@
         "S253",
         "S376",
         "S501",
-        "S870"
+        "S870",
+        "S977"
       ],
       "top_signals": [
         {
@@ -1244,7 +1249,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 410,
+      "signal_count": 413,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1658,7 +1663,10 @@
         "S970",
         "S972",
         "S975",
-        "S976"
+        "S976",
+        "S979",
+        "S981",
+        "S984"
       ],
       "top_signals": [
         {
