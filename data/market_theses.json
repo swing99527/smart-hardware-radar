@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-21T19:28:39.688004Z",
+  "generated_at": "2026-08-22T19:25:51.003591Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 335,
+      "signal_count": 337,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -383,7 +383,9 @@
         "S967",
         "S978",
         "S980",
-        "S983"
+        "S983",
+        "S986",
+        "S989"
       ],
       "top_signals": [
         {
@@ -989,7 +991,7 @@
       "source_mix": {
         "community": 1,
         "crowdfunding": 1,
-        "media": 3
+        "media": 4
       },
       "source_names": [
         "Engadget",
@@ -998,7 +1000,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 5,
+      "signal_count": 6,
       "trend_key": "outdoor smart device",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
@@ -1007,7 +1009,8 @@
         "S595",
         "S676",
         "S694",
-        "S764"
+        "S764",
+        "S988"
       ],
       "top_signals": [
         {
@@ -1035,19 +1038,19 @@
           "signal_strength": 0.75
         },
         {
+          "id": "S988",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "HoverAir’s transforming modular drone has already been halted in the US",
+          "source_url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
+          "signal_strength": 0.75
+        },
+        {
           "id": "S676",
           "source_name": "The Verge",
           "source_type": "media",
           "source_title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
           "source_url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
-          "signal_strength": 0.75
-        },
-        {
-          "id": "S595",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "California launches tracker for AI-related job losses",
-          "source_url": "https://www.engadget.com/2202231/californa-launches-ai-job-loss-tracker/",
           "signal_strength": 0.75
         }
       ],
@@ -1249,7 +1252,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 413,
+      "signal_count": 417,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1666,7 +1669,11 @@
         "S976",
         "S979",
         "S981",
-        "S984"
+        "S984",
+        "S985",
+        "S987",
+        "S990",
+        "S991"
       ],
       "top_signals": [
         {
