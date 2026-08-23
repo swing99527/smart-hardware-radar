@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-22T19:25:51.003591Z",
+  "generated_at": "2026-08-23T19:25:06.736879Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 337,
+      "signal_count": 338,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -385,7 +385,8 @@
         "S980",
         "S983",
         "S986",
-        "S989"
+        "S989",
+        "S993"
       ],
       "top_signals": [
         {
@@ -486,7 +487,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 107,
+      "signal_count": 108,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -597,7 +598,8 @@
         "S966",
         "S971",
         "S973",
-        "S974"
+        "S974",
+        "S992"
       ],
       "top_signals": [
         {
@@ -802,7 +804,7 @@
         "SlashGear",
         "The Verge"
       ],
-      "signal_count": 17,
+      "signal_count": 18,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -823,7 +825,8 @@
         "S592",
         "S702",
         "S803",
-        "S982"
+        "S982",
+        "S995"
       ],
       "top_signals": [
         {
@@ -843,12 +846,12 @@
           "signal_strength": 2.8
         },
         {
-          "id": "S004",
+          "id": "S995",
           "source_name": "Reddit r/smarthome",
           "source_type": "community",
-          "source_title": "Video doorbell with local recording (no subscription) that actually RINGS my mechanical chime",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1sy50nb/video_doorbell_with_local_recording_no/",
-          "signal_strength": 2.45
+          "source_title": "What smart lock brand is this?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1vvsdzl/what_smart_lock_brand_is_this/",
+          "signal_strength": 2.55
         },
         {
           "id": "S133",
@@ -1252,7 +1255,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 417,
+      "signal_count": 420,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1673,7 +1676,10 @@
         "S985",
         "S987",
         "S990",
-        "S991"
+        "S991",
+        "S994",
+        "S996",
+        "S997"
       ],
       "top_signals": [
         {
