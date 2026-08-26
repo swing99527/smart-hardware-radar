@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-25T19:35:29.944380Z",
+  "generated_at": "2026-08-26T21:43:14.291659Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 344,
+      "signal_count": 347,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -87,6 +87,9 @@
         "S1006",
         "S1009",
         "S101",
+        "S1011",
+        "S1015",
+        "S1018",
         "S103",
         "S106",
         "S120",
@@ -696,12 +699,13 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 24,
+      "signal_count": 25,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S011",
+        "S1013",
         "S140",
         "S166",
         "S236",
@@ -999,8 +1003,8 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
+        "crowdfunding": 2,
         "community": 1,
-        "crowdfunding": 1,
         "media": 4
       },
       "source_names": [
@@ -1010,12 +1014,13 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 6,
+      "signal_count": 7,
       "trend_key": "outdoor smart device",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S012",
+        "S1017",
         "S595",
         "S676",
         "S694",
@@ -1023,6 +1028,14 @@
         "S988"
       ],
       "top_signals": [
+        {
+          "id": "S1017",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "SIZZAPP nova: Smart GPS Tracker with Key Fob - A smart GPS tracker with an automatic security key fob, real-time tracking, instant alerts and lifetime service access—with no monthly fees.",
+          "source_url": "https://www.indiegogo.com/projects/sizzappgps/sizzapp-nova-smart-gps-tracker-with-key-fob",
+          "signal_strength": 2.45
+        },
         {
           "id": "S012",
           "source_name": "Reddit r/smarthome",
@@ -1053,14 +1066,6 @@
           "source_type": "media",
           "source_title": "HoverAir’s transforming modular drone has already been halted in the US",
           "source_url": "https://www.theverge.com/tech/983500/hoverair-versa-halted-us-fcc-drone-ban-indiegogo",
-          "signal_strength": 0.75
-        },
-        {
-          "id": "S676",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Fi&#8217;s Starlink-enabled pet tracker found my dog when LTE couldn&#8217;t",
-          "source_url": "https://www.theverge.com/tech/962224/fi-ultra-dog-tracker-starlink-t-satellite-specs-price-release-date",
           "signal_strength": 0.75
         }
       ],
@@ -1262,7 +1267,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 426,
+      "signal_count": 429,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1297,6 +1302,9 @@
         "S1005",
         "S1007",
         "S1010",
+        "S1012",
+        "S1016",
+        "S1019",
         "S102",
         "S104",
         "S105",
@@ -2648,6 +2656,60 @@
     },
     {
       "id": "M025",
+      "thesis_key": "emerging_ai_hearing_glasses",
+      "name": "AI Hearing Glasses",
+      "name_zh": "AI Hearing Glasses",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Hearing Glasses"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "TechCrunch Hardware"
+      ],
+      "signal_count": 1,
+      "trend_key": "ai hearing glasses",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S1014"
+      ],
+      "top_signals": [
+        {
+          "id": "S1014",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+          "source_url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M026",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -2701,7 +2763,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M026",
+      "id": "M027",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -2755,7 +2817,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M027",
+      "id": "M028",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -2809,7 +2871,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M028",
+      "id": "M029",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
