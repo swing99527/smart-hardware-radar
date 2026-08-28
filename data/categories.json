@@ -320,6 +320,45 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A009",
+      "name": "【证据聚类】Smart Lighting",
+      "name_en": "Smart Lighting",
+      "name_zh": null,
+      "cluster_key": "smart lighting",
+      "cluster_members": [
+        "Smart Lighting"
+      ],
+      "source_title": "Best smart lighting recommendations for kitchen under-cabinet lights and indirect cove lighting?",
+      "source_url": "https://www.reddit.com/r/smarthome/comments/1tzlpfp/best_smart_lighting_recommendations_for_kitchen/",
+      "evidence_signal_ids": [
+        "S453",
+        "S1020"
+      ],
+      "confidence": 0.76,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 1.82,
+        "matched_watch_topics": [
+          "hardware_intersections"
+        ],
+        "candidate_keys": [
+          "smart lighting"
+        ],
+        "l0_confidence": 0.76
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }

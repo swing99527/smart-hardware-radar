@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-26T21:43:14.291659Z",
+  "generated_at": "2026-08-28T03:31:28.603991Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 347,
+      "signal_count": 349,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -90,6 +90,8 @@
         "S1011",
         "S1015",
         "S1018",
+        "S1022",
+        "S1027",
         "S103",
         "S106",
         "S120",
@@ -496,12 +498,13 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 109,
+      "signal_count": 110,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S1008",
+        "S1029",
         "S109",
         "S110",
         "S111",
@@ -904,8 +907,8 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "community": 2,
-        "media": 4,
+        "community": 3,
+        "media": 5,
         "product_launch": 2
       },
       "source_names": [
@@ -914,23 +917,42 @@
         "Reddit r/gadgets",
         "Reddit r/smarthome",
         "SlashGear",
+        "Yanko Design",
         "少数派"
       ],
-      "signal_count": 8,
-      "trend_key": "wireless headphones",
+      "signal_count": 10,
+      "trend_key": "smart lighting",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S006",
+        "S1020",
         "S160",
         "S223",
         "S253",
         "S376",
+        "S453",
         "S501",
         "S870",
         "S977"
       ],
       "top_signals": [
+        {
+          "id": "S453",
+          "source_name": "Reddit r/smarthome",
+          "source_type": "community",
+          "source_title": "Best smart lighting recommendations for kitchen under-cabinet lights and indirect cove lighting?",
+          "source_url": "https://www.reddit.com/r/smarthome/comments/1tzlpfp/best_smart_lighting_recommendations_for_kitchen/",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S1020",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "This ceiling fan hides an 80W Hi-Fi speaker and smart lighting in one sleek unit",
+          "source_url": "https://www.yankodesign.com/2026/08/27/this-ceiling-fan-hides-an-80w-hi-fi-speaker-and-smart-lighting-in-one-sleek-unit/?utm_source=rss&utm_medium=rss&utm_campaign=this-ceiling-fan-hides-an-80w-hi-fi-speaker-and-smart-lighting-in-one-sleek-unit",
+          "signal_strength": 0.9
+        },
         {
           "id": "S376",
           "source_name": "Reddit r/gadgets",
@@ -954,22 +976,6 @@
           "source_title": "DramaBox by Resemble AI",
           "source_url": "https://www.producthunt.com/products/resemble-clone",
           "signal_strength": 2.7
-        },
-        {
-          "id": "S223",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Crade AI",
-          "source_url": "https://www.producthunt.com/products/crade",
-          "signal_strength": 2.55
-        },
-        {
-          "id": "S006",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Wireless Bluetooth speaker that works like an Alexa?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1svahgy/wireless_bluetooth_speaker_that_works_like_an/",
-          "signal_strength": 2.45
         }
       ],
       "missing_evidence": [
@@ -1003,8 +1009,8 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "crowdfunding": 2,
         "community": 1,
+        "crowdfunding": 2,
         "media": 4
       },
       "source_names": [
@@ -1029,14 +1035,6 @@
       ],
       "top_signals": [
         {
-          "id": "S1017",
-          "source_name": "Indiegogo Tech",
-          "source_type": "crowdfunding",
-          "source_title": "SIZZAPP nova: Smart GPS Tracker with Key Fob - A smart GPS tracker with an automatic security key fob, real-time tracking, instant alerts and lifetime service access—with no monthly fees.",
-          "source_url": "https://www.indiegogo.com/projects/sizzappgps/sizzapp-nova-smart-gps-tracker-with-key-fob",
-          "signal_strength": 2.45
-        },
-        {
           "id": "S012",
           "source_name": "Reddit r/smarthome",
           "source_type": "community",
@@ -1050,6 +1048,14 @@
           "source_type": "crowdfunding",
           "source_title": "Zeroil – Know Your Oil - Meet Zeroil, the smart cooking oil tracker that automatically helps you understand and manage your household cooking oil usage for healthier everyday cooking.",
           "source_url": "https://www.indiegogo.com/projects/akbarmajeed/zeroil-know-your-oil",
+          "signal_strength": 2.45
+        },
+        {
+          "id": "S1017",
+          "source_name": "Indiegogo Tech",
+          "source_type": "crowdfunding",
+          "source_title": "SIZZAPP nova: Smart GPS Tracker with Key Fob - A smart GPS tracker with an automatic security key fob, real-time tracking, instant alerts and lifetime service access—with no monthly fees.",
+          "source_url": "https://www.indiegogo.com/projects/sizzappgps/sizzapp-nova-smart-gps-tracker-with-key-fob",
           "signal_strength": 2.45
         },
         {
@@ -1267,7 +1273,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 429,
+      "signal_count": 435,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1306,6 +1312,12 @@
         "S1016",
         "S1019",
         "S102",
+        "S1021",
+        "S1023",
+        "S1024",
+        "S1025",
+        "S1026",
+        "S1028",
         "S104",
         "S105",
         "S107",
@@ -2022,59 +2034,6 @@
     },
     {
       "id": "M013",
-      "thesis_key": "emerging_smart_lighting",
-      "name": "Smart Lighting",
-      "name_zh": "Smart Lighting",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "Smart Lighting"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Watch",
-      "evidence_score": 47,
-      "source_mix": {
-        "community": 1
-      },
-      "source_names": [
-        "Reddit r/smarthome"
-      ],
-      "signal_count": 1,
-      "trend_key": "smart lighting",
-      "trend_status": "Watch",
-      "trend_reason": "single_network_or_low_velocity",
-      "evidence_signal_ids": [
-        "S453"
-      ],
-      "top_signals": [
-        {
-          "id": "S453",
-          "source_name": "Reddit r/smarthome",
-          "source_type": "community",
-          "source_title": "Best smart lighting recommendations for kitchen under-cabinet lights and indirect cove lighting?",
-          "source_url": "https://www.reddit.com/r/smarthome/comments/1tzlpfp/best_smart_lighting_recommendations_for_kitchen/",
-          "signal_strength": 2.75
-        }
-      ],
-      "missing_evidence": [
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot",
-        "kickstarter_indiegogo_deep_scan",
-        "1688_alibaba_supplier_scan",
-        "fcc_bluetooth_bom_check"
-      ],
-      "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
-    },
-    {
-      "id": "M014",
       "thesis_key": "emerging_smart_window_shades",
       "name": "Smart Window Shades",
       "name_zh": "Smart Window Shades",
@@ -2127,7 +2086,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M015",
+      "id": "M014",
       "thesis_key": "emerging_smart_fan",
       "name": "Smart Fan",
       "name_zh": "Smart Fan",
@@ -2180,7 +2139,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M016",
+      "id": "M015",
       "thesis_key": "emerging_translation_smart_glasses",
       "name": "Translation Smart Glasses",
       "name_zh": "Translation Smart Glasses",
@@ -2233,7 +2192,7 @@
       "confidence_reason": "Watch because the thesis needs Market validation, Supply chain."
     },
     {
-      "id": "M017",
+      "id": "M016",
       "thesis_key": "emerging_ai_translation_glasses",
       "name": "AI Translation Glasses",
       "name_zh": "AI Translation Glasses",
@@ -2285,7 +2244,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M018",
+      "id": "M017",
       "thesis_key": "emerging_ai_wearable",
       "name": "AI Wearable",
       "name_zh": "AI Wearable",
@@ -2337,7 +2296,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M019",
+      "id": "M018",
       "thesis_key": "emerging_ai_search_console",
       "name": "AI Search Console",
       "name_zh": "AI Search Console",
@@ -2389,7 +2348,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M020",
+      "id": "M019",
       "thesis_key": "emerging_ai_spend_console",
       "name": "AI Spend Console",
       "name_zh": "AI Spend Console",
@@ -2441,7 +2400,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M021",
+      "id": "M020",
       "thesis_key": "emerging_controller_ai",
       "name": "Controller AI",
       "name_zh": "Controller AI",
@@ -2493,7 +2452,7 @@
       "confidence_reason": "Watch because the thesis needs Demand behavior, Supply chain."
     },
     {
-      "id": "M022",
+      "id": "M021",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -2547,7 +2506,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M023",
+      "id": "M022",
       "thesis_key": "emerging_跑ar+智能眼镜品类，q",
       "name": "跑AR+智能眼镜品类，Q",
       "name_zh": "跑AR+智能眼镜品类，Q",
@@ -2601,7 +2560,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M024",
+      "id": "M023",
       "thesis_key": "emerging_首款ai陪伴机器人｜最前线",
       "name": "首款AI陪伴机器人｜最前线",
       "name_zh": "首款AI陪伴机器人｜最前线",
@@ -2655,7 +2614,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M025",
+      "id": "M024",
       "thesis_key": "emerging_ai_hearing_glasses",
       "name": "AI Hearing Glasses",
       "name_zh": "AI Hearing Glasses",
@@ -2709,7 +2668,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M026",
+      "id": "M025",
       "thesis_key": "emerging_ai_music_device",
       "name": "AI Music Device",
       "name_zh": "AI Music Device",
@@ -2763,7 +2722,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M027",
+      "id": "M026",
       "thesis_key": "emerging_smart_health_ring",
       "name": "Smart Health Ring",
       "name_zh": "Smart Health Ring",
@@ -2817,7 +2776,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M028",
+      "id": "M027",
       "thesis_key": "emerging_小学生戴ai眼镜参加期末",
       "name": "小学生戴AI眼镜参加期末",
       "name_zh": "小学生戴AI眼镜参加期末",
@@ -2871,7 +2830,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M029",
+      "id": "M028",
       "thesis_key": "emerging_”的睡眠床头灯",
       "name": "”的睡眠床头灯",
       "name_zh": "”的睡眠床头灯",
