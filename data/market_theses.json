@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-08-29T02:01:14.016517Z",
+  "generated_at": "2026-08-29T21:34:06.329729Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 350,
+      "signal_count": 351,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -94,6 +94,7 @@
         "S1027",
         "S103",
         "S1031",
+        "S1037",
         "S106",
         "S120",
         "S124",
@@ -911,7 +912,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 3,
-        "media": 5,
+        "media": 6,
         "product_launch": 2
       },
       "source_names": [
@@ -923,13 +924,14 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 10,
+      "signal_count": 11,
       "trend_key": "smart lighting",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
       "evidence_signal_ids": [
         "S006",
         "S1020",
+        "S1040",
         "S160",
         "S223",
         "S253",
@@ -1014,7 +1016,7 @@
       "source_mix": {
         "community": 1,
         "crowdfunding": 2,
-        "media": 4
+        "media": 5
       },
       "source_names": [
         "Engadget",
@@ -1023,13 +1025,14 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 7,
+      "signal_count": 8,
       "trend_key": "outdoor smart device",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S012",
         "S1017",
+        "S1036",
         "S595",
         "S676",
         "S694",
@@ -1276,7 +1279,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 438,
+      "signal_count": 441,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1324,7 +1327,10 @@
         "S1032",
         "S1034",
         "S1035",
+        "S1038",
+        "S1039",
         "S104",
+        "S1041",
         "S105",
         "S107",
         "S108",
