@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-01T21:39:21.379252Z",
+  "generated_at": "2026-09-02T21:38:57.721483Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 358,
+      "signal_count": 359,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -103,6 +103,7 @@
         "S1061",
         "S1063",
         "S1065",
+        "S1066",
         "S120",
         "S124",
         "S130",
@@ -1281,17 +1282,18 @@
       "evidence_score": 70,
       "source_mix": {
         "developer": 2,
-        "community": 1,
+        "community": 2,
         "media": 2
       },
       "source_names": [
         "Agentic Edge Hardware News",
         "GitHub AI Recorder Device",
         "GitHub On Device AI",
+        "Hacker News Show",
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 453,
+      "signal_count": 457,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1356,7 +1358,11 @@
         "S1060",
         "S1062",
         "S1064",
+        "S1067",
+        "S1068",
+        "S1069",
         "S107",
+        "S1070",
         "S108",
         "S129",
         "S134",
@@ -1776,19 +1782,19 @@
           "signal_strength": 2.05
         },
         {
+          "id": "S1068",
+          "source_name": "Hacker News Show",
+          "source_type": "community",
+          "source_title": "Show HN: Kekoso – On-device dictation and transcription for macOS",
+          "source_url": "https://kekoso.app/",
+          "signal_strength": 1.35
+        },
+        {
           "id": "S504",
           "source_name": "GitHub On Device AI",
           "source_type": "developer",
           "source_title": "kellyvv/PhoneClaw - PhoneClaw: On-device AI Agent for Phone powered by Gemma 4",
           "source_url": "https://github.com/kellyvv/PhoneClaw",
-          "signal_strength": 2.75
-        },
-        {
-          "id": "S949",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "nico-martin/gemma4-browser-extension - On-device AI agent Chrome extension powered by Transformers.js and Gemma 4",
-          "source_url": "https://github.com/nico-martin/gemma4-browser-extension",
           "signal_strength": 2.75
         }
       ],
