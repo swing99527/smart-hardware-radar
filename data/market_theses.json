@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-02T21:38:57.721483Z",
+  "generated_at": "2026-09-03T21:35:54.705906Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 359,
+      "signal_count": 364,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -104,6 +104,11 @@
         "S1063",
         "S1065",
         "S1066",
+        "S1072",
+        "S1074",
+        "S1076",
+        "S1077",
+        "S1079",
         "S120",
         "S124",
         "S130",
@@ -1293,7 +1298,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 457,
+      "signal_count": 461,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1363,6 +1368,10 @@
         "S1069",
         "S107",
         "S1070",
+        "S1071",
+        "S1073",
+        "S1075",
+        "S1078",
         "S108",
         "S129",
         "S134",
@@ -1782,19 +1791,19 @@
           "signal_strength": 2.05
         },
         {
-          "id": "S1068",
-          "source_name": "Hacker News Show",
-          "source_type": "community",
-          "source_title": "Show HN: Kekoso – On-device dictation and transcription for macOS",
-          "source_url": "https://kekoso.app/",
-          "signal_strength": 1.35
-        },
-        {
           "id": "S504",
           "source_name": "GitHub On Device AI",
           "source_type": "developer",
           "source_title": "kellyvv/PhoneClaw - PhoneClaw: On-device AI Agent for Phone powered by Gemma 4",
           "source_url": "https://github.com/kellyvv/PhoneClaw",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S949",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "nico-martin/gemma4-browser-extension - On-device AI agent Chrome extension powered by Transformers.js and Gemma 4",
+          "source_url": "https://github.com/nico-martin/gemma4-browser-extension",
           "signal_strength": 2.75
         }
       ],
