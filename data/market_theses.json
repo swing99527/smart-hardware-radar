@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-03T21:35:54.705906Z",
+  "generated_at": "2026-09-04T21:18:32.440873Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 364,
+      "signal_count": 367,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -109,6 +109,9 @@
         "S1076",
         "S1077",
         "S1079",
+        "S1081",
+        "S1083",
+        "S1086",
         "S120",
         "S124",
         "S130",
@@ -513,7 +516,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 115,
+      "signal_count": 116,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -525,6 +528,7 @@
         "S1048",
         "S1053",
         "S1058",
+        "S1080",
         "S109",
         "S110",
         "S111",
@@ -1298,7 +1302,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 461,
+      "signal_count": 465,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1373,6 +1377,10 @@
         "S1075",
         "S1078",
         "S108",
+        "S1082",
+        "S1084",
+        "S1085",
+        "S1087",
         "S129",
         "S134",
         "S137",
@@ -1843,7 +1851,7 @@
       "evidence_score": 70,
       "source_mix": {
         "developer": 1,
-        "community": 4,
+        "community": 5,
         "media": 1
       },
       "source_names": [
@@ -1856,7 +1864,7 @@
         "Reddit r/olkb",
         "Yanko Design"
       ],
-      "signal_count": 48,
+      "signal_count": 49,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1894,6 +1902,7 @@
         "S041",
         "S042",
         "S043",
+        "S1088",
         "S123",
         "S229",
         "S247",
