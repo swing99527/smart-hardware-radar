@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-07T21:56:12.379454Z",
+  "generated_at": "2026-09-08T21:43:00.723236Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 393,
+      "seen_count_total": 396,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -86,14 +86,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.67,
       "max_signal_strength": 2.75,
-      "seen_count_total": 209,
+      "seen_count_total": 211,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S097",
         "S533"
@@ -138,7 +138,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1799,
+      "seen_count_total": 1811,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -146,7 +146,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -251,7 +251,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.43,
       "max_signal_strength": 2.7,
-      "seen_count_total": 399,
+      "seen_count_total": 402,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -259,7 +259,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -425,7 +425,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.25,
       "max_signal_strength": 3.45,
-      "seen_count_total": 393,
+      "seen_count_total": 396,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -434,7 +434,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -506,13 +506,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 94,
+      "seen_count_total": 95,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -1067,7 +1067,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 339,
+      "signal_count": 341,
       "source_types": [
         "community",
         "developer",
@@ -1081,7 +1081,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.33,
       "max_signal_strength": 2.7,
-      "seen_count_total": 937,
+      "seen_count_total": 946,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1092,7 +1092,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1432,7 +1432,9 @@
         "S1100",
         "S1102",
         "S1104",
-        "S1106"
+        "S1106",
+        "S1111",
+        "S1113"
       ],
       "top_signals": [
         {
@@ -1476,7 +1478,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 11.0,
+      "velocity_7run_delta": 10.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1484,7 +1486,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 116,
+      "signal_count": 117,
       "source_types": [
         "community",
         "crowdfunding",
@@ -1510,9 +1512,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.21,
+      "avg_signal_strength": 1.2,
       "max_signal_strength": 2.55,
-      "seen_count_total": 2720,
+      "seen_count_total": 2741,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1522,7 +1524,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1639,7 +1641,8 @@
         "S1058",
         "S1080",
         "S1096",
-        "S1099"
+        "S1099",
+        "S1110"
       ],
       "top_signals": [
         {
@@ -1678,12 +1681,12 @@
           "id": "S122",
           "source_name": "Kickstarter Geek Productivity Hardware",
           "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect - kickstarter.com",
+          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect - Kickstarter",
           "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 2.43,
+      "velocity_7run_delta": 2.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1691,7 +1694,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 463,
+      "signal_count": 467,
       "source_types": [
         "community",
         "developer",
@@ -1705,7 +1708,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 2.75,
-      "seen_count_total": 829,
+      "seen_count_total": 836,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1719,7 +1722,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -2183,7 +2186,11 @@
         "S1101",
         "S1103",
         "S1105",
-        "S1107"
+        "S1107",
+        "S1109",
+        "S1112",
+        "S1114",
+        "S1115"
       ],
       "top_signals": [
         {
@@ -2227,7 +2234,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 13.0,
+      "velocity_7run_delta": 13.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2390,12 +2397,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 145,
+      "seen_count_total": 146,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-07T21:56:12.379454Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -4656,6 +4663,41 @@
         }
       ],
       "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "sleep earbuds",
+      "name": "Sleep Earbuds",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "Yanko Design"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 0.75,
+      "max_signal_strength": 0.75,
+      "seen_count_total": 1,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "evidence_signal_ids": [
+        "S1108"
+      ],
+      "top_signals": [
+        {
+          "id": "S1108",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "Anker’s Sleep Earbuds 4 Pro Silence Snoring in Real Time With Adaptive Masking: Hands-on at IFA 2026",
+          "source_url": "https://www.yankodesign.com/2026/09/08/ankers-sleep-earbuds-4-pro-silence-snoring-in-real-time-with-adaptive-masking-hands-on-at-ifa-2026/?utm_source=rss&utm_medium=rss&utm_campaign=ankers-sleep-earbuds-4-pro-silence-snoring-in-real-time-with-adaptive-masking-hands-on-at-ifa-2026",
+          "signal_strength": 0.75
+        }
+      ],
+      "velocity_7run_delta": 1,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },

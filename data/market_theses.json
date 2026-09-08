@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-07T21:56:12.379454Z",
+  "generated_at": "2026-09-08T21:43:00.723236Z",
   "theses": [
     {
       "id": "M001",
@@ -44,7 +44,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 374,
+      "signal_count": 376,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -119,6 +119,8 @@
         "S1102",
         "S1104",
         "S1106",
+        "S1111",
+        "S1113",
         "S120",
         "S124",
         "S130",
@@ -523,7 +525,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 118,
+      "signal_count": 119,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -541,6 +543,7 @@
         "S1099",
         "S110",
         "S111",
+        "S1110",
         "S112",
         "S113",
         "S114",
@@ -943,7 +946,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 3,
-        "media": 6,
+        "media": 7,
         "product_launch": 2
       },
       "source_names": [
@@ -955,7 +958,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 11,
+      "signal_count": 12,
       "trend_key": "smart lighting",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -963,6 +966,7 @@
         "S006",
         "S1020",
         "S1040",
+        "S1108",
         "S160",
         "S223",
         "S253",
@@ -1311,7 +1315,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 474,
+      "signal_count": 478,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1399,6 +1403,10 @@
         "S1103",
         "S1105",
         "S1107",
+        "S1109",
+        "S1112",
+        "S1114",
+        "S1115",
         "S129",
         "S134",
         "S137",
