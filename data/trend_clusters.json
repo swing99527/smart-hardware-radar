@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-08T21:43:00.723236Z",
+  "generated_at": "2026-09-09T21:33:50.671790Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 396,
+      "seen_count_total": 399,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -73,6 +73,47 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "watch:local_ai_box",
+      "name": "Local AI Box",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "developer"
+      ],
+      "source_names": [
+        "GitHub Codex Ecosystem"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.7,
+      "max_signal_strength": 2.7,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "ai_coding_agent_ecosystem",
+        "ai_model_peripherals",
+        "big_tech_peripherals",
+        "github_ai_projects",
+        "local_ai_box"
+      ],
+      "first_seen_at": "2026-09-09T21:33:50.671790Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
+      "evidence_signal_ids": [
+        "S1124"
+      ],
+      "top_signals": [
+        {
+          "id": "S1124",
+          "source_name": "GitHub Codex Ecosystem",
+          "source_type": "developer",
+          "source_title": "lidge-jun/opencodex - Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
+          "source_url": "https://github.com/lidge-jun/opencodex",
+          "signal_strength": 2.7
+        }
+      ],
+      "velocity_7run_delta": 1,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "watch:big_tech_peripherals",
       "name": "Big Tech Peripherals",
       "name_zh": null,
@@ -86,14 +127,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.67,
       "max_signal_strength": 2.75,
-      "seen_count_total": 211,
+      "seen_count_total": 213,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S097",
         "S533"
@@ -138,7 +179,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1811,
+      "seen_count_total": 1822,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -146,7 +187,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -251,7 +292,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.43,
       "max_signal_strength": 2.7,
-      "seen_count_total": 402,
+      "seen_count_total": 405,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -259,7 +300,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -425,7 +466,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.25,
       "max_signal_strength": 3.45,
-      "seen_count_total": 396,
+      "seen_count_total": 399,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -434,7 +475,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -506,13 +547,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 95,
+      "seen_count_total": 96,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -983,91 +1024,10 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "gaming monitor",
-      "name": "Gaming Monitor",
-      "name_zh": null,
-      "signal_count": 8,
-      "source_types": [
-        "community",
-        "media"
-      ],
-      "source_names": [
-        "Engadget",
-        "Reddit r/gadgets",
-        "The Verge"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 1.34,
-      "max_signal_strength": 3.05,
-      "seen_count_total": 25,
-      "matched_watch_topics": [
-        "ai_model_peripherals",
-        "big_tech_peripherals",
-        "github_ai_projects"
-      ],
-      "first_seen_at": "2026-05-01T15:36:43.010443Z",
-      "last_seen_at": "2026-08-31T23:09:32.928657Z",
-      "evidence_signal_ids": [
-        "S011",
-        "S293",
-        "S403",
-        "S614",
-        "S733",
-        "S749",
-        "S796",
-        "S1057"
-      ],
-      "top_signals": [
-        {
-          "id": "S1057",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Samsung's wild new Odyssey lineup includes a 1,100Hz gaming monitor",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1w07aqj/samsungs_wild_new_odyssey_lineup_includes_a/",
-          "signal_strength": 3.05
-        },
-        {
-          "id": "S293",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
-          "signal_strength": 2.75
-        },
-        {
-          "id": "S796",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Samsung’s 27-inch QD-OLED gaming monitor is priced right at $299.99",
-          "source_url": "https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale",
-          "signal_strength": 1.05
-        },
-        {
-          "id": "S011",
-          "source_name": "Engadget",
-          "source_type": "media",
-          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
-          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S403",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Sony’s new fight stick and gaming monitor launch in August",
-          "source_url": "https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price",
-          "signal_strength": 0.75
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 341,
+      "signal_count": 344,
       "source_types": [
         "community",
         "developer",
@@ -1079,9 +1039,9 @@
         "Reddit OpenClaw Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.33,
+      "avg_signal_strength": 1.34,
       "max_signal_strength": 2.7,
-      "seen_count_total": 946,
+      "seen_count_total": 955,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1092,7 +1052,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1434,7 +1394,10 @@
         "S1104",
         "S1106",
         "S1111",
-        "S1113"
+        "S1113",
+        "S1118",
+        "S1120",
+        "S1122"
       ],
       "top_signals": [
         {
@@ -1478,7 +1441,88 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 10.14,
+      "velocity_7run_delta": 10.57,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
+      "trend_key": "gaming monitor",
+      "name": "Gaming Monitor",
+      "name_zh": null,
+      "signal_count": 8,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Engadget",
+        "Reddit r/gadgets",
+        "The Verge"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.34,
+      "max_signal_strength": 3.05,
+      "seen_count_total": 25,
+      "matched_watch_topics": [
+        "ai_model_peripherals",
+        "big_tech_peripherals",
+        "github_ai_projects"
+      ],
+      "first_seen_at": "2026-05-01T15:36:43.010443Z",
+      "last_seen_at": "2026-08-31T23:09:32.928657Z",
+      "evidence_signal_ids": [
+        "S011",
+        "S293",
+        "S403",
+        "S614",
+        "S733",
+        "S749",
+        "S796",
+        "S1057"
+      ],
+      "top_signals": [
+        {
+          "id": "S1057",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Samsung's wild new Odyssey lineup includes a 1,100Hz gaming monitor",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1w07aqj/samsungs_wild_new_odyssey_lineup_includes_a/",
+          "signal_strength": 3.05
+        },
+        {
+          "id": "S293",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "LG will release the first 1000Hz, 1080p gaming monitor this year",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1thj3wo/lg_will_release_the_first_1000hz_1080p_gaming/",
+          "signal_strength": 2.75
+        },
+        {
+          "id": "S796",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Samsung’s 27-inch QD-OLED gaming monitor is priced right at $299.99",
+          "source_url": "https://www.theverge.com/gadgets/971332/samsung-qdoled-gaming-monitor-find-my-tracker-ps5-logitech-deal-sale",
+          "signal_strength": 1.05
+        },
+        {
+          "id": "S011",
+          "source_name": "Engadget",
+          "source_type": "media",
+          "source_title": "LG's UltraGear evo 5K gaming monitor is available to pre-order",
+          "source_url": "https://www.engadget.com/2161419/lgs-ultragear-evo-5k-gaming-monitor-is-available-to-pre-order/",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S403",
+          "source_name": "The Verge",
+          "source_type": "media",
+          "source_title": "Sony’s new fight stick and gaming monitor launch in August",
+          "source_url": "https://www.theverge.com/games/941031/sony-playstation-flexstrike-fight-stick-gaming-monitor-pulse-elevate-speakers-launch-date-price",
+          "signal_strength": 0.75
+        }
+      ],
+      "velocity_7run_delta": 0.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1486,7 +1530,7 @@
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 117,
+      "signal_count": 118,
       "source_types": [
         "community",
         "crowdfunding",
@@ -1514,7 +1558,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.2,
       "max_signal_strength": 2.55,
-      "seen_count_total": 2741,
+      "seen_count_total": 2762,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1524,7 +1568,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1642,7 +1686,8 @@
         "S1080",
         "S1096",
         "S1099",
-        "S1110"
+        "S1110",
+        "S1117"
       ],
       "top_signals": [
         {
@@ -1686,7 +1731,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 2.86,
+      "velocity_7run_delta": 3.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1694,7 +1739,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 467,
+      "signal_count": 471,
       "source_types": [
         "community",
         "developer",
@@ -1706,9 +1751,9 @@
         "Reddit Agentic Edge Hardware Search"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.15,
+      "avg_signal_strength": 1.14,
       "max_signal_strength": 2.75,
-      "seen_count_total": 836,
+      "seen_count_total": 843,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1722,7 +1767,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -2190,7 +2235,11 @@
         "S1109",
         "S1112",
         "S1114",
-        "S1115"
+        "S1115",
+        "S1116",
+        "S1119",
+        "S1121",
+        "S1123"
       ],
       "top_signals": [
         {
@@ -2234,7 +2283,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 13.71,
+      "velocity_7run_delta": 14.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2397,12 +2446,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 146,
+      "seen_count_total": 147,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-08T21:43:00.723236Z",
+      "last_seen_at": "2026-09-09T21:33:50.671790Z",
       "evidence_signal_ids": [
         "S008"
       ],
@@ -4697,7 +4746,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
