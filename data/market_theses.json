@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-09T21:33:50.671790Z",
+  "generated_at": "2026-09-10T21:29:29.138046Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 380,
+      "signal_count": 381,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -126,6 +126,7 @@
         "S1120",
         "S1122",
         "S1124",
+        "S1126",
         "S120",
         "S124",
         "S130",
@@ -457,20 +458,20 @@
           "signal_strength": 2.75
         },
         {
-          "id": "S1124",
-          "source_name": "GitHub Codex Ecosystem",
-          "source_type": "developer",
-          "source_title": "lidge-jun/opencodex - Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
-          "source_url": "https://github.com/lidge-jun/opencodex",
-          "signal_strength": 2.7
-        },
-        {
           "id": "S097",
           "source_name": "GitHub On Device AI",
           "source_type": "developer",
           "source_title": "TypeWhisper/typewhisper-mac - Local speech-to-text for macOS  on-device AI, fully private, optional cloud",
           "source_url": "https://github.com/TypeWhisper/typewhisper-mac",
           "signal_strength": 2.75
+        },
+        {
+          "id": "S533",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "apple/coreai-models - Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+          "source_url": "https://github.com/apple/coreai-models",
+          "signal_strength": 2.6
         }
       ],
       "missing_evidence": [
@@ -530,7 +531,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 120,
+      "signal_count": 122,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -551,6 +552,8 @@
         "S1110",
         "S1117",
         "S112",
+        "S1125",
+        "S1129",
         "S113",
         "S114",
         "S115",
@@ -1321,7 +1324,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 482,
+      "signal_count": 485,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1417,6 +1420,9 @@
         "S1119",
         "S1121",
         "S1123",
+        "S1127",
+        "S1128",
+        "S1130",
         "S129",
         "S134",
         "S137",
