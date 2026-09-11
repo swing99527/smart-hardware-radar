@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-10T21:29:29.138046Z",
+  "generated_at": "2026-09-11T21:36:32.497580Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 381,
+      "signal_count": 382,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -127,6 +127,7 @@
         "S1122",
         "S1124",
         "S1126",
+        "S1132",
         "S120",
         "S124",
         "S130",
@@ -955,7 +956,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 3,
-        "media": 7,
+        "media": 8,
         "product_launch": 2
       },
       "source_names": [
@@ -964,10 +965,11 @@
         "Reddit r/gadgets",
         "Reddit r/smarthome",
         "SlashGear",
+        "The Verge",
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 12,
+      "signal_count": 13,
       "trend_key": "smart lighting",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -976,6 +978,7 @@
         "S1020",
         "S1040",
         "S1108",
+        "S1136",
         "S160",
         "S223",
         "S253",
@@ -1324,7 +1327,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 485,
+      "signal_count": 490,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1423,6 +1426,11 @@
         "S1127",
         "S1128",
         "S1130",
+        "S1131",
+        "S1133",
+        "S1134",
+        "S1135",
+        "S1137",
         "S129",
         "S134",
         "S137",
