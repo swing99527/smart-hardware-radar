@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-14T22:22:01.016823Z",
+  "generated_at": "2026-09-15T22:00:15.782875Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 386,
+      "signal_count": 389,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -132,6 +132,9 @@
         "S1140",
         "S1146",
         "S1149",
+        "S1155",
+        "S1157",
+        "S1159",
         "S120",
         "S124",
         "S130",
@@ -1334,7 +1337,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 500,
+      "signal_count": 503,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1448,6 +1451,9 @@
         "S1151",
         "S1152",
         "S1154",
+        "S1156",
+        "S1158",
+        "S1160",
         "S129",
         "S134",
         "S137",
