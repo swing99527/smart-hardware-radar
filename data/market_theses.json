@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-20T21:20:14.158357Z",
+  "generated_at": "2026-09-21T22:31:38.931754Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 401,
+      "signal_count": 403,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -147,6 +147,8 @@
         "S1187",
         "S1189",
         "S1191",
+        "S1195",
+        "S1198",
         "S120",
         "S124",
         "S130",
@@ -757,7 +759,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 4,
-        "media": 11,
+        "media": 12,
         "product_launch": 1
       },
       "source_names": [
@@ -772,7 +774,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 26,
+      "signal_count": 27,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -780,6 +782,7 @@
         "S011",
         "S1013",
         "S1057",
+        "S1200",
         "S140",
         "S166",
         "S236",
@@ -1353,7 +1356,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 521,
+      "signal_count": 524,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1488,6 +1491,9 @@
         "S1192",
         "S1193",
         "S1194",
+        "S1196",
+        "S1199",
+        "S1201",
         "S129",
         "S134",
         "S137",
@@ -3084,6 +3090,60 @@
           "source_title": "产品观察 | 小米创始员工范典创业AI硬件，做了台“无摩擦”的睡眠床头灯",
           "source_url": "https://36kr.com/p/3844006775360002?f=rss",
           "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M030",
+      "thesis_key": "emerging_smart_wearable",
+      "name": "Smart Wearable",
+      "name_zh": "Smart Wearable",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "Smart Wearable"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 16,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "Yanko Design"
+      ],
+      "signal_count": 1,
+      "trend_key": "smart wearable",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S1197"
+      ],
+      "top_signals": [
+        {
+          "id": "S1197",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "These Oakley x Spiderman unofficial sunglasses are cooler than any smart wearable ever made",
+          "source_url": "https://www.yankodesign.com/2026/09/21/these-oakley-x-spiderman-unofficial-sunglasses-are-cooler-than-any-smart-wearable-ever-made/?utm_source=rss&utm_medium=rss&utm_campaign=these-oakley-x-spiderman-unofficial-sunglasses-are-cooler-than-any-smart-wearable-ever-made",
+          "signal_strength": 0.9
         }
       ],
       "missing_evidence": [

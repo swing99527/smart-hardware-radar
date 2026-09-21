@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-20T21:20:14.158357Z",
+  "generated_at": "2026-09-21T22:31:38.931754Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 432,
+      "seen_count_total": 435,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -86,12 +86,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 166,
+      "seen_count_total": 168,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S008",
         "S1149"
@@ -132,14 +132,14 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.67,
       "max_signal_strength": 2.75,
-      "seen_count_total": 227,
+      "seen_count_total": 228,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "big_tech_peripherals",
         "github_ai_projects"
       ],
       "first_seen_at": "2026-05-02T19:56:04.340370Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S097",
         "S533"
@@ -184,7 +184,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1943,
+      "seen_count_total": 1954,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -192,7 +192,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -297,7 +297,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.43,
       "max_signal_strength": 2.7,
-      "seen_count_total": 438,
+      "seen_count_total": 441,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -305,7 +305,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -471,7 +471,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.25,
       "max_signal_strength": 3.45,
-      "seen_count_total": 432,
+      "seen_count_total": 435,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -480,7 +480,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -552,13 +552,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 107,
+      "seen_count_total": 108,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -717,12 +717,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.85,
       "max_signal_strength": 2.8,
-      "seen_count_total": 85,
+      "seen_count_total": 86,
       "matched_watch_topics": [
         "hardware_intersections"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S003",
         "S004",
@@ -787,7 +787,7 @@
           "signal_strength": 2.45
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1034,7 +1034,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 364,
+      "signal_count": 366,
       "source_types": [
         "community",
         "developer",
@@ -1048,7 +1048,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.34,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1050,
+      "seen_count_total": 1058,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1059,7 +1059,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1424,7 +1424,9 @@
         "S1185",
         "S1187",
         "S1189",
-        "S1191"
+        "S1191",
+        "S1195",
+        "S1198"
       ],
       "top_signals": [
         {
@@ -1468,7 +1470,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 9.0,
+      "velocity_7run_delta": 8.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1585,7 +1587,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.19,
       "max_signal_strength": 2.55,
-      "seen_count_total": 2999,
+      "seen_count_total": 3020,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1595,7 +1597,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1765,7 +1767,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 1.43,
+      "velocity_7run_delta": 0.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1773,7 +1775,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 510,
+      "signal_count": 513,
       "source_types": [
         "community",
         "developer",
@@ -1787,7 +1789,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 2.75,
-      "seen_count_total": 915,
+      "seen_count_total": 921,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1801,7 +1803,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -2312,7 +2314,10 @@
         "S1190",
         "S1192",
         "S1193",
-        "S1194"
+        "S1194",
+        "S1196",
+        "S1199",
+        "S1201"
       ],
       "top_signals": [
         {
@@ -2356,7 +2361,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 13.57,
+      "velocity_7run_delta": 13.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2591,7 +2596,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.7,
       "max_signal_strength": 2.7,
-      "seen_count_total": 12,
+      "seen_count_total": 13,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -2600,7 +2605,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-09-09T21:33:50.671790Z",
-      "last_seen_at": "2026-09-20T21:20:14.158357Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
       "evidence_signal_ids": [
         "S1124"
       ],
@@ -4486,6 +4491,80 @@
         }
       ],
       "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "health tracker",
+      "name": "Health Tracker",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "Yanko Design"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 0.9,
+      "max_signal_strength": 0.9,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "big_tech_peripherals"
+      ],
+      "first_seen_at": "2026-09-21T22:31:38.931754Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
+      "evidence_signal_ids": [
+        "S1200"
+      ],
+      "top_signals": [
+        {
+          "id": "S1200",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "Apple may launch a “Watch Air” screen-less health tracker to compete with Whoop and Fitbit Air",
+          "source_url": "https://www.yankodesign.com/2026/09/21/apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air/?utm_source=rss&utm_medium=rss&utm_campaign=apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air",
+          "signal_strength": 0.9
+        }
+      ],
+      "velocity_7run_delta": 1,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "smart wearable",
+      "name": "Smart Wearable",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "Yanko Design"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 0.9,
+      "max_signal_strength": 0.9,
+      "seen_count_total": 1,
+      "matched_watch_topics": [
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-09-21T22:31:38.931754Z",
+      "last_seen_at": "2026-09-21T22:31:38.931754Z",
+      "evidence_signal_ids": [
+        "S1197"
+      ],
+      "top_signals": [
+        {
+          "id": "S1197",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "These Oakley x Spiderman unofficial sunglasses are cooler than any smart wearable ever made",
+          "source_url": "https://www.yankodesign.com/2026/09/21/these-oakley-x-spiderman-unofficial-sunglasses-are-cooler-than-any-smart-wearable-ever-made/?utm_source=rss&utm_medium=rss&utm_campaign=these-oakley-x-spiderman-unofficial-sunglasses-are-cooler-than-any-smart-wearable-ever-made",
+          "signal_strength": 0.9
+        }
+      ],
+      "velocity_7run_delta": 1,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
