@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-24T22:09:40.708642Z",
+  "generated_at": "2026-09-25T22:07:20.391517Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 409,
+      "signal_count": 413,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -156,6 +156,10 @@
         "S1209",
         "S1214",
         "S1216",
+        "S1221",
+        "S1224",
+        "S1226",
+        "S1228",
         "S124",
         "S130",
         "S141",
@@ -780,7 +784,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 28,
+      "signal_count": 29,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -790,6 +794,7 @@
         "S1057",
         "S1200",
         "S1212",
+        "S1229",
         "S140",
         "S166",
         "S236",
@@ -832,28 +837,28 @@
           "signal_strength": 1.3
         },
         {
-          "id": "S246",
+          "id": "S1212",
           "source_name": "Reddit r/gadgets",
           "source_type": "community",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1tdivdj/leaked_images_show_microsofts_new_xbox_cloud/",
+          "source_title": "Apple is reportedly working on a screenless fitness tracker",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1wo6y4g/apple_is_reportedly_working_on_a_screenless/",
           "signal_strength": 2.9
         },
         {
-          "id": "S140",
-          "source_name": "Product Hunt",
-          "source_type": "product_launch",
-          "source_title": "Steam Controller",
-          "source_url": "https://www.producthunt.com/products/steam-machine",
-          "signal_strength": 2.3
+          "id": "S166",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
+          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
+          "signal_strength": 0.9
         },
         {
-          "id": "S236",
-          "source_name": "The Verge",
+          "id": "S410",
+          "source_name": "SlashGear",
           "source_type": "media",
-          "source_title": "Leaked images show Microsoft’s new Xbox Cloud Gaming controller",
-          "source_url": "https://www.theverge.com/news/930502/microsoft-xbox-cloud-gaming-controller-leak",
-          "signal_strength": 0.9
+          "source_title": "5 Cheaper Alternatives To The Whoop Fitness Tracker",
+          "source_url": "https://www.slashgear.com/2185465/cheaper-alternatives-whoop-fitness-tracker/",
+          "signal_strength": 0.75
         }
       ],
       "missing_evidence": [
@@ -1363,7 +1368,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 534,
+      "signal_count": 539,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1511,6 +1516,11 @@
         "S1215",
         "S1217",
         "S1219",
+        "S1220",
+        "S1222",
+        "S1223",
+        "S1225",
+        "S1227",
         "S129",
         "S134",
         "S137",
@@ -2507,8 +2517,8 @@
       ],
       "signal_count": 1,
       "trend_key": "ai fridge",
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation",
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
         "S1218"
       ],

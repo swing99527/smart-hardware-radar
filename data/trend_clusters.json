@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-24T22:09:40.708642Z",
+  "generated_at": "2026-09-25T22:07:20.391517Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 444,
+      "seen_count_total": 447,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -76,7 +76,7 @@
       "trend_key": "watch:github_ai_projects",
       "name": "Hot GitHub AI Projects",
       "name_zh": null,
-      "signal_count": 2,
+      "signal_count": 3,
       "source_types": [
         "developer"
       ],
@@ -84,17 +84,18 @@
         "GitHub On Device AI"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 2.8,
+      "avg_signal_strength": 2.68,
       "max_signal_strength": 2.8,
-      "seen_count_total": 174,
+      "seen_count_total": 177,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S008",
-        "S1149"
+        "S1149",
+        "S1228"
       ],
       "top_signals": [
         {
@@ -112,9 +113,17 @@
           "source_title": "vinta/pangu.js - Opinionated paranoid text spacing in JavaScript, with on-device AI semantic judgment",
           "source_url": "https://github.com/vinta/pangu.js",
           "signal_strength": 2.8
+        },
+        {
+          "id": "S1228",
+          "source_name": "GitHub On Device AI",
+          "source_type": "developer",
+          "source_title": "allenpeng0705/EnvoyMesh - Decentralized P2P mesh for autonomous AI agents — self-sovereign identity, peer-to-peer chat, and on-device AI that negotiates tasks on your behalf. No central server.",
+          "source_url": "https://github.com/allenpeng0705/EnvoyMesh",
+          "signal_strength": 2.45
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -184,7 +193,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1987,
+      "seen_count_total": 1998,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -192,7 +201,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -297,7 +306,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.43,
       "max_signal_strength": 2.7,
-      "seen_count_total": 450,
+      "seen_count_total": 453,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -305,7 +314,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -471,7 +480,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.25,
       "max_signal_strength": 3.45,
-      "seen_count_total": 444,
+      "seen_count_total": 447,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -480,7 +489,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -539,41 +548,6 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
-      "trend_key": "ai fridge",
-      "name": "AI Fridge",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "crowdfunding"
-      ],
-      "source_names": [
-        "Kickstarter Tech"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.2,
-      "max_signal_strength": 2.2,
-      "seen_count_total": 1,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-09-24T22:09:40.708642Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
-      "evidence_signal_ids": [
-        "S1218"
-      ],
-      "top_signals": [
-        {
-          "id": "S1218",
-          "source_name": "Kickstarter Tech",
-          "source_type": "crowdfunding",
-          "source_title": "Everblog FridgeCal™ 2: The World's NO.1 AI Fridge Calendar by Everblog",
-          "source_url": "https://www.kickstarter.com/projects/everblogfridgecal/everblog-fridgecaltm-2-worlds-no1-ai-fridge-calendar",
-          "signal_strength": 2.2
-        }
-      ],
-      "velocity_7run_delta": 1,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
       "trend_key": "watch:hardware_intersections",
       "name": "AI Hardware Intersections",
       "name_zh": null,
@@ -587,13 +561,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 111,
+      "seen_count_total": 112,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -822,7 +796,7 @@
           "signal_strength": 2.45
         }
       ],
-      "velocity_7run_delta": 0.14,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -921,10 +895,68 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "fitness tracker",
+      "name": "Fitness Tracker",
+      "name_zh": null,
+      "signal_count": 3,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Reddit r/gadgets",
+        "SlashGear",
+        "TechCrunch Hardware"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.52,
+      "max_signal_strength": 2.9,
+      "seen_count_total": 11,
+      "matched_watch_topics": [
+        "big_tech_peripherals"
+      ],
+      "first_seen_at": "2026-05-07T20:19:03.009396Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
+      "evidence_signal_ids": [
+        "S166",
+        "S410",
+        "S1212"
+      ],
+      "top_signals": [
+        {
+          "id": "S1212",
+          "source_name": "Reddit r/gadgets",
+          "source_type": "community",
+          "source_title": "Apple is reportedly working on a screenless fitness tracker",
+          "source_url": "https://www.reddit.com/r/gadgets/comments/1wo6y4g/apple_is_reportedly_working_on_a_screenless/",
+          "signal_strength": 2.9
+        },
+        {
+          "id": "S166",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
+          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S410",
+          "source_name": "SlashGear",
+          "source_type": "media",
+          "source_title": "5 Cheaper Alternatives To The Whoop Fitness Tracker",
+          "source_url": "https://www.slashgear.com/2185465/cheaper-alternatives-whoop-fitness-tracker/",
+          "signal_strength": 0.75
+        }
+      ],
+      "velocity_7run_delta": 0.71,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "gaming controller",
       "name": "Gaming Controller",
       "name_zh": null,
-      "signal_count": 5,
+      "signal_count": 6,
       "source_types": [
         "community",
         "media",
@@ -938,20 +970,21 @@
         "Yanko Design"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.55,
+      "avg_signal_strength": 1.42,
       "max_signal_strength": 2.9,
-      "seen_count_total": 5,
+      "seen_count_total": 6,
       "matched_watch_topics": [
         "big_tech_peripherals"
       ],
       "first_seen_at": "2026-05-05T20:11:49.626792Z",
-      "last_seen_at": "2026-08-26T21:43:14.291659Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S140",
         "S236",
         "S246",
         "S320",
-        "S1013"
+        "S1013",
+        "S1229"
       ],
       "top_signals": [
         {
@@ -995,65 +1028,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "fitness tracker",
-      "name": "Fitness Tracker",
-      "name_zh": null,
-      "signal_count": 3,
-      "source_types": [
-        "community",
-        "media"
-      ],
-      "source_names": [
-        "Reddit r/gadgets",
-        "SlashGear",
-        "TechCrunch Hardware"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 1.52,
-      "max_signal_strength": 2.9,
-      "seen_count_total": 10,
-      "matched_watch_topics": [
-        "big_tech_peripherals"
-      ],
-      "first_seen_at": "2026-05-07T20:19:03.009396Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
-      "evidence_signal_ids": [
-        "S166",
-        "S410",
-        "S1212"
-      ],
-      "top_signals": [
-        {
-          "id": "S1212",
-          "source_name": "Reddit r/gadgets",
-          "source_type": "community",
-          "source_title": "Apple is reportedly working on a screenless fitness tracker",
-          "source_url": "https://www.reddit.com/r/gadgets/comments/1wo6y4g/apple_is_reportedly_working_on_a_screenless/",
-          "signal_strength": 2.9
-        },
-        {
-          "id": "S166",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Google unveils Whoop-like screenless Fitbit Air",
-          "source_url": "https://techcrunch.com/2026/05/07/google-unveils-whoop-like-screenless-fitbit-air/",
-          "signal_strength": 0.9
-        },
-        {
-          "id": "S410",
-          "source_name": "SlashGear",
-          "source_type": "media",
-          "source_title": "5 Cheaper Alternatives To The Whoop Fitness Tracker",
-          "source_url": "https://www.slashgear.com/2185465/cheaper-alternatives-whoop-fitness-tracker/",
-          "signal_strength": 0.75
-        }
-      ],
-      "velocity_7run_delta": 0.86,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1127,7 +1102,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 372,
+      "signal_count": 375,
       "source_types": [
         "community",
         "developer",
@@ -1141,7 +1116,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.34,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1083,
+      "seen_count_total": 1091,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1152,7 +1127,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1525,7 +1500,10 @@
         "S1206",
         "S1209",
         "S1214",
-        "S1216"
+        "S1216",
+        "S1221",
+        "S1224",
+        "S1226"
       ],
       "top_signals": [
         {
@@ -1569,7 +1547,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 7.86,
+      "velocity_7run_delta": 8.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1686,7 +1664,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.19,
       "max_signal_strength": 2.55,
-      "seen_count_total": 3083,
+      "seen_count_total": 3104,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1696,7 +1674,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1861,7 +1839,7 @@
           "id": "S122",
           "source_name": "Kickstarter Geek Productivity Hardware",
           "source_type": "crowdfunding",
-          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect - Kickstarter",
+          "source_title": "NocFree &: Wireless Split Keyboard. Split to Reconnect - kickstarter.com",
           "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRERFZXotdW1NTy05Z0l4b2Q5Sk1zU2FPenpmTmJNSFJmb1dMNW5ZTkZ3azFLSmEyWDVMSEFJT0JxNmZvdHZaNTd1SXFVRHl1TFdrQUU2S1NfVjhjWXZsVGxkREdnWDFwOWZMN2lvNkE0XzdXdFBpME9WQ01SNWtuN3VyMzlac29UZUZlaU1nQzhpNlhudHloa2ptZw?oc=5",
           "signal_strength": 2.0
         }
@@ -1874,7 +1852,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 523,
+      "signal_count": 528,
       "source_types": [
         "community",
         "developer",
@@ -1888,7 +1866,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 2.75,
-      "seen_count_total": 939,
+      "seen_count_total": 945,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1902,7 +1880,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -2426,7 +2404,12 @@
         "S1213",
         "S1215",
         "S1217",
-        "S1219"
+        "S1219",
+        "S1220",
+        "S1222",
+        "S1223",
+        "S1225",
+        "S1227"
       ],
       "top_signals": [
         {
@@ -2470,7 +2453,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 12.86,
+      "velocity_7run_delta": 14.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2705,7 +2688,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.7,
       "max_signal_strength": 2.7,
-      "seen_count_total": 16,
+      "seen_count_total": 17,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -2714,7 +2697,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-09-09T21:33:50.671790Z",
-      "last_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
       "evidence_signal_ids": [
         "S1124"
       ],
@@ -3442,6 +3425,41 @@
           "source_title": "Meet the CAQM9: A fully local, open-source Air Quality Monitor for your smart home. (Zero Cloud, Open-Hardware)",
           "source_url": "https://www.reddit.com/r/smarthome/comments/1t06o9d/meet_the_caqm9_a_fully_local_opensource_air/",
           "signal_strength": 2.3
+        }
+      ],
+      "velocity_7run_delta": 0.0,
+      "trend_status": "Watch",
+      "trend_reason": "single_network_or_low_velocity"
+    },
+    {
+      "trend_key": "ai fridge",
+      "name": "AI Fridge",
+      "name_zh": null,
+      "signal_count": 1,
+      "source_types": [
+        "crowdfunding"
+      ],
+      "source_names": [
+        "Kickstarter Tech"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.2,
+      "max_signal_strength": 2.2,
+      "seen_count_total": 2,
+      "matched_watch_topics": [],
+      "first_seen_at": "2026-09-24T22:09:40.708642Z",
+      "last_seen_at": "2026-09-25T22:07:20.391517Z",
+      "evidence_signal_ids": [
+        "S1218"
+      ],
+      "top_signals": [
+        {
+          "id": "S1218",
+          "source_name": "Kickstarter Tech",
+          "source_type": "crowdfunding",
+          "source_title": "Everblog FridgeCal™ 2: The World's NO.1 AI Fridge Calendar by Everblog",
+          "source_url": "https://www.kickstarter.com/projects/everblogfridgecal/everblog-fridgecaltm-2-worlds-no1-ai-fridge-calendar",
+          "signal_strength": 2.2
         }
       ],
       "velocity_7run_delta": 0.0,
