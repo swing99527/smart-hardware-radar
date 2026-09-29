@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-28T23:46:34.212611Z",
+  "generated_at": "2026-09-29T22:53:04.556312Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 420,
+      "signal_count": 423,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -168,6 +168,9 @@
         "S1240",
         "S1242",
         "S1244",
+        "S1247",
+        "S1250",
+        "S1252",
         "S130",
         "S141",
         "S142",
@@ -570,7 +573,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 129,
+      "signal_count": 130,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -609,6 +612,7 @@
         "S122",
         "S1238",
         "S1239",
+        "S1246",
         "S125",
         "S126",
         "S127",
@@ -1378,7 +1382,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 545,
+      "signal_count": 549,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1537,6 +1541,10 @@
         "S1241",
         "S1243",
         "S1245",
+        "S1248",
+        "S1249",
+        "S1251",
+        "S1253",
         "S129",
         "S134",
         "S137",
@@ -2008,7 +2016,7 @@
       "source_mix": {
         "developer": 1,
         "community": 5,
-        "media": 1
+        "media": 2
       },
       "source_names": [
         "GitHub Claude Code Ecosystem",
@@ -2018,9 +2026,10 @@
         "GitHub OpenClaw Ecosystem",
         "Reddit r/MechanicalKeyboards",
         "Reddit r/olkb",
+        "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 49,
+      "signal_count": 50,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -2060,6 +2069,7 @@
         "S043",
         "S1088",
         "S123",
+        "S1254",
         "S229",
         "S247",
         "S282",
