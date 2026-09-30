@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-29T22:53:04.556312Z",
+  "generated_at": "2026-09-30T22:53:11.945043Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 456,
+      "seen_count_total": 459,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -86,12 +86,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 186,
+      "seen_count_total": 189,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S008",
         "S1149",
@@ -123,7 +123,7 @@
           "signal_strength": 2.8
         }
       ],
-      "velocity_7run_delta": 0.57,
+      "velocity_7run_delta": 0.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -179,7 +179,7 @@
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "name": "AI Coding Agent Ecosystem",
       "name_zh": null,
-      "signal_count": 41,
+      "signal_count": 42,
       "source_types": [
         "developer"
       ],
@@ -193,7 +193,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 2031,
+      "seen_count_total": 2042,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -201,7 +201,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -243,7 +243,8 @@
         "S471",
         "S675",
         "S916",
-        "S965"
+        "S965",
+        "S1264"
       ],
       "top_signals": [
         {
@@ -287,7 +288,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -306,7 +307,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.43,
       "max_signal_strength": 2.7,
-      "seen_count_total": 462,
+      "seen_count_total": 465,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "github_ai_projects",
@@ -314,7 +315,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S066",
         "S072",
@@ -480,7 +481,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.25,
       "max_signal_strength": 3.45,
-      "seen_count_total": 456,
+      "seen_count_total": 459,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -489,7 +490,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -561,13 +562,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 115,
+      "seen_count_total": 116,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -902,7 +903,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 0.29,
+      "velocity_7run_delta": 0.14,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -982,7 +983,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 0.57,
+      "velocity_7run_delta": 0.43,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1038,7 +1039,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 0.86,
+      "velocity_7run_delta": 0.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1112,7 +1113,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 385,
+      "signal_count": 387,
       "source_types": [
         "community",
         "developer",
@@ -1126,7 +1127,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.34,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1119,
+      "seen_count_total": 1127,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1137,7 +1138,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1523,7 +1524,9 @@
         "S1244",
         "S1247",
         "S1250",
-        "S1252"
+        "S1252",
+        "S1257",
+        "S1259"
       ],
       "top_signals": [
         {
@@ -1567,7 +1570,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 11.71,
+      "velocity_7run_delta": 11.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1653,10 +1656,59 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "cluster:ai_voice_capture",
+      "name": "AI Voice Capture Device",
+      "name_zh": "AI语音采集设备",
+      "signal_count": 2,
+      "source_types": [
+        "community",
+        "media"
+      ],
+      "source_names": [
+        "Hacker News Show",
+        "TechCrunch Hardware"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 1.32,
+      "max_signal_strength": 1.9,
+      "seen_count_total": 22,
+      "matched_watch_topics": [
+        "ai_recorder",
+        "hardware_intersections"
+      ],
+      "first_seen_at": "2026-04-30T22:23:43.680455Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
+      "evidence_signal_ids": [
+        "S002",
+        "S1261"
+      ],
+      "top_signals": [
+        {
+          "id": "S1261",
+          "source_name": "Hacker News Show",
+          "source_type": "community",
+          "source_title": "Show HN: Parrot – Open-Source Smart Meeting Recorder with Co-Pilot on Mac",
+          "source_url": "https://openparrot.app",
+          "signal_strength": 1.9
+        },
+        {
+          "id": "S002",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
+          "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+          "signal_strength": 0.75
+        }
+      ],
+      "velocity_7run_delta": 1.0,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "watch:geek_ai_productivity_hardware",
       "name": "Geek AI Productivity Hardware",
       "name_zh": null,
-      "signal_count": 128,
+      "signal_count": 130,
       "source_types": [
         "community",
         "crowdfunding",
@@ -1682,9 +1734,9 @@
         "ZSA Moonlander"
       ],
       "has_behavior_source": true,
-      "avg_signal_strength": 1.18,
+      "avg_signal_strength": 1.17,
       "max_signal_strength": 2.55,
-      "seen_count_total": 3173,
+      "seen_count_total": 3195,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1694,7 +1746,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -1823,7 +1875,9 @@
         "S1168",
         "S1238",
         "S1239",
-        "S1246"
+        "S1246",
+        "S1256",
+        "S1262"
       ],
       "top_signals": [
         {
@@ -1867,7 +1921,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 2.71,
+      "velocity_7run_delta": 4.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1875,7 +1929,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 538,
+      "signal_count": 541,
       "source_types": [
         "community",
         "developer",
@@ -1889,7 +1943,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 2.75,
-      "seen_count_total": 966,
+      "seen_count_total": 972,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1903,7 +1957,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -2442,7 +2496,10 @@
         "S1248",
         "S1249",
         "S1251",
-        "S1253"
+        "S1253",
+        "S1258",
+        "S1260",
+        "S1263"
       ],
       "top_signals": [
         {
@@ -2486,7 +2543,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 14.43,
+      "velocity_7run_delta": 13.86,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2721,7 +2778,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.7,
       "max_signal_strength": 2.7,
-      "seen_count_total": 20,
+      "seen_count_total": 21,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -2730,7 +2787,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-09-09T21:33:50.671790Z",
-      "last_seen_at": "2026-09-29T22:53:04.556312Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
       "evidence_signal_ids": [
         "S1124"
       ],
@@ -4534,7 +4591,7 @@
           "signal_strength": 1.0
         }
       ],
-      "velocity_7run_delta": 1,
+      "velocity_7run_delta": 0.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -4690,43 +4747,6 @@
       "trend_reason": "media_only_awareness"
     },
     {
-      "trend_key": "health tracker",
-      "name": "Health Tracker",
-      "name_zh": null,
-      "signal_count": 1,
-      "source_types": [
-        "media"
-      ],
-      "source_names": [
-        "Yanko Design"
-      ],
-      "has_behavior_source": false,
-      "avg_signal_strength": 0.9,
-      "max_signal_strength": 0.9,
-      "seen_count_total": 1,
-      "matched_watch_topics": [
-        "big_tech_peripherals"
-      ],
-      "first_seen_at": "2026-09-21T22:31:38.931754Z",
-      "last_seen_at": "2026-09-21T22:31:38.931754Z",
-      "evidence_signal_ids": [
-        "S1200"
-      ],
-      "top_signals": [
-        {
-          "id": "S1200",
-          "source_name": "Yanko Design",
-          "source_type": "media",
-          "source_title": "Apple may launch a “Watch Air” screen-less health tracker to compete with Whoop and Fitbit Air",
-          "source_url": "https://www.yankodesign.com/2026/09/21/apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air/?utm_source=rss&utm_medium=rss&utm_campaign=apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air",
-          "signal_strength": 0.9
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Noise",
-      "trend_reason": "media_only_awareness"
-    },
-    {
       "trend_key": "smart wearable",
       "name": "Smart Wearable",
       "name_zh": null,
@@ -4797,6 +4817,53 @@
         }
       ],
       "velocity_7run_delta": 0.0,
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness"
+    },
+    {
+      "trend_key": "health tracker",
+      "name": "Health Tracker",
+      "name_zh": null,
+      "signal_count": 2,
+      "source_types": [
+        "media"
+      ],
+      "source_names": [
+        "Gizmodo",
+        "Yanko Design"
+      ],
+      "has_behavior_source": false,
+      "avg_signal_strength": 0.82,
+      "max_signal_strength": 0.9,
+      "seen_count_total": 2,
+      "matched_watch_topics": [
+        "big_tech_peripherals"
+      ],
+      "first_seen_at": "2026-09-21T22:31:38.931754Z",
+      "last_seen_at": "2026-09-30T22:53:11.945043Z",
+      "evidence_signal_ids": [
+        "S1200",
+        "S1255"
+      ],
+      "top_signals": [
+        {
+          "id": "S1200",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "Apple may launch a “Watch Air” screen-less health tracker to compete with Whoop and Fitbit Air",
+          "source_url": "https://www.yankodesign.com/2026/09/21/apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air/?utm_source=rss&utm_medium=rss&utm_campaign=apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air",
+          "signal_strength": 0.9
+        },
+        {
+          "id": "S1255",
+          "source_name": "Gizmodo",
+          "source_type": "media",
+          "source_title": "Qalo’s Screenless Health Tracker Has a Smart Ring Companion, Too - Gizmodo",
+          "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96U3NvMzd5VkVBcUpZVjNMZi1COEJHVFU0VGVHeHNaaTJvT2QyUlpTcjZmVkdjQlZ4NjJfY3A1S2pNTms1b2ktX0N2SklZS3ROSDA0TTI5MjIzZFhTdmtRMjFBbjhUOE1tMEE?oc=5",
+          "signal_strength": 0.75
+        }
+      ],
+      "velocity_7run_delta": 1.0,
       "trend_status": "Noise",
       "trend_reason": "media_only_awareness"
     },
@@ -4872,41 +4939,6 @@
           "source_type": "media",
           "source_title": "Plaud One AI Earbuds remember and summarize your conversations so you can focus on the work",
           "source_url": "https://www.yankodesign.com/2026/08/29/plaud-one-ai-earbuds-remember-and-summarize-your-conversations-so-you-can-focus-on-the-work/?utm_source=rss&utm_medium=rss&utm_campaign=plaud-one-ai-earbuds-remember-and-summarize-your-conversations-so-you-can-focus-on-the-work",
-          "signal_strength": 0.75
-        }
-      ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Noise",
-      "trend_reason": "media_only_awareness"
-    },
-    {
-      "trend_key": "cluster:ai_voice_capture",
-      "name": "AI Voice Capture Device",
-      "name_zh": "AI语音采集设备",
-      "signal_count": 1,
-      "source_types": [
-        "media"
-      ],
-      "source_names": [
-        "TechCrunch Hardware"
-      ],
-      "has_behavior_source": false,
-      "avg_signal_strength": 0.75,
-      "max_signal_strength": 0.75,
-      "seen_count_total": 21,
-      "matched_watch_topics": [],
-      "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-05-05T20:11:49.626792Z",
-      "evidence_signal_ids": [
-        "S002"
-      ],
-      "top_signals": [
-        {
-          "id": "S002",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
-          "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
           "signal_strength": 0.75
         }
       ],

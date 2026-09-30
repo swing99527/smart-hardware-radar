@@ -399,6 +399,48 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A011",
+      "name": "【证据聚类】AI Voice Capture Device",
+      "name_en": "AI Voice Capture Device",
+      "name_zh": "AI语音采集设备",
+      "cluster_key": "cluster:ai_voice_capture",
+      "cluster_members": [
+        "Dictation Device",
+        "Smart Meeting Recorder"
+      ],
+      "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
+      "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+      "evidence_signal_ids": [
+        "S002",
+        "S1261"
+      ],
+      "confidence": 0.75,
+      "l0_evidence": {
+        "source_types": [
+          "community",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "two_step_confirmed",
+        "avg_signal_strength": 1.32,
+        "matched_watch_topics": [
+          "ai_recorder",
+          "hardware_intersections"
+        ],
+        "candidate_keys": [
+          "dictation device",
+          "smart meeting recorder"
+        ],
+        "l0_confidence": 0.75
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }

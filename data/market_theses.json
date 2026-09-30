@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-29T22:53:04.556312Z",
+  "generated_at": "2026-09-30T22:53:11.945043Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 423,
+      "signal_count": 425,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -171,6 +171,8 @@
         "S1247",
         "S1250",
         "S1252",
+        "S1257",
+        "S1259",
         "S130",
         "S141",
         "S142",
@@ -573,7 +575,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 130,
+      "signal_count": 132,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -614,7 +616,9 @@
         "S1239",
         "S1246",
         "S125",
+        "S1256",
         "S126",
+        "S1262",
         "S127",
         "S128",
         "S131",
@@ -797,7 +801,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 29,
+      "signal_count": 30,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -808,6 +812,7 @@
         "S1200",
         "S1212",
         "S1229",
+        "S1255",
         "S140",
         "S166",
         "S236",
@@ -1371,7 +1376,7 @@
       "evidence_score": 70,
       "source_mix": {
         "developer": 2,
-        "community": 2,
+        "community": 3,
         "media": 2
       },
       "source_names": [
@@ -1382,7 +1387,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 549,
+      "signal_count": 553,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1545,6 +1550,10 @@
         "S1249",
         "S1251",
         "S1253",
+        "S1258",
+        "S1260",
+        "S1261",
+        "S1263",
         "S129",
         "S134",
         "S137",
@@ -1963,20 +1972,20 @@
           "signal_strength": 2.05
         },
         {
-          "id": "S504",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "kellyvv/PhoneClaw - PhoneClaw: On-device AI Agent for Phone powered by Gemma 4",
-          "source_url": "https://github.com/kellyvv/PhoneClaw",
-          "signal_strength": 2.75
+          "id": "S1261",
+          "source_name": "Hacker News Show",
+          "source_type": "community",
+          "source_title": "Show HN: Parrot – Open-Source Smart Meeting Recorder with Co-Pilot on Mac",
+          "source_url": "https://openparrot.app",
+          "signal_strength": 1.9
         },
         {
-          "id": "S949",
-          "source_name": "GitHub On Device AI",
-          "source_type": "developer",
-          "source_title": "nico-martin/gemma4-browser-extension - On-device AI agent Chrome extension powered by Transformers.js and Gemma 4",
-          "source_url": "https://github.com/nico-martin/gemma4-browser-extension",
-          "signal_strength": 2.75
+          "id": "S002",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "SpeakON’s dictation device is a good idea marred by platform limitations",
+          "source_url": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+          "signal_strength": 0.75
         }
       ],
       "missing_evidence": [
@@ -2029,7 +2038,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 50,
+      "signal_count": 51,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -2070,6 +2079,7 @@
         "S1088",
         "S123",
         "S1254",
+        "S1264",
         "S229",
         "S247",
         "S282",
