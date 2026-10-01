@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-09-30T22:53:11.945043Z",
+  "generated_at": "2026-10-01T23:02:20.355243Z",
   "theses": [
     {
       "id": "M001",
@@ -26,7 +26,7 @@
       "source_mix": {
         "developer": 8,
         "community": 4,
-        "media": 9,
+        "media": 10,
         "crowdfunding": 1
       },
       "source_names": [
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 425,
+      "signal_count": 427,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -173,6 +173,8 @@
         "S1252",
         "S1257",
         "S1259",
+        "S1266",
+        "S1269",
         "S130",
         "S141",
         "S142",
@@ -575,7 +577,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 132,
+      "signal_count": 134,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -619,7 +621,9 @@
         "S1256",
         "S126",
         "S1262",
+        "S1268",
         "S127",
+        "S1272",
         "S128",
         "S131",
         "S132",
@@ -1387,7 +1391,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 553,
+      "signal_count": 557,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1554,6 +1558,10 @@
         "S1260",
         "S1261",
         "S1263",
+        "S1267",
+        "S1270",
+        "S1271",
+        "S1273",
         "S129",
         "S134",
         "S137",
@@ -2794,6 +2802,69 @@
     },
     {
       "id": "M023",
+      "thesis_key": "emerging_ai_hearing_glasses",
+      "name": "AI Hearing Glasses",
+      "name_zh": "AI Hearing Glasses",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Hearing Glasses"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 22,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "TechCrunch Hardware"
+      ],
+      "signal_count": 2,
+      "trend_key": "ai hearing glasses",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S1014",
+        "S1265"
+      ],
+      "top_signals": [
+        {
+          "id": "S1014",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+          "source_url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+          "signal_strength": 1.0
+        },
+        {
+          "id": "S1265",
+          "source_name": "TechCrunch Hardware",
+          "source_type": "media",
+          "source_title": "Hearing tech startup Legato launches its AI hearing glasses",
+          "source_url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+          "signal_strength": 1.0
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M024",
       "thesis_key": "emerging_smart_fart_wearable",
       "name": "Smart Fart Wearable",
       "name_zh": "Smart Fart Wearable",
@@ -2847,7 +2918,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M024",
+      "id": "M025",
       "thesis_key": "emerging_跑ar+智能眼镜品类，q",
       "name": "跑AR+智能眼镜品类，Q",
       "name_zh": "跑AR+智能眼镜品类，Q",
@@ -2901,7 +2972,7 @@
       "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
     },
     {
-      "id": "M025",
+      "id": "M026",
       "thesis_key": "emerging_首款ai陪伴机器人｜最前线",
       "name": "首款AI陪伴机器人｜最前线",
       "name_zh": "首款AI陪伴机器人｜最前线",
@@ -2935,60 +3006,6 @@
           "source_title": "自研全域柔性电子皮肤，Moxy摸喜发布首款AI陪伴机器人｜最前线",
           "source_url": "https://36kr.com/p/3874015941645570?f=rss",
           "signal_strength": 1.15
-        }
-      ],
-      "missing_evidence": [
-        "demand_behavior",
-        "market_validation",
-        "supply_chain",
-        "productization",
-        "source_diversity"
-      ],
-      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
-      "next_validation": [
-        "reddit_pain_scan",
-        "google_trends_keyword_scan",
-        "youtube_review_query",
-        "amazon_keyword_scan",
-        "amazon_competition_snapshot"
-      ],
-      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
-    },
-    {
-      "id": "M026",
-      "thesis_key": "emerging_ai_hearing_glasses",
-      "name": "AI Hearing Glasses",
-      "name_zh": "AI Hearing Glasses",
-      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
-      "hardware_form_factors": [
-        "AI Hearing Glasses"
-      ],
-      "buyer_segments": [
-        "early adopters"
-      ],
-      "evidence_status": "Noise",
-      "evidence_score": 16,
-      "source_mix": {
-        "media": 1
-      },
-      "source_names": [
-        "TechCrunch Hardware"
-      ],
-      "signal_count": 1,
-      "trend_key": "ai hearing glasses",
-      "trend_status": "Noise",
-      "trend_reason": "media_only_awareness",
-      "evidence_signal_ids": [
-        "S1014"
-      ],
-      "top_signals": [
-        {
-          "id": "S1014",
-          "source_name": "TechCrunch Hardware",
-          "source_type": "media",
-          "source_title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
-          "source_url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
-          "signal_strength": 1.0
         }
       ],
       "missing_evidence": [
