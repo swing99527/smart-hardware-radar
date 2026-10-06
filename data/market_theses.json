@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-06T00:41:21.140407Z",
+  "generated_at": "2026-10-06T22:56:44.069861Z",
   "theses": [
     {
       "id": "M001",
@@ -1402,7 +1402,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 571,
+      "signal_count": 575,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1588,6 +1588,10 @@
         "S1295",
         "S1297",
         "S1298",
+        "S1299",
+        "S1300",
+        "S1301",
+        "S1302",
         "S134",
         "S137",
         "S143",
