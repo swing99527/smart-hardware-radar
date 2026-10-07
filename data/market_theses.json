@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-06T22:56:44.069861Z",
+  "generated_at": "2026-10-07T23:30:41.987896Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 434,
+      "signal_count": 437,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -183,6 +183,9 @@
         "S1294",
         "S1296",
         "S130",
+        "S1304",
+        "S1307",
+        "S1309",
         "S141",
         "S142",
         "S144",
@@ -934,9 +937,10 @@
         "Indiegogo Tech",
         "Reddit r/smarthome",
         "SlashGear",
+        "TechCrunch Hardware",
         "The Verge"
       ],
-      "signal_count": 22,
+      "signal_count": 23,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -950,6 +954,7 @@
         "S1143",
         "S1182",
         "S1292",
+        "S1306",
         "S133",
         "S300",
         "S377",
@@ -1402,7 +1407,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 575,
+      "signal_count": 580,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1592,6 +1597,11 @@
         "S1300",
         "S1301",
         "S1302",
+        "S1303",
+        "S1305",
+        "S1308",
+        "S1310",
+        "S1311",
         "S134",
         "S137",
         "S143",
