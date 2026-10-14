@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-13T23:13:13.995466Z",
+  "generated_at": "2026-10-14T22:08:21.875537Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 446,
+      "signal_count": 449,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -195,6 +195,9 @@
         "S1327",
         "S1339",
         "S1341",
+        "S1347",
+        "S1349",
+        "S1351",
         "S141",
         "S142",
         "S144",
@@ -596,7 +599,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 138,
+      "signal_count": 139,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -650,6 +653,7 @@
         "S132",
         "S1324",
         "S1338",
+        "S1346",
         "S135",
         "S136",
         "S138",
@@ -828,7 +832,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 31,
+      "signal_count": 32,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -841,6 +845,7 @@
         "S1229",
         "S1255",
         "S1282",
+        "S1345",
         "S140",
         "S166",
         "S236",
@@ -1420,7 +1425,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 599,
+      "signal_count": 602,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1635,6 +1640,9 @@
         "S1340",
         "S1342",
         "S1343",
+        "S1348",
+        "S1350",
+        "S1352",
         "S137",
         "S143",
         "S149",
