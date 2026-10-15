@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-14T22:08:21.875537Z",
+  "generated_at": "2026-10-15T22:01:42.340413Z",
   "theses": [
     {
       "id": "M001",
@@ -45,7 +45,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 449,
+      "signal_count": 451,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -198,6 +198,8 @@
         "S1347",
         "S1349",
         "S1351",
+        "S1353",
+        "S1356",
         "S141",
         "S142",
         "S144",
@@ -599,7 +601,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 139,
+      "signal_count": 140,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -655,6 +657,7 @@
         "S1338",
         "S1346",
         "S135",
+        "S1355",
         "S136",
         "S138",
         "S139",
@@ -832,7 +835,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 32,
+      "signal_count": 33,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -846,6 +849,7 @@
         "S1255",
         "S1282",
         "S1345",
+        "S1360",
         "S140",
         "S166",
         "S236",
@@ -1425,7 +1429,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 602,
+      "signal_count": 605,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1643,6 +1647,9 @@
         "S1348",
         "S1350",
         "S1352",
+        "S1354",
+        "S1357",
+        "S1358",
         "S137",
         "S143",
         "S149",
@@ -2125,7 +2132,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 53,
+      "signal_count": 54,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -2169,6 +2176,7 @@
         "S1264",
         "S1336",
         "S1344",
+        "S1359",
         "S229",
         "S247",
         "S282",
