@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-15T22:01:42.340413Z",
+  "generated_at": "2026-10-16T21:57:59.937870Z",
   "theses": [
     {
       "id": "M001",
@@ -25,9 +25,9 @@
       "evidence_score": 80,
       "source_mix": {
         "developer": 8,
+        "crowdfunding": 2,
         "community": 4,
-        "media": 10,
-        "crowdfunding": 1
+        "media": 10
       },
       "source_names": [
         "GitHub AI Camera Node",
@@ -38,6 +38,7 @@
         "GitHub Robotics AI Hardware",
         "Gizmodo",
         "Indiegogo Tech",
+        "Kickstarter Tech",
         "OpenClaw Hardware News",
         "Reddit OpenClaw Hardware Search",
         "Reddit r/gadgets",
@@ -45,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 451,
+      "signal_count": 453,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -200,6 +201,8 @@
         "S1351",
         "S1353",
         "S1356",
+        "S1361",
+        "S1363",
         "S141",
         "S142",
         "S144",
@@ -1429,7 +1432,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 605,
+      "signal_count": 609,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1650,6 +1653,10 @@
         "S1354",
         "S1357",
         "S1358",
+        "S1362",
+        "S1364",
+        "S1365",
+        "S1366",
         "S137",
         "S143",
         "S149",
