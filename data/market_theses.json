@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-17T21:20:30.199948Z",
+  "generated_at": "2026-10-18T21:20:25.383828Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 455,
+      "signal_count": 458,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -205,6 +205,9 @@
         "S1363",
         "S1367",
         "S1370",
+        "S1373",
+        "S1376",
+        "S1378",
         "S141",
         "S142",
         "S144",
@@ -1435,7 +1438,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 612,
+      "signal_count": 616,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1664,6 +1667,10 @@
         "S137",
         "S1371",
         "S1372",
+        "S1374",
+        "S1375",
+        "S1377",
+        "S1379",
         "S143",
         "S149",
         "S152",
@@ -2063,20 +2070,20 @@
           "signal_strength": 3.45
         },
         {
+          "id": "S1375",
+          "source_name": "GitHub AI Recorder Device",
+          "source_type": "developer",
+          "source_title": "Evil0ctal/Douyin_TikTok_Download_API - 🚀 自托管的抖音、TikTok 数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server for AI agents, CLI and web console, plus offline speech-to-text for downloaded videos. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
+          "source_url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+          "signal_strength": 3.45
+        },
+        {
           "id": "S065",
           "source_name": "GitHub AI Recorder Device",
           "source_type": "developer",
           "source_title": "mkiol/dsnote - Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation.",
           "source_url": "https://github.com/mkiol/dsnote",
           "signal_strength": 2.6
-        },
-        {
-          "id": "S071",
-          "source_name": "GitHub AI Recorder Device",
-          "source_type": "developer",
-          "source_title": "vilassn/whisper_android - Offline Speech Recognition with OpenAI Whisper and TensorFlow Lite for Android",
-          "source_url": "https://github.com/vilassn/whisper_android",
-          "signal_strength": 2.05
         },
         {
           "id": "S1261",
