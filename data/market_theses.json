@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-19T22:50:18.866267Z",
+  "generated_at": "2026-10-20T22:10:33.242610Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 459,
+      "signal_count": 462,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -209,6 +209,9 @@
         "S1376",
         "S1378",
         "S1380",
+        "S1387",
+        "S1390",
+        "S1392",
         "S141",
         "S142",
         "S144",
@@ -610,7 +613,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 141,
+      "signal_count": 142,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -670,6 +673,7 @@
         "S136",
         "S1369",
         "S138",
+        "S1385",
         "S139",
         "S146",
         "S150",
@@ -830,7 +834,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 5,
-        "media": 13,
+        "media": 14,
         "product_launch": 1
       },
       "source_names": [
@@ -845,7 +849,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 33,
+      "signal_count": 34,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -860,6 +864,7 @@
         "S1282",
         "S1345",
         "S1360",
+        "S1386",
         "S140",
         "S166",
         "S236",
@@ -1439,7 +1444,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 619,
+      "signal_count": 624,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1675,6 +1680,11 @@
         "S1381",
         "S1382",
         "S1383",
+        "S1384",
+        "S1388",
+        "S1389",
+        "S1391",
+        "S1393",
         "S143",
         "S149",
         "S152",
