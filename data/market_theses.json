@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-20T22:10:33.242610Z",
+  "generated_at": "2026-10-21T22:12:33.167953Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 462,
+      "signal_count": 465,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -212,6 +212,9 @@
         "S1387",
         "S1390",
         "S1392",
+        "S1396",
+        "S1398",
+        "S1400",
         "S141",
         "S142",
         "S144",
@@ -613,7 +616,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 142,
+      "signal_count": 143,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -675,6 +678,7 @@
         "S138",
         "S1385",
         "S139",
+        "S1395",
         "S146",
         "S150",
         "S154",
@@ -1444,7 +1448,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 624,
+      "signal_count": 628,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1685,6 +1689,10 @@
         "S1389",
         "S1391",
         "S1393",
+        "S1394",
+        "S1397",
+        "S1399",
+        "S1401",
         "S143",
         "S149",
         "S152",
@@ -2087,7 +2095,7 @@
           "id": "S1375",
           "source_name": "GitHub AI Recorder Device",
           "source_type": "developer",
-          "source_title": "Evil0ctal/Douyin_TikTok_Download_API - 🚀 自托管的抖音、TikTok 数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server for AI agents, CLI and web console, plus offline speech-to-text for downloaded videos. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
+          "source_title": "Evil0ctal/Douyin_TikTok_Download_API - 🚀 自托管的抖音、TikTok、B 站数据采集与无水印视频下载 API，支持 AI agent 通过 MCP 调用与离线语音转文字，Docker 一键部署。| Self-hosted TikTok, Douyin & Bilibili scraper and no-watermark video downloader — async REST API, MCP server for AI agents, CLI and web console, plus offline speech-to-text for downloaded videos. Self-healing identity pool, PostgreSQL archive, one docker compose up.",
           "source_url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
           "signal_strength": 3.45
         },
