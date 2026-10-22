@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-21T22:12:33.167953Z",
+  "generated_at": "2026-10-22T22:12:42.655280Z",
   "theses": [
     {
       "id": "M001",
@@ -1279,26 +1279,37 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
+        "crowdfunding": 1,
         "product_launch": 2,
         "community": 1,
         "media": 1
       },
       "source_names": [
         "Gizmodo",
+        "Kickstarter Tech",
         "Product Hunt",
         "Reddit r/smarthome"
       ],
-      "signal_count": 4,
+      "signal_count": 5,
       "trend_key": "smart home air quality monitor",
       "trend_status": "Watch",
       "trend_reason": "single_network_or_low_velocity",
       "evidence_signal_ids": [
+        "S1406",
         "S157",
         "S212",
         "S380",
         "S394"
       ],
       "top_signals": [
+        {
+          "id": "S1406",
+          "source_name": "Kickstarter Tech",
+          "source_type": "crowdfunding",
+          "source_title": "MegaShot Pickl+ | Smart Pickleball Gaming Device by MegaShot",
+          "source_url": "https://www.kickstarter.com/projects/megashot/megashot-pickl-smart-pickleball-gaming-device",
+          "signal_strength": 2.45
+        },
         {
           "id": "S212",
           "source_name": "Product Hunt",
@@ -1341,7 +1352,7 @@
         "fcc_bluetooth_bom_check",
         "reference_design_scan"
       ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media, product_launch."
     },
     {
       "id": "M008",
@@ -1448,7 +1459,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 628,
+      "signal_count": 632,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1693,6 +1704,10 @@
         "S1397",
         "S1399",
         "S1401",
+        "S1402",
+        "S1403",
+        "S1404",
+        "S1405",
         "S143",
         "S149",
         "S152",
