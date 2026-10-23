@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-22T22:12:42.655280Z",
+  "generated_at": "2026-10-23T21:56:27.967415Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 465,
+      "signal_count": 468,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -215,7 +215,10 @@
         "S1396",
         "S1398",
         "S1400",
+        "S1409",
         "S141",
+        "S1411",
+        "S1413",
         "S142",
         "S144",
         "S145",
@@ -616,7 +619,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 143,
+      "signal_count": 144,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -679,6 +682,7 @@
         "S1385",
         "S139",
         "S1395",
+        "S1407",
         "S146",
         "S150",
         "S154",
@@ -1076,7 +1080,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 3,
-        "media": 8,
+        "media": 9,
         "product_launch": 2
       },
       "source_names": [
@@ -1089,7 +1093,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 14,
+      "signal_count": 15,
       "trend_key": "wireless headphones",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1100,6 +1104,7 @@
         "S1108",
         "S1136",
         "S1237",
+        "S1408",
         "S160",
         "S223",
         "S253",
@@ -1279,8 +1284,8 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "crowdfunding": 1,
         "product_launch": 2,
+        "crowdfunding": 1,
         "community": 1,
         "media": 1
       },
@@ -1303,20 +1308,20 @@
       ],
       "top_signals": [
         {
-          "id": "S1406",
-          "source_name": "Kickstarter Tech",
-          "source_type": "crowdfunding",
-          "source_title": "MegaShot Pickl+ | Smart Pickleball Gaming Device by MegaShot",
-          "source_url": "https://www.kickstarter.com/projects/megashot/megashot-pickl-smart-pickleball-gaming-device",
-          "signal_strength": 2.45
-        },
-        {
           "id": "S212",
           "source_name": "Product Hunt",
           "source_type": "product_launch",
           "source_title": "AIFORPET",
           "source_url": "https://www.producthunt.com/products/aiforpet",
           "signal_strength": 2.55
+        },
+        {
+          "id": "S1406",
+          "source_name": "Kickstarter Tech",
+          "source_type": "crowdfunding",
+          "source_title": "MegaShot Pickl+ | Smart Pickleball Gaming Device by MegaShot",
+          "source_url": "https://www.kickstarter.com/projects/megashot/megashot-pickl-smart-pickleball-gaming-device",
+          "signal_strength": 2.45
         },
         {
           "id": "S394",
@@ -1459,7 +1464,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 632,
+      "signal_count": 635,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1708,6 +1713,9 @@
         "S1403",
         "S1404",
         "S1405",
+        "S1410",
+        "S1412",
+        "S1414",
         "S143",
         "S149",
         "S152",
