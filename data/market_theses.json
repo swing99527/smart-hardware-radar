@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-24T21:26:59.115333Z",
+  "generated_at": "2026-10-25T21:33:52.954523Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 469,
+      "signal_count": 472,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -221,6 +221,9 @@
         "S1413",
         "S1415",
         "S142",
+        "S1421",
+        "S1424",
+        "S1428",
         "S144",
         "S145",
         "S147",
@@ -595,7 +598,7 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "community": 2,
+        "community": 3,
         "crowdfunding": 1,
         "developer": 1,
         "media": 2,
@@ -614,13 +617,14 @@
         "Loupedeck",
         "Naya",
         "Reddit Geek Productivity Hardware Search",
+        "Reddit r/MechanicalKeyboards",
         "Reddit r/olkb",
         "The Verge",
         "Wooting",
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 144,
+      "signal_count": 146,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -684,6 +688,8 @@
         "S139",
         "S1395",
         "S1407",
+        "S1420",
+        "S1426",
         "S146",
         "S150",
         "S154",
@@ -772,6 +778,14 @@
       ],
       "top_signals": [
         {
+          "id": "S1420",
+          "source_name": "Reddit r/MechanicalKeyboards",
+          "source_type": "community",
+          "source_title": "A truly modular keyboard",
+          "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1xerg1r/a_truly_modular_keyboard/",
+          "signal_strength": 2.9
+        },
+        {
           "id": "S131",
           "source_name": "GitHub Programmable Keyboard Firmware",
           "source_type": "developer",
@@ -802,14 +816,6 @@
           "source_title": "Vanguard Keyboard Outsider - A Modular Build",
           "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
           "signal_strength": 2.45
-        },
-        {
-          "id": "S900",
-          "source_name": "The Verge",
-          "source_type": "media",
-          "source_title": "Keychron’s wireless Hall effect keyboard is back to its lowest price",
-          "source_url": "https://www.theverge.com/gadgets/977300/keychron-hall-effect-sony-inzone-headsets-gaming-laptop-deal-sale",
-          "signal_strength": 1.15
         }
       ],
       "missing_evidence": [
@@ -1465,7 +1471,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 639,
+      "signal_count": 642,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1721,6 +1727,9 @@
         "S1417",
         "S1418",
         "S1419",
+        "S1422",
+        "S1425",
+        "S1429",
         "S143",
         "S149",
         "S152",
@@ -2187,8 +2196,8 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
+        "community": 8,
         "developer": 1,
-        "community": 6,
         "media": 2
       },
       "source_names": [
@@ -2198,11 +2207,12 @@
         "GitHub On Device AI",
         "GitHub OpenClaw Ecosystem",
         "Reddit r/MechanicalKeyboards",
+        "Reddit r/Workspaces",
         "Reddit r/olkb",
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 54,
+      "signal_count": 56,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -2247,6 +2257,8 @@
         "S1336",
         "S1344",
         "S1359",
+        "S1423",
+        "S1427",
         "S229",
         "S247",
         "S282",
@@ -2263,6 +2275,14 @@
         "S965"
       ],
       "top_signals": [
+        {
+          "id": "S1423",
+          "source_name": "Reddit r/Workspaces",
+          "source_type": "community",
+          "source_title": "Desk hole for keyboard cable",
+          "source_url": "https://www.reddit.com/r/Workspaces/comments/1xf2dd6/desk_hole_for_keyboard_cable/",
+          "signal_strength": 2.65
+        },
         {
           "id": "S014",
           "source_name": "GitHub Claude Code Ecosystem",
@@ -2294,14 +2314,6 @@
           "source_title": "[GB] TwinCat Split Wireless Keyboard Kit by rain2 | Closes July 12",
           "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1uory6n/gb_twincat_split_wireless_keyboard_kit_by_rain2/",
           "signal_strength": 2.75
-        },
-        {
-          "id": "S666",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "The king is back! Meet the K:04 - a wireless keyboard with a modular design",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1ufduhp/the_king_is_back_meet_the_k04_a_wireless_keyboard/",
-          "signal_strength": 2.05
         }
       ],
       "missing_evidence": [
