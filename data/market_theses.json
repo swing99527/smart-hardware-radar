@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-25T21:33:52.954523Z",
+  "generated_at": "2026-10-26T23:03:59.395345Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 472,
+      "signal_count": 474,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -224,6 +224,8 @@
         "S1421",
         "S1424",
         "S1428",
+        "S1430",
+        "S1433",
         "S144",
         "S145",
         "S147",
@@ -611,6 +613,7 @@
         "GitHub Programmable Keyboard Firmware",
         "GitHub Stream Deck Plugin Ecosystem",
         "Glove80",
+        "Hacker News Show",
         "Indiegogo Geek Productivity Hardware",
         "Keychron",
         "Kickstarter Geek Productivity Hardware",
@@ -624,7 +627,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 146,
+      "signal_count": 147,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -690,6 +693,7 @@
         "S1407",
         "S1420",
         "S1426",
+        "S1432",
         "S146",
         "S150",
         "S154",
@@ -786,6 +790,14 @@
           "signal_strength": 2.9
         },
         {
+          "id": "S1432",
+          "source_name": "Hacker News Show",
+          "source_type": "community",
+          "source_title": "Show HN: A Truly Modular Keyboard",
+          "source_url": "https://github.com/notaroomba/keybytes",
+          "signal_strength": 1.5
+        },
+        {
           "id": "S131",
           "source_name": "GitHub Programmable Keyboard Firmware",
           "source_type": "developer",
@@ -808,14 +820,6 @@
           "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
           "source_url": "https://github.com/qmk/qmk_toolbox",
           "signal_strength": 2.2
-        },
-        {
-          "id": "S256",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "Vanguard Keyboard Outsider - A Modular Build",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1tdglsw/vanguard_keyboard_outsider_a_modular_build/",
-          "signal_strength": 2.45
         }
       ],
       "missing_evidence": [
@@ -1471,7 +1475,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 642,
+      "signal_count": 645,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1731,6 +1735,9 @@
         "S1425",
         "S1429",
         "S143",
+        "S1431",
+        "S1434",
+        "S1435",
         "S149",
         "S152",
         "S153",
@@ -2196,8 +2203,8 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
-        "community": 8,
         "developer": 1,
+        "community": 8,
         "media": 2
       },
       "source_names": [
@@ -2276,14 +2283,6 @@
       ],
       "top_signals": [
         {
-          "id": "S1423",
-          "source_name": "Reddit r/Workspaces",
-          "source_type": "community",
-          "source_title": "Desk hole for keyboard cable",
-          "source_url": "https://www.reddit.com/r/Workspaces/comments/1xf2dd6/desk_hole_for_keyboard_cable/",
-          "signal_strength": 2.65
-        },
-        {
           "id": "S014",
           "source_name": "GitHub Claude Code Ecosystem",
           "source_type": "developer",
@@ -2314,6 +2313,14 @@
           "source_title": "[GB] TwinCat Split Wireless Keyboard Kit by rain2 | Closes July 12",
           "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1uory6n/gb_twincat_split_wireless_keyboard_kit_by_rain2/",
           "signal_strength": 2.75
+        },
+        {
+          "id": "S666",
+          "source_name": "Reddit r/olkb",
+          "source_type": "community",
+          "source_title": "The king is back! Meet the K:04 - a wireless keyboard with a modular design",
+          "source_url": "https://www.reddit.com/r/olkb/comments/1ufduhp/the_king_is_back_meet_the_k04_a_wireless_keyboard/",
+          "signal_strength": 2.05
         }
       ],
       "missing_evidence": [
