@@ -441,6 +441,47 @@
         "Auto-Discovered",
         "Evidence-Gated"
       ]
+    },
+    {
+      "id": "A012",
+      "name": "【证据聚类】Health Tracker",
+      "name_en": "Health Tracker",
+      "name_zh": null,
+      "cluster_key": "health tracker",
+      "cluster_members": [
+        "Health Tracker"
+      ],
+      "source_title": "Apple may launch a “Watch Air” screen-less health tracker to compete with Whoop and Fitbit Air",
+      "source_url": "https://www.yankodesign.com/2026/09/21/apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air/?utm_source=rss&utm_medium=rss&utm_campaign=apple-may-launch-a-watch-air-screen-less-health-tracker-to-compete-with-whoop-and-fitbit-air",
+      "evidence_signal_ids": [
+        "S1200",
+        "S1255",
+        "S1345",
+        "S1436"
+      ],
+      "confidence": 0.83,
+      "l0_evidence": {
+        "source_types": [
+          "crowdfunding",
+          "media"
+        ],
+        "cross_source_count": 2,
+        "has_behavior_source": true,
+        "diffusion_stage": "multi_source_unclassified",
+        "avg_signal_strength": 1.15,
+        "matched_watch_topics": [
+          "big_tech_peripherals"
+        ],
+        "candidate_keys": [
+          "health tracker"
+        ],
+        "l0_confidence": 0.83
+      },
+      "status": "scouted",
+      "tags": [
+        "Auto-Discovered",
+        "Evidence-Gated"
+      ]
     }
   ]
 }

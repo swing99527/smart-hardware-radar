@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-26T23:03:59.395345Z",
+  "generated_at": "2026-10-27T22:53:36.675539Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 474,
+      "signal_count": 477,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -226,7 +226,10 @@
         "S1428",
         "S1430",
         "S1433",
+        "S1438",
         "S144",
+        "S1440",
+        "S1442",
         "S145",
         "S147",
         "S148",
@@ -627,7 +630,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 147,
+      "signal_count": 148,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -694,6 +697,7 @@
         "S1420",
         "S1426",
         "S1432",
+        "S1437",
         "S146",
         "S150",
         "S154",
@@ -854,12 +858,14 @@
       "source_mix": {
         "community": 5,
         "media": 14,
-        "product_launch": 1
+        "product_launch": 1,
+        "crowdfunding": 1
       },
       "source_names": [
         "36氪",
         "Engadget",
         "Gizmodo",
+        "Kickstarter Tech",
         "Product Hunt",
         "Reddit r/gadgets",
         "SlashGear",
@@ -868,7 +874,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 34,
+      "signal_count": 35,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -885,6 +891,7 @@
         "S1360",
         "S1386",
         "S140",
+        "S1436",
         "S166",
         "S236",
         "S246",
@@ -959,7 +966,7 @@
         "fcc_bluetooth_bom_check",
         "reference_design_scan"
       ],
-      "confidence_reason": "Validated because evidence score is 80 with source mix community, media, product_launch."
+      "confidence_reason": "Validated because evidence score is 80 with source mix community, crowdfunding, media, product_launch."
     },
     {
       "id": "M004",
@@ -1475,7 +1482,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 645,
+      "signal_count": 648,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1738,6 +1745,9 @@
         "S1431",
         "S1434",
         "S1435",
+        "S1439",
+        "S1441",
+        "S1443",
         "S149",
         "S152",
         "S153",
