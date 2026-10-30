@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-10-29T23:10:13.927426Z",
+  "generated_at": "2026-10-30T22:52:21.856529Z",
   "clusters": [
     {
       "trend_key": "watch:ai_camera_node",
@@ -17,7 +17,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 3.1,
       "max_signal_strength": 3.45,
-      "seen_count_total": 546,
+      "seen_count_total": 549,
       "matched_watch_topics": [
         "ai_camera_node",
         "ai_coding_agent_ecosystem",
@@ -27,7 +27,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S064",
         "S070",
@@ -86,12 +86,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.8,
       "max_signal_strength": 2.8,
-      "seen_count_total": 276,
+      "seen_count_total": 279,
       "matched_watch_topics": [
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S008",
         "S1149",
@@ -179,7 +179,7 @@
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "name": "AI Coding Agent Ecosystem",
       "name_zh": null,
-      "signal_count": 44,
+      "signal_count": 45,
       "source_types": [
         "developer"
       ],
@@ -193,7 +193,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.58,
       "max_signal_strength": 2.7,
-      "seen_count_total": 2361,
+      "seen_count_total": 2372,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -201,7 +201,7 @@
         "github_ai_projects"
       ],
       "first_seen_at": "2026-04-30T22:23:43.680455Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S009",
         "S013",
@@ -246,7 +246,8 @@
         "S965",
         "S1264",
         "S1344",
-        "S1359"
+        "S1359",
+        "S1466"
       ],
       "top_signals": [
         {
@@ -290,88 +291,7 @@
           "signal_strength": 2.7
         }
       ],
-      "velocity_7run_delta": 0.0,
-      "trend_status": "Warming",
-      "trend_reason": "behavior_signal_needs_more_confirmation"
-    },
-    {
-      "trend_key": "watch:robot_agent_kit",
-      "name": "Robot Agent Kit",
-      "name_zh": null,
-      "signal_count": 9,
-      "source_types": [
-        "developer"
-      ],
-      "source_names": [
-        "GitHub Robot Agent Kit",
-        "GitHub Robotics AI Hardware"
-      ],
-      "has_behavior_source": true,
-      "avg_signal_strength": 2.43,
-      "max_signal_strength": 2.7,
-      "seen_count_total": 552,
-      "matched_watch_topics": [
-        "ai_model_peripherals",
-        "github_ai_projects",
-        "hardware_intersections",
-        "robot_agent_kit"
-      ],
-      "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
-      "evidence_signal_ids": [
-        "S066",
-        "S072",
-        "S077",
-        "S083",
-        "S130",
-        "S144",
-        "S184",
-        "S273",
-        "S848"
-      ],
-      "top_signals": [
-        {
-          "id": "S066",
-          "source_name": "GitHub Robot Agent Kit",
-          "source_type": "developer",
-          "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
-          "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S130",
-          "source_name": "GitHub Robot Agent Kit",
-          "source_type": "developer",
-          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
-          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S144",
-          "source_name": "GitHub Robot Agent Kit",
-          "source_type": "developer",
-          "source_title": "Genesis-Embodied-AI/genesis-world - Simulation platform for general-purpose robotics & embodied AI learning.",
-          "source_url": "https://github.com/Genesis-Embodied-AI/genesis-world",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S848",
-          "source_name": "GitHub Robot Agent Kit",
-          "source_type": "developer",
-          "source_title": "TianxingChen/Embodied-AI-Guide - [Lumina具身智能社区] 具身智能技术指南 Embodied-AI-Guide",
-          "source_url": "https://github.com/TianxingChen/Embodied-AI-Guide",
-          "signal_strength": 2.7
-        },
-        {
-          "id": "S072",
-          "source_name": "GitHub Robot Agent Kit",
-          "source_type": "developer",
-          "source_title": "jonyzhang2023/awesome-embodied-vla-va-vln - A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches.",
-          "source_url": "https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln",
-          "signal_strength": 2.35
-        }
-      ],
-      "velocity_7run_delta": 0.0,
+      "velocity_7run_delta": 1.0,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -421,6 +341,88 @@
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
     {
+      "trend_key": "watch:robot_agent_kit",
+      "name": "Robot Agent Kit",
+      "name_zh": null,
+      "signal_count": 10,
+      "source_types": [
+        "developer"
+      ],
+      "source_names": [
+        "GitHub Robot Agent Kit",
+        "GitHub Robotics AI Hardware"
+      ],
+      "has_behavior_source": true,
+      "avg_signal_strength": 2.39,
+      "max_signal_strength": 2.7,
+      "seen_count_total": 555,
+      "matched_watch_topics": [
+        "ai_model_peripherals",
+        "github_ai_projects",
+        "hardware_intersections",
+        "robot_agent_kit"
+      ],
+      "first_seen_at": "2026-05-01T20:08:31.823442Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
+      "evidence_signal_ids": [
+        "S066",
+        "S072",
+        "S077",
+        "S083",
+        "S130",
+        "S144",
+        "S184",
+        "S273",
+        "S848",
+        "S1467"
+      ],
+      "top_signals": [
+        {
+          "id": "S066",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "Genesis-Embodied-AI/Genesis - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/Genesis",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S130",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "Genesis-Embodied-AI/GenesisWorld - A generative world for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/GenesisWorld",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S144",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "Genesis-Embodied-AI/genesis-world - Simulation platform for general-purpose robotics & embodied AI learning.",
+          "source_url": "https://github.com/Genesis-Embodied-AI/genesis-world",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S848",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "TianxingChen/Embodied-AI-Guide - [Lumina具身智能社区] 具身智能技术指南 Embodied-AI-Guide",
+          "source_url": "https://github.com/TianxingChen/Embodied-AI-Guide",
+          "signal_strength": 2.7
+        },
+        {
+          "id": "S072",
+          "source_name": "GitHub Robot Agent Kit",
+          "source_type": "developer",
+          "source_title": "jonyzhang2023/awesome-embodied-vla-va-vln - A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches.",
+          "source_url": "https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln",
+          "signal_strength": 2.35
+        }
+      ],
+      "velocity_7run_delta": 1.0,
+      "trend_status": "Warming",
+      "trend_reason": "behavior_signal_needs_more_confirmation"
+    },
+    {
       "trend_key": "watch:ai_recorder",
       "name": "AI Recorder Device",
       "name_zh": null,
@@ -434,7 +436,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.37,
       "max_signal_strength": 3.45,
-      "seen_count_total": 546,
+      "seen_count_total": 549,
       "matched_watch_topics": [
         "ai_model_peripherals",
         "ai_recorder",
@@ -443,7 +445,7 @@
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S065",
         "S071",
@@ -566,12 +568,12 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.2,
       "max_signal_strength": 2.9,
-      "seen_count_total": 7,
+      "seen_count_total": 8,
       "matched_watch_topics": [
         "programmable_keyboard_ecosystem"
       ],
       "first_seen_at": "2026-10-25T21:33:52.954523Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S1420",
         "S1432"
@@ -594,7 +596,7 @@
           "signal_strength": 1.5
         }
       ],
-      "velocity_7run_delta": 0.25,
+      "velocity_7run_delta": 0.2,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -612,13 +614,13 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.03,
       "max_signal_strength": 2.2,
-      "seen_count_total": 145,
+      "seen_count_total": 146,
       "matched_watch_topics": [
         "github_ai_projects",
         "hardware_intersections"
       ],
       "first_seen_at": "2026-05-13T20:47:50.539482Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S222",
         "S482"
@@ -1168,7 +1170,7 @@
       "trend_key": "watch:openclaw_hardware_bridge",
       "name": "OpenClaw Hardware Bridge",
       "name_zh": null,
-      "signal_count": 442,
+      "signal_count": 445,
       "source_types": [
         "community",
         "developer",
@@ -1182,7 +1184,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.34,
       "max_signal_strength": 2.7,
-      "seen_count_total": 1346,
+      "seen_count_total": 1353,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -1193,7 +1195,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S044",
         "S045",
@@ -1636,7 +1638,10 @@
         "S1449",
         "S1453",
         "S1455",
-        "S1457"
+        "S1457",
+        "S1460",
+        "S1462",
+        "S1464"
       ],
       "top_signals": [
         {
@@ -1680,7 +1685,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 10.86,
+      "velocity_7run_delta": 11.29,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -1819,7 +1824,7 @@
       "trend_key": "watch:agentic_edge_hardware",
       "name": "Agentic Edge Hardware",
       "name_zh": null,
-      "signal_count": 643,
+      "signal_count": 647,
       "source_types": [
         "community",
         "developer",
@@ -1833,7 +1838,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.15,
       "max_signal_strength": 2.75,
-      "seen_count_total": 1156,
+      "seen_count_total": 1162,
       "matched_watch_topics": [
         "agentic_edge_hardware",
         "ai_camera_node",
@@ -1847,7 +1852,7 @@
         "robot_agent_kit"
       ],
       "first_seen_at": "2026-05-01T20:08:31.823442Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S052",
         "S053",
@@ -2491,7 +2496,11 @@
         "S1451",
         "S1454",
         "S1456",
-        "S1458"
+        "S1458",
+        "S1459",
+        "S1461",
+        "S1463",
+        "S1465"
       ],
       "top_signals": [
         {
@@ -2535,7 +2544,7 @@
           "signal_strength": 2.55
         }
       ],
-      "velocity_7run_delta": 14.14,
+      "velocity_7run_delta": 14.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2603,7 +2612,7 @@
           "signal_strength": 0.75
         }
       ],
-      "velocity_7run_delta": 0.71,
+      "velocity_7run_delta": 0.57,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -2639,7 +2648,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 1.12,
       "max_signal_strength": 2.55,
-      "seen_count_total": 3845,
+      "seen_count_total": 3867,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -2649,7 +2658,7 @@
         "workflow_plugin_hardware"
       ],
       "first_seen_at": "2026-05-04T20:20:47.994844Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S109",
         "S110",
@@ -2839,7 +2848,7 @@
           "signal_strength": 2.0
         }
       ],
-      "velocity_7run_delta": 2.29,
+      "velocity_7run_delta": 1.71,
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation"
     },
@@ -3074,7 +3083,7 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.7,
       "max_signal_strength": 2.7,
-      "seen_count_total": 50,
+      "seen_count_total": 51,
       "matched_watch_topics": [
         "ai_coding_agent_ecosystem",
         "ai_model_peripherals",
@@ -3083,7 +3092,7 @@
         "local_ai_box"
       ],
       "first_seen_at": "2026-09-09T21:33:50.671790Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S1124"
       ],
@@ -3684,10 +3693,10 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.4,
       "max_signal_strength": 2.4,
-      "seen_count_total": 2,
+      "seen_count_total": 3,
       "matched_watch_topics": [],
       "first_seen_at": "2026-10-25T21:33:52.954523Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S1427"
       ],
@@ -4008,10 +4017,10 @@
       "has_behavior_source": true,
       "avg_signal_strength": 2.05,
       "max_signal_strength": 2.05,
-      "seen_count_total": 18,
+      "seen_count_total": 19,
       "matched_watch_topics": [],
       "first_seen_at": "2026-10-13T01:10:46.188014Z",
-      "last_seen_at": "2026-10-29T23:10:13.927426Z",
+      "last_seen_at": "2026-10-30T22:52:21.856529Z",
       "evidence_signal_ids": [
         "S1336"
       ],
