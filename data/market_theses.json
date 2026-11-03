@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-03T01:28:57.001925Z",
+  "generated_at": "2026-11-03T23:54:42.262956Z",
   "theses": [
     {
       "id": "M001",
@@ -645,7 +645,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 151,
+      "signal_count": 153,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -717,6 +717,8 @@
         "S146",
         "S1470",
         "S1482",
+        "S1489",
+        "S1492",
         "S150",
         "S154",
         "S168",
@@ -1501,7 +1503,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 672,
+      "signal_count": 676,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1791,7 +1793,11 @@
         "S1484",
         "S1486",
         "S1487",
+        "S1488",
         "S149",
+        "S1490",
+        "S1491",
+        "S1493",
         "S152",
         "S153",
         "S156",
