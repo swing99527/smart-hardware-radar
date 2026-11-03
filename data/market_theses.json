@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-01T22:38:51.695654Z",
+  "generated_at": "2026-11-03T01:28:57.001925Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 490,
+      "signal_count": 492,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -246,6 +246,8 @@
         "S1471",
         "S1474",
         "S148",
+        "S1480",
+        "S1483",
         "S151",
         "S155",
         "S158",
@@ -643,7 +645,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 150,
+      "signal_count": 151,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -714,6 +716,7 @@
         "S1452",
         "S146",
         "S1470",
+        "S1482",
         "S150",
         "S154",
         "S168",
@@ -872,7 +875,7 @@
       "evidence_score": 80,
       "source_mix": {
         "community": 5,
-        "media": 14,
+        "media": 15,
         "product_launch": 1,
         "crowdfunding": 1
       },
@@ -889,7 +892,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 35,
+      "signal_count": 36,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -907,6 +910,7 @@
         "S1386",
         "S140",
         "S1436",
+        "S1485",
         "S166",
         "S236",
         "S246",
@@ -1497,7 +1501,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 668,
+      "signal_count": 672,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1783,6 +1787,10 @@
         "S1477",
         "S1478",
         "S1479",
+        "S1481",
+        "S1484",
+        "S1486",
+        "S1487",
         "S149",
         "S152",
         "S153",
