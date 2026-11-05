@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-03T23:54:42.262956Z",
+  "generated_at": "2026-11-05T00:13:34.393415Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 492,
+      "signal_count": 495,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -248,6 +248,9 @@
         "S148",
         "S1480",
         "S1483",
+        "S1496",
+        "S1498",
+        "S1500",
         "S151",
         "S155",
         "S158",
@@ -645,7 +648,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 153,
+      "signal_count": 155,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -719,7 +722,9 @@
         "S1482",
         "S1489",
         "S1492",
+        "S1495",
         "S150",
+        "S1502",
         "S154",
         "S168",
         "S171",
@@ -1503,7 +1508,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 676,
+      "signal_count": 680,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1798,6 +1803,10 @@
         "S1490",
         "S1491",
         "S1493",
+        "S1494",
+        "S1497",
+        "S1499",
+        "S1501",
         "S152",
         "S153",
         "S156",
