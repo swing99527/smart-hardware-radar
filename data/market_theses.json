@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-05T23:59:09.221258Z",
+  "generated_at": "2026-11-06T23:40:52.465011Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 497,
+      "signal_count": 498,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -254,6 +254,7 @@
         "S1504",
         "S1506",
         "S151",
+        "S1510",
         "S155",
         "S158",
         "S161",
@@ -650,7 +651,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 156,
+      "signal_count": 157,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -728,6 +729,7 @@
         "S150",
         "S1502",
         "S1503",
+        "S1509",
         "S154",
         "S168",
         "S171",
@@ -1022,6 +1024,7 @@
         "crowdfunding": 1
       },
       "source_names": [
+        "Engadget",
         "Gizmodo",
         "Hacker News Show",
         "Indiegogo Tech",
@@ -1031,7 +1034,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 24,
+      "signal_count": 25,
       "trend_key": "cluster:smart_home_security",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1048,6 +1051,7 @@
         "S1306",
         "S1316",
         "S133",
+        "S1512",
         "S300",
         "S377",
         "S384",
@@ -1511,7 +1515,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 683,
+      "signal_count": 687,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1813,6 +1817,10 @@
         "S1505",
         "S1507",
         "S1508",
+        "S1511",
+        "S1513",
+        "S1514",
+        "S1515",
         "S152",
         "S153",
         "S156",
