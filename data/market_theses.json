@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-06T23:40:52.465011Z",
+  "generated_at": "2026-11-07T22:35:44.887316Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 498,
+      "signal_count": 499,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -255,6 +255,7 @@
         "S1506",
         "S151",
         "S1510",
+        "S1517",
         "S155",
         "S158",
         "S161",
@@ -1515,7 +1516,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 687,
+      "signal_count": 690,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1821,7 +1822,10 @@
         "S1513",
         "S1514",
         "S1515",
+        "S1518",
+        "S1519",
         "S152",
+        "S1520",
         "S153",
         "S156",
         "S159",
@@ -3537,6 +3541,60 @@
           "source_title": "These Oakley x Spiderman unofficial sunglasses are cooler than any smart wearable ever made",
           "source_url": "https://www.yankodesign.com/2026/09/21/these-oakley-x-spiderman-unofficial-sunglasses-are-cooler-than-any-smart-wearable-ever-made/?utm_source=rss&utm_medium=rss&utm_campaign=these-oakley-x-spiderman-unofficial-sunglasses-are-cooler-than-any-smart-wearable-ever-made",
           "signal_strength": 0.9
+        }
+      ],
+      "missing_evidence": [
+        "demand_behavior",
+        "market_validation",
+        "supply_chain",
+        "productization",
+        "source_diversity"
+      ],
+      "substitution_risk": "Unknown until marketplace and buyer evidence are collected.",
+      "next_validation": [
+        "reddit_pain_scan",
+        "google_trends_keyword_scan",
+        "youtube_review_query",
+        "amazon_keyword_scan",
+        "amazon_competition_snapshot"
+      ],
+      "confidence_reason": "Noise because current evidence is weak, media-only, or not yet behavior-backed."
+    },
+    {
+      "id": "M032",
+      "thesis_key": "emerging_ai_ring",
+      "name": "AI Ring",
+      "name_zh": "AI Ring",
+      "job_to_be_done": "A specific hardware use case may be forming, but current evidence is too thin to name the buyer pain precisely.",
+      "hardware_form_factors": [
+        "AI Ring"
+      ],
+      "buyer_segments": [
+        "early adopters"
+      ],
+      "evidence_status": "Noise",
+      "evidence_score": 15,
+      "source_mix": {
+        "media": 1
+      },
+      "source_names": [
+        "Yanko Design"
+      ],
+      "signal_count": 1,
+      "trend_key": "ai ring",
+      "trend_status": "Noise",
+      "trend_reason": "media_only_awareness",
+      "evidence_signal_ids": [
+        "S1516"
+      ],
+      "top_signals": [
+        {
+          "id": "S1516",
+          "source_name": "Yanko Design",
+          "source_type": "media",
+          "source_title": "Aina’s AI Ring Puts an OLED Screen and Joystick on Your Finger",
+          "source_url": "https://www.yankodesign.com/2026/11/07/ainas-ai-ring-puts-an-oled-screen-and-joystick-on-your-finger/?utm_source=rss&utm_medium=rss&utm_campaign=ainas-ai-ring-puts-an-oled-screen-and-joystick-on-your-finger",
+          "signal_strength": 0.75
         }
       ],
       "missing_evidence": [
