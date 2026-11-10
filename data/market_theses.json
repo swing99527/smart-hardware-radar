@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-08T22:42:52.229378Z",
+  "generated_at": "2026-11-10T01:56:13.416498Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 501,
+      "signal_count": 503,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -258,6 +258,8 @@
         "S1517",
         "S1521",
         "S1523",
+        "S1527",
+        "S1529",
         "S155",
         "S158",
         "S161",
@@ -907,7 +909,7 @@
         "Yanko Design",
         "少数派"
       ],
-      "signal_count": 36,
+      "signal_count": 37,
       "trend_key": "gaming controller",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -926,6 +928,7 @@
         "S140",
         "S1436",
         "S1485",
+        "S1531",
         "S166",
         "S236",
         "S246",
@@ -1518,7 +1521,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 693,
+      "signal_count": 698,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1831,7 +1834,12 @@
         "S1522",
         "S1524",
         "S1525",
+        "S1526",
+        "S1528",
         "S153",
+        "S1530",
+        "S1532",
+        "S1533",
         "S156",
         "S159",
         "S162",
