@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-18T01:31:40.965528Z",
+  "generated_at": "2026-11-19T01:01:03.580295Z",
   "theses": [
     {
       "id": "M001",
@@ -673,7 +673,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 159,
+      "signal_count": 162,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -755,6 +755,9 @@
         "S154",
         "S1553",
         "S1577",
+        "S1583",
+        "S1586",
+        "S1590",
         "S168",
         "S171",
         "S185",
@@ -1541,7 +1544,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 725,
+      "signal_count": 730,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1888,6 +1891,11 @@
         "S1578",
         "S1579",
         "S1580",
+        "S1582",
+        "S1584",
+        "S1585",
+        "S1587",
+        "S1589",
         "S159",
         "S162",
         "S163",
@@ -2349,8 +2357,8 @@
       "evidence_status": "Warming",
       "evidence_score": 70,
       "source_mix": {
+        "community": 9,
         "developer": 1,
-        "community": 8,
         "media": 2
       },
       "source_names": [
@@ -2361,12 +2369,13 @@
         "GitHub OpenClaw Ecosystem",
         "Reddit r/MechanicalKeyboards",
         "Reddit r/Workspaces",
+        "Reddit r/hardware",
         "Reddit r/olkb",
         "SlashGear",
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 58,
+      "signal_count": 59,
       "trend_key": "watch:ai_coding_agent_ecosystem",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -2415,6 +2424,7 @@
         "S1427",
         "S1466",
         "S1550",
+        "S1588",
         "S229",
         "S247",
         "S282",
@@ -2431,6 +2441,14 @@
         "S965"
       ],
       "top_signals": [
+        {
+          "id": "S1588",
+          "source_name": "Reddit r/hardware",
+          "source_type": "community",
+          "source_title": "Framework: Introducing the Framework Wireless Touchpad Keyboard",
+          "source_url": "https://www.reddit.com/r/hardware/comments/1xyyn81/framework_introducing_the_framework_wireless/",
+          "signal_strength": 3.0
+        },
         {
           "id": "S014",
           "source_name": "GitHub Claude Code Ecosystem",
@@ -2462,14 +2480,6 @@
           "source_title": "[GB] TwinCat Split Wireless Keyboard Kit by rain2 | Closes July 12",
           "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1uory6n/gb_twincat_split_wireless_keyboard_kit_by_rain2/",
           "signal_strength": 2.75
-        },
-        {
-          "id": "S666",
-          "source_name": "Reddit r/olkb",
-          "source_type": "community",
-          "source_title": "The king is back! Meet the K:04 - a wireless keyboard with a modular design",
-          "source_url": "https://www.reddit.com/r/olkb/comments/1ufduhp/the_king_is_back_meet_the_k04_a_wireless_keyboard/",
-          "signal_strength": 2.05
         }
       ],
       "missing_evidence": [
