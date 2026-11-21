@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-21T00:41:30.459459Z",
+  "generated_at": "2026-11-21T23:43:45.707945Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 522,
+      "signal_count": 523,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -281,6 +281,7 @@
         "S1581",
         "S1592",
         "S1596",
+        "S1606",
         "S161",
         "S164",
         "S167",
@@ -648,7 +649,7 @@
       "evidence_status": "Validated",
       "evidence_score": 80,
       "source_mix": {
-        "community": 3,
+        "community": 4,
         "crowdfunding": 1,
         "developer": 1,
         "media": 2,
@@ -668,6 +669,7 @@
         "Loupedeck",
         "Naya",
         "Reddit Geek Productivity Hardware Search",
+        "Reddit r/ErgoMechKeyboards",
         "Reddit r/MechanicalKeyboards",
         "Reddit r/olkb",
         "The Verge",
@@ -675,7 +677,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 165,
+      "signal_count": 167,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -763,6 +765,8 @@
         "S1595",
         "S1598",
         "S1602",
+        "S1604",
+        "S1605",
         "S168",
         "S171",
         "S185",
@@ -848,6 +852,14 @@
       ],
       "top_signals": [
         {
+          "id": "S1605",
+          "source_name": "Reddit r/ErgoMechKeyboards",
+          "source_type": "community",
+          "source_title": "Flan, a wireless split keyboard with 36, 42, 46 or 54 keys (inspired by the Piantor and Cantor)",
+          "source_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1y1mmj3/flan_a_wireless_split_keyboard_with_36_42_46_or/",
+          "signal_strength": 3.15
+        },
+        {
           "id": "S1420",
           "source_name": "Reddit r/MechanicalKeyboards",
           "source_type": "community",
@@ -877,14 +889,6 @@
           "source_type": "developer",
           "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
           "source_url": "https://github.com/zmkfirmware/zmk",
-          "signal_strength": 2.2
-        },
-        {
-          "id": "S138",
-          "source_name": "GitHub Programmable Keyboard Firmware",
-          "source_type": "developer",
-          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
-          "source_url": "https://github.com/qmk/qmk_toolbox",
           "signal_strength": 2.2
         }
       ],
@@ -1550,7 +1554,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 737,
+      "signal_count": 740,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1910,6 +1914,9 @@
         "S1600",
         "S1601",
         "S1603",
+        "S1607",
+        "S1608",
+        "S1609",
         "S162",
         "S163",
         "S165",
