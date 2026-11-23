@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-21T23:43:45.707945Z",
+  "generated_at": "2026-11-23T00:06:19.126822Z",
   "theses": [
     {
       "id": "M001",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 523,
+      "signal_count": 526,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -283,6 +283,9 @@
         "S1596",
         "S1606",
         "S161",
+        "S1610",
+        "S1613",
+        "S1615",
         "S164",
         "S167",
         "S169",
@@ -677,7 +680,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 167,
+      "signal_count": 168,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -767,6 +770,7 @@
         "S1602",
         "S1604",
         "S1605",
+        "S1612",
         "S168",
         "S171",
         "S185",
@@ -852,14 +856,6 @@
       ],
       "top_signals": [
         {
-          "id": "S1605",
-          "source_name": "Reddit r/ErgoMechKeyboards",
-          "source_type": "community",
-          "source_title": "Flan, a wireless split keyboard with 36, 42, 46 or 54 keys (inspired by the Piantor and Cantor)",
-          "source_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1y1mmj3/flan_a_wireless_split_keyboard_with_36_42_46_or/",
-          "signal_strength": 3.15
-        },
-        {
           "id": "S1420",
           "source_name": "Reddit r/MechanicalKeyboards",
           "source_type": "community",
@@ -889,6 +885,14 @@
           "source_type": "developer",
           "source_title": "zmkfirmware/zmk - ZMK Firmware Repository",
           "source_url": "https://github.com/zmkfirmware/zmk",
+          "signal_strength": 2.2
+        },
+        {
+          "id": "S138",
+          "source_name": "GitHub Programmable Keyboard Firmware",
+          "source_type": "developer",
+          "source_title": "qmk/qmk_toolbox - A Toolbox companion for QMK Firmware",
+          "source_url": "https://github.com/qmk/qmk_toolbox",
           "signal_strength": 2.2
         }
       ],
@@ -1554,7 +1558,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 740,
+      "signal_count": 743,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1917,6 +1921,9 @@
         "S1607",
         "S1608",
         "S1609",
+        "S1611",
+        "S1614",
+        "S1616",
         "S162",
         "S163",
         "S165",
