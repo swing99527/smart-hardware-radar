@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-25T02:57:59.090140Z",
+  "generated_at": "2026-11-26T02:05:48.901283Z",
   "theses": [
     {
       "id": "M001",
@@ -25,9 +25,9 @@
       "evidence_score": 80,
       "source_mix": {
         "developer": 8,
+        "crowdfunding": 3,
         "community": 4,
-        "media": 10,
-        "crowdfunding": 2
+        "media": 10
       },
       "source_names": [
         "GitHub AI Camera Node",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 530,
+      "signal_count": 533,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -290,6 +290,9 @@
         "S1619",
         "S1621",
         "S1624",
+        "S1629",
+        "S1631",
+        "S1634",
         "S164",
         "S167",
         "S169",
@@ -1564,7 +1567,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 749,
+      "signal_count": 753,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1938,6 +1941,10 @@
         "S1626",
         "S1628",
         "S163",
+        "S1630",
+        "S1632",
+        "S1633",
+        "S1635",
         "S165",
         "S170",
         "S173",
