@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "methodology_version": "1.0",
-  "generated_at": "2026-11-26T02:05:48.901283Z",
+  "generated_at": "2026-11-27T02:03:44.502707Z",
   "theses": [
     {
       "id": "M001",
@@ -25,9 +25,9 @@
       "evidence_score": 80,
       "source_mix": {
         "developer": 8,
-        "crowdfunding": 3,
         "community": 4,
-        "media": 10
+        "media": 10,
+        "crowdfunding": 3
       },
       "source_names": [
         "GitHub AI Camera Node",
@@ -46,7 +46,7 @@
         "The Verge",
         "Yanko Design"
       ],
-      "signal_count": 533,
+      "signal_count": 534,
       "trend_key": "watch:openclaw_hardware_bridge",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -293,6 +293,7 @@
         "S1629",
         "S1631",
         "S1634",
+        "S1636",
         "S164",
         "S167",
         "S169",
@@ -687,7 +688,7 @@
         "Work Louder",
         "ZSA Moonlander"
       ],
-      "signal_count": 170,
+      "signal_count": 171,
       "trend_key": "watch:geek_ai_productivity_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -780,6 +781,7 @@
         "S1612",
         "S1623",
         "S1627",
+        "S1639",
         "S168",
         "S171",
         "S185",
@@ -1567,7 +1569,7 @@
         "Reddit Agentic Edge Hardware Search",
         "TechCrunch Hardware"
       ],
-      "signal_count": 753,
+      "signal_count": 756,
       "trend_key": "watch:agentic_edge_hardware",
       "trend_status": "Warming",
       "trend_reason": "behavior_signal_needs_more_confirmation",
@@ -1945,6 +1947,9 @@
         "S1632",
         "S1633",
         "S1635",
+        "S1637",
+        "S1638",
+        "S1640",
         "S165",
         "S170",
         "S173",
